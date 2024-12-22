@@ -1,0 +1,13 @@
+{
+    "apiBaseUrl": "localhost",
+    "currentVersion": "6.2.4",
+    "requiredVersion": "6.2.4",
+    "supportedBrowsers": [
+        "chrome",
+        "edge-chromium",
+        "yandexbrowser"
+    ],
+    "proxyUpdatePeriod": 50,
+    "proxyUpdatePeriodPremium": 50,
+    "showOnUpdateVersion": "6.2.4"
+}
