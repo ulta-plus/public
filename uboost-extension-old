@@ -1,6 +1,6 @@
 {
     "apiBaseUrl": "uubb.website",
-    "currentVersion": "6.2.7",
+    "currentVersion": "6.2.15",
     "requiredVersion": "16.2.1",
     "supportedBrowsers": [
         "chrome",
@@ -9,5 +9,5 @@
     ],
     "proxyUpdatePeriod": 50,
     "proxyUpdatePeriodPremium": 50,
-    "showOnUpdateVersion": "6.2.7"
+    "showOnUpdateVersion": "6.2.15"
 }
