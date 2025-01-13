@@ -9,5 +9,6 @@
     ],
     "proxyUpdatePeriod": 50,
     "proxyUpdatePeriodPremium": 50,
-    "showOnUpdateVersion": "6.2.4"
+    "showOnUpdateVersion": "6.2.4",
+    "shouldUpdatePACVersion": "6.2.8"
 }
