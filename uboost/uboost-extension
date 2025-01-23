@@ -1,6 +1,6 @@
 {
   "apiBaseUrl": "uubb.website",
-  "currentVersion": "6.2.8",
+  "currentVersion": "6.2.11",
   "requiredVersion": "6.2.4",
   "supportedBrowsers": [
     "chrome",
@@ -12,6 +12,7 @@
   "showOnUpdateVersion": "6.2.4",
   "shouldUpdatePACVersion": "6.2.8",
   "availableBannersData": "youboost-premium,youboost-android",
+  "advMinVersion": "6.2.10",
   "androidAppUrl": "https://t.me/uboost_tv_bot",
   "availablePaymentMethods": [
     "sbp",
