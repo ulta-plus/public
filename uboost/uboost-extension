@@ -15,8 +15,7 @@
   "advMinVersion": "6.2.11",
   "androidAppUrl": "https://t.me/uboost_tv_bot",
   "availablePaymentMethods": [
-    "sbp",
-    "card"
+    "sbp"
   ],
   "publicOfferUrl": "https://uboo.st/oferta"
 }
