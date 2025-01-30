@@ -1,13 +1,23 @@
 {
-    "apiBaseUrl": "localhost",
-    "currentVersion": "6.2.4",
-    "requiredVersion": "6.2.4",
-    "supportedBrowsers": [
-        "chrome",
-        "edge-chromium",
-        "yandexbrowser"
-    ],
-    "proxyUpdatePeriod": 50,
-    "proxyUpdatePeriodPremium": 50,
-    "showOnUpdateVersion": "6.2.4"
+  "apiBaseUrl": "uubb.website",
+  "currentVersion": "6.2.12",
+  "requiredVersion": "6.2.4",
+  "supportedBrowsers": [
+    "chrome",
+    "edge-chromium",
+    "yandexbrowser"
+  ],
+  "proxyUpdatePeriod": 50,
+  "proxyUpdatePeriodPremium": 50,
+  "updateSubscriptionInfoPeriod": 25,
+  "showOnUpdateVersion": "6.2.4",
+  "shouldUpdatePACVersion": "6.2.8",
+  "availableBannersData": "youboost-premium,youboost-android",
+  "advMinVersion": "6.2.12",
+  "androidAppUrl": "https://t.me/uboost_tv_bot",
+  "availablePaymentMethods": [
+    "sbp",
+    "card"
+  ],
+  "publicOfferUrl": "https://uboo.st/oferta"
 }
