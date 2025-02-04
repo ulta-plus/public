@@ -11,7 +11,7 @@
   "proxyUpdatePeriodPremium": 50,
   "updateSubscriptionInfoPeriod": 25,
   "showOnUpdateVersion": "6.2.4",
-  "shouldUpdatePACVersion": "6.2.8",
+  "shouldUpdatePACVersion": "6.3.1",
   "availableBannersData": "youboost-premium,youboost-android",
   "advMinVersion": "6.2.14",
   "androidAppUrl": "https://t.me/uboost_tv_bot",
