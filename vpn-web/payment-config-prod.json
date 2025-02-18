@@ -1,189 +1,198 @@
 {
-    "naruzhu": {
-      "fields": {
-        "period": true,
-        "autoRenewal": false,
-        "promocode": true
-      },
-      "paymentMethods": [
-        {
-          "method": "oktet",
-          "priority": 2,
-          "active": false,
-          "minActivationAmount": 500,
-          "withMessage": null,
-          "type": "sbp",
-          "buttonLabel": "Оплатить через СБП"
-        },
-        {
-          "method": "moneta",
-          "priority": 1,
-          "active": false,
-          "minActivationAmount": 0,
-          "withMessage": null,
-          "type": "sbp",
-          "buttonLabel": "Оплатить через СБП"
-        },
-        {
-          "method": "freekassa",
-          "priority": 0,
-          "active": true,
-          "minActivationAmount": 0,
-          "withMessage": null,
-          "type": "sbp",
-          "buttonLabel": "Оплатить через СБП"
-        },
-        {
-          "method": "freekassa",
-          "priority": 1,
-          "active": false,
-          "minActivationAmount": 0,
-          "withMessage": "Извините, оплата российской картой временно недоступна.\nИспользуйте СБП.",
-          "type": "card",
-          "buttonLabel": "Оплатить российской картой"
-        },
-        {
-          "method": "yookassa",
-          "active": false,
-          "minActivationAmount": 0,
-          "withMessage": null,
-          "type": "card",
-          "buttonLabel": "Оплатить российской картой"
-        },
-        {
-          "priority": 0,
-          "method": "stripe",
-          "active": true,
-          "minActivationAmount": 0,
-          "withMessage": null,
-          "type": "card",
-          "buttonLabel": " Оплатить зарубежной картой"
-        },
-        {
-          "method": "crypto",
-          "active": true,
-          "minActivationAmount": 0,
-          "withMessage": null,
-          "type": "crypto",
-          "buttonLabel": "Оплатить криптовалютой"
-        }
-      ]
+  "naruzhu": {
+    "fields": {
+      "period": true,
+      "autoRenewal": false,
+      "promocode": true
     },
-    "naoborot": {
-      "fields": {
-        "period": true,
-        "autoRenewal": false,
-        "promocode": true
+    "paymentMethods": [
+      {
+        "method": "oktet",
+        "priority": 2,
+        "active": false,
+        "minActivationAmount": 500,
+        "withMessage": null,
+        "type": "sbp",
+        "buttonLabel": "Оплатить через СБП"
       },
-      "paymentMethods": [
-        {
-          "method": "oktet",
-          "priority": 2,
-          "active": false,
-          "minActivationAmount": 500,
-          "withMessage": null,
-          "type": "sbp",
-          "buttonLabel": "Оплатить через СБП"
-        },
-        {
-          "method": "moneta",
-          "priority": 1,
-          "active": false,
-          "minActivationAmount": 0,
-          "withMessage": null,
-          "type": "sbp",
-          "buttonLabel": "Оплатить через СБП"
-        },
-        {
-          "method": "freekassa",
-          "priority": 0,
-          "active": true,
-          "minActivationAmount": 0,
-          "withMessage": null,
-          "type": "sbp",
-          "buttonLabel": "Оплатить через СБП"
-        },
-        {
-          "method": "yookassa",
-          "active": false,
-          "minActivationAmount": 0,
-          "withMessage": null,
-          "type": "card",
-          "buttonLabel": " Оплатить российской картой"
-        },
-        {
-          "method": "stripe",
-          "active": true,
-          "minActivationAmount": 0,
-          "withMessage": null,
-          "type": "card",
-          "buttonLabel": " Оплатить зарубежной картой"
-        },
-        {
-          "method": "crypto",
-          "active": true,
-          "minActivationAmount": 0,
-          "withMessage": null,
-          "type": "crypto",
-          "buttonLabel": "Оплатить криптовалютой"
-        }
-      ]
+      {
+        "method": "moneta",
+        "priority": 1,
+        "active": false,
+        "minActivationAmount": 0,
+        "withMessage": null,
+        "type": "sbp",
+        "buttonLabel": "Оплатить через СБП"
+      },
+      {
+        "method": "freekassa",
+        "priority": 0,
+        "active": true,
+        "minActivationAmount": 0,
+        "withMessage": null,
+        "type": "sbp",
+        "buttonLabel": "Оплатить через СБП"
+      },
+      {
+        "method": "freekassa",
+        "priority": 1,
+        "active": false,
+        "minActivationAmount": 0,
+        "withMessage": "Извините, оплата российской картой временно недоступна.\nИспользуйте СБП.",
+        "type": "card",
+        "buttonLabel": "Оплатить российской картой"
+      },
+      {
+        "method": "yookassa",
+        "active": false,
+        "minActivationAmount": 0,
+        "withMessage": null,
+        "type": "card",
+        "buttonLabel": "Оплатить российской картой"
+      },
+      {
+        "priority": 0,
+        "method": "stripe",
+        "active": true,
+        "minActivationAmount": 0,
+        "withMessage": null,
+        "type": "card",
+        "buttonLabel": " Оплатить зарубежной картой"
+      },
+      {
+        "method": "crypto",
+        "active": true,
+        "minActivationAmount": 0,
+        "withMessage": null,
+        "type": "crypto",
+        "buttonLabel": "Оплатить криптовалютой"
+      }
+    ]
+  },
+  "naoborot": {
+    "fields": {
+      "period": true,
+      "autoRenewal": false,
+      "promocode": true
     },
-    "youboost": {
-      "fields": {
-        "period": true,
-        "autoRenewal": false,
-        "promocode": false
+    "paymentMethods": [
+      {
+        "method": "oktet",
+        "priority": 2,
+        "active": false,
+        "minActivationAmount": 500,
+        "withMessage": null,
+        "type": "sbp",
+        "buttonLabel": "Оплатить через СБП"
       },
-      "paymentMethods": [
-        {
-          "method": "oktet",
-          "active": true,
-          "minActivationAmount": 199,
-          "withMessage": null,
-          "type": "sbp",
-          "buttonLabel": "Оплатить через СБП"
-        },
-        {
-          "method": "moneta",
-          "active": true,
-          "minActivationAmount": 0,
-          "withMessage": null,
-          "buttonLabel": "Оплатить через СБП",
-          "type": "sbp"
-        },
-        {
-          "method": "yookassa",
-          "active": false,
-          "minActivationAmount": 0,
-          "withMessage": null,
-          "type": "card",
-          "buttonLabel": " Оплатить российской картой"
-        },
-        {
-          "method": "stripe",
-          "active": false,
-          "minActivationAmount": 0,
-          "withMessage": null,
-          "type": "card",
-          "buttonLabel": " Оплатить зарубежной картой"
-        },
-        {
-          "method": "freekassa",
-          "active": false,
-          "minActivationAmount": 0,
-          "withMessage": "Извините, оплата картой временно недоступна.\nИспользуйте СБП.",
-          "type": "card",
-          "buttonLabel": "Оплатить российской картой"
-        },
-        {
-          "method": "crypto",
-          "active": false,
-          "minActivationAmount": 0,
-          "withMessage": null,
-          "type": "crypto",
-          "buttonLabel": "Оплатить криптовалютой"
-        }
-      ]
-    }
+      {
+        "method": "moneta",
+        "priority": 1,
+        "active": false,
+        "minActivationAmount": 0,
+        "withMessage": null,
+        "type": "sbp",
+        "buttonLabel": "Оплатить через СБП"
+      },
+      {
+        "method": "freekassa",
+        "priority": 0,
+        "active": true,
+        "minActivationAmount": 0,
+        "withMessage": null,
+        "type": "sbp",
+        "buttonLabel": "Оплатить через СБП"
+      },
+      {
+        "method": "yookassa",
+        "active": false,
+        "minActivationAmount": 0,
+        "withMessage": null,
+        "type": "card",
+        "buttonLabel": " Оплатить российской картой"
+      },
+      {
+        "method": "stripe",
+        "active": true,
+        "minActivationAmount": 0,
+        "withMessage": null,
+        "type": "card",
+        "buttonLabel": " Оплатить зарубежной картой"
+      },
+      {
+        "method": "crypto",
+        "active": true,
+        "minActivationAmount": 0,
+        "withMessage": null,
+        "type": "crypto",
+        "buttonLabel": "Оплатить криптовалютой"
+      }
+    ]
+  },
+  "youboost": {
+    "fields": {
+      "period": true,
+      "autoRenewal": false,
+      "promocode": false
+    },
+    "paymentMethods": [
+      {
+        "method": "oktet",
+        "active": false,
+        "minActivationAmount": 199,
+        "withMessage": null,
+        "type": "sbp",
+        "buttonLabel": "Оплатить через СБП"
+      },
+      {
+        "method": "moneta",
+        "active": false,
+        "minActivationAmount": 0,
+        "withMessage": null,
+        "buttonLabel": "Оплатить через СБП",
+        "type": "sbp"
+      },
+      {
+        "method": "freekassa",
+        "priority": 0,
+        "active": true,
+        "minActivationAmount": 0,
+        "withMessage": null,
+        "type": "sbp",
+        "buttonLabel": "Оплатить через СБП"
+      },
+      {
+        "method": "yookassa",
+        "active": false,
+        "minActivationAmount": 0,
+        "withMessage": null,
+        "type": "card",
+        "buttonLabel": " Оплатить российской картой"
+      },
+      {
+        "method": "stripe",
+        "active": false,
+        "minActivationAmount": 0,
+        "withMessage": null,
+        "type": "card",
+        "buttonLabel": " Оплатить зарубежной картой"
+      },
+      {
+        "method": "freekassa",
+        "active": false,
+        "minActivationAmount": 0,
+        "withMessage": "Извините, оплата картой временно недоступна.\nИспользуйте СБП.",
+        "type": "card",
+        "buttonLabel": "Оплатить российской картой"
+      },
+      {
+        "method": "crypto",
+        "active": false,
+        "minActivationAmount": 0,
+        "withMessage": null,
+        "type": "crypto",
+        "buttonLabel": "Оплатить криптовалютой"
+      }
+    ]
   }
+}
