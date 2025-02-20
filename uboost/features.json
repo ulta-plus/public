@@ -1,5 +1,5 @@
 {
-  "switch-youtube-internet": true,
+  "switch-youtube-internet": false,
   "dev-meta": false,
   "_version": "1.0.0"
 }
