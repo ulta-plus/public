@@ -1,5 +1,4 @@
 {
-  "switch-youtube-internet": true,
-  "dev-meta": false,
-  "_version": "1.0.0"
+  "switch-youtube-internet": "6.3.7",
+  "_version": "2.0.0"
 }
