@@ -9,7 +9,7 @@
   "showOnUpdateVersion": "6.2.4",
   "shouldUpdatePACVersion": "6.3.7",
   "availableBannersData": "youboost-premium,youboost-android",
-  "advMinVersion": "6.3.5",
+  "advMinVersion": "6.3.7",
   "androidAppUrl": "https://t.me/uboost_tv_bot",
   "availablePaymentMethods": ["sbp", "card"],
   "publicOfferUrl": "https://uboo.st/oferta",
