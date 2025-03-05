@@ -6,7 +6,7 @@
   "proxyUpdatePeriod": 50,
   "proxyUpdatePeriodPremium": 50,
   "updateSubscriptionInfoPeriod": 25,
-  "showOnUpdateVersion": "6.2.8",
+  "showOnUpdateVersion": "6.3.8",
   "shouldUpdatePACVersion": "6.3.8",
   "availableBannersData": "youboost-premium,youboost-android",
   "advMinVersion": "6.3.8",
