@@ -8,30 +8,30 @@
     "paymentMethods": [
       {
         "method": "oktet",
-        "priority": 2,
-        "active": false,
+        "active": true,
         "minActivationAmount": 500,
         "withMessage": null,
         "type": "sbp",
-        "buttonLabel": "Оплатить через СБП"
+        "buttonLabel": "Оплатить через СБП",
+        "useRandomIndex": 0.3
       },
       {
         "method": "moneta",
-        "priority": 1,
-        "active": false,
-        "minActivationAmount": 0,
-        "withMessage": null,
-        "type": "sbp",
-        "buttonLabel": "Оплатить через СБП"
-      },
-      {
-        "method": "freekassa",
-        "priority": 0,
         "active": true,
         "minActivationAmount": 0,
         "withMessage": null,
         "type": "sbp",
-        "buttonLabel": "Оплатить через СБП"
+        "buttonLabel": "Оплатить через СБП",
+        "useRandomIndex": 0.2
+      },
+      {
+        "method": "freekassa",
+        "active": true,
+        "minActivationAmount": 0,
+        "withMessage": null,
+        "type": "sbp",
+        "buttonLabel": "Оплатить через СБП",
+        "useRandomIndex": 0.5
       },
       {
         "method": "freekassa",
@@ -138,37 +138,38 @@
     "paymentMethods": [
       {
         "method": "oktet",
-        "active": false,
+        "active": true,
         "minActivationAmount": 199,
         "withMessage": null,
         "type": "sbp",
-        "buttonLabel": "Оплатить через СБП"
+        "buttonLabel": "Оплатить через СБП",
+        "useRandomIndex": 0.3
       },
       {
         "method": "moneta",
-        "active": false,
+        "active": true,
         "minActivationAmount": 0,
         "withMessage": null,
         "buttonLabel": "Оплатить через СБП",
-        "type": "sbp"
+        "type": "sbp",
+        "useRandomIndex": 0.2
       },
       {
         "method": "freekassa",
-        "priority": 0,
         "active": true,
         "minActivationAmount": 0,
         "withMessage": null,
         "type": "sbp",
-        "buttonLabel": "Оплатить через СБП"
+        "buttonLabel": "Оплатить через СБП",
+        "useRandomIndex": 0.5
       },
       {
         "method": "yookassa",
-        "active": true,
+        "active": false,
         "minActivationAmount": 0,
         "withMessage": null,
         "type": "card",
-        "buttonLabel": " Оплатить российской картой",
-        "useRandomIndex": 0.5
+        "buttonLabel": " Оплатить российской картой"
       },
       {
         "method": "stripe",
@@ -180,12 +181,11 @@
       },
       {
         "method": "freekassa",
-        "active": true,
+        "active": false,
         "minActivationAmount": 0,
         "withMessage": "Извините, оплата картой временно недоступна.\nИспользуйте СБП.",
         "type": "card",
-        "buttonLabel": "Оплатить российской картой",
-        "useRandomIndex": 0.5
+        "buttonLabel": "Оплатить российской картой"
       },
       {
         "method": "crypto",
