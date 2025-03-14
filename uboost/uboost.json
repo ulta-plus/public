@@ -1,6 +1,6 @@
 {
   "apiBaseUrl": "uubb.website",
-  "currentVersion": "6.3.8",
+  "currentVersion": "6.3.10",
   "requiredVersion": "6.2.4",
   "supportedBrowsers": ["chrome", "edge-chromium", "yandexbrowser"],
   "proxyUpdatePeriod": 50,
@@ -8,9 +8,9 @@
   "updateSubscriptionInfoPeriod": 25,
   "showOnUpdateVersion": "6.3.8",
   "shouldUpdatePACVersion": "6.3.8",
-  "availableBannersData": "youboost-premium,youboost-android",
-  "advMinVersion": "6.3.8",
-  "androidAppUrl": "https://t.me/uboost_tv_bot",
+  "availableBannersData": "youboost-premium,youboost-android,naruzhu,telegram",
+  "advMinVersion": "6.3.10",
+  "androidAppUrl": "https://uboost.download/",
   "availablePaymentMethods": ["sbp", "card"],
   "publicOfferUrl": "https://uboo.st/oferta",
   "availableAlarmTries": 15

@@ -1,0 +1,61 @@
+name: GCP Deploy
+
+on:
+  push:
+    branches:
+      - main
+
+env:
+  PROJECT_ID: ${{ secrets.GCP_PROJECT_ID }}
+  GCP_SA_KEY: ${{ secrets.GCP_SA_KEY }}
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 2
+
+      - id: auth
+        uses: google-github-actions/auth@v1
+        with:
+          credentials_json: ${{ env.GCP_SA_KEY }}
+
+      - name: Set up Cloud SDK
+        uses: google-github-actions/setup-gcloud@v1
+        with:
+          project_id: ${{ env.PROJECT_ID }}
+
+      - id: changed-files
+        run: echo "files=$(git diff --name-only HEAD^ HEAD | tr '\n' ' ')" >> $GITHUB_OUTPUT
+
+      - name: Deploy changed files
+        run: |
+          CHANGED_FILES="${{ steps.changed-files.outputs.files }}"
+          if [ ! -z "$CHANGED_FILES" ]; then
+            for file in $CHANGED_FILES; do
+              if [ -f "$file" ]; then
+                # Определяем директорию первого уровня
+                TOP_DIR=$(echo "$file" | cut -d'/' -f1)
+                case $TOP_DIR in
+                  "uboost"|"uboost-neo"|"vpn-web")
+                    BUCKET="${TOP_DIR}"
+                    ;;
+                  *)
+                    echo "Skipping file not in main project directories: $file"
+                    continue
+                    ;;
+                esac
+                DESTINATION="gs://${BUCKET}/$file"
+                gsutil cp -r "$file" "$DESTINATION"
+                echo "Deployed: $file to $DESTINATION"
+              fi
+            done
+          else
+            echo "No files changed"
+          fi
+
+      - name: Clean up
+        if: always()
+        run: gcloud auth revoke --all
