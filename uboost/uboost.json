@@ -8,7 +8,7 @@
   "updateSubscriptionInfoPeriod": 25,
   "showOnUpdateVersion": "6.3.8",
   "shouldUpdatePACVersion": "6.3.8",
-  "availableBannersData": "youboost-premium,youboost-android,naruzhu,telegram",
+  "availableBannersData": "naruzhu,youboost-premium,youboost-android,telegram",
   "advMinVersion": "6.3.10",
   "androidAppUrl": "https://uboost.download/",
   "availablePaymentMethods": ["sbp", "card"],
