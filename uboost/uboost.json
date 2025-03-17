@@ -1,6 +1,6 @@
 {
-  "apiBaseUrl": "uubb.website",
   "currentVersion": "6.3.10",
+  "apiBaseUrl": "uubb.website",
   "requiredVersion": "6.2.4",
   "supportedBrowsers": ["chrome", "edge-chromium", "yandexbrowser"],
   "proxyUpdatePeriod": 50,
