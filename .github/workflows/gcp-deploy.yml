@@ -48,7 +48,7 @@ jobs:
                     echo "Skipping file not in main project directories: $file"
                     continue
                 fi
-                DESTINATION="gs://${BUCKET}/$file"
+                DESTINATION="gs://${BUCKET}/"
                 gsutil cp -r "$file" "$DESTINATION"
                 echo "Deployed: $file to $DESTINATION"
               fi
