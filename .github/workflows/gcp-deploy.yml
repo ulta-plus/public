@@ -8,6 +8,9 @@ on:
 env:
   PROJECT_ID: ${{ secrets.GCP_PROJECT_ID }}
   GCP_SA_KEY: ${{ secrets.GCP_SA_KEY }}
+  # Add new directories in GitHub Actions Variables -> ALLOWED_DIRS
+  # Each directory should have a corresponding GCP bucket with the same name
+  ALLOWED_DIRS: ${{ vars.ALLOWED_DIRS }}
 
 jobs:
   deploy:
@@ -38,15 +41,13 @@ jobs:
               if [ -f "$file" ]; then
                 # Определяем директорию первого уровня
                 TOP_DIR=$(echo "$file" | cut -d'/' -f1)
-                case $TOP_DIR in
-                  "uboost"|"uboost-neo"|"vpn-web")
+                # Check if directory is in allowed list
+                if [[ $ALLOWED_DIRS =~ (^|,)$TOP_DIR(,|$) ]]; then
                     BUCKET="${TOP_DIR}"
-                    ;;
-                  *)
+                else
                     echo "Skipping file not in main project directories: $file"
                     continue
-                    ;;
-                esac
+                fi
                 DESTINATION="gs://${BUCKET}/$file"
                 gsutil cp -r "$file" "$DESTINATION"
                 echo "Deployed: $file to $DESTINATION"
