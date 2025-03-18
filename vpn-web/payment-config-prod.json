@@ -9,11 +9,11 @@
       {
         "method": "oktet",
         "active": true,
-        "minActivationAmount": 500,
+        "minActivationAmount": 100,
         "withMessage": null,
         "type": "sbp",
         "buttonLabel": "Оплатить через СБП",
-	"useRandomIndex": 1
+	"useRandomIndex": 0.95
       },
       {
         "method": "moneta",
@@ -22,7 +22,7 @@
         "withMessage": null,
         "type": "sbp",
         "buttonLabel": "Оплатить через СБП",
-	"useRandomIndex": 0
+	"useRandomIndex": 0.05
       },
       {
         "method": "freekassa",
