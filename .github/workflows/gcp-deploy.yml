@@ -44,13 +44,12 @@ jobs:
                 # Check if directory is in allowed list
                 if [[ $ALLOWED_DIRS =~ (^|,)$TOP_DIR(,|$) ]]; then
                     BUCKET="${TOP_DIR}"
+                    gsutil cp -r "$file" "gs://${BUCKET}/${file#*/}"
+                    echo "Deployed: $file to gs://${BUCKET}/${file#*/}"
                 else
                     echo "Skipping file not in main project directories: $file"
                     continue
                 fi
-                DESTINATION="gs://${BUCKET}/"
-                gsutil cp -r "$file" "$DESTINATION"
-                echo "Deployed: $file to $DESTINATION"
               fi
             done
           else
