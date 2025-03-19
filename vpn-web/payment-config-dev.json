@@ -137,6 +137,14 @@
     },
     "paymentMethods": [
       {
+        "method": "freekassa",
+        "active": true,
+        "minActivationAmount": 0,
+        "withMessage": null,
+        "type": "card",
+        "buttonLabel": "Оплатить российской картой"
+      },
+      {
         "method": "oktet",
         "active": true,
         "minActivationAmount": 199,
@@ -178,14 +186,6 @@
         "withMessage": null,
         "type": "card",
         "buttonLabel": " Оплатить зарубежной картой"
-      },
-      {
-        "method": "freekassa",
-        "active": true,
-        "minActivationAmount": 0,
-        "withMessage": null,
-        "type": "card",
-        "buttonLabel": "Оплатить российской картой"
       },
       {
         "method": "crypto",
