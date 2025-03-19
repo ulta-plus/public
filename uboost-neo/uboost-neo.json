@@ -8,10 +8,10 @@
   "updateSubscriptionInfoPeriod": 25,
   "showOnUpdateVersion": "7.0.0",
   "shouldUpdatePACVersion": "7.0.0",
-  "availableBannersData": "youboost-premium,youboost-android",
+  "availableBannersData": "naruzhu,youboost-premium,youboost-android,telegram",
   "advMinVersion": "7.0.0",
   "androidAppUrl": "https://t.me/uboost_tv_bot",
-  "availablePaymentMethods": ["sbp"],
+  "availablePaymentMethods": ["sbp", "card"],
   "publicOfferUrl": "https://uboo.st/oferta",
   "availableAlarmTries": 15
 }
