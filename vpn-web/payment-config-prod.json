@@ -133,13 +133,13 @@
     "fields": {
       "period": true,
       "autoRenewal": false,
-      "promocode": false
+      "promocode": true
     },
     "paymentMethods": [
       {
         "method": "oktet",
         "active": true,
-        "minActivationAmount": 199,
+        "minActivationAmount": 100,
         "withMessage": null,
         "type": "sbp",
         "buttonLabel": "Оплатить через СБП",
