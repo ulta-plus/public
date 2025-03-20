@@ -7,33 +7,37 @@
     },
     "paymentMethods": [
       {
+        "order": 0,
         "method": "oktet",
         "active": true,
         "minActivationAmount": 100,
         "withMessage": null,
         "type": "sbp",
         "buttonLabel": "Оплатить через СБП",
-	"useRandomIndex": 0.95
+        "useRandomIndex": 0.95
       },
       {
+        "order": 1,
         "method": "moneta",
         "active": true,
         "minActivationAmount": 0,
         "withMessage": null,
         "type": "sbp",
         "buttonLabel": "Оплатить через СБП",
-	"useRandomIndex": 0.05
+        "useRandomIndex": 0.05
       },
       {
+        "order": 2,
         "method": "freekassa",
         "active": true,
         "minActivationAmount": 0,
         "withMessage": null,
         "type": "sbp",
         "buttonLabel": "Оплатить через СБП",
-	"useRandomIndex": 0
+        "useRandomIndex": 0
       },
       {
+        "order": 3,
         "method": "freekassa",
         "priority": 1,
         "active": true,
@@ -43,6 +47,7 @@
         "buttonLabel": "Оплатить российской картой"
       },
       {
+        "order": 4,
         "method": "yookassa",
         "active": false,
         "minActivationAmount": 0,
@@ -51,7 +56,7 @@
         "buttonLabel": "Оплатить российской картой"
       },
       {
-        "priority": 0,
+        "order": 5,
         "method": "stripe",
         "active": true,
         "minActivationAmount": 0,
@@ -60,6 +65,7 @@
         "buttonLabel": " Оплатить зарубежной картой"
       },
       {
+        "order": 6,
         "method": "crypto",
         "active": true,
         "minActivationAmount": 0,
@@ -137,33 +143,37 @@
     },
     "paymentMethods": [
       {
+        "order": 0,
         "method": "oktet",
         "active": true,
         "minActivationAmount": 100,
         "withMessage": null,
         "type": "sbp",
         "buttonLabel": "Оплатить через СБП",
-	"useRandomIndex": 0.95
+        "useRandomIndex": 0.95
       },
       {
+        "order": 1,
         "method": "moneta",
         "active": true,
         "minActivationAmount": 0,
         "withMessage": null,
         "buttonLabel": "Оплатить через СБП",
         "type": "sbp",
-	"useRandomIndex": 0.05
+        "useRandomIndex": 0.05
       },
       {
+        "order": 2,
         "method": "freekassa",
         "active": true,
         "minActivationAmount": 0,
         "withMessage": null,
         "type": "sbp",
         "buttonLabel": "Оплатить через СБП",
-	"useRandomIndex": 0
+        "useRandomIndex": 0
       },
       {
+        "order": 3,
         "method": "yookassa",
         "active": false,
         "minActivationAmount": 0,
@@ -172,6 +182,7 @@
         "buttonLabel": " Оплатить российской картой"
       },
       {
+        "order": 4,
         "method": "stripe",
         "active": false,
         "minActivationAmount": 0,
@@ -180,6 +191,7 @@
         "buttonLabel": " Оплатить зарубежной картой"
       },
       {
+        "order": 5,
         "method": "freekassa",
         "active": true,
         "minActivationAmount": 0,
@@ -188,6 +200,7 @@
         "buttonLabel": "Оплатить российской картой"
       },
       {
+        "order": 6,
         "method": "crypto",
         "active": false,
         "minActivationAmount": 0,
