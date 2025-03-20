@@ -143,7 +143,8 @@
         "minActivationAmount": 0,
         "withMessage": null,
         "type": "card",
-        "buttonLabel": "Оплатить российской картой"
+        "buttonLabel": "Оплатить российской картой",
+        "useRandomIndex": 0.5
       },
       {
         "order": 5,
@@ -182,7 +183,8 @@
         "minActivationAmount": 0,
         "withMessage": null,
         "type": "card",
-        "buttonLabel": "Оплатить российской картой"
+        "buttonLabel": "Оплатить российской картой",
+        "useRandomIndex": 0.5
       },
       {
         "order": 1,
