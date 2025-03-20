@@ -182,16 +182,16 @@
         "minActivationAmount": 0,
         "withMessage": null,
         "type": "card",
-        "buttonLabel": " Оплатить российской картой"
+        "buttonLabel": "Оплатить российской картой"
       },
       {
         "order": 1,
         "method": "stripe",
-        "active": true,
+        "active": false,
         "minActivationAmount": 0,
-        "withMessage": null,
+        "withMessage": "Оплата не доступна в вашем регионе",
         "type": "card",
-        "buttonLabel": " Оплатить зарубежной картой"
+        "buttonLabel": "Оплатить зарубежной картой"
       },
       {
         "order": 0,
