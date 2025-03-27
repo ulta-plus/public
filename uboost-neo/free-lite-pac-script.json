@@ -1,0 +1,3 @@
+{
+  "free": "function FindProxyForURL(url, host) {\n  if (dnsDomainIs(host, \".music.youtube.com\")) {\n    return \"DIRECT\";\n  }\n\n  if (dnsDomainIs(host, \".ytimg.com\")) {\n    return \"DIRECT\";\n  }\n\n  if (dnsDomainIs(host, \".googlevideo.com\") ||\n      dnsDomainIs(host, \".youtube.com\") ||\n      dnsDomainIs(host, \".ggpht.com\")) {\n    return \"PROXY ${PROXY_HOST}:${PROXY_PORT}\";\n  }\n\n  if (dnsDomainIs(host, \".play.google.com\")) {\n    return \"PROXY 93.123.30.136:62496\";\n  }\n\n  return \"DIRECT\";\n}"
+}
