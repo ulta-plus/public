@@ -185,6 +185,15 @@
         "buttonLabel": "Оплатить российской картой"
       },
       {
+        "order": 4,
+        "method": "yookassa",
+        "active": true,
+        "minActivationAmount": 0,
+        "withMessage": null,
+        "type": "card",
+        "buttonLabel": "Юмани / T-Pay / SberPay"
+      },      
+      {
         "order": 6,
         "method": "stripe",
         "active": false,
