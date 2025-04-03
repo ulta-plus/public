@@ -139,12 +139,11 @@
       {
         "order": 0,
         "method": "freekassa",
-        "active": true,
+        "active": false,
         "minActivationAmount": 0,
         "withMessage": null,
         "type": "card",
-        "buttonLabel": "Оплатить российской картой",
-        "useRandomIndex": 0.5
+        "buttonLabel": "Оплатить российской картой"
       },
       {
         "order": 5,
@@ -183,8 +182,7 @@
         "minActivationAmount": 0,
         "withMessage": null,
         "type": "card",
-        "buttonLabel": "Оплатить российской картой",
-        "useRandomIndex": 0.5
+        "buttonLabel": "Оплатить российской картой"
       },
       {
         "order": 6,
