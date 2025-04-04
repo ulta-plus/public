@@ -40,7 +40,7 @@
         "order": 3,
         "method": "freekassa",
         "priority": 1,
-        "active": true,
+        "active": false,
         "minActivationAmount": 0,
         "withMessage": null,
         "type": "card",
@@ -49,11 +49,11 @@
       {
         "order": 4,
         "method": "yookassa",
-        "active": false,
+        "active": true,
         "minActivationAmount": 0,
         "withMessage": null,
         "type": "card",
-        "buttonLabel": "Оплатить российской картой"
+        "buttonLabel": "Оплата картой РФ / Юмани"
       },
       {
         "order": 5,
