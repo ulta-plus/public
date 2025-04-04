@@ -179,7 +179,7 @@
         "minActivationAmount": 0,
         "withMessage": null,
         "type": "card",
-        "buttonLabel": " Оплатить российской картой"
+        "buttonLabel": "Оплатить картой РФ / Юмани"
       },
       {
         "order": 4,
