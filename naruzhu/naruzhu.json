@@ -2,23 +2,16 @@
   "currentVersion": "1.0.0",
   "apiBaseUrl": "extension.nrz.homes",
   "requiredVersion": "1.0.0",
-  "supportedBrowsers": [
-    "chrome",
-    "edge-chromium",
-    "yandexbrowser"
-  ],
+  "supportedBrowsers": ["chrome", "edge-chromium", "yandexbrowser"],
   "proxyUpdatePeriod": 50,
   "proxyUpdatePeriodPremium": 50,
   "updateSubscriptionInfoPeriod": 25,
   "showOnUpdateVersion": "1.0.0",
   "shouldUpdatePACVersion": "1.0.0",
-  "availableBannersData": "naruzhu,youboost-premium,youboost-android,telegram",
+  "availableBannersData": null,
   "advMinVersion": "1.0.0",
-  "androidAppUrl": "https://t.me/uboost_tv_bot",
-  "availablePaymentMethods": [
-    "sbp",
-    "card"
-  ],
-  "publicOfferUrl": "https://uboo.st/oferta",
+  "androidAppUrl": null,
+  "availablePaymentMethods": ["sbp", "card"],
+  "publicOfferUrl": null,
   "availableAlarmTries": 15
 }
