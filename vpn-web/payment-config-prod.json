@@ -7,7 +7,7 @@
     },
     "paymentMethods": [
       {
-        "order": 0,
+        "order": 1,
         "method": "oktet",
         "active": true,
         "minActivationAmount": 100,
@@ -17,7 +17,7 @@
         "useRandomIndex": 0.95
       },
       {
-        "order": 1,
+        "order": 2,
         "method": "moneta",
         "active": true,
         "minActivationAmount": 0,
@@ -27,7 +27,7 @@
         "useRandomIndex": 0.05
       },
       {
-        "order": 2,
+        "order": 3,
         "method": "freekassa",
         "active": true,
         "minActivationAmount": 0,
@@ -37,7 +37,7 @@
         "useRandomIndex": 0
       },
       {
-        "order": 3,
+        "order": 4,
         "method": "freekassa",
         "priority": 1,
         "active": false,
@@ -47,7 +47,7 @@
         "buttonLabel": "Оплатить российской картой"
       },
       {
-        "order": 4,
+        "order": 0,
         "method": "yookassa",
         "active": true,
         "minActivationAmount": 0,
