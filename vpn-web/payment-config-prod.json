@@ -14,7 +14,7 @@
         "withMessage": null,
         "type": "sbp",
         "buttonLabel": "Оплатить через СБП",
-        "useRandomIndex": 0.3
+        "useRandomIndex": 0.1
       },
       {
         "order": 3,
@@ -24,7 +24,7 @@
         "withMessage": null,
         "type": "sbp",
         "buttonLabel": "Оплатить через СБП",
-        "useRandomIndex": 0.7
+        "useRandomIndex": 0.9
       },
       {
         "order": 4,
@@ -149,7 +149,7 @@
         "withMessage": null,
         "type": "sbp",
         "buttonLabel": "Оплатить через СБП",
-        "useRandomIndex": 0.3
+        "useRandomIndex": 0.1
       },
       {
         "order": 3,
@@ -159,7 +159,7 @@
         "withMessage": null,
         "buttonLabel": "Оплатить через СБП",
         "type": "sbp",
-        "useRandomIndex": 0.7
+        "useRandomIndex": 0.9
       },
       {
         "order": 3,
