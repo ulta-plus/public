@@ -1,6 +1,6 @@
 {
   "currentVersion": "1.0.0",
-  "apiBaseUrl": "extension.nrz.homes",
+  "apiBaseUrl": "naruzhu-web-backend-test.vpnn.loan",
   "requiredVersion": "0.0.0",
   "supportedBrowsers": [
     "chrome",
