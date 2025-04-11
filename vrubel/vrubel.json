@@ -10,7 +10,7 @@
   "shouldUpdatePACVersion": "1.0.0",
   "availableBannersData": "",
   "advMinVersion": "1.0.0",
-  "availablePaymentMethods": ["sbp", "card"],
   "publicOfferUrl": "https://vrubel.tube/vrubeloffer.pdf",
+  "availablePaymentMethods": ["sbp", "card"],
   "availableAlarmTries": 15
 }
