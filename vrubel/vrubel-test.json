@@ -11,6 +11,6 @@
   "availableBannersData": "",
   "advMinVersion": "1.0.0",
   "availablePaymentMethods": ["sbp", "card"],
-  "publicOfferUrl": "",
+  "publicOfferUrl": "https://vrubel.tube/vrubeloffer.pdf",
   "availableAlarmTries": 15
 }
