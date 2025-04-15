@@ -11,7 +11,7 @@
   "availableBannersData": "naruzhu,youboost-premium,youboost-android,telegram",
   "advMinVersion": "6.3.12",
   "androidAppUrl": "https://uboost.download/",
-  "availablePaymentMethods": ["sbp", "card"],
+  "availablePaymentMethods": ["sbp"],
   "publicOfferUrl": "https://uboo.st/oferta",
   "availableAlarmTries": 15
 }
