@@ -224,7 +224,7 @@
         "withMessage": null,
         "type": "sbp",
         "buttonLabel": "Оплатить через СБП",
-        "useRandomIndex": 0.95
+        "useRandomIndex": 0
       },
       {
         "order": 2,
@@ -234,7 +234,7 @@
         "withMessage": null,
         "buttonLabel": "Оплатить через СБП",
         "type": "sbp",
-        "useRandomIndex": 0.05
+        "useRandomIndex": 1
       },
       {
         "order": 3,
@@ -249,7 +249,7 @@
       {
         "order": 0,
         "method": "yookassa",
-        "active": true,
+        "active": false,
         "minActivationAmount": 0,
         "withMessage": null,
         "type": "card",
