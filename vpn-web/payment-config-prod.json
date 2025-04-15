@@ -267,7 +267,7 @@
       {
         "order": 1,
         "method": "freekassa",
-        "active": false,
+        "active": true,
         "minActivationAmount": 0,
         "withMessage": null,
         "type": "card",
