@@ -11,7 +11,7 @@
   "availableBannersData": "naruzhu,youboost-premium,youboost-android",
   "advMinVersion": "7.0.7",
   "androidAppUrl": "https://uboost.download/",
-  "availablePaymentMethods": ["sbp", "card"],
+  "availablePaymentMethods": ["sbp"],
   "publicOfferUrl": "https://uboo.st/oferta",
   "availableAlarmTries": 15
 }
