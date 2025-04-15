@@ -211,9 +211,9 @@
   },
   "ulta": {
     "fields": {
-      "period": true,
+      "period": false,
       "autoRenewal": false,
-      "promocode": true
+      "promocode": false
     },
     "paymentMethods": [
       {
