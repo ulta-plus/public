@@ -247,7 +247,7 @@
         "useRandomIndex": 0
       },
       {
-        "order": 0,
+        "order": 5,
         "method": "yookassa",
         "active": false,
         "minActivationAmount": 0,
@@ -256,7 +256,7 @@
         "buttonLabel": "Оплатить картой РФ / Юмани"
       },
       {
-        "order": 4,
+        "order": 6,
         "method": "stripe",
         "active": false,
         "minActivationAmount": 0,
@@ -265,7 +265,7 @@
         "buttonLabel": " Оплатить зарубежной картой"
       },
       {
-        "order": 1,
+        "order": 7,
         "method": "freekassa",
         "active": true,
         "minActivationAmount": 0,
@@ -274,7 +274,7 @@
         "buttonLabel": "Оплатить российской картой"
       },
       {
-        "order": 6,
+        "order": 8,
         "method": "crypto",
         "active": false,
         "minActivationAmount": 0,
