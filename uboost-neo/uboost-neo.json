@@ -1,6 +1,6 @@
 {
   "apiBaseUrl": "uubb.website",
-  "currentVersion": "7.0.9",
+  "currentVersion": "7.0.11",
   "requiredVersion": "7.0.0",
   "supportedBrowsers": ["chrome", "edge-chromium", "yandexbrowser"],
   "proxyUpdatePeriod": 50,
@@ -9,7 +9,7 @@
   "showOnUpdateVersion": "7.0.0",
   "shouldUpdatePACVersion": "7.0.0",
   "availableBannersData": "naruzhu,youboost-premium,youboost-android",
-  "advMinVersion": "7.0.9",
+  "advMinVersion": "7.0.11",
   "androidAppUrl": "https://uboost.download/",
   "availablePaymentMethods": ["sbp","card"],
   "publicOfferUrl": "https://uboo.st/oferta",
