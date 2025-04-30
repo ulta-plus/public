@@ -69,6 +69,76 @@
           "buttonLabel": "Оплатить криптовалютой"
         }
       ]
+    },
+    "local.naruzhu.work": {
+      "fields": {
+        "period": true,
+        "autoRenewal": true,
+        "promocode": true
+      },
+      "paymentMethods": [
+        {
+          "method": "oktet",
+          "active": true,
+          "minActivationAmount": 500,
+          "withMessage": null,
+          "type": "sbp",
+          "buttonLabel": "Оплатить через СБП",
+          "useRandomIndex": 0.9
+        },
+        {
+          "method": "moneta",
+          "active": true,
+          "minActivationAmount": 0,
+          "withMessage": null,
+          "type": "sbp",
+          "buttonLabel": "Оплатить через СБП",
+          "useRandomIndex": 0.1
+        },
+        {
+          "method": "freekassa",
+          "active": true,
+          "minActivationAmount": 0,
+          "withMessage": null,
+          "type": "sbp",
+          "buttonLabel": "Оплатить через СБП",
+          "useRandomIndex": 0
+        },
+        {
+          "method": "freekassa",
+          "priority": 1,
+          "active": true,
+          "minActivationAmount": 0,
+          "withMessage": null,
+          "type": "card",
+          "buttonLabel": "Оплатить российской картой"
+        },
+        {
+          "method": "yookassa",
+          "active": true,
+          "minActivationAmount": 0,
+          "withMessage": null,
+          "type": "card",
+          "buttonLabel": "Оплатить российской картой"
+        },
+        {
+          "priority": 0,
+          "method": "stripe",
+          "active": true,
+          "minActivationAmount": 0,
+          "withMessage": null,
+          "type": "card",
+          "buttonLabel": " Оплатить зарубежной картой"
+        },
+        {
+          "method": "crypto",
+          "active": true,
+          "minActivationAmount": 0,
+          "withMessage": null,
+          "type": "crypto",
+          "buttonLabel": "Оплатить криптовалютой"
+        }
+      ]
     }
   },
   "naoborot": {
