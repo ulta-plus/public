@@ -349,7 +349,7 @@
         {
           "order": 7,
           "method": "freekassa",
-          "active": true,
+          "active": false,
           "minActivationAmount": 0,
           "withMessage": null,
           "type": "card",
