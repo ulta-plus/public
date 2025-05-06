@@ -254,11 +254,20 @@
         {
           "order": 0,
           "method": "yookassa",
-          "active": true,
+          "active": false,
           "minActivationAmount": 0,
           "withMessage": null,
           "type": "card",
           "buttonLabel": "Оплата картой РФ / Юмани"
+        },
+        {
+          "order": 0,
+          "method": "cardlink",
+          "active": true,
+          "minActivationAmount": 0,
+          "withMessage": null,
+          "type": "card",
+          "buttonLabel": "Оплата картой РФ"
         },
         {
           "order": 4,
