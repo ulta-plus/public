@@ -297,6 +297,90 @@
           "buttonLabel": "Оплатить криптовалютой"
         }
       ]
+    },
+      "youboost.click": {
+      "fields": {
+        "period": true,
+        "autoRenewal": false,
+        "promocode": false
+      },
+      "paymentMethods": [
+        {
+          "order": 2,
+          "method": "oktet",
+          "active": true,
+          "minActivationAmount": 100,
+          "withMessage": null,
+          "type": "sbp",
+          "buttonLabel": "Оплатить через СБП",
+          "useRandomIndex": 1
+        },
+        {
+          "order": 3,
+          "method": "moneta",
+          "active": true,
+          "minActivationAmount": 0,
+          "withMessage": null,
+          "buttonLabel": "Оплатить через СБП",
+          "type": "sbp",
+          "useRandomIndex": 0
+        },
+        {
+          "order": 3,
+          "method": "freekassa",
+          "active": true,
+          "minActivationAmount": 0,
+          "withMessage": null,
+          "type": "sbp",
+          "buttonLabel": "Оплатить через СБП",
+          "useRandomIndex": 0
+        },
+        {
+          "order": 0,
+          "method": "yookassa",
+          "active": false,
+          "minActivationAmount": 0,
+          "withMessage": null,
+          "type": "card",
+          "buttonLabel": "Оплата картой РФ / Юмани"
+        },
+        {
+          "order": 0,
+          "method": "cardlink",
+          "active": true,
+          "minActivationAmount": 0,
+          "withMessage": null,
+          "type": "card",
+          "buttonLabel": "Оплата картой РФ"
+        },
+        {
+          "order": 4,
+          "method": "stripe",
+          "active": false,
+          "minActivationAmount": 0,
+          "withMessage": null,
+          "type": "card",
+          "buttonLabel": "Оплатить зарубежной картой"
+        },
+        {
+          "order": 1,
+          "method": "freekassa",
+          "active": false,
+          "minActivationAmount": 0,
+          "withMessage": null,
+          "type": "card",
+          "buttonLabel": "Оплата картой МИР"
+        },
+        {
+          "order": 6,
+          "method": "crypto",
+          "active": false,
+          "minActivationAmount": 0,
+          "withMessage": null,
+          "type": "crypto",
+          "buttonLabel": "Оплатить криптовалютой"
+        }
+      ]
     }
   },
   "ulta": {
