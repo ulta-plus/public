@@ -10,7 +10,7 @@
   "showOnUpdateVersion": "7.0.0",
   "shouldUpdatePACVersion": "7.0.0",
   "availableBannersData": "naruzhu,youboost-premium,youboost-android",
-  "advMinVersion": "7.1.1",
+  "advMinVersion": "6.0.0",
   "androidAppUrl": "https://uboost.download/",
   "availablePaymentMethods": ["sbp","card"],
   "publicOfferUrl": "https://uboo.st/oferta",
