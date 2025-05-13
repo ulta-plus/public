@@ -125,7 +125,7 @@
         {
           "order": 4,
           "method": "freekassa",
-          "active": true,
+          "active": false,
           "minActivationAmount": 0,
           "withMessage": null,
           "type": "sbp",
