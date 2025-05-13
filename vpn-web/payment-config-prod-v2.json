@@ -413,69 +413,23 @@
       "paymentMethods": [
         {
           "order": 1,
-          "method": "oktet",
-          "active": true,
-          "minActivationAmount": 100,
-          "withMessage": null,
-          "type": "sbp",
-          "buttonLabel": "Оплатить через СБП",
-          "useRandomIndex": 0
-        },
-        {
-          "order": 2,
-          "method": "moneta",
+          "method": "sbp",
           "active": true,
           "minActivationAmount": 0,
           "withMessage": null,
-          "buttonLabel": "Оплатить через СБП",
           "type": "sbp",
+          "buttonLabel": "Оплатить через СБП",
           "useRandomIndex": 1
         },
         {
-          "order": 3,
-          "method": "freekassa",
+          "order": 2,
+          "method": "card",
           "active": true,
           "minActivationAmount": 0,
           "withMessage": null,
-          "type": "sbp",
-          "buttonLabel": "Оплатить через СБП",
-          "useRandomIndex": 0
-        },
-        {
-          "order": 5,
-          "method": "yookassa",
-          "active": false,
-          "minActivationAmount": 0,
-          "withMessage": null,
+          "buttonLabel": "Оплата картой РФ",
           "type": "card",
-          "buttonLabel": "Оплатить картой РФ / Юмани"
-        },
-        {
-          "order": 6,
-          "method": "stripe",
-          "active": false,
-          "minActivationAmount": 0,
-          "withMessage": null,
-          "type": "card",
-          "buttonLabel": " Оплатить зарубежной картой"
-        },
-        {
-          "order": 7,
-          "method": "freekassa",
-          "active": false,
-          "minActivationAmount": 0,
-          "withMessage": null,
-          "type": "card",
-          "buttonLabel": "Оплатить российской картой"
-        },
-        {
-          "order": 8,
-          "method": "crypto",
-          "active": false,
-          "minActivationAmount": 0,
-          "withMessage": null,
-          "type": "crypto",
-          "buttonLabel": "Оплатить криптовалютой"
+          "useRandomIndex": 1
         }
       ]
     }
