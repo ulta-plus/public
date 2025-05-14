@@ -303,8 +303,7 @@
         }
       ]
     },
-    
-          "youboost.click": {
+    "youboost.click": {
       "fields": {
         "period": true,
         "autoRenewal": false,
