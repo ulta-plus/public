@@ -13,7 +13,7 @@
           "minActivationAmount": 0,
           "withMessage": null,
           "type": "sbp",
-          "buttonLabel": "Оплатить через СБП",
+          "buttonLabel": "Оплатить через СБП"
         },
         {
           "method": "card",
@@ -21,7 +21,7 @@
           "minActivationAmount": 0,
           "withMessage": null,
           "type": "card",
-          "buttonLabel": "Оплатить картой РФ",
+          "buttonLabel": "Оплатить картой РФ"
         }
       ]
     },
