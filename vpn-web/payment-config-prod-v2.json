@@ -123,7 +123,7 @@
           "active": true,
           "minActivationAmount": 0,
           "withMessage": null,
-          "type": "card_int",
+          "type": "card",
           "buttonLabel": "Оплата зарубежной картой"
         },
         {
@@ -168,7 +168,7 @@
           "active": true,
           "minActivationAmount": 0,
           "withMessage": null,
-          "type": "card_int",
+          "type": "card",
           "buttonLabel": "Оплата зарубежной картой"
         },
         {
