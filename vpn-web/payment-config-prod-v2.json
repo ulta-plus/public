@@ -24,7 +24,7 @@
           "minActivationAmount": 0,
           "withMessage": null,
           "type": "card",
-          "buttonLabel": "Оплата картой/ЮMoney/SberPay",
+          "buttonLabel": "Оплата картой / ЮMoney / SberPay",
           "useRandomIndex": 1
         },
         {
@@ -269,7 +269,7 @@
           "active": true,
           "minActivationAmount": 0,
           "withMessage": null,
-          "buttonLabel": "Оплата картой/ЮMoney/SberPay",
+          "buttonLabel": "Оплата картой / ЮMoney / SberPay",
           "type": "card",
           "useRandomIndex": 1
         }
