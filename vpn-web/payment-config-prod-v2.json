@@ -392,6 +392,16 @@
           "type": "sbp",
           "buttonLabel": "Оплатить через СБП",
           "useRandomIndex": 1
+        },
+        {
+          "order": 2,
+          "method": "card",
+          "active": true,
+          "minActivationAmount": 0,
+          "withMessage": null,
+          "type": "card",
+          "buttonLabel": "Оплатить картой РФ",
+          "useRandomIndex": 1
         }
       ]
     }
