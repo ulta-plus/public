@@ -1,0 +1,92 @@
+name: Yandex Cloud Deploy
+
+on:
+  push:
+    branches:
+      - main
+
+env:
+  ACCESS_KEY_ID: ${{ secrets.YANDEX_ACCESS_KEY_ID }}
+  SECRET_ACCESS_KEY: ${{ secrets.YANDEX_SECRET_ACCESS_KEY }}
+  BUCKET: ${{ secrets.YANDEX_BUCKET }}
+  # Add new directories in GitHub Actions Variables -> ALLOWED_DIRS
+  ALLOWED_DIRS: ${{ vars.ALLOWED_DIRS }}
+  DEPLOY_TYPE: ${{ vars.DEPLOY_TYPE }}
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 2
+
+      - id: changed-files
+        run: echo "files=$(git diff --name-only HEAD^ HEAD | tr '\n' ' ')" >> $GITHUB_OUTPUT
+
+      - name: Prepare directories for deployment
+        run: |
+          # Создаем временную директорию
+          mkdir -p temp
+
+          if [ "$DEPLOY_TYPE" = "all" ]; then
+            echo "Deploying all files from allowed directories"
+            # Копируем все разрешенные директории
+            IFS=',' read -ra DIRS <<< "$ALLOWED_DIRS"
+            for dir in "${DIRS[@]}"; do
+              if [ -d "$dir" ]; then
+                echo "Copying directory: $dir"
+                cp -r "$dir" "temp/"
+              fi
+            done
+          else
+            echo "Deploying only changed files"
+            # Получаем список измененных файлов
+            CHANGED_FILES="${{ steps.changed-files.outputs.files }}"
+            
+            if [ ! -z "$CHANGED_FILES" ]; then
+              for file in $CHANGED_FILES; do
+                if [ -f "$file" ]; then
+                  # Определяем директорию первого уровня
+                  TOP_DIR=$(echo "$file" | cut -d'/' -f1)
+                  # Check if directory is in allowed list
+                  if [[ $ALLOWED_DIRS =~ (^|,)$TOP_DIR(,|$) ]]; then
+                      echo "Copying changed file: $file"
+                      # Создаем директорию в temp если её нет
+                      mkdir -p "temp/$(dirname "$file")"
+                      # Копируем файл
+                      cp "$file" "temp/$file"
+                  else
+                      echo "Skipping file not in main project directories: $file"
+                  fi
+                fi
+              done
+            else
+              echo "No files changed"
+            fi
+          fi
+
+      - name: Check if temp is not empty
+        id: check-temp
+        run: |
+          if [ -z "$(ls -A temp)" ]; then
+            echo "temp is empty, skipping deployment"
+            echo "has_files=false" >> $GITHUB_OUTPUT
+          else
+            echo "temp has files, proceeding with deployment"
+            echo "has_files=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Deploy to Yandex Object Storage
+        if: steps.check-temp.outputs.has_files == 'true'
+        uses: povetek/yandex-object-storage-action@v3
+        with:
+          access-key-id: ${{ env.ACCESS_KEY_ID }}
+          secret-access-key: ${{ env.SECRET_ACCESS_KEY }}
+          bucket: ${{ env.BUCKET }}
+          path: temp
+          clear: false
+
+      - name: Cleanup
+        if: always()
+        run: rm -rf temp
