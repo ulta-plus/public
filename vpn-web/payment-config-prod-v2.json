@@ -24,7 +24,7 @@
           "minActivationAmount": 0,
           "withMessage": null,
           "type": "card",
-          "buttonLabel": "Оплата картой / ЮMoney / SberPay",
+          "buttonLabel": "Карта РФ / ЮMoney / SberPay / T-Pay",
           "useRandomIndex": 1
         },
         {
@@ -70,7 +70,7 @@
           "minActivationAmount": 0,
           "withMessage": null,
           "type": "card",
-          "buttonLabel": "Оплата картой РФ"
+          "buttonLabel": "Карта РФ / ЮMoney / SberPay / T-Pay"
         },
         {
           "order": 3,
@@ -115,7 +115,7 @@
           "minActivationAmount": 0,
           "withMessage": null,
           "type": "card",
-          "buttonLabel": "Оплата картой РФ"
+          "buttonLabel": "Карта РФ / ЮMoney / SberPay / T-Pay"
         },
         {
           "order": 3,
@@ -160,7 +160,7 @@
           "minActivationAmount": 0,
           "withMessage": null,
           "type": "card",
-          "buttonLabel": "Оплата картой РФ"
+          "buttonLabel": "Карта РФ / ЮMoney / SberPay / T-Pay"
         },
         {
           "order": 3,
@@ -205,7 +205,7 @@
           "minActivationAmount": 0,
           "withMessage": null,
           "type": "card",
-          "buttonLabel": "Оплата картой РФ"
+          "buttonLabel": "Карта РФ / ЮMoney / SberPay / T-Pay"
         },
         {
           "order": 3,
@@ -314,7 +314,7 @@
           "active": true,
           "minActivationAmount": 0,
           "withMessage": null,
-          "buttonLabel": "Оплата картой / ЮMoney / SberPay",
+          "buttonLabel": "Оплата картой РФ / ЮMoney / SberPay",
           "type": "card",
           "useRandomIndex": 1
         }
@@ -343,7 +343,7 @@
           "minActivationAmount": 0,
           "withMessage": null,
           "type": "card",
-          "buttonLabel": "Оплата картой РФ"
+          "buttonLabel": "Оплата картой РФ / ЮMoney / SberPay"
         }
       ]
     },
