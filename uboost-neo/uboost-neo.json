@@ -15,5 +15,5 @@
   "availablePaymentMethods": ["sbp", "card"],
   "publicOfferUrl": "https://uboo.st/oferta",
   "adfoxBannerUrl": "https://uubb.website/static/",
-  "availableAlarmTries": 25
+  "availableAlarmTries": 100
 }
