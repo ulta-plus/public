@@ -1,0 +1,6 @@
+{
+  "free": "https://storage.yandexcloud.net/uboost-neo/free-pac-script.json",
+  "premium": "https://storage.yandexcloud.net/uboost-neo/premium-pac-script.json",
+  "freeLite": "https://storage.yandexcloud.net/uboost-neo/free-lite-pac-script.json",
+  "premiumLite": "https://storage.yandexcloud.net/uboost-neo/premium-lite-pac-script.json"
+}

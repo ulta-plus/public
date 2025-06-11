@@ -1,0 +1,6 @@
+{
+  "free": "https://storage.googleapis.com/uboost-neo/free-pac-script.json",
+  "premium": "https://storage.googleapis.com/uboost-neo/premium-pac-script.json",
+  "freeLite": "https://storage.googleapis.com/uboost-neo/free-lite-pac-script.json",
+  "premiumLite": "https://storage.googleapis.com/uboost-neo/premium-lite-pac-script.json"
+}
