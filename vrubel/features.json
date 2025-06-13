@@ -1,4 +1,5 @@
 {
   "captcha-cracker-disabled": "7.1.1",
+  "on-fail-disabled": "7.4.0",
   "_version": "2.0.1"
 }
