@@ -3,7 +3,7 @@
     "default": {
       "fields": {
         "period": true,
-        "autoRenewal": false,
+        "autoRenewal": true,
         "promocode": true
       },
       "paymentMethods": [
@@ -294,7 +294,7 @@
     "default": {
       "fields": {
         "period": true,
-        "autoRenewal": false,
+        "autoRenewal": true,
         "promocode": false
       },
       "paymentMethods": [
