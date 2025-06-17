@@ -110,7 +110,7 @@
         },
         {
           "order": 2,
-          "method": "card",
+          "method": "yookassa",
           "active": true,
           "minActivationAmount": 0,
           "withMessage": null,
