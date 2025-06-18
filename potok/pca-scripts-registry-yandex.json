@@ -1,0 +1,6 @@
+{
+  "free": "https://storage.yandexcloud.net/vpnn-web-configs/vrubel/free-pac-script.json",
+  "premium": "https://storage.yandexcloud.net/vpnn-web-configs/vrubel/premium-pac-script.json",
+  "freeLite": "https://storage.yandexcloud.net/vpnn-web-configs/vrubel/free-lite-pac-script.json",
+  "premiumLite": "https://storage.yandexcloud.net/vpnn-web-configs/vrubel/premium-lite-pac-script.json"
+}
