@@ -12,8 +12,6 @@
   "updateSubscriptionInfoPeriod": 25,
   "showOnUpdateVersion": "1.0.0",
   "shouldUpdatePACVersion": "1.0.0",
-  "availableBannersData": "",
   "advMinVersion": "1.0.0",
-  "adfoxBannerUrl": "https://uubb.website/static/",
   "availableAlarmTries": 15
 }
