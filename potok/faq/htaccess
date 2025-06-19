@@ -1,0 +1,15 @@
+ErrorDocument 403 /404.html
+ErrorDocument 404 /404.html
+
+RewriteEngine On
+
+RewriteRule ^extconflict$ page53993241.html [NC]
+RewriteRule ^extconflict/$ page53993241.html [NC]
+
+RewriteRule ^faq$ page53994279.html [NC]
+RewriteRule ^faq/$ page53994279.html [NC]
+
+RewriteRule ^welcome$ page53995741.html [NC]
+RewriteRule ^welcome/$ page53995741.html [NC]
+
+
