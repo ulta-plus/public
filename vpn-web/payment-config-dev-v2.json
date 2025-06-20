@@ -185,7 +185,7 @@
     "naruzhu.work": {
       "fields": {
         "period": true,
-        "autoRenewal": false,
+        "autoRenewal": true,
         "promocode": true
       },
       "paymentMethods": [
@@ -295,7 +295,7 @@
       "fields": {
         "period": true,
         "autoRenewal": true,
-        "promocode": false
+        "promocode": true
       },
       "paymentMethods": [
         {
