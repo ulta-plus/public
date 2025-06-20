@@ -56,7 +56,7 @@
       "paymentMethods": [
         {
           "order": 1,
-          "method": "pay2me",
+          "method": "oktet",
           "active": true,
           "minActivationAmount": 0,
           "withMessage": null,
