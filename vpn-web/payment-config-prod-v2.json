@@ -329,7 +329,7 @@
       "paymentMethods": [
         {
           "order": 1,
-          "method": "sbp",
+          "method": "pay2me",
           "active": true,
           "minActivationAmount": 0,
           "withMessage": null,
