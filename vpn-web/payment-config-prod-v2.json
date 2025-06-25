@@ -8,7 +8,7 @@
       },
       "paymentMethods": [
         {
-          "order": 1,
+          "order": 2,
           "method": "sbp",
           "active": true,
           "minActivationAmount": 0,
@@ -18,7 +18,7 @@
           "useRandomIndex": 1
         },
         {
-          "order": 2,
+          "order": 1,
           "method": "card",
           "active": true,
           "minActivationAmount": 0,
@@ -55,7 +55,7 @@
       },
       "paymentMethods": [
         {
-          "order": 1,
+          "order": 2,
           "method": "oktet",
           "active": true,
           "minActivationAmount": 0,
@@ -64,7 +64,7 @@
           "buttonLabel": "Оплата через СБП"
         },
         {
-          "order": 2,
+          "order": 1,
           "method": "card",
           "active": false,
           "minActivationAmount": 0,
@@ -100,7 +100,7 @@
       },
       "paymentMethods": [
         {
-          "order": 1,
+          "order": 2,
           "method": "moneta",
           "active": true,
           "minActivationAmount": 0,
@@ -109,7 +109,7 @@
           "buttonLabel": "Оплата через СБП"
         },
         {
-          "order": 2,
+          "order": 1,
           "method": "yookassa",
           "active": true,
           "minActivationAmount": 0,
@@ -145,7 +145,7 @@
       },
       "paymentMethods": [
         {
-          "order": 1,
+          "order": 2,
           "method": "pay2me",
           "active": true,
           "minActivationAmount": 0,
@@ -154,7 +154,7 @@
           "buttonLabel": "Оплата через СБП"
         },
         {
-          "order": 2,
+          "order": 1,
           "method": "card",
           "active": true,
           "minActivationAmount": 0,
@@ -299,7 +299,7 @@
       },
       "paymentMethods": [
         {
-          "order": 1,
+          "order": 2,
           "method": "sbp",
           "active": true,
           "minActivationAmount": 0,
@@ -309,7 +309,7 @@
           "useRandomIndex": 1
         },
         {
-          "order": 2,
+          "order": 1,
           "method": "card",
           "active": true,
           "minActivationAmount": 0,
@@ -328,7 +328,7 @@
       },
       "paymentMethods": [
         {
-          "order": 1,
+          "order": 2,
           "method": "pay2me",
           "active": true,
           "minActivationAmount": 0,
@@ -337,7 +337,7 @@
           "buttonLabel": "Оплата через СБП"
         },
         {
-          "order": 2,
+          "order": 1,
           "method": "card",
           "active": false,
           "minActivationAmount": 0,
