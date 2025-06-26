@@ -2,3 +2,8 @@ local.storage.googleapis.com {
     reverse_proxy 127.0.0.1:3000
     tls internal
 }
+
+local.storage.yandexcloud.net {
+    reverse_proxy 127.0.0.1:3000
+    tls internal
+}
