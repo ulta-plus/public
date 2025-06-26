@@ -140,7 +140,7 @@
     "nrz.monster": {
       "fields": {
         "period": true,
-        "autoRenewal": false,
+        "autoRenewal": true,
         "promocode": true
       },
       "paymentMethods": [
