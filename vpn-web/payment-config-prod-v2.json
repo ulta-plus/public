@@ -339,7 +339,7 @@
         {
           "order": 1,
           "method": "card",
-          "active": false,
+          "active": true,
           "minActivationAmount": 0,
           "withMessage": null,
           "type": "card",
