@@ -1,6 +1,6 @@
 {
   "apiBaseUrl": "test.uubb.website",
-  "cookieDomain": "cukubst.top",
+  "cookieDomain": "test.uubb.website",
   "currentVersion": "7.9.6",
   "requiredVersion": "7.0.0",
   "supportedBrowsers": ["chrome", "edge-chromium", "yandexbrowser", "opera"],
