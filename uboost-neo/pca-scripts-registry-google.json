@@ -1,6 +1,6 @@
 {
-  "free": "https://storage.googleapis.com/uboost-neo/free-pac-script.json",
-  "premium": "https://storage.googleapis.com/uboost-neo/premium-pac-script.json",
-  "freeLite": "https://storage.googleapis.com/uboost-neo/free-lite-pac-script.json",
-  "premiumLite": "https://storage.googleapis.com/uboost-neo/premium-lite-pac-script.json"
+  "free": "https://staticfiles.uubb.website/pacs/free-pac-script.json",
+  "premium": "https://staticfiles.uubb.website/pacs/premium-pac-script.json",
+  "freeLite": "https://staticfiles.uubb.website/pacs/free-lite-pac-script.json",
+  "premiumLite": "https://staticfiles.uubb.website/pacs/premium-lite-pac-script.json"
 }
