@@ -375,37 +375,68 @@
       ]
     }
   },
-  "ulta": {
-    "default": {
-      "fields": {
-        "period": false,
-        "autoRenewal": false,
-        "promocode": false
-      },
-      "paymentMethods": [
-        {
-          "order": 1,
-          "method": "sbp",
-          "active": true,
-          "minActivationAmount": 0,
-          "withMessage": null,
-          "type": "sbp",
-          "buttonLabel": "Оплатить через СБП",
-          "useRandomIndex": 1
+     "ulta": {
+        "default": {
+            "fields": {
+                "period": false,
+                "autoRenewal": false,
+                "promocode": false
+            },
+            "paymentMethods": [
+                {
+                    "order": 1,
+                    "method": "sbp",
+                    "active": true,
+                    "minActivationAmount": 0,
+                    "withMessage": null,
+                    "type": "sbp",
+                    "buttonLabel": "Оплатить через СБП",
+                    "useRandomIndex": 1
+                },
+                {
+                    "order": 2,
+                    "method": "card",
+                    "active": true,
+                    "minActivationAmount": 0,
+                    "withMessage": null,
+                    "type": "card",
+                    "buttonLabel": "Оплатить картой РФ",
+                    "useRandomIndex": 1
+                }
+            ]
         },
-        {
-          "order": 2,
-          "method": "card",
-          "active": true,
-          "minActivationAmount": 0,
-          "withMessage": null,
-          "type": "card",
-          "buttonLabel": "Оплатить картой РФ",
-          "useRandomIndex": 1
+        "ulta.ink": {
+            "default": {
+                "fields": {
+                    "period": false,
+                    "autoRenewal": true,
+                    "promocode": false
+                },
+                "paymentMethods": [
+                    {
+                        "order": 1,
+                        "method": "sbp",
+                        "active": true,
+                        "minActivationAmount": 0,
+                        "withMessage": null,
+                        "type": "sbp",
+                        "buttonLabel": "Оплатить через СБП",
+                        "useRandomIndex": 1
+                    },
+                    {
+                        "order": 2,
+                        "method": "card",
+                        "active": true,
+                        "minActivationAmount": 0,
+                        "withMessage": null,
+                        "type": "card",
+                        "buttonLabel": "Оплатить картой РФ",
+                        "useRandomIndex": 1
+                    }
+                ]
+            }
         }
-      ]
-    }
-  },
+    },
   "sotka": {
     "default": {
       "fields": {
