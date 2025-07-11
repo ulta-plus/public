@@ -435,8 +435,39 @@
                     }
                 ]
             }
+        },
+        "ulta.am": {
+            "default": {
+                "fields": {
+                    "period": false,
+                    "autoRenewal": false,
+                    "promocode": false
+                },
+                "paymentMethods": [
+                    {
+                        "order": 2,
+                        "method": "sbp",
+                        "active": false,
+                        "minActivationAmount": 0,
+                        "withMessage": null,
+                        "type": "sbp",
+                        "buttonLabel": "Оплатить через СБП",
+                        "useRandomIndex": 1
+                    },
+                    {
+                        "order": 1,
+                        "method": "card",
+                        "active": true,
+                        "minActivationAmount": 0,
+                        "withMessage": null,
+                        "type": "card",
+                        "buttonLabel": "Оплатить картой РФ",
+                        "useRandomIndex": 1
+                    }
+                ]
+            }
         }
-    },
+  },
   "sotka": {
     "default": {
       "fields": {
