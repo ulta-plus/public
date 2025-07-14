@@ -299,7 +299,7 @@
       },
       "paymentMethods": [
         {
-          "order": 1,
+          "order": 2,
           "method": "sbp",
           "active": true,
           "minActivationAmount": 0,
@@ -309,7 +309,7 @@
           "useRandomIndex": 1
         },
         {
-          "order": 2,
+          "order": 1,
           "method": "card",
           "active": true,
           "minActivationAmount": 0,
