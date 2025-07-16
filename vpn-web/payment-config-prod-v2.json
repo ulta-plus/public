@@ -444,7 +444,7 @@
         {
           "order": 2,
           "method": "sbp",
-          "active": true,
+          "active": false,
           "minActivationAmount": 0,
           "withMessage": null,
           "type": "sbp",
