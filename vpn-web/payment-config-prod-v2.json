@@ -3,7 +3,7 @@
     "default": {
       "fields": {
         "period": true,
-        "autoRenewal": false,
+        "autoRenewal": true,
         "promocode": true
       },
       "paymentMethods": [
@@ -50,7 +50,7 @@
     "naruzhu.am": {
       "fields": {
         "period": true,
-        "autoRenewal": false,
+        "autoRenewal": true,
         "promocode": true
       },
       "paymentMethods": [
@@ -95,7 +95,7 @@
     "vepen.click": {
       "fields": {
         "period": true,
-        "autoRenewal": false,
+        "autoRenewal": true,
         "promocode": true
       },
       "paymentMethods": [
@@ -140,7 +140,7 @@
     "nrz.monster": {
       "fields": {
         "period": true,
-        "autoRenewal": false,
+        "autoRenewal": true,
         "promocode": true
       },
       "paymentMethods": [
