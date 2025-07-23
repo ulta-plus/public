@@ -443,8 +443,8 @@
       "paymentMethods": [
         {
           "order": 2,
-          "method": "sbp",
-          "active": false,
+          "method": "pay2me",
+          "active": true,
           "minActivationAmount": 0,
           "withMessage": null,
           "type": "sbp",
