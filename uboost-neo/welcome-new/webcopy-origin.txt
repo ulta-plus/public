@@ -1,0 +1,320 @@
+Uri: https://events.framer.com/script?v=2
+File Name: C:\Downloaded Web Sites\uboost-static-test.framer.website\script
+Content Type: text/javascript
+
+Uri: https://framerusercontent.com/assets/05KsVHGDmqXSBXM4yRZ65P8i0s.woff2
+File Name: C:\Downloaded Web Sites\uboost-static-test.framer.website\assets\05KsVHGDmqXSBXM4yRZ65P8i0s.woff2
+Content Type: font/woff2
+
+Uri: https://framerusercontent.com/assets/1K3W8DizY3v4emK8Mb08YHxTbs.woff2
+File Name: C:\Downloaded Web Sites\uboost-static-test.framer.website\assets\1K3W8DizY3v4emK8Mb08YHxTbs.woff2
+Content Type: font/woff2
+
+Uri: https://framerusercontent.com/assets/1ZFS7N918ojhhd0nQWdj3jz4w.woff2
+File Name: C:\Downloaded Web Sites\uboost-static-test.framer.website\assets\1ZFS7N918ojhhd0nQWdj3jz4w.woff2
+Content Type: font/woff2
+
+Uri: https://framerusercontent.com/assets/2A4Xx7CngadFGlVV4xrO06OBHY.woff2
+File Name: C:\Downloaded Web Sites\uboost-static-test.framer.website\assets\2A4Xx7CngadFGlVV4xrO06OBHY.woff2
+Content Type: font/woff2
+
+Uri: https://framerusercontent.com/assets/3ZmXbBKToJifDV9gwcifVd1tEY.woff2
+File Name: C:\Downloaded Web Sites\uboost-static-test.framer.website\assets\3ZmXbBKToJifDV9gwcifVd1tEY.woff2
+Content Type: font/woff2
+
+Uri: https://framerusercontent.com/assets/43sJ6MfOPh1LCJt46OvyDuSbA6o.woff2
+File Name: C:\Downloaded Web Sites\uboost-static-test.framer.website\assets\43sJ6MfOPh1LCJt46OvyDuSbA6o.woff2
+Content Type: font/woff2
+
+Uri: https://framerusercontent.com/assets/4RAEQdEOrcnDkhHiiCbJOw92Lk.woff2
+File Name: C:\Downloaded Web Sites\uboost-static-test.framer.website\assets\4RAEQdEOrcnDkhHiiCbJOw92Lk.woff2
+Content Type: font/woff2
+
+Uri: https://framerusercontent.com/assets/5A3Ce6C9YYmCjpQx9M4inSaKU.woff2
+File Name: C:\Downloaded Web Sites\uboost-static-test.framer.website\assets\5A3Ce6C9YYmCjpQx9M4inSaKU.woff2
+Content Type: font/woff2
+
+Uri: https://framerusercontent.com/assets/5HcVoGak8k5agFJSaKa4floXVu0.woff2
+File Name: C:\Downloaded Web Sites\uboost-static-test.framer.website\assets\5HcVoGak8k5agFJSaKa4floXVu0.woff2
+Content Type: font/woff2
+
+Uri: https://framerusercontent.com/assets/5vvr9Vy74if2I6bQbJvbw7SY1pQ.woff2
+File Name: C:\Downloaded Web Sites\uboost-static-test.framer.website\assets\5vvr9Vy74if2I6bQbJvbw7SY1pQ.woff2
+Content Type: font/woff2
+
+Uri: https://framerusercontent.com/assets/6mJuEAguuIuMog10gGvH5d3cl8.woff2
+File Name: C:\Downloaded Web Sites\uboost-static-test.framer.website\assets\6mJuEAguuIuMog10gGvH5d3cl8.woff2
+Content Type: font/woff2
+
+Uri: https://framerusercontent.com/assets/867QObYax8ANsfX4TGEVU9YiCM.woff2
+File Name: C:\Downloaded Web Sites\uboost-static-test.framer.website\assets\867QObYax8ANsfX4TGEVU9YiCM.woff2
+Content Type: font/woff2
+
+Uri: https://framerusercontent.com/assets/996sR9SfSDuYELz8oHhDOcErkY.woff2
+File Name: C:\Downloaded Web Sites\uboost-static-test.framer.website\assets\996sR9SfSDuYELz8oHhDOcErkY.woff2
+Content Type: font/woff2
+
+Uri: https://framerusercontent.com/assets/A0Wcc7NgXMjUuFdquHDrIZpzZw0.woff2
+File Name: C:\Downloaded Web Sites\uboost-static-test.framer.website\assets\A0Wcc7NgXMjUuFdquHDrIZpzZw0.woff2
+Content Type: font/woff2
+
+Uri: https://framerusercontent.com/assets/abWRgLNPavHcSg3UnNgYoG4NVy0.mp4
+File Name: C:\Downloaded Web Sites\uboost-static-test.framer.website\assets\abWRgLNPavHcSg3UnNgYoG4NVy0.mp4
+Content Type: video/mp4
+
+Uri: https://framerusercontent.com/assets/b6Y37FthZeALduNqHicBT6FutY.woff2
+File Name: C:\Downloaded Web Sites\uboost-static-test.framer.website\assets\b6Y37FthZeALduNqHicBT6FutY.woff2
+Content Type: font/woff2
+
+Uri: https://framerusercontent.com/assets/cdAe8hgZ1cMyLu9g005pAW3xMo.woff2
+File Name: C:\Downloaded Web Sites\uboost-static-test.framer.website\assets\cdAe8hgZ1cMyLu9g005pAW3xMo.woff2
+Content Type: font/woff2
+
+Uri: https://framerusercontent.com/assets/CfMzU8w2e7tHgF4T4rATMPuWosA.woff2
+File Name: C:\Downloaded Web Sites\uboost-static-test.framer.website\assets\CfMzU8w2e7tHgF4T4rATMPuWosA.woff2
+Content Type: font/woff2
+
+Uri: https://framerusercontent.com/assets/cRJyLNuTJR5jbyKzGi33wU9cqIQ.woff2
+File Name: C:\Downloaded Web Sites\uboost-static-test.framer.website\assets\cRJyLNuTJR5jbyKzGi33wU9cqIQ.woff2
+Content Type: font/woff2
+
+Uri: https://framerusercontent.com/assets/cugnVhSraaRyANCaUtI5FV17wk.woff2
+File Name: C:\Downloaded Web Sites\uboost-static-test.framer.website\assets\cugnVhSraaRyANCaUtI5FV17wk.woff2
+Content Type: font/woff2
+
+Uri: https://framerusercontent.com/assets/CwGuPtUgnDCyFyNPA1HbL32x7A.mp4
+File Name: C:\Downloaded Web Sites\uboost-static-test.framer.website\assets\CwGuPtUgnDCyFyNPA1HbL32x7A.mp4
+Content Type: video/mp4
+
+Uri: https://framerusercontent.com/assets/d3tHnaQIAeqiE5hGcRw4mmgWYU.woff2
+File Name: C:\Downloaded Web Sites\uboost-static-test.framer.website\assets\d3tHnaQIAeqiE5hGcRw4mmgWYU.woff2
+Content Type: font/woff2
+
+Uri: https://framerusercontent.com/assets/DOfvtmE1UplCq161m6Hj8CSQYg.woff2
+File Name: C:\Downloaded Web Sites\uboost-static-test.framer.website\assets\DOfvtmE1UplCq161m6Hj8CSQYg.woff2
+Content Type: font/woff2
+
+Uri: https://framerusercontent.com/assets/DolVirEGb34pEXEp8t8FQBSK4.woff2
+File Name: C:\Downloaded Web Sites\uboost-static-test.framer.website\assets\DolVirEGb34pEXEp8t8FQBSK4.woff2
+Content Type: font/woff2
+
+Uri: https://framerusercontent.com/assets/DpPBYI0sL4fYLgAkX8KXOPVt7c.woff2
+File Name: C:\Downloaded Web Sites\uboost-static-test.framer.website\assets\DpPBYI0sL4fYLgAkX8KXOPVt7c.woff2
+Content Type: font/woff2
+
+Uri: https://framerusercontent.com/assets/DXD0Q7LSl7HEvDzucnyLnGBHM.woff2
+File Name: C:\Downloaded Web Sites\uboost-static-test.framer.website\assets\DXD0Q7LSl7HEvDzucnyLnGBHM.woff2
+Content Type: font/woff2
+
+Uri: https://framerusercontent.com/assets/efTfQcBJ53kM2pB1hezSZ3RDUFs.woff2
+File Name: C:\Downloaded Web Sites\uboost-static-test.framer.website\assets\efTfQcBJ53kM2pB1hezSZ3RDUFs.woff2
+Content Type: font/woff2
+
+Uri: https://framerusercontent.com/assets/EOr0mi4hNtlgWNn9if640EZzXCo.woff2
+File Name: C:\Downloaded Web Sites\uboost-static-test.framer.website\assets\EOr0mi4hNtlgWNn9if640EZzXCo.woff2
+Content Type: font/woff2
+
+Uri: https://framerusercontent.com/assets/FNfhX3dt4ChuLJq2PwdlxHO7PU.woff2
+File Name: C:\Downloaded Web Sites\uboost-static-test.framer.website\assets\FNfhX3dt4ChuLJq2PwdlxHO7PU.woff2
+Content Type: font/woff2
+
+Uri: https://framerusercontent.com/assets/ftN1HpyPVJEoEb4q36SOrNdLXU.woff2
+File Name: C:\Downloaded Web Sites\uboost-static-test.framer.website\assets\ftN1HpyPVJEoEb4q36SOrNdLXU.woff2
+Content Type: font/woff2
+
+Uri: https://framerusercontent.com/assets/g0c8vEViiXNlKAgI4Ymmk3Ig.woff2
+File Name: C:\Downloaded Web Sites\uboost-static-test.framer.website\assets\g0c8vEViiXNlKAgI4Ymmk3Ig.woff2
+Content Type: font/woff2
+
+Uri: https://framerusercontent.com/assets/GIryZETIX4IFypco5pYZONKhJIo.woff2
+File Name: C:\Downloaded Web Sites\uboost-static-test.framer.website\assets\GIryZETIX4IFypco5pYZONKhJIo.woff2
+Content Type: font/woff2
+
+Uri: https://framerusercontent.com/assets/gQhNpS3tN86g8RcVKYUUaKt2oMQ.woff2
+File Name: C:\Downloaded Web Sites\uboost-static-test.framer.website\assets\gQhNpS3tN86g8RcVKYUUaKt2oMQ.woff2
+Content Type: font/woff2
+
+Uri: https://framerusercontent.com/assets/H89BbHkbHDzlxZzxi8uPzTsp90.woff2
+File Name: C:\Downloaded Web Sites\uboost-static-test.framer.website\assets\H89BbHkbHDzlxZzxi8uPzTsp90.woff2
+Content Type: font/woff2
+
+Uri: https://framerusercontent.com/assets/hyOgCu0Xnghbimh0pE8QTvtt2AU.woff2
+File Name: C:\Downloaded Web Sites\uboost-static-test.framer.website\assets\hyOgCu0Xnghbimh0pE8QTvtt2AU.woff2
+Content Type: font/woff2
+
+Uri: https://framerusercontent.com/assets/JAur4lGGSGRGyrFi59JSIKqVgU.woff2
+File Name: C:\Downloaded Web Sites\uboost-static-test.framer.website\assets\JAur4lGGSGRGyrFi59JSIKqVgU.woff2
+Content Type: font/woff2
+
+Uri: https://framerusercontent.com/assets/JeYwfuaPfZHQhEG8U5gtPDZ7WQ.woff2
+File Name: C:\Downloaded Web Sites\uboost-static-test.framer.website\assets\JeYwfuaPfZHQhEG8U5gtPDZ7WQ.woff2
+Content Type: font/woff2
+
+Uri: https://framerusercontent.com/assets/jN39PDxZWEwjG7Csryx3JN2r2Y.woff2
+File Name: C:\Downloaded Web Sites\uboost-static-test.framer.website\assets\jN39PDxZWEwjG7Csryx3JN2r2Y.woff2
+Content Type: font/woff2
+
+Uri: https://framerusercontent.com/assets/jn4BtSPLlS0NDp1KiFAtFKiiY0o.woff2
+File Name: C:\Downloaded Web Sites\uboost-static-test.framer.website\assets\jn4BtSPLlS0NDp1KiFAtFKiiY0o.woff2
+Content Type: font/woff2
+
+Uri: https://framerusercontent.com/assets/ky8ovPukK4dJ1Pxq74qGhOqCYI.woff2
+File Name: C:\Downloaded Web Sites\uboost-static-test.framer.website\assets\ky8ovPukK4dJ1Pxq74qGhOqCYI.woff2
+Content Type: font/woff2
+
+Uri: https://framerusercontent.com/assets/lEJLP4R0yuCaMCjSXYHtJw72M.woff2
+File Name: C:\Downloaded Web Sites\uboost-static-test.framer.website\assets\lEJLP4R0yuCaMCjSXYHtJw72M.woff2
+Content Type: font/woff2
+
+Uri: https://framerusercontent.com/assets/mkY5Sgyq51ik0AMrSBwhm9DJg.woff2
+File Name: C:\Downloaded Web Sites\uboost-static-test.framer.website\assets\mkY5Sgyq51ik0AMrSBwhm9DJg.woff2
+Content Type: font/woff2
+
+Uri: https://framerusercontent.com/assets/NeGmSOXrPBfEFIy5YZeHq17LEDA.woff2
+File Name: C:\Downloaded Web Sites\uboost-static-test.framer.website\assets\NeGmSOXrPBfEFIy5YZeHq17LEDA.woff2
+Content Type: font/woff2
+
+Uri: https://framerusercontent.com/assets/otTaNuNpVK4RbdlT7zDDdKvQBA.woff2
+File Name: C:\Downloaded Web Sites\uboost-static-test.framer.website\assets\otTaNuNpVK4RbdlT7zDDdKvQBA.woff2
+Content Type: font/woff2
+
+Uri: https://framerusercontent.com/assets/oYaAX5himiTPYuN8vLWnqBbfD2s.woff2
+File Name: C:\Downloaded Web Sites\uboost-static-test.framer.website\assets\oYaAX5himiTPYuN8vLWnqBbfD2s.woff2
+Content Type: font/woff2
+
+Uri: https://framerusercontent.com/assets/Oyn2ZbENFdnW7mt2Lzjk1h9Zb9k.woff2
+File Name: C:\Downloaded Web Sites\uboost-static-test.framer.website\assets\Oyn2ZbENFdnW7mt2Lzjk1h9Zb9k.woff2
+Content Type: font/woff2
+
+Uri: https://framerusercontent.com/assets/OYrD2tBIBPvoJXiIHnLoOXnY9M.woff2
+File Name: C:\Downloaded Web Sites\uboost-static-test.framer.website\assets\OYrD2tBIBPvoJXiIHnLoOXnY9M.woff2
+Content Type: font/woff2
+
+Uri: https://framerusercontent.com/assets/P2Bw01CtL0b9wqygO0sSVogWbo.woff2
+File Name: C:\Downloaded Web Sites\uboost-static-test.framer.website\assets\P2Bw01CtL0b9wqygO0sSVogWbo.woff2
+Content Type: font/woff2
+
+Uri: https://framerusercontent.com/assets/PONfPc6h4EPYwJliXQBmjVx7QxI.woff2
+File Name: C:\Downloaded Web Sites\uboost-static-test.framer.website\assets\PONfPc6h4EPYwJliXQBmjVx7QxI.woff2
+Content Type: font/woff2
+
+Uri: https://framerusercontent.com/assets/Qx95Xyt0Ka3SGhinnbXIGpEIyP4.woff2
+File Name: C:\Downloaded Web Sites\uboost-static-test.framer.website\assets\Qx95Xyt0Ka3SGhinnbXIGpEIyP4.woff2
+Content Type: font/woff2
+
+Uri: https://framerusercontent.com/assets/QxmhnWTzLtyjIiZcfaLIJ8EFBXU.woff2
+File Name: C:\Downloaded Web Sites\uboost-static-test.framer.website\assets\QxmhnWTzLtyjIiZcfaLIJ8EFBXU.woff2
+Content Type: font/woff2
+
+Uri: https://framerusercontent.com/assets/tKtBcDnBMevsEEJKdNGhhkLzYo.woff2
+File Name: C:\Downloaded Web Sites\uboost-static-test.framer.website\assets\tKtBcDnBMevsEEJKdNGhhkLzYo.woff2
+Content Type: font/woff2
+
+Uri: https://framerusercontent.com/assets/tUSCtfYVM1I1IchuyCwz9gDdQ.woff2
+File Name: C:\Downloaded Web Sites\uboost-static-test.framer.website\assets\tUSCtfYVM1I1IchuyCwz9gDdQ.woff2
+Content Type: font/woff2
+
+Uri: https://framerusercontent.com/assets/u6gJwDuwB143kpNK1T1MDKDWkMc.woff2
+File Name: C:\Downloaded Web Sites\uboost-static-test.framer.website\assets\u6gJwDuwB143kpNK1T1MDKDWkMc.woff2
+Content Type: font/woff2
+
+Uri: https://framerusercontent.com/assets/UrzZBOy7RyJEWAZGduzOeHiHuY.woff2
+File Name: C:\Downloaded Web Sites\uboost-static-test.framer.website\assets\UrzZBOy7RyJEWAZGduzOeHiHuY.woff2
+Content Type: font/woff2
+
+Uri: https://framerusercontent.com/assets/vFzuJY0c65av44uhEKB6vyjFMg.woff2
+File Name: C:\Downloaded Web Sites\uboost-static-test.framer.website\assets\vFzuJY0c65av44uhEKB6vyjFMg.woff2
+Content Type: font/woff2
+
+Uri: https://framerusercontent.com/assets/VgYFWiwsAC5OYxAycRXXvhze58.woff2
+File Name: C:\Downloaded Web Sites\uboost-static-test.framer.website\assets\VgYFWiwsAC5OYxAycRXXvhze58.woff2
+Content Type: font/woff2
+
+Uri: https://framerusercontent.com/assets/vQyevYAyHtARFwPqUzQGpnDs.woff2
+File Name: C:\Downloaded Web Sites\uboost-static-test.framer.website\assets\vQyevYAyHtARFwPqUzQGpnDs.woff2
+Content Type: font/woff2
+
+Uri: https://framerusercontent.com/assets/vvNSqIj42qeQ2bvCRBIWKHscrc.woff2
+File Name: C:\Downloaded Web Sites\uboost-static-test.framer.website\assets\vvNSqIj42qeQ2bvCRBIWKHscrc.woff2
+Content Type: font/woff2
+
+Uri: https://framerusercontent.com/assets/wccHG0r4gBDAIRhfHiOlq6oEkqw.woff2
+File Name: C:\Downloaded Web Sites\uboost-static-test.framer.website\assets\wccHG0r4gBDAIRhfHiOlq6oEkqw.woff2
+Content Type: font/woff2
+
+Uri: https://framerusercontent.com/assets/WZ367JPwf9bRW6LdTHN8rXgSjw.woff2
+File Name: C:\Downloaded Web Sites\uboost-static-test.framer.website\assets\WZ367JPwf9bRW6LdTHN8rXgSjw.woff2
+Content Type: font/woff2
+
+Uri: https://framerusercontent.com/assets/X5hj6qzcHUYv7h1390c8Rhm6550.woff2
+File Name: C:\Downloaded Web Sites\uboost-static-test.framer.website\assets\X5hj6qzcHUYv7h1390c8Rhm6550.woff2
+Content Type: font/woff2
+
+Uri: https://framerusercontent.com/assets/xYYWaj7wCU5zSQH0eXvSaS19wo.woff2
+File Name: C:\Downloaded Web Sites\uboost-static-test.framer.website\assets\xYYWaj7wCU5zSQH0eXvSaS19wo.woff2
+Content Type: font/woff2
+
+Uri: https://framerusercontent.com/assets/Y9k9QrlZAqio88Klkmbd8VoMQc.woff2
+File Name: C:\Downloaded Web Sites\uboost-static-test.framer.website\assets\Y9k9QrlZAqio88Klkmbd8VoMQc.woff2
+Content Type: font/woff2
+
+Uri: https://framerusercontent.com/assets/zsnJN7Z1wdzUvepJniD3rbvJIyU.woff2
+File Name: C:\Downloaded Web Sites\uboost-static-test.framer.website\assets\zsnJN7Z1wdzUvepJniD3rbvJIyU.woff2
+Content Type: font/woff2
+
+Uri: https://framerusercontent.com/images/ERGmsZCgedPF7oAJFU8X4iD2sds.png
+File Name: C:\Downloaded Web Sites\uboost-static-test.framer.website\images\ERGmsZCgedPF7oAJFU8X4iD2sds.png
+Content Type: image/png
+
+Uri: https://framerusercontent.com/sites/5TraU5FEW8VAyM5MEBRJUF/chunk-34UU6KYN.mjs
+File Name: C:\Downloaded Web Sites\uboost-static-test.framer.website\sites\5TraU5FEW8VAyM5MEBRJUF\chunk-34UU6KYN.mjs
+Content Type: text/javascript
+
+Uri: https://framerusercontent.com/sites/5TraU5FEW8VAyM5MEBRJUF/chunk-42U43NKG.mjs
+File Name: C:\Downloaded Web Sites\uboost-static-test.framer.website\sites\5TraU5FEW8VAyM5MEBRJUF\chunk-42U43NKG.mjs
+Content Type: text/javascript
+
+Uri: https://framerusercontent.com/sites/5TraU5FEW8VAyM5MEBRJUF/chunk-A3IIQ6X3.mjs
+File Name: C:\Downloaded Web Sites\uboost-static-test.framer.website\sites\5TraU5FEW8VAyM5MEBRJUF\chunk-A3IIQ6X3.mjs
+Content Type: text/javascript
+
+Uri: https://framerusercontent.com/sites/5TraU5FEW8VAyM5MEBRJUF/chunk-DD7GMBBJ.mjs
+File Name: C:\Downloaded Web Sites\uboost-static-test.framer.website\sites\5TraU5FEW8VAyM5MEBRJUF\chunk-DD7GMBBJ.mjs
+Content Type: text/javascript
+
+Uri: https://framerusercontent.com/sites/5TraU5FEW8VAyM5MEBRJUF/chunk-HZL4YIMB.mjs
+File Name: C:\Downloaded Web Sites\uboost-static-test.framer.website\sites\5TraU5FEW8VAyM5MEBRJUF\chunk-HZL4YIMB.mjs
+Content Type: text/javascript
+
+Uri: https://framerusercontent.com/sites/5TraU5FEW8VAyM5MEBRJUF/chunk-KAQHY6Z3.mjs
+File Name: C:\Downloaded Web Sites\uboost-static-test.framer.website\sites\5TraU5FEW8VAyM5MEBRJUF\chunk-KAQHY6Z3.mjs
+Content Type: text/javascript
+
+Uri: https://framerusercontent.com/sites/5TraU5FEW8VAyM5MEBRJUF/chunk-NCZZZOZN.mjs
+File Name: C:\Downloaded Web Sites\uboost-static-test.framer.website\sites\5TraU5FEW8VAyM5MEBRJUF\chunk-NCZZZOZN.mjs
+Content Type: text/javascript
+
+Uri: https://framerusercontent.com/sites/5TraU5FEW8VAyM5MEBRJUF/chunk-QEJYX3AO.mjs
+File Name: C:\Downloaded Web Sites\uboost-static-test.framer.website\sites\5TraU5FEW8VAyM5MEBRJUF\chunk-QEJYX3AO.mjs
+Content Type: text/javascript
+
+Uri: https://framerusercontent.com/sites/5TraU5FEW8VAyM5MEBRJUF/chunk-YE5245IM.mjs
+File Name: C:\Downloaded Web Sites\uboost-static-test.framer.website\sites\5TraU5FEW8VAyM5MEBRJUF\chunk-YE5245IM.mjs
+Content Type: text/javascript
+
+Uri: https://framerusercontent.com/sites/5TraU5FEW8VAyM5MEBRJUF/chunk-YUBXO2Y4.mjs
+File Name: C:\Downloaded Web Sites\uboost-static-test.framer.website\sites\5TraU5FEW8VAyM5MEBRJUF\chunk-YUBXO2Y4.mjs
+Content Type: text/javascript
+
+Uri: https://framerusercontent.com/sites/5TraU5FEW8VAyM5MEBRJUF/ia8Zyatt3DkvTJ84jaM9FQTvsDKx27JXGzkMdi6B2h4.5SVADDAE.mjs
+File Name: C:\Downloaded Web Sites\uboost-static-test.framer.website\sites\5TraU5FEW8VAyM5MEBRJUF\ia8Zyatt3DkvTJ84jaM9FQTvsDKx27JXGzkMdi6B2h4.5SVADDAE.mjs
+Content Type: text/javascript
+
+Uri: https://framerusercontent.com/sites/5TraU5FEW8VAyM5MEBRJUF/script_main.WB6SQGGG.mjs
+File Name: C:\Downloaded Web Sites\uboost-static-test.framer.website\sites\5TraU5FEW8VAyM5MEBRJUF\script_main.WB6SQGGG.mjs
+Content Type: text/javascript
+
+Uri: https://uboost-static-test.framer.website/welcome
+File Name: C:\Downloaded Web Sites\uboost-static-test.framer.website\welcome.html
+Content Type: text/html
+
