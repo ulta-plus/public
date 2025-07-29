@@ -16,4 +16,6 @@
   "publicOfferUrl": "https://uboo.st/oferta",
   "adfoxBannerUrl": "https://cukubst.top/ad.html",
   "availableAlarmTries": 100
+  "giftAdvertisingAvailableDates": ["2025-07-30", "2025-08-08"],
+  "giftAdvertisingPeriodInMinutes": 10
 }
