@@ -1,7 +1,7 @@
 {
   "apiBaseUrl": "uubb.website",
   "cookieDomain": "cukubst.top",
-  "currentVersion": "7.10.2",
+  "currentVersion": "7.13.16",
   "requiredVersion": "7.0.0",
   "supportedBrowsers": [
     "chrome",
@@ -15,7 +15,7 @@
   "showOnUpdateVersion": "7.0.0",
   "shouldUpdatePACVersion": "7.0.0",
   "availableBannersData": "",
-  "advMinVersion": "7.13.13",
+  "advMinVersion": "7.13.16",
   "androidAppUrl": "https://uboost.download/",
   "availablePaymentMethods": [
     "sbp",
