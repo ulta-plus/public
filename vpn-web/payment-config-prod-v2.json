@@ -146,7 +146,7 @@
       "paymentMethods": [
         {
           "order": 2,
-          "method": "pay2me",
+          "method": "sbp",
           "active": true,
           "minActivationAmount": 0,
           "withMessage": null,
@@ -329,7 +329,7 @@
       "paymentMethods": [
         {
           "order": 1,
-          "method": "pay2me",
+          "method": "sbp",
           "active": true,
           "minActivationAmount": 0,
           "withMessage": null,
@@ -443,7 +443,7 @@
       "paymentMethods": [
         {
           "order": 2,
-          "method": "pay2me",
+          "method": "sbp",
           "active": true,
           "minActivationAmount": 0,
           "withMessage": null,
