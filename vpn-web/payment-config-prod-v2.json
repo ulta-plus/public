@@ -323,7 +323,7 @@
     "uboost.am": {
       "fields": {
         "period": true,
-        "autoRenewal": false,
+        "autoRenewal": true,
         "promocode": false
       },
       "paymentMethods": [
