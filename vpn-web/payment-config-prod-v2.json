@@ -294,7 +294,7 @@
     "default": {
       "fields": {
         "period": true,
-        "autoRenewal": false,
+        "autoRenewal": true,
         "promocode": false
       },
       "paymentMethods": [
@@ -350,7 +350,7 @@
     "youboost.click": {
       "fields": {
         "period": true,
-        "autoRenewal": false,
+        "autoRenewal": true,
         "promocode": false
       },
       "paymentMethods": [
