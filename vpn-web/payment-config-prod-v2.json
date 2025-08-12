@@ -347,6 +347,34 @@
         }
       ]
     },
+"ubstv.click": {
+      "fields": {
+        "period": true,
+        "autoRenewal": true,
+        "promocode": false
+      },
+      "paymentMethods": [
+        {
+          "order": 1,
+          "method": "sbp",
+          "active": true,
+          "minActivationAmount": 0,
+          "withMessage": null,
+          "type": "sbp",
+          "buttonLabel": "Оплатить через СБП",
+          "useRandomIndex": 1
+        },
+        {
+          "order": 2,
+          "method": "cardlink",
+          "active": true,
+          "minActivationAmount": 0,
+          "withMessage": null,
+          "type": "card",
+          "buttonLabel": "Оплата картой РФ"
+        }
+      ]
+    },
     "youboost.click": {
       "fields": {
         "period": true,
