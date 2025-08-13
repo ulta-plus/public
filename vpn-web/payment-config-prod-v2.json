@@ -379,7 +379,7 @@
       "fields": {
         "period": true,
         "autoRenewal": true,
-        "promocode": false
+        "promocode": true
       },
       "paymentMethods": [
         {
