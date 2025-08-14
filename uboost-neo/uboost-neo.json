@@ -30,5 +30,10 @@
   ],
   "giftAdvertisingPeriodInMinutes": 1440,
   "checkProxyAvailabilityProxyUrl": "https://uboost.space",
-  "checkProxyAvailabilityPublicUrl": "https://ubst.space"
+  "checkProxyAvailabilityPublicUrl": "https://ubst.space",
+  "subscriptionExpiringAlerts": {
+    "firstTimingInMinutes": 60,
+    "secondTimingInMinutes": 15,
+    "delayedTimingInMinutes": 1440
+  }
 }
