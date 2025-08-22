@@ -350,7 +350,7 @@
 "ubstv.click": {
       "fields": {
         "period": true,
-        "autoRenewal": true,
+        "autoRenewal": false,
         "promocode": false
       },
       "paymentMethods": [
