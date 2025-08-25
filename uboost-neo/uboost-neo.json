@@ -2,7 +2,7 @@
   "apiBaseUrl": "uubb.website",
   "cookieDomain": "cukubst.top",
   "currentVersion": "7.14.2",
-  "requiredVersion": "7.0.0",
+  "requiredVersion": "7.14.2",
   "supportedBrowsers": [
     "chrome",
     "edge-chromium",
