@@ -35,5 +35,6 @@
     "firstTimingInMinutes": 60,
     "secondTimingInMinutes": 15,
     "delayedTimingInMinutes": 1440
-  }
+  },
+  "test_key": "test_key"
 }
