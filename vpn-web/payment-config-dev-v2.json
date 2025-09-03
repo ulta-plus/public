@@ -317,6 +317,15 @@
           "buttonLabel": "Оплата картой / ЮMoney / SberPay",
           "type": "card",
           "useRandomIndex": 1
+        },
+        {
+          "order": 3,
+          "method": "crypto",
+          "active": true,
+          "minActivationAmount": 0,
+          "withMessage": null,
+          "type": "crypto",
+          "buttonLabel": "Оплатить криптовалютой"
         }
       ]
     },
