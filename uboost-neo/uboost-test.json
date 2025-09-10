@@ -36,5 +36,6 @@
     "firstTimingInMinutes": 10,
     "secondTimingInMinutes": 5,
     "delayedTimingInMinutes": 5
-  }
+  },
+  "showAdPremiumBannerPeriodInMinutes": 5
 }
