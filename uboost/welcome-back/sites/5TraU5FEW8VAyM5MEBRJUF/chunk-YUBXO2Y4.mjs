@@ -1,2 +1,0 @@
-function t(a,e){return{description:"\u042E\u0411\u0443\u0441\u0442 - \u043E\u0442\u043A\u0440\u043E\u0439\u0442\u0435 \u0432\u0435\u0441\u044C \u0438\u043D\u0442\u0435\u0440\u043D\u0435\u0442 \u0432\u043C\u0435\u0441\u0442\u0435 \u0441 \u042E\u0411\u0443\u0441\u0442 Premium!",favicon:"https://framerusercontent.com/assets/ERGmsZCgedPF7oAJFU8X4iD2sds.png",robots:"max-image-preview:large",socialImage:"https://framerusercontent.com/assets/W1UwVt0uywFBTRrtTnQs6vnPWA.png",title:"\u042E\u0411\u0443\u0441\u0442"}}export{t as a};
-//# sourceMappingURL=chunk-YUBXO2Y4.mjs.map
