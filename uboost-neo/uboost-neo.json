@@ -39,5 +39,6 @@
   },
   "test_key": "test_key",
   "showAdPremiumBannerPeriodInMinutes": 30,
-  "sidebarAdsUrl": "https://uubb.website/static/sidebar.html"
+  "sidebarAdsUrl": "https://uubb.website/static/sidebar.html",
+  "sidebarAdsVideoUrl": "https://cukubst.top/sidebar-video.html"
 }
