@@ -23,9 +23,8 @@
     "card"
   ],
   "publicOfferUrl": "https://uboo.st/oferta",
-  "adfoxBannerUrl": "https://cukubst.top/ad.html",
-  "adfoxBannerUrlSecondary": "https://cukubst.top/watch_ad.html",
-  "preRollUrl": "https://uubb.website/static/pre-roll.html",
+  "adfoxBannerUrl": "https://uubb.website/static/ad.html",
+  "adfoxBannerUrlSecondary": "https://uubb.website/static/watch_ad.html",
   "availableAlarmTries": 100,
   "giftAdvertisingAvailableDates": [
     "2025-07-23",
@@ -39,5 +38,6 @@
     "secondTimingInMinutes": 5,
     "delayedTimingInMinutes": 5
   },
-  "showAdPremiumBannerPeriodInMinutes": 5
+  "showAdPremiumBannerPeriodInMinutes": 5,
+  "preRollUrl": "https://uubb.website/static/pre-roll.html"
 }
