@@ -33,6 +33,6 @@
     "web_product_price": 199,
     "is_hybrid_paywall_enabled": true,
     "is_client_api_enabled": false,
-    "hybrid_storefront_country_codes": ["rus"],
-    "hybrid_storefront_geo_ip_country_codes": ["ru"]
+    "hybrid_storefront_country_codes": ["*"],
+    "hybrid_storefront_geo_ip_country_codes": ["*"]
 }
