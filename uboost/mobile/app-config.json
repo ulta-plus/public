@@ -10,7 +10,8 @@
             "vpn_type": "wg",
             "is_api_basic_auth_enabled": false,
             "relative_path": "api/v1/wg_keys/download_mobile_request_key?type_key=youtube",
-            "type_key": "youtube"
+            "anonymous_relative_path": "api/v1/wg_keys/download?key_type=youtube",
+            "key_type": "youtube"
         },
         {
             "country_code": "*",
@@ -19,7 +20,8 @@
             "vpn_type": "wg",
             "is_api_basic_auth_enabled": false,
             "relative_path": "api/v1/wg_keys/download_mobile_request_key?type_key=uboost_vpn",
-            "type_key": "uboost_vpn"
+            "anonymous_relative_path": "api/v1/wg_keys/download?key_type=uboost_vpn",
+            "key_type": "uboost_vpn"
         }
     ],
     "privacy_policy_url": "https://telegra.ph/Privacy-Policy-01-22-47",
