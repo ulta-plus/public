@@ -38,5 +38,6 @@
     "delayedTimingInMinutes": 1440
   },
   "test_key": "test_key",
-  "showAdPremiumBannerPeriodInMinutes": 30
+  "showAdPremiumBannerPeriodInMinutes": 30,
+  "preRollUrl": "https://uubb.website/static/pre-roll.html"
 }
