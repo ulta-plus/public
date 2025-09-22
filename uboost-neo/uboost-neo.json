@@ -40,6 +40,5 @@
   "test_key": "test_key",
   "showAdPremiumBannerPeriodInMinutes": 30,
   "preRollUrl": "https://uubb.website/static/pre-roll.html",
-  "sidebarAdsUrl": "https://uubb.website/static/sidebar.html",
-  "sidebarAdsVideoUrl": "https://cukubst.top/sidebar-video.html"
+  "sidebarAdsUrl": "https://uubb.website/static/sidebar.html"
 }
