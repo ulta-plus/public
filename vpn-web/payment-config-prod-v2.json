@@ -317,6 +317,15 @@
           "buttonLabel": "Оплата картой РФ / ЮMoney / SberPay",
           "type": "card",
           "useRandomIndex": 1
+        },
+        {
+          "order": 3,
+          "method": "crypto",
+          "active": true,
+          "minActivationAmount": 0,
+          "withMessage": null,
+          "type": "crypto",
+          "buttonLabel": "Оплатить криптовалютой"
         }
       ]
     },
@@ -344,6 +353,15 @@
           "withMessage": null,
           "type": "card",
           "buttonLabel": "Оплата картой РФ / ЮMoney / SberPay"
+        },
+        {
+          "order": 3,
+          "method": "crypto",
+          "active": true,
+          "minActivationAmount": 0,
+          "withMessage": null,
+          "type": "crypto",
+          "buttonLabel": "Оплатить криптовалютой"
         }
       ]
     },
@@ -372,6 +390,15 @@
           "withMessage": null,
           "type": "card",
           "buttonLabel": "Оплата картой РФ"
+        },
+        {
+          "order": 3,
+          "method": "crypto",
+          "active": true,
+          "minActivationAmount": 0,
+          "withMessage": null,
+          "type": "crypto",
+          "buttonLabel": "Оплатить криптовалютой"
         }
       ]
     },
@@ -399,6 +426,15 @@
           "withMessage": null,
           "type": "card",
           "buttonLabel": "Оплата картой РФ"
+        },
+        {
+          "order": 3,
+          "method": "crypto",
+          "active": true,
+          "minActivationAmount": 0,
+          "withMessage": null,
+          "type": "crypto",
+          "buttonLabel": "Оплатить криптовалютой"
         }
       ]
     }
