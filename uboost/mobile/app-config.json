@@ -1,0 +1,38 @@
+{
+    "api_base_url": "https://api.ubstv.click",
+    "tg_bot": "uboostv_ops_bot",
+    "tg_key_bot": "uboostv_ops_bot",
+    "vpn_connections": [
+        {
+            "country_code": "*",
+            "title": "Только YouTube",
+            "configuration_url": null,
+            "vpn_type": "wg",
+            "is_api_basic_auth_enabled": false,
+            "relative_path": "api/v1/wg_keys/download_mobile_request_key?type_key=youtube",
+            "anonymous_relative_path": "api/v1/wg_keys/download?key_type=youtube",
+            "key_type": "youtube"
+        },
+        {
+            "country_code": "*",
+            "title": "Весь интернет",
+            "configuration_url": null,
+            "vpn_type": "wg",
+            "is_api_basic_auth_enabled": false,
+            "relative_path": "api/v1/wg_keys/download_mobile_request_key?type_key=uboost_vpn",
+            "anonymous_relative_path": "api/v1/wg_keys/download?key_type=uboost_vpn",
+            "key_type": "uboost_vpn"
+        }
+    ],
+    "privacy_policy_url": "https://telegra.ph/Privacy-Policy-01-22-47",
+    "tos_url": "http://www.apple.com/legal/itunes/appstore/dev/stdeula",
+    "quick_login_url": "ubstv.click/quick-login",
+    "paywall_main_product_id": "premium_monthly",
+    "paywall_monthly_product_id": "premium_monthly",
+    "paywall_yearly_product_id": "premium_annual",
+    "web_product_price": 199,
+    "is_hybrid_paywall_enabled": true,
+    "is_client_api_enabled": false,
+    "hybrid_storefront_country_codes": ["*"],
+    "hybrid_storefront_geo_ip_country_codes": ["*"]
+}

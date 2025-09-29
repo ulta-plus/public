@@ -1,17 +1,43 @@
 {
   "apiBaseUrl": "uubb.website",
-  "currentVersion": "6.3.12",
-  "requiredVersion": "6.2.4",
-  "supportedBrowsers": ["chrome", "edge-chromium", "yandexbrowser"],
+  "cookieDomain": "cukubst.top",
+  "currentVersion": "7.17.1",
+  "requiredVersion": "7.12.2",
+  "supportedBrowsers": [
+    "chrome",
+    "edge-chromium",
+    "yandexbrowser",
+    "opera"
+  ],
   "proxyUpdatePeriod": 50,
   "proxyUpdatePeriodPremium": 50,
   "updateSubscriptionInfoPeriod": 25,
-  "showOnUpdateVersion": "6.3.8",
-  "shouldUpdatePACVersion": "6.3.8",
-  "availableBannersData": "naruzhu,youboost-premium,youboost-android,telegram",
-  "advMinVersion": "6.3.12",
+  "showOnUpdateVersion": "7.0.0",
+  "shouldUpdatePACVersion": "7.0.0",
+  "availableBannersData": "",
+  "advMinVersion": "7.16.0",
   "androidAppUrl": "https://uboost.download/",
-  "availablePaymentMethods": ["sbp","card"],
+  "availablePaymentMethods": [
+    "sbp",
+    "card"
+  ],
   "publicOfferUrl": "https://uboo.st/oferta",
-  "availableAlarmTries": 15
+  "adfoxBannerUrl": "https://cukubst.top/ad.html",
+  "availableAlarmTries": 100,
+  "giftAdvertisingAvailableDates": [
+    "2025-07-30",
+    "2025-08-08"
+  ],
+  "giftAdvertisingPeriodInMinutes": 1440,
+  "checkProxyAvailabilityProxyUrl": "https://uboost.space",
+  "checkProxyAvailabilityPublicUrl": "https://ubst.space",
+  "subscriptionExpiringAlerts": {
+    "firstTimingInMinutes": 60,
+    "secondTimingInMinutes": 15,
+    "delayedTimingInMinutes": 1440
+  },
+  "test_key": "test_key",
+  "showAdPremiumBannerPeriodInMinutes": 30,
+  "preRollUrl": "https://uubb.website/static/pre-roll.html",
+  "sidebarAdsUrl": "https://uubb.website/static/sidebar.html"
 }

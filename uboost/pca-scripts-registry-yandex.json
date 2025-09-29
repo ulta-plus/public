@@ -1,4 +1,6 @@
 {
-  "free": "https://storage.yandexcloud.net/vpnn-web-configs/uboost/free-pca-script.json",
-  "premium": "https://storage.yandexcloud.net/vpnn-web-configs/uboost/premium-pca-script.json"
+  "free": "https://storage.yandexcloud.net/vpnn-web-configs/uboost-neo/free-pac-script.json",
+  "premium": "https://storage.yandexcloud.net/vpnn-web-configs/uboost-neo/premium-pac-script.json",
+  "freeLite": "https://storage.yandexcloud.net/vpnn-web-configs/uboost-neo/free-lite-pac-script.json",
+  "premiumLite": "https://storage.yandexcloud.net/vpnn-web-configs/uboost-neo/premium-lite-pac-script.json"
 }

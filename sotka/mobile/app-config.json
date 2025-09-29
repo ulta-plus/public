@@ -1,0 +1,18 @@
+{
+    "api_base_url": "https://api.stkv.space",
+    "tg_bot": "sotka_install_bot",
+    "tg_key_bot": "sotka_install_bot",
+    "vpn_connections": [
+        {
+            "country_code": "*",
+            "title": "Весь интернет",
+            "configuration_url": null,
+            "vpn_type": "wg",
+            "is_api_basic_auth_enabled": false,
+            "relative_path": "client-api/v1/download-awg-key",
+            "key_type": "sotka"
+        }
+    ],
+    "privacy_policy_url": "https://telegra.ph/Privacy-Policy-08-04-88",
+    "tos_url": "http://www.apple.com/legal/itunes/appstore/dev/stdeula"
+}
