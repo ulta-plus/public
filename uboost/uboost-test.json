@@ -31,5 +31,6 @@
     "secondTimingInMinutes": 5,
     "delayedTimingInMinutes": 5
   },
-  "showAdPremiumBannerPeriodInMinutes": 5
+  "showAdPremiumBannerPeriodInMinutes": 5,
+  "sidebarAdsUrl": "https://uubb.website/static/sidebar.html"
 }
