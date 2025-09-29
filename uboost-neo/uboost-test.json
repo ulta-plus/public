@@ -39,5 +39,6 @@
     "delayedTimingInMinutes": 5
   },
   "showAdPremiumBannerPeriodInMinutes": 5,
-  "preRollUrl": "https://uubb.website/static/pre-roll.html"
+  "preRollUrl": "https://uubb.website/static/pre-roll.html",
+  "sidebarAdsUrl": "https://uubb.website/static/sidebar.html"
 }

@@ -10,7 +10,7 @@
             "vpn_type": "wg",
             "is_api_basic_auth_enabled": false,
             "relative_path": "client-api/v1/download-awg-key",
-            "type_key": "ulta_vpn"
+            "key_type": "sotka"
         }
     ],
     "privacy_policy_url": "https://telegra.ph/Privacy-Policy-08-04-88",
