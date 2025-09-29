@@ -1,7 +1,0 @@
-User-Agent: *
-Disallow: /
-
-
-Sitemap: https://uboost.live/sitemap.xml
-Sitemap: https://uboost.live/sitemap-store.xml
-Host: https://uboost.live

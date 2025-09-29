@@ -1,7 +1,7 @@
 {
   "apiBaseUrl": "uubb.website",
   "cookieDomain": "cukubst.top",
-  "currentVersion": "7.16.0",
+  "currentVersion": "7.17.1",
   "requiredVersion": "7.12.2",
   "supportedBrowsers": [
     "chrome",
@@ -15,15 +15,15 @@
   "showOnUpdateVersion": "7.0.0",
   "shouldUpdatePACVersion": "7.0.0",
   "availableBannersData": "",
-  "advMinVersion": "7.16.0",
+  "advMinVersion": "7.17.0",
   "androidAppUrl": "https://uboost.download/",
   "availablePaymentMethods": [
     "sbp",
     "card"
   ],
   "publicOfferUrl": "https://uboo.st/oferta",
-  "adfoxBannerUrl": "https://cukubst.top/ad.html",
-  "adfoxBannerUrlSecondary": "https://cukubst.top/watch_ad.html",
+  "adfoxBannerUrl": "https://uubb.website/static/ad.html",
+  "adfoxBannerUrlSecondary": "https://uubb.website/static/watch_ad.html",
   "availableAlarmTries": 100,
   "giftAdvertisingAvailableDates": [
     "2025-07-30",
@@ -37,5 +37,8 @@
     "secondTimingInMinutes": 15,
     "delayedTimingInMinutes": 1440
   },
-  "test_key": "test_key"
+  "test_key": "test_key",
+  "showAdPremiumBannerPeriodInMinutes": 30,
+  "preRollUrl": "https://uubb.website/static/pre-roll.html",
+  "sidebarAdsUrl": "https://uubb.website/static/sidebar.html"
 }
