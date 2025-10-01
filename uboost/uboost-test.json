@@ -16,7 +16,7 @@
   "showOnUpdateVersion": "8.0.0",
   "shouldUpdatePACVersion": "8.0.0",
   "availableBannersData": "naruzhu",
-  "advMinVersion": "8.0.0",
+  "advMinVersion": "10.0.0",
   "androidAppUrl": "https://uboost.download/",
   "availablePaymentMethods": ["sbp", "card"],
   "publicOfferUrl": "https://uboo.st/oferta",
