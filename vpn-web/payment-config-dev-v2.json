@@ -388,7 +388,7 @@
     "default": {
       "fields": {
         "period": false,
-        "autoRenewal": false,
+        "autoRenewal": true,
         "promocode": false
       },
       "paymentMethods": [
