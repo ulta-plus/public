@@ -15,7 +15,7 @@
   "availablePaymentMethods": ["sbp", "card"],
   "availablePaymentMethodsV2": [
     {"type":"sbp", "supportsAutoRenew": false},
-    {"type":"card", "supportsAutoRenew": true}
+    {"type":"card", "supportsAutoRenew": false}
   ],
   "availableAlarmTries": 15
 }
