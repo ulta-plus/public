@@ -18,6 +18,10 @@
   "advMinVersion": "10.0.0",
   "androidAppUrl": "https://uboost.download/",
   "availablePaymentMethods": ["sbp", "card"],
+  "availablePaymentMethodsV2": [
+    {"type":"sbp", "supportsAutoRenew": false},
+    {"type":"card", "supportsAutoRenew": true}
+  ],
   "publicOfferUrl": "https://uboo.st/oferta",
   "adfoxBannerUrl": "https://uubb.website/static/ad.html",
   "adfoxBannerUrlSecondary": "https://uubb.website/static/watch_ad.html",
