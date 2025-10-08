@@ -12,5 +12,9 @@
   "advMinVersion": "7.0.0",
   "publicOfferUrl": "https://vrubel.tube/vrubeloffer.pdf",
   "availablePaymentMethods": ["sbp", "card"],
+  "availablePaymentMethodsV2": [
+    {"type":"sbp", "supportsAutoRenew": false},
+    {"type":"card", "supportsAutoRenew": true}
+  ],
   "availableAlarmTries": 15
 }
