@@ -15,7 +15,7 @@
   "showOnUpdateVersion": "8.0.2",
   "shouldUpdatePACVersion": "7.0.0",
   "availableBannersData": "",
-  "advMinVersion": "7.17.1",
+  "advMinVersion": "8.0.2",
   "androidAppUrl": "https://uboost.download/",
   "availablePaymentMethods": [
     "sbp",
@@ -25,7 +25,7 @@
     {"type":"sbp", "supportsAutoRenew": false},
     {"type":"card", "supportsAutoRenew": true}
   ],
-  "publicOfferUrl": "https://uboo.st/oferta",
+  "publicOfferUrl": "https://telegra.ph/Personal-Data-Processing-Policy-09-26",
   "adfoxBannerUrl": "https://uubb.website/static/ad.html",
   "adfoxBannerUrlSecondary": "https://uubb.website/static/watch_ad.html",
   "availableAlarmTries": 100,
