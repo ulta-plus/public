@@ -12,7 +12,7 @@
   "proxyUpdatePeriod": 50,
   "proxyUpdatePeriodPremium": 50,
   "updateSubscriptionInfoPeriod": 25,
-  "showOnUpdateVersion": "8.0.2",
+  "showOnUpdateVersion": "7.17.0",
   "shouldUpdatePACVersion": "7.0.0",
   "availableBannersData": "",
   "advMinVersion": "8.0.2",
