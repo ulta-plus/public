@@ -12,7 +12,7 @@
   ],
   "proxyUpdatePeriod": 0.5,
   "updateSubscriptionInfoPeriod": 1,
-  "showOnUpdateVersion": "8.0.0",
+  "showOnUpdateVersion": "9.0.0",
   "shouldUpdatePACVersion": "8.0.0",
   "availableBannersData": "naruzhu",
   "advMinVersion": "10.0.0",
