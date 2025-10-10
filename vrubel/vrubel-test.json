@@ -28,7 +28,7 @@
     },
     {
       "type": "card",
-      "supportsAutoRenew": false
+      "supportsAutoRenew": true
     }
   ],
   "availableAlarmTries": 15
