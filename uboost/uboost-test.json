@@ -1,41 +1,48 @@
 {
-  "apiBaseUrl": "test.uubb.website",
-  "cookieDomain": "test.uubb.website",
-  "currentVersion": "8.0.0",
-  "requiredVersion": "8.0.0",
+  "apiBaseUrl": "uubb.website",
+  "cookieDomain": "cukubst.top",
+  "currentVersion": "8.0.2",
+  "requiredVersion": "7.12.2",
   "supportedBrowsers": [
     "chrome",
     "edge-chromium",
     "yandexbrowser",
-    "opera",
-    "firefox"
+    "opera"
   ],
-  "proxyUpdatePeriod": 0.5,
-  "updateSubscriptionInfoPeriod": 1,
-  "showOnUpdateVersion": "9.0.0",
-  "shouldUpdatePACVersion": "8.0.0",
-  "availableBannersData": "naruzhu",
-  "advMinVersion": "10.0.0",
+  "proxyUpdatePeriod": 50,
+  "proxyUpdatePeriodPremium": 50,
+  "updateSubscriptionInfoPeriod": 25,
+  "showOnUpdateVersion": "7.17.0",
+  "shouldUpdatePACVersion": "7.0.0",
+  "availableBannersData": "",
+  "advMinVersion": "8.0.2",
   "androidAppUrl": "https://uboost.download/",
-  "availablePaymentMethods": ["sbp", "card"],
+  "availablePaymentMethods": [
+    "sbp",
+    "card"
+  ],
   "availablePaymentMethodsV2": [
     {"type":"sbp", "supportsAutoRenew": false},
     {"type":"card", "supportsAutoRenew": true}
   ],
-  "publicOfferUrl": "https://uboo.st/oferta",
+  "publicOfferUrl": "https://telegra.ph/Personal-Data-Processing-Policy-09-26",
   "adfoxBannerUrl": "https://uubb.website/static/ad.html",
   "adfoxBannerUrlSecondary": "https://uubb.website/static/watch_ad.html",
   "availableAlarmTries": 100,
-  "giftAdvertisingAvailableDates": ["2025-07-23", "2025-08-08"],
-  "giftAdvertisingPeriodInMinutes": 1,
+  "giftAdvertisingAvailableDates": [
+    "2025-07-30",
+    "2025-08-08"
+  ],
+  "giftAdvertisingPeriodInMinutes": 1440,
   "checkProxyAvailabilityProxyUrl": "https://uboost.space",
   "checkProxyAvailabilityPublicUrl": "https://ubst.space",
   "subscriptionExpiringAlerts": {
-    "firstTimingInMinutes": 10,
-    "secondTimingInMinutes": 5,
-    "delayedTimingInMinutes": 5
+    "firstTimingInMinutes": 60,
+    "secondTimingInMinutes": 15,
+    "delayedTimingInMinutes": 1440
   },
-  "showAdPremiumBannerPeriodInMinutes": 5,
+  "test_key": "test_key",
+  "showAdPremiumBannerPeriodInMinutes": 30,
   "preRollUrl": "https://uubb.website/static/pre-roll.html",
   "sidebarAdsUrl": "https://uubb.website/static/sidebar.html"
 }
