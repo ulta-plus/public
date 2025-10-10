@@ -1,16 +1,17 @@
 {
-  "apiBaseUrl": "uubb.website",
-  "cookieDomain": "cukubst.top",
+  "apiBaseUrl": "test.uubb.website",
+  "cookieDomain": "test.uubb.website",
   "currentVersion": "8.0.2",
   "requiredVersion": "7.12.2",
   "supportedBrowsers": [
     "chrome",
     "edge-chromium",
     "yandexbrowser",
-    "opera"
+    "opera",
+    "firefox"
   ],
-  "proxyUpdatePeriod": 50,
-  "proxyUpdatePeriodPremium": 50,
+  "proxyUpdatePeriod": 0.5,
+  "updateSubscriptionInfoPeriod": 1,
   "updateSubscriptionInfoPeriod": 25,
   "showOnUpdateVersion": "7.17.0",
   "shouldUpdatePACVersion": "7.0.0",
@@ -33,16 +34,16 @@
     "2025-07-30",
     "2025-08-08"
   ],
-  "giftAdvertisingPeriodInMinutes": 1440,
+  "giftAdvertisingPeriodInMinutes": 1,
   "checkProxyAvailabilityProxyUrl": "https://uboost.space",
   "checkProxyAvailabilityPublicUrl": "https://ubst.space",
   "subscriptionExpiringAlerts": {
-    "firstTimingInMinutes": 60,
-    "secondTimingInMinutes": 15,
-    "delayedTimingInMinutes": 1440
+    "firstTimingInMinutes": 10,
+    "secondTimingInMinutes": 5,
+    "delayedTimingInMinutes": 5
   },
   "test_key": "test_key",
-  "showAdPremiumBannerPeriodInMinutes": 30,
+  "showAdPremiumBannerPeriodInMinutes": 5,
   "preRollUrl": "https://uubb.website/static/pre-roll.html",
   "sidebarAdsUrl": "https://uubb.website/static/sidebar.html"
 }
