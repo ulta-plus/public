@@ -1,5 +1,5 @@
 {
-    "api_base_url": "https://api.ubstv.click",
+    "api_base_url": "https://api.ubst.space",
     "tg_bot": "uboostv_ops_bot",
     "tg_key_bot": "uboostv_ops_bot",
     "vpn_connections": [
@@ -9,7 +9,7 @@
             "configuration_url": null,
             "vpn_type": "wg",
             "is_api_basic_auth_enabled": false,
-            "relative_path": "api/v1/wg_keys/download_mobile_request_key?type_key=youtube",
+            "relative_path": "client-api/v1/download-awg-key?key_type=youtube",
             "anonymous_relative_path": "api/v1/wg_keys/download?key_type=youtube",
             "key_type": "youtube"
         },
@@ -19,7 +19,7 @@
             "configuration_url": null,
             "vpn_type": "wg",
             "is_api_basic_auth_enabled": false,
-            "relative_path": "api/v1/wg_keys/download_mobile_request_key?type_key=uboost_vpn",
+            "relative_path": "client-api/v1/download-awg-key?key_type=uboost_vpn",
             "anonymous_relative_path": "api/v1/wg_keys/download?key_type=uboost_vpn",
             "key_type": "uboost_vpn"
         }
