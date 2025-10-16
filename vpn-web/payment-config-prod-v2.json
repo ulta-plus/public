@@ -443,7 +443,7 @@
     "default": {
       "fields": {
         "period": false,
-        "autoRenewal": false,
+        "autoRenewal": true,
         "promocode": false
       },
       "paymentMethods": [
@@ -501,7 +501,7 @@
     "ulta.am": {
       "fields": {
         "period": false,
-        "autoRenewal": false,
+        "autoRenewal": true,
         "promocode": false
       },
       "paymentMethods": [
