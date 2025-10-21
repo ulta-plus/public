@@ -1,3 +1,5 @@
 {
-    "apiBaseUrl": "https://mobile.vvppnn.click"
+    "apiBaseUrl": "https://mobile.vvppnn.click",
+    "dns1": "192.168.63.254",
+    "dns2": "8.8.8.8"
 }

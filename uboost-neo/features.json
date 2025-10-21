@@ -10,5 +10,6 @@
   "multi-device-support":"7.10.1",
   "gift-advertising": "7.13.10",
   "proxy-auth": "7.12.2",
-  "multi-locales-support": "7.17.1"
+  "multi-locales-support": "7.17.1",
+  "subscription-expiring-alerts": "8.0.3"
 }
