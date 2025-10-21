@@ -393,6 +393,15 @@
         },
         {
           "order": 3,
+          "method": "card_int",
+          "active": true,
+          "minActivationAmount": 0,
+          "withMessage": null,
+          "type": "card",
+          "buttonLabel": "Оплата зарубежной картой"
+        },
+        {
+          "order": 4,
           "method": "crypto",
           "active": true,
           "minActivationAmount": 0,
@@ -443,7 +452,7 @@
     "default": {
       "fields": {
         "period": false,
-        "autoRenewal": false,
+        "autoRenewal": true,
         "promocode": false
       },
       "paymentMethods": [
@@ -501,7 +510,7 @@
     "ulta.am": {
       "fields": {
         "period": false,
-        "autoRenewal": false,
+        "autoRenewal": true,
         "promocode": false
       },
       "paymentMethods": [
