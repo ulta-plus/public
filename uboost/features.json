@@ -10,6 +10,5 @@
   "multi-device-support":"7.10.1",
   "proxy-auth": "7.12.2",
   "multi-locales-support": "7.17.1",
-  "service-worker-ping-pong": "8.0.3",
   "subscription-expiring-alerts": "8.0.3"
 }
