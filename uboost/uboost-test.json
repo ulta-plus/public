@@ -12,7 +12,6 @@
   ],
   "proxyUpdatePeriod": 0.5,
   "updateSubscriptionInfoPeriod": 1,
-  "updateSubscriptionInfoPeriod": 25,
   "showOnUpdateVersion": "7.17.0",
   "shouldUpdatePACVersion": "7.0.0",
   "availableBannersData": "",
