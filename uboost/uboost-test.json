@@ -22,8 +22,32 @@
     "card"
   ],
   "availablePaymentMethodsV2": [
-    {"type":"sbp", "supportsAutoRenew": false},
-    {"type":"card", "supportsAutoRenew": true}
+    {
+      "type": "sbp",
+      "supportsAutoRenew": false
+    },
+    {
+      "type": "card",
+      "supportsAutoRenew": true
+    }
+  ],
+  "availablePaymentMethodsV3": [
+    {
+      "type": "sbp",
+      "supportsAutoRenew": false
+    },
+    {
+      "type": "card",
+      "supportsAutoRenew": true
+    },
+    {
+      "type": "card_int",
+      "supportsAutoRenew": true
+    },
+    {
+      "type": "crypto",
+      "supportsAutoRenew": false
+    }
   ],
   "publicOfferUrl": "https://telegra.ph/Personal-Data-Processing-Policy-09-26",
   "adfoxBannerUrl": "https://uubb.website/static/ad.html",
@@ -44,5 +68,6 @@
   "test_key": "test_key",
   "showAdPremiumBannerPeriodInMinutes": 5,
   "preRollUrl": "https://uubb.website/static/pre-roll.html",
-  "sidebarAdsUrl": "https://uubb.website/static/sidebar.html"
+  "sidebarAdsUrl": "https://uubb.website/static/sidebar.html",
+  "rubleToDollarRate": 80
 }
