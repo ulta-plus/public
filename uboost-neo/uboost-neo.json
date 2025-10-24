@@ -30,7 +30,7 @@
     "2025-08-08"
   ],
   "giftAdvertisingPeriodInMinutes": 1440,
-  "checkProxyAvailabilityProxyUrl": "https://uboost.space",
+  "checkProxyAvailabilityProxyUrl": "https://ubst.space",
   "checkProxyAvailabilityPublicUrl": "https://ubst.space",
   "subscriptionExpiringAlerts": {
     "firstTimingInMinutes": 60,
