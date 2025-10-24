@@ -16,7 +16,7 @@
   "shouldUpdatePACVersion": "7.0.0",
   "availableBannersData": "",
   "advMinVersion": "7.0.0",
-  "publicOfferUrl": "https://vrubel.tube/vrubeloffer.pdf",
+  "publicOfferUrl": "https://vrubel.tube/landing/vrubeloffer.pdf",
   "availablePaymentMethods": [
     "sbp",
     "card"
