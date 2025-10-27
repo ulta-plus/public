@@ -69,5 +69,5 @@
   "showAdPremiumBannerPeriodInMinutes": 30,
   "preRollUrl": "https://uubb.website/static/pre-roll.html",
   "sidebarAdsUrl": "https://uubb.website/static/sidebar.html",
-  "rubleToDollarRate": 80
+  "rubleToEuroRate": 90
 }
