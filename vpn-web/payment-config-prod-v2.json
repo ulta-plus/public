@@ -365,11 +365,11 @@
         }
       ]
     },
-"ubstv.click": {
+    "ubstv.click": {
       "fields": {
         "period": true,
         "autoRenewal": false,
-        "promocode": false
+        "promocode": true
       },
       "paymentMethods": [
         {
