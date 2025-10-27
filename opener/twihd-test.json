@@ -1,0 +1,9 @@
+{
+  "apiBaseUrl": "uubb.website",
+  "cookieDomain": "test.cukubst.top",
+  "currentVersion": "1.0.0",
+  "requiredVersion": "1.0.0",
+  "supportedBrowsers": ["chrome", "edge-chromium", "yandexbrowser"],
+  "proxyUpdatePeriod": 50,
+  "showOnUpdateVersion": "1.0.0"
+}
