@@ -3,7 +3,13 @@
   "cookieDomain": "cukvrub.top",
   "currentVersion": "7.0.0",
   "requiredVersion": "1.0.0",
-  "supportedBrowsers": ["chrome", "edge-chromium", "yandexbrowser", "opera"],
+  "supportedBrowsers": [
+    "chrome",
+    "edge-chromium",
+    "yandexbrowser",
+    "opera",
+    "firefox"
+  ],
   "proxyUpdatePeriod": 50,
   "proxyUpdatePeriodPremium": 50,
   "updateSubscriptionInfoPeriod": 25,
@@ -14,8 +20,8 @@
   "publicOfferUrl": "https://vrubel.tube/landing/vrubeloffer.pdf",
   "availablePaymentMethods": ["sbp", "card"],
   "availablePaymentMethodsV2": [
-    {"type":"sbp", "supportsAutoRenew": false},
-    {"type":"card", "supportsAutoRenew": false}
+    { "type": "sbp", "supportsAutoRenew": false },
+    { "type": "card", "supportsAutoRenew": false }
   ],
   "availableAlarmTries": 15
 }
