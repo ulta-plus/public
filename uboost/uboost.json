@@ -3,12 +3,7 @@
   "cookieDomain": "cukubst.top",
   "currentVersion": "8.2.0",
   "requiredVersion": "7.12.2",
-  "supportedBrowsers": [
-    "chrome",
-    "edge-chromium",
-    "yandexbrowser",
-    "opera"
-  ],
+  "supportedBrowsers": ["chrome", "edge-chromium", "yandexbrowser", "opera"],
   "proxyUpdatePeriod": 50,
   "proxyUpdatePeriodPremium": 50,
   "updateSubscriptionInfoPeriod": 1440,
@@ -17,10 +12,7 @@
   "availableBannersData": "",
   "advMinVersion": "8.2.0",
   "androidAppUrl": "https://uboost.download/",
-  "availablePaymentMethods": [
-    "sbp",
-    "card"
-  ],
+  "availablePaymentMethods": ["sbp", "card"],
   "availablePaymentMethodsV2": [
     {
       "type": "sbp",
@@ -61,12 +53,9 @@
     "eu": "https://uubb.website/static/watch_ad.html"
   },
   "availableAlarmTries": 100,
-  "giftAdvertisingAvailableDates": [
-    "2025-07-30",
-    "2025-08-08"
-  ],
+  "giftAdvertisingAvailableDates": ["2025-07-30", "2025-08-08"],
   "giftAdvertisingPeriodInMinutes": 1440,
-  "checkProxyAvailabilityProxyUrl": "https://ubst.space",
+  "checkProxyAvailabilityProxyUrl": "https://uboost.space",
   "checkProxyAvailabilityPublicUrl": "https://ubst.space",
   "subscriptionExpiringAlerts": {
     "firstTimingInMinutes": 60,

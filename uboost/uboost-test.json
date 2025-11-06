@@ -17,10 +17,7 @@
   "availableBannersData": "",
   "advMinVersion": "8.1.1",
   "androidAppUrl": "https://uboost.download/",
-  "availablePaymentMethods": [
-    "sbp",
-    "card"
-  ],
+  "availablePaymentMethods": ["sbp", "card"],
   "availablePaymentMethodsV2": [
     {
       "type": "sbp",
@@ -61,10 +58,7 @@
     "eu": "https://uubb.website/static/watch_ad.html"
   },
   "availableAlarmTries": 100,
-  "giftAdvertisingAvailableDates": [
-    "2025-10-20",
-    "2025-10-25"
-  ],
+  "giftAdvertisingAvailableDates": ["2025-10-20", "2025-10-25"],
   "giftAdvertisingPeriodInMinutes": 1,
   "checkProxyAvailabilityProxyUrl": "https://uboost.space",
   "checkProxyAvailabilityPublicUrl": "https://ubst.space",
