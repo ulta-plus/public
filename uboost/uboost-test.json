@@ -80,5 +80,5 @@
     "eu": "https://uubb.website/static/sidebar.html"
   },
   "rubleToEuroRate": 90,
-  "sentrySampleRate": 100
+  "sentrySampleRate": 0.05
 }
