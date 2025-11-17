@@ -5,5 +5,6 @@
   "requiredVersion": "1.0.0",
   "supportedBrowsers": ["chrome", "edge-chromium", "yandexbrowser", "firefox"],
   "proxyUpdatePeriod": 50,
-  "showOnUpdateVersion": "1.0.0"
+  "showOnUpdateVersion": "1.0.0",
+  "publicOfferUrl": "https://telegra.ph/Personal-Data-Processing-Policy-09-26",
 }
