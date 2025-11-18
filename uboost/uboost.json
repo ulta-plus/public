@@ -3,7 +3,13 @@
   "cookieDomain": "cukubst.top",
   "currentVersion": "8.2.0",
   "requiredVersion": "7.12.2",
-  "supportedBrowsers": ["chrome", "edge-chromium", "yandexbrowser", "opera"],
+  "supportedBrowsers": [
+    "chrome",
+    "edge-chromium",
+    "yandexbrowser",
+    "opera",
+    "firefox"
+  ],
   "proxyUpdatePeriod": 50,
   "proxyUpdatePeriodPremium": 50,
   "updateSubscriptionInfoPeriod": 1440,
