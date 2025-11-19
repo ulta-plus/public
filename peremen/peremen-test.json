@@ -7,4 +7,18 @@
   "proxyUpdatePeriod": 50,
   "showOnUpdateVersion": "1.0.0",
   "publicOfferUrl": "https://telegra.ph/Personal-Data-Processing-Policy-09-26",
+  "profileAdvertising": {
+    "title": {
+      "ru": "Скоро для iOS и Android",
+      "en": "Coming soon for iOS and Android"
+    },
+    "subtitle": {
+      "ru": "приложение Перемен",
+      "en": "Peremen app"
+    },
+    "img": {
+      "ru": "https://banner2.cleanpng.com/cb3/snl/dmk/v7p0xq4u4.webp",
+      "en": "https://banner2.cleanpng.com/cb3/snl/dmk/v7p0xq4u4.webp"
+    }
+  }
 }
