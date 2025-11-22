@@ -10,8 +10,8 @@
     "opera",
     "firefox"
   ],
-  "proxyUpdatePeriod": 50,
-  "proxyUpdatePeriodPremium": 50,
+  "proxyUpdatePeriod": 120,
+  "proxyUpdatePeriodPremium": 120,
   "updateSubscriptionInfoPeriod": 1440,
   "showOnUpdateVersion": "7.17.0",
   "shouldUpdatePACVersion": "7.0.0",
