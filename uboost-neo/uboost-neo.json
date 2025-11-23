@@ -6,7 +6,7 @@
   "supportedBrowsers": ["chrome", "edge-chromium", "yandexbrowser", "opera"],
   "proxyUpdatePeriod": 120,
   "proxyUpdatePeriodPremium": 120,
-  "updateSubscriptionInfoPeriod": 25,
+  "updateSubscriptionInfoPeriod": 1140,
   "showOnUpdateVersion": "7.0.0",
   "shouldUpdatePACVersion": "8.0.3",
   "availableBannersData": "",
