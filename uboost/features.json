@@ -11,5 +11,6 @@
   "multi-locales-support": "7.17.1",
   "subscription-expiring-alerts": "8.0.3",
   "black-friday-on": "8.4.0",
-  "service-worker-ping-pong": false
+  "service-worker-ping-pong": false,
+  "sidebar-ads": "8.5.0"
 }
