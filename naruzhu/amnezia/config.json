@@ -5,7 +5,7 @@
     "connections": [
         {
             "title": "Умный режим",
-            "relative_path": "client-api/v1/download-awg-key?key_type=naruzhu",
+            "relative_path": "client-api/v1/download-awg-key",
             "key_type": "naruzhu"
         },
         {
