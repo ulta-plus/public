@@ -5,12 +5,12 @@
     "connections": [
         {
             "title": "Умный режим",
-            "relative_path": "client-api/v1/download-awg-key",
+            "relative_path": "client-api/v1/download-awg-key?key_type=naruzhu",
             "key_type": "naruzhu"
         },
         {
             "title": "Напрямую",
-            "relative_path": "client-api/v1/download-awg-key",
+            "relative_path": "client-api/v1/download-awg-key?key_type=naruzhu",
             "key_type": "naruzhu_direct"
         }
     ]
