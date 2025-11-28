@@ -2,16 +2,29 @@
     "apiBaseUrl": "https://mobile.vvppnn.click",
     "dns1": "192.168.63.254",
     "dns2": "8.8.8.8",
+    "supportLink": "https://t.me/vpn_naruzhu_support_bot",
+    "updateInfo": {
+        "availableVersion": "2.1.7.1",
+        "downloadUrl": "https://storage.uubb.website/VPNNaruzhu_x64_2.1.7.1.exe"
+    },
     "connections": [
         {
             "title": "Умный режим",
-            "relative_path": "client-api/v1/download-awg-key",
-            "key_type": "naruzhu"
+            "localizedTitle" : {
+                "en" : "Smart mode",
+                "ru" : "Умный режим"
+            },
+            "relativePath": "client-api/v1/download-awg-key",
+            "keyType": "smart"
         },
         {
             "title": "Напрямую",
-            "relative_path": "client-api/v1/download-awg-key?key_type=naruzhu",
-            "key_type": "naruzhu_direct"
+            "localizedTitle" : {
+                "en" : "Direct",
+                "ru" : "Напрямую"
+            },
+            "relativePath": "client-api/v1/download-awg-key?key_type=naruzhu",
+            "keyType": "direct"
         }
     ]
 }
