@@ -1,3 +1,19 @@
 {
-    "apiBaseUrl": "https://api.auu.app"
+    "api_base_url": "https://mobile.vvppnn.click",
+    "support_link": "https://t.me/vpn_naruzhu_support_bot",
+    "update_info": {
+        "available_version": "2.1.7.1",
+        "download_url": "https://storage.uubb.website/VPNNaruzhu_x64_2.1.7.1.exe"
+    },
+    "connections": [
+        {
+            "title": "NazarLink",
+            "localized_title" : {
+                "en" : "NazarLink",
+                "tr" : "NazarLink"
+            },
+            "relative_path": "client-api/v1/download-awg-key",
+            "key_type": "nazarlink"
+        }
+    ]
 }
