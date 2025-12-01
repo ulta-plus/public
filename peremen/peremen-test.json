@@ -15,7 +15,7 @@
   "availablePaymentMethodsV3": [
     {
       "type": "sbp",
-      "supportsAutoRenew": true
+      "supportsAutoRenew": false
     },
     {
       "type": "card",
@@ -27,7 +27,7 @@
     },
     {
       "type": "crypto",
-      "supportsAutoRenew": true
+      "supportsAutoRenew": false
     }
   ],
   "profileAdvertising": {
