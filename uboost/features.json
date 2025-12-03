@@ -12,5 +12,6 @@
   "subscription-expiring-alerts": "8.0.3",
   "black-friday-on": false,
   "service-worker-ping-pong": false,
-  "sidebar-ads": "8.4.2"
+  "sidebar-ads": "8.4.2",
+  "video-pre-roll": "8.4.2"
 }
