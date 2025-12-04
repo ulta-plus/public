@@ -11,7 +11,7 @@
         {
             "title": "Умный режим",
             "localizedTitle" : {
-                "en" : "Smart mode",
+                "en" : "Smart Mode",
                 "ru" : "Умный режим"
             },
             "relativePath": "client-api/v1/download-awg-key",
@@ -20,7 +20,7 @@
         {
             "title": "Напрямую",
             "localizedTitle" : {
-                "en" : "Direct",
+                "en" : "Direct Mode",
                 "ru" : "Напрямую"
             },
             "relativePath": "client-api/v1/download-awg-key?key_type=naruzhu",
