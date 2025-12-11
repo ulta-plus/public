@@ -1,0 +1,30 @@
+{
+    "apiBaseUrl": "https://api.new.vpn-naruzhu.com",
+    "dns1": "192.168.63.254",
+    "dns2": "8.8.8.8",
+    "supportLink": "https://t.me/vpn_naruzhu_support_bot",
+    "updateInfo": {
+        "availableVersion": "2.1.7.1",
+        "downloadUrl": "https://storage.uubb.website/VPNNaruzhu_x64_2.1.7.1.exe"
+    },
+    "connections": [
+        {
+            "title": "Умный режим",
+            "localizedTitle" : {
+                "en" : "Smart Mode",
+                "ru" : "Умный режим"
+            },
+            "relativePath": "client-api/v1/download-awg-key",
+            "keyType": "smart"
+        },
+        {
+            "title": "Напрямую",
+            "localizedTitle" : {
+                "en" : "Direct Mode",
+                "ru" : "Напрямую"
+            },
+            "relativePath": "client-api/v1/download-awg-key?key_type=naruzhu",
+            "keyType": "direct"
+        }
+    ]
+}
