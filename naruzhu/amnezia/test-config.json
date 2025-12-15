@@ -14,7 +14,7 @@
                 "en" : "Smart Mode",
                 "ru" : "Умный режим"
             },
-            "relativePath": "client-api/v1/download-awg-key",
+            "relativePath": "client-api/v1/download-awg-key?key_type=smart",
             "keyType": "smart"
         },
         {
@@ -23,7 +23,7 @@
                 "en" : "Direct Mode",
                 "ru" : "Напрямую"
             },
-            "relativePath": "client-api/v1/download-awg-key?key_type=naruzhu",
+            "relativePath": "client-api/v1/download-awg-key?key_type=direct",
             "keyType": "direct"
         }
     ]
