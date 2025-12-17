@@ -7,9 +7,11 @@
   "free-users-review": "7.9.0",
   "proxy-controlled-by-other-extensions-visibility": "7.9.0",
   "multi-device-support": "7.10.1",
-  "proxy-auth": "8.2.1",
+  "proxy-auth": false,
   "multi-locales-support": "7.17.1",
   "subscription-expiring-alerts": "8.0.3",
-  "service-worker-ping-pong": "8.2.1",
-  "black-friday-on": "8.4.0"
+  "black-friday-on": false,
+  "service-worker-ping-pong": "8.4.2",
+  "sidebar-ads": "8.4.2",
+  "video-pre-roll": "8.4.2"
 }
