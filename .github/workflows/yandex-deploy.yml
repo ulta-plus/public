@@ -29,16 +29,52 @@ jobs:
           # Создаем временную директорию
           mkdir -p temp
 
+          # Normalize ALLOWED_DIRS:
+          # - supports comma or newline separated values
+          # - trims whitespace
+          # - removes leading/trailing slashes (e.g. "/naruzhu", "naruzhu/")
+          ALLOWED_DIRS_RAW="${ALLOWED_DIRS:-}"
+          ALLOWED_DIRS_RAW="${ALLOWED_DIRS_RAW//$'\n'/,}"
+          IFS=',' read -ra __DIRS <<< "$ALLOWED_DIRS_RAW"
+          ALLOWED_DIRS_CSV=""
+          for dir in "${__DIRS[@]}"; do
+            dir="$(echo "$dir" | tr -d '[:space:]')"
+            dir="${dir#/}"
+            dir="${dir%/}"
+            # Only allow top-level directories (strip nested paths like "naruzhu/emai" -> "naruzhu")
+            dir="${dir%%/*}"
+            if [ -n "$dir" ]; then
+              if [ -z "$ALLOWED_DIRS_CSV" ]; then
+                ALLOWED_DIRS_CSV="$dir"
+              else
+                ALLOWED_DIRS_CSV="$ALLOWED_DIRS_CSV,$dir"
+              fi
+            fi
+          done
+          echo "Normalized ALLOWED_DIRS: ${ALLOWED_DIRS_CSV:-<empty (allow all)>}"
+
           if [ "$DEPLOY_TYPE" = "all" ]; then
             echo "Deploying all files from allowed directories"
             # Копируем все разрешенные директории
-            IFS=',' read -ra DIRS <<< "$ALLOWED_DIRS"
-            for dir in "${DIRS[@]}"; do
-              if [ -d "$dir" ]; then
+            IFS=',' read -ra DIRS <<< "$ALLOWED_DIRS_CSV"
+            if [ -z "$ALLOWED_DIRS_CSV" ]; then
+              echo "ALLOWED_DIRS is empty, copying all top-level directories"
+              for dir in */; do
+                [ -d "$dir" ] || continue
+                dir="${dir%/}"
                 echo "Copying directory: $dir"
                 cp -r "$dir" "temp/"
-              fi
-            done
+              done
+            else
+              for dir in "${DIRS[@]}"; do
+                if [ -d "$dir" ]; then
+                  echo "Copying directory: $dir"
+                  cp -r "$dir" "temp/"
+                else
+                  echo "Skipping missing directory: $dir"
+                fi
+              done
+            fi
           else
             echo "Deploying only changed files"
             # Получаем список измененных файлов
@@ -50,7 +86,7 @@ jobs:
                   # Определяем директорию первого уровня
                   TOP_DIR=$(echo "$file" | cut -d'/' -f1)
                   # Check if directory is in allowed list
-                  if [[ $ALLOWED_DIRS =~ (^|,)$TOP_DIR(,|$) ]]; then
+                  if [[ -z "$ALLOWED_DIRS_CSV" || ",$ALLOWED_DIRS_CSV," == *",$TOP_DIR,"* ]]; then
                       echo "Copying changed file: $file"
                       # Создаем директорию в temp если её нет
                       mkdir -p "temp/$(dirname "$file")"
