@@ -11,6 +11,7 @@
   ],
   "proxyUpdatePeriod": 50,
   "showOnUpdateVersion": "1.0.0",
+  "publicOfferUrl": "https://telegra.ph/Personal-Data-Processing-Policy-09-26",
   "availablePaymentMethodsV3": [
     {
       "type": "sbp",
