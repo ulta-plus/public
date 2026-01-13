@@ -81,6 +81,12 @@
     "base": "https://uubb.website/static/pre-roll.html",
     "eu": "https://uubb.website/static/pre-roll.html"
   },
+  "midRollIntervalInMinutes": 10,
+  "midRollUrl": "https://uubb.website/static/mid-roll.html",
+  "midRollUrl_v2": {
+    "base": "https://uubb.website/static/mid-roll.html",
+    "eu": "https://uubb.website/static/mid-roll.html"
+  },
   "sidebarAdsUrl": "https://uubb.website/static/sidebar.html",
   "sidebarAdsUrl_v2": {
     "base": "https://uubb.website/static/sidebar.html",
