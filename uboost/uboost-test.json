@@ -15,7 +15,7 @@
   "showOnUpdateVersion": "7.17.0",
   "shouldUpdatePACVersion": "7.0.0",
   "availableBannersData": "",
-  "advMinVersion": "8.1.1",
+  "advMinVersion": "8.7.0",
   "androidAppUrl": "https://uboost.download/",
   "availablePaymentMethods": [
     "sbp",
@@ -75,6 +75,7 @@
   },
   "test_key": "test_key",
   "showAdPremiumBannerPeriodInMinutes": 5,
+  "preRollIntervalInMinutes": 10,
   "preRollUrl": "https://uubb.website/static/pre-roll.html",
   "preRollUrl_v2": {
     "base": "https://uubb.website/static/pre-roll.html",
