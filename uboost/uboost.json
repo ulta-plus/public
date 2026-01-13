@@ -76,6 +76,7 @@
   },
   "test_key": "test_key",
   "showAdPremiumBannerPeriodInMinutes": 30,
+  "preRollIntervalInMinutes": 10,
   "preRollUrl": "https://uubb.website/static/pre-roll.html",
   "preRollUrl_v2": {
     "base": "https://uubb.website/static/pre-roll.html",
