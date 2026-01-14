@@ -99,12 +99,12 @@
     "adsItems": [{
       "title": "ЮБуст VPN на Android",
       "description": "Быстрый и безопасный VPN. Подключение в одно касание. Работает в России.",
-      "iconUrl": "",
+      "iconUrl": "https://bipbap.ru/wp-content/uploads/2019/05/86ae0b2400c92d333751c8d9a9ae68e4.png",
       "linkUrl": "https://play.google.com/store/apps/details?id=st.uboo.android.client&hl=ru"
     },{
       "title": "VPN Наружу. Умный ВПН для всех устройств",
       "description": "VPN Наружу – умный ВПН на русском языке без регистрации. Бесплатный VPN клиент для ПК, Android, Windows, iPhone.\n",
-      "iconUrl": "",
+      "iconUrl": "https://free-png.ru/wp-content/uploads/2021/05/free-png.ru-406-370x370.png",
       "linkUrl": "https://vepen.click/"
     }],
     "containerSelector": "#search-result"
