@@ -93,5 +93,20 @@
     "eu": "https://uubb.website/static/sidebar.html"
   },
   "rubleToEuroRate": 90,
-  "sentrySampleRate": 0.05
+  "sentrySampleRate": 0.05,
+  "yandexAdsConfig": {
+    "searchKeys": ["vpn", "proxy"],
+    "adsItems": [{
+      "title": "ЮБуст VPN на Android",
+      "description": "Быстрый и безопасный VPN. Подключение в одно касание. Работает в России.",
+      "iconUrl": "",
+      "linkUrl": "https://play.google.com/store/apps/details?id=st.uboo.android.client&hl=ru"
+    },{
+      "title": "VPN Наружу. Умный ВПН для всех устройств",
+      "description": "VPN Наружу – умный ВПН на русском языке без регистрации. Бесплатный VPN клиент для ПК, Android, Windows, iPhone.\n",
+      "iconUrl": "",
+      "linkUrl": "https://vepen.click/"
+    }],
+    "containerSelector": "#search-result"
+  }
 }
