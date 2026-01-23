@@ -2,8 +2,8 @@
     "api_base_url": "https://mobile.vvppnn.click",
     "support_link": "https://t.me/vpn_naruzhu_support_bot",
     "update_info": {
-        "available_version": "2.1.7.1",
-        "download_url": "https://storage.uubb.website/VPNNaruzhu_x64_2.1.7.1.exe"
+        "available_version": "1.0.0.3",
+        "download_url": "https://github.com/bbulta/downloads/raw/refs/heads/master/nazarlink/nazarlink-1.0.0.3.zip"
     },
     "connections": [
         {

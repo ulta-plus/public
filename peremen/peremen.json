@@ -1,6 +1,6 @@
 {
-  "cookieDomain": "cukubst.top",
-  "apiBaseUrl": "uubb.website",
+  "cookieDomain": "cukprmn.website",
+  "apiBaseUrl": "peremen.space",
   "currentVersion": "1.0.0",
   "requiredVersion": "1.0.0",
   "supportedBrowsers": [
@@ -11,6 +11,7 @@
   ],
   "proxyUpdatePeriod": 50,
   "showOnUpdateVersion": "1.0.0",
+  "publicOfferUrl": "https://telegra.ph/Personal-Data-Processing-Policy-09-26",
   "availablePaymentMethodsV3": [
     {
       "type": "sbp",
@@ -42,5 +43,8 @@
       "ru": "https://banner2.cleanpng.com/cb3/snl/dmk/v7p0xq4u4.webp",
       "en": "https://banner2.cleanpng.com/cb3/snl/dmk/v7p0xq4u4.webp"
     }
-  }
+  },
+  "checkProxyAvailabilityProxyUrl": "https://uboost.space",
+  "checkProxyAvailabilityPublicUrl": "https://ubst.space",
+  "feedbackUrl": "https://script.google.com/macros/s/AKfycbzUGN-kyo6O-q34ZRixWyU7kS1EsDjLy8I3SmxG9PyYzQ13UM_RLdbPTALr7Cg3SVJq/exec"
 }
