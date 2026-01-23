@@ -35,6 +35,30 @@ jobs:
 
       - name: Deploy changed files
         run: |
+          # Normalize ALLOWED_DIRS:
+          # - supports comma or newline separated values
+          # - trims whitespace
+          # - removes leading/trailing slashes (e.g. "/naruzhu", "naruzhu/")
+          ALLOWED_DIRS_RAW="${ALLOWED_DIRS:-}"
+          ALLOWED_DIRS_RAW="${ALLOWED_DIRS_RAW//$'\n'/,}"
+          IFS=',' read -ra __DIRS <<< "$ALLOWED_DIRS_RAW"
+          ALLOWED_DIRS_CSV=""
+          for dir in "${__DIRS[@]}"; do
+            dir="$(echo "$dir" | tr -d '[:space:]')"
+            dir="${dir#/}"
+            dir="${dir%/}"
+            # Only allow top-level directories (strip nested paths like "naruzhu/emai" -> "naruzhu")
+            dir="${dir%%/*}"
+            if [ -n "$dir" ]; then
+              if [ -z "$ALLOWED_DIRS_CSV" ]; then
+                ALLOWED_DIRS_CSV="$dir"
+              else
+                ALLOWED_DIRS_CSV="$ALLOWED_DIRS_CSV,$dir"
+              fi
+            fi
+          done
+          echo "Normalized ALLOWED_DIRS: ${ALLOWED_DIRS_CSV:-<empty (allow all)>}"
+
           CHANGED_FILES="${{ steps.changed-files.outputs.files }}"
           if [ ! -z "$CHANGED_FILES" ]; then
             for file in $CHANGED_FILES; do
@@ -42,7 +66,7 @@ jobs:
                 # Определяем директорию первого уровня
                 TOP_DIR=$(echo "$file" | cut -d'/' -f1)
                 # Check if directory is in allowed list
-                if [[ $ALLOWED_DIRS =~ (^|,)$TOP_DIR(,|$) ]]; then
+                if [[ -z "$ALLOWED_DIRS_CSV" || ",$ALLOWED_DIRS_CSV," == *",$TOP_DIR,"* ]]; then
                     BUCKET="${TOP_DIR}"
                     gsutil cp -r "$file" "gs://${BUCKET}/${file#*/}"
                     echo "Deployed: $file to gs://${BUCKET}/${file#*/}"
