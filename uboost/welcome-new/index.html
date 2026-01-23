@@ -19,6 +19,46 @@
     </script>
   <link href="images/favicon.png" rel="shortcut icon" type="image/x-icon">
   <link href="images/webclip.png" rel="apple-touch-icon">
+  <style>
+    .firefox-notice {
+      max-width: 600px;
+      margin: 30px auto;
+      padding: 30px;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+    .firefox-notice-content h3 {
+      margin-top: 0;
+      margin-bottom: 15px;
+      color: #151515;
+      font-size: 24px;
+      font-weight: 600;
+    }
+    .firefox-notice-content p {
+      margin-bottom: 20px;
+      color: #666;
+      line-height: 1.6;
+    }
+    .firefox-instructions {
+      background-color: #f8f8f8;
+      padding: 20px;
+      border-radius: 6px;
+      margin-top: 15px;
+    }
+    .firefox-instructions ol {
+      margin: 0;
+      padding-left: 20px;
+      color: #333;
+    }
+    .firefox-instructions li {
+      margin-bottom: 10px;
+      line-height: 1.6;
+    }
+    .firefox-instructions li:last-child {
+      margin-bottom: 0;
+    }
+  </style>
 </head>
 <body class="body">
   <div class="header ru">
@@ -98,6 +138,21 @@
       <a id="openExtension" href="#" class="blackbutton big w-inline-block">
         <div class="text-block">Открыть ЮБуст</div>
       </a>
+      <div id="firefoxNotice" class="firefox-notice ru" style="display: none;">
+        <div class="firefox-notice-content">
+          <h3>Разрешите работу расширения в приватных вкладках</h3>
+          <p>Для корректной работы ЮБуст в Firefox необходимо разрешить работу расширения в приватных вкладках.</p>
+          <div class="firefox-instructions">
+            <ol>
+              <li>Откройте меню Firefox (три горизонтальные линии в правом верхнем углу)</li>
+              <li>Выберите "Расширения и темы" (или нажмите Ctrl+Shift+A)</li>
+              <li>Найдите расширение "ЮБуст" в списке</li>
+              <li>Нажмите на кнопку "Настройки" рядом с расширением</li>
+              <li>Включите опцию "Разрешить в приватных окнах"</li>
+            </ol>
+          </div>
+        </div>
+      </div>
       <div class="herolight left"></div>
       <div class="herolight"></div>
     </div>
@@ -107,6 +162,21 @@
       <div class="herotextblock">
         <h1 class="heading-9">Thanks for installing<br>UBoost!</h1>
         <p class="bigparagraph">New users have access to Premium benefits<br></p>
+      </div>
+      <div id="firefoxNoticeEn" class="firefox-notice en" style="display: none;">
+        <div class="firefox-notice-content">
+          <h3>Allow extension in private windows</h3>
+          <p>For UBoost to work correctly in Firefox, you need to allow the extension to work in private windows.</p>
+          <div class="firefox-instructions">
+            <ol>
+              <li>Open Firefox menu (three horizontal lines in the top right corner)</li>
+              <li>Select "Extensions and themes" (or press Ctrl+Shift+A)</li>
+              <li>Find "UBoost" extension in the list</li>
+              <li>Click the "Settings" button next to the extension</li>
+              <li>Enable the "Allow in private windows" option</li>
+            </ol>
+          </div>
+        </div>
       </div>
       <div class="herolight left"></div>
       <div class="herolight"></div>
@@ -341,6 +411,36 @@
   <div class="w-embed w-script">
     <script>
         document.addEventListener('DOMContentLoaded', function() {
+          // Проверка браузера Firefox
+          function isFirefox() {
+            return typeof InstallTrigger !== 'undefined' || 
+                   navigator.userAgent.toLowerCase().indexOf('firefox') > -1;
+          }
+
+          const firefoxNoticeRu = document.getElementById('firefoxNotice');
+          const firefoxNoticeEn = document.getElementById('firefoxNoticeEn');
+          const openExtensionBtn = document.getElementById('openExtension');
+          const isFirefoxBrowser = isFirefox();
+
+          // Обработка Firefox
+          if (isFirefoxBrowser) {
+            // В Firefox: скрываем кнопку, показываем инструкцию
+            if (openExtensionBtn) {
+              openExtensionBtn.style.display = 'none';
+            }
+          } else {
+            // В других браузерах: показываем кнопку, скрываем инструкцию
+            if (openExtensionBtn) {
+              openExtensionBtn.style.display = '';
+            }
+            if (firefoxNoticeRu) {
+              firefoxNoticeRu.style.display = 'none';
+            }
+            if (firefoxNoticeEn) {
+              firefoxNoticeEn.style.display = 'none';
+            }
+          }
+
           const buttons = document.querySelectorAll('.changelang');
           let currentLang = 'ru'; // Язык по умолчанию
           buttons.forEach(button => {
@@ -353,12 +453,29 @@
           function toggleLanguage(lang) {
             const enElements = document.querySelectorAll('.en');
             const ruElements = document.querySelectorAll('.ru');
-            if (lang === 'en') {
-              enElements.forEach(el => el.style.display = 'flex');
-              ruElements.forEach(el => el.style.display = 'none');
-            } else {
-              enElements.forEach(el => el.style.display = 'none');
-              ruElements.forEach(el => el.style.display = 'flex');
+            
+            // Исключаем блоки Firefox из общей обработки
+            enElements.forEach(el => {
+              if (!el.classList.contains('firefox-notice')) {
+                el.style.display = lang === 'en' ? 'flex' : 'none';
+              }
+            });
+            
+            ruElements.forEach(el => {
+              if (!el.classList.contains('firefox-notice')) {
+                el.style.display = lang === 'ru' ? 'flex' : 'none';
+              }
+            });
+            
+            // Для Firefox: управляем видимостью блоков инструкции
+            if (isFirefoxBrowser) {
+              if (lang === 'en') {
+                if (firefoxNoticeEn) firefoxNoticeEn.style.display = 'block';
+                if (firefoxNoticeRu) firefoxNoticeRu.style.display = 'none';
+              } else {
+                if (firefoxNoticeEn) firefoxNoticeEn.style.display = 'none';
+                if (firefoxNoticeRu) firefoxNoticeRu.style.display = 'block';
+              }
             }
           }
           // Инициализируем начальное состояние
