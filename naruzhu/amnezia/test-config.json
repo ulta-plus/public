@@ -3,8 +3,9 @@
     "dns1": "192.168.63.254",
     "dns2": "8.8.8.8",
     "supportLink": "https://t.me/vpn_naruzhu_support_bot",
+    "aboutLink": "https://new.vpn-naruzhu.com/profile",
     "updateInfo": {
-        "availableVersion": "2.1.7.1",
+        "availableVersion": "2.4.0.1",
         "downloadUrl": "https://storage.uubb.website/VPNNaruzhu_x64_2.1.7.1.exe"
     },
     "connections": [
