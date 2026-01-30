@@ -1,6 +1,6 @@
 {
-  "cookieDomain": "cukprmn.website",
   "apiBaseUrl": "peremen.space",
+  "cookieDomain": "cukprmn.website",
   "currentVersion": "1.0.0",
   "requiredVersion": "1.0.0",
   "supportedBrowsers": [
