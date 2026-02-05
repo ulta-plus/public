@@ -16,7 +16,8 @@
   "shouldUpdatePACVersion": "7.0.0",
   "availableBannersData": "",
   "advMinVersion": "8.9.0",
-  "advMinVersionFirefox": "8.9.0",
+  "advMaxVersionChrome": "8.9.0",
+  "advMaxVersionFirefox": "1.0.0",
   "androidAppUrl": "https://uboost.download/",
   "availablePaymentMethods": [
     "sbp",
