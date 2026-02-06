@@ -116,6 +116,7 @@
         "linkUrl": "https://naruzhu.click/nrz_search"
       }
     ],
-    "containerSelector": "#search-result"
+    "containerSelector": "#search-result",
+    "exchangeRatesUpdatePeriodInMinutes": 1440
   }
 }
