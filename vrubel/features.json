@@ -2,5 +2,6 @@
   "captcha-cracker-disabled": "7.1.1",
   "on-fail-disabled": "7.4.0",
   "multi-locales-support": "7.9.0",
+  "on-fail-disabled-v2": "7.9.0",
   "_version": "2.0.1"
 }
