@@ -96,6 +96,7 @@
   },
   "rubleToEuroRate": 90,
   "sentrySampleRate": 0.05,
+  "exchangeRatesUpdatePeriodInMinutes": 20,
   "yandexAdsConfig": {
     "searchKeys": [
       "vpn",
@@ -115,7 +116,6 @@
         "linkUrl": "https://vepen.click/"
       }
     ],
-    "containerSelector": "#search-result",
-    "exchangeRatesUpdatePeriodInMinutes": 20
+    "containerSelector": "#search-result"
   }
 }
