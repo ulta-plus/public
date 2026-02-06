@@ -31,5 +31,7 @@
       "supportsAutoRenew": false
     }
   ],
-  "availableAlarmTries": 15
+  "availableAlarmTries": 15,
+  "checkProxyAvailabilityProxyUrl": "https://uboost.space",
+  "checkProxyAvailabilityPublicUrl": "https://ubst.space"
 }
