@@ -115,6 +115,7 @@
         "linkUrl": "https://vepen.click/"
       }
     ],
-    "containerSelector": "#search-result"
+    "containerSelector": "#search-result",
+    "exchangeRatesUpdatePeriodInMinutes": 20
   }
 }
