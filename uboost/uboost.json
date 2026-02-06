@@ -97,6 +97,7 @@
   },
   "rubleToEuroRate": 90,
   "sentrySampleRate": 0.05,
+  "exchangeRatesUpdatePeriodInMinutes": 1440,
   "yandexAdsConfig": {
     "searchKeys": [
       "vpn",
@@ -116,7 +117,6 @@
         "linkUrl": "https://naruzhu.click/nrz_search"
       }
     ],
-    "containerSelector": "#search-result",
-    "exchangeRatesUpdatePeriodInMinutes": 1440
+    "containerSelector": "#search-result"
   }
 }
