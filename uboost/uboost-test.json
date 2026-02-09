@@ -116,5 +116,64 @@
       }
     ],
     "containerSelector": "#search-result"
+  },
+  "yandexAdsConfig_v2": {
+    "ads": [
+      {
+        "id": 1,
+        "title": "ЮБуст VPN на Android",
+        "description": "Быстрый и безопасный VPN. Подключение в одно касание. Работает в России.",
+        "url": "https://play.google.com/store/apps/details?id=st.uboo.android.client&hl=ru",
+        "displayUrl": "test.displayUrl.com",
+        "iconUrl": "https://favicon.yandex.net/favicon/uboost.tube",
+        "tracking": {
+          "onImpression": "https://test.uubb.website/api/v1/track?event=impression&ad=1",
+          "onClick": "https://test.uubb.website/api/v1/track?event=click&ad=1"
+        }
+      },
+      {
+        "id": 2,
+        "title": "VPN Наружу. Умный ВПН для всех устройств",
+        "description": "VPN Наружу – умный ВПН на русском языке без регистрации. Бесплатный VPN клиент для ПК, Android, Windows, iPhone.",
+        "url": "https://vepen.click/",
+        "iconUrl": "https://www.google.com/s2/favicons?domain=vepen.click&sz=32"
+      }
+    ],
+    "rules": [
+      {
+        "keywords": [
+          "vpn",
+          "exact"
+        ],
+        "matchType": "exact",
+        "adIds": [
+          1,
+          2
+        ]
+      },
+      {
+        "keywords": [
+          "обход блокировок",
+          "contains"
+        ],
+        "matchType": "contains",
+        "adIds": [
+          1
+        ]
+      },
+      {
+        "keywords": [
+          "vpn",
+          "впн",
+          "proxy",
+          "прокси"
+        ],
+        "matchType": "word",
+        "adIds": [
+          1,
+          2
+        ]
+      }
+    ]
   }
 }
