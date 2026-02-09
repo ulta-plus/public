@@ -128,8 +128,8 @@
         "displayUrl": "test.displayUrl.com",
         "iconUrl": "https://favicon.yandex.net/favicon/uboost.tube",
         "tracking": {
-          "onImpression": "https://test.uubb.website/api/v1/track?event=impression&ad=1",
-          "onClick": "https://test.uubb.website/api/v1/track?event=click&ad=1"
+          "onImpression": "https://adfox.yandex.ru/pixel/123456",
+          "onClick": "https://adfox.yandex.ru/click/123456"
         }
       },
       {
