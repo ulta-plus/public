@@ -190,7 +190,8 @@
     },
     {
       "keywords": [
-        "test_contains",
+        "word",
+        "авто",
         "contains"
       ],
       "matchType": "contains",
@@ -200,10 +201,10 @@
     },
     {
       "keywords": [
-        "test_contains",
-        "contains"
+        "testWord",
+        "word"
       ],
-      "matchType": "contains",
+      "matchType": "word",
       "tracking": {
         "onImpression": "https://analytics.example.com/pixel?campaign=diapers_research"
       }
