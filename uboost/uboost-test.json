@@ -128,8 +128,8 @@
         "iconUrl": "https://favicon.yandex.net/favicon/uboost.tube",
         "displayUrl": "test.displayUrl.com",
         "tracking": {
-          "onImpression": "https://adfox.yandex.ru/pixel/123456",
-          "onClick": "https://adfox.yandex.ru/click/123456"
+          "onImpression": "https://mc.yandex.ru/pixel/8778010650232609295?rnd=%25aw_random%25",
+          "onClick": "https://mc.yandex.ru/pixel/2033885303809212483?rnd=%25aw_random%25"
         }
       },
       {
@@ -185,7 +185,7 @@
       ],
       "matchType": "exact",
       "tracking": {
-        "onImpression": "https://analytics.example.com/pixel?campaign=diapers_research"
+        "onImpression": "https://mc.yandex.ru/pixel/5905987072760699684?rnd=%25aw_random%25"
       }
     },
     {
@@ -196,7 +196,7 @@
       ],
       "matchType": "contains",
       "tracking": {
-        "onImpression": "https://analytics.example.com/pixel?campaign=diapers_research"
+        "onImpression": "https://mc.yandex.ru/pixel/146232087764243706?rnd=%25aw_random%25"
       }
     },
     {
@@ -206,7 +206,7 @@
       ],
       "matchType": "word",
       "tracking": {
-        "onImpression": "https://analytics.example.com/pixel?campaign=diapers_research"
+        "onImpression": "https://mc.yandex.ru/pixel/6530780273572088338?rnd=%25aw_random%25"
       }
     }
   ]
