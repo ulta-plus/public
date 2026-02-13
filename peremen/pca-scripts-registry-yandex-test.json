@@ -1,8 +1,4 @@
 {
-  "regular_ru": "https://storage.yandexcloud.net/vpnn-web-configs/peremen/peremen-ru-pac-script.json",
-  "premium_ru": "https://storage.yandexcloud.net/vpnn-web-configs/peremen/peremen-ru-pac-script.json",
-  "regular_global": "https://storage.yandexcloud.net/vpnn-web-configs/peremen/peremen-regular-global-pac-script.json",
-  "premium_global": "https://storage.yandexcloud.net/vpnn-web-configs/peremen/peremen-premium-global-pac-script.json",
-  "regular_global_smart": "https://storage.yandexcloud.net/vpnn-web-configs/peremen/peremen-regular-global-smart-pac-script.json",
-  "premium_global_smart": "https://storage.yandexcloud.net/vpnn-web-configs/peremen/peremen-premium-global-smart-pac-script.json"
+  "premium": "https://storage.yandexcloud.net/vpnn-web-configs/peremen/peremen-premium-pac-script.json",
+  "free": "https://storage.yandexcloud.net/vpnn-web-configs/peremen/peremen-free-pac-script.json"
 }
