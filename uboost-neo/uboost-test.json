@@ -17,6 +17,7 @@
   "shouldUpdatePACVersion": "7.0.0",
   "availableBannersData": "naruzhu",
   "advMinVersion": "7.10.2",
+  "mediaMinVersion": "7.10.2",
   "androidAppUrl": "https://uboost.download/",
   "availablePaymentMethods": [
     "sbp",
