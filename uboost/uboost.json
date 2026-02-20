@@ -19,6 +19,9 @@
   "advMinVersion": "8.9.0",
   "advMaxVersionChrome": "8.9.0",
   "advMaxVersionFirefox": "1.0.0",
+  "mediaMinVersion": "8.9.0",
+  "mediaMaxVersionChrome": "8.9.0",
+  "mediaMaxVersionFirefox": "1.0.0",
   "androidAppUrl": "https://uboost.download/",
   "availablePaymentMethods": [
     "sbp",
@@ -58,8 +61,16 @@
     "base": "https://uubb.website/static/ad.html",
     "eu": "https://uubb.website/static/ad.html"
   },
+  "bannerUrls": {
+    "base": "https://uubb.website/static/ad.html",
+    "eu": "https://uubb.website/static/ad.html"
+  },
   "adfoxBannerUrlSecondary": "https://uubb.website/static/watch_ad.html",
   "adfoxBannerUrlSecondary_v2": {
+    "base": "https://uubb.website/static/watch_ad.html",
+    "eu": "https://uubb.website/static/watch_ad.html"
+  },
+  "bannerUrlsSecondary": {
     "base": "https://uubb.website/static/watch_ad.html",
     "eu": "https://uubb.website/static/watch_ad.html"
   },
@@ -69,6 +80,11 @@
     "2026-01-03"
   ],
   "giftAdvertisingPeriodInMinutes": 1440,
+  "giftsAvailableDates": [
+    "2025-12-29",
+    "2026-01-03"
+  ],
+  "giftsPeriodInMinutes": 1440,
   "checkProxyAvailabilityProxyUrl": "https://uboost.space",
   "checkProxyAvailabilityPublicUrl": "https://ubst.space",
   "subscriptionExpiringAlerts": {
@@ -78,20 +94,35 @@
   },
   "test_key": "test_key",
   "showAdPremiumBannerPeriodInMinutes": 30,
+  "premiumBannerPeriodInMinutes": 30,
   "preRollIntervalInMinutes": 10,
+  "beforeStartMediaIntervalInMinutes": 10,
   "preRollUrl": "https://uubb.website/static/pre-roll.html",
   "preRollUrl_v2": {
     "base": "https://uubb.website/static/pre-roll.html",
     "eu": "https://uubb.website/static/pre-roll.html"
   },
+  "beforeStartMediaUrls": {
+    "base": "https://uubb.website/static/pre-roll.html",
+    "eu": "https://uubb.website/static/pre-roll.html"
+  },
   "midRollIntervalInMinutes": 10,
+  "midpointMediaIntervalInMinutes": 10,
   "midRollUrl": "https://uubb.website/static/mid-roll.html",
   "midRollUrl_v2": {
     "base": "https://uubb.website/static/mid-roll.html",
     "eu": "https://uubb.website/static/mid-roll.html"
   },
+  "midpointMediaUrls": {
+    "base": "https://uubb.website/static/mid-roll.html",
+    "eu": "https://uubb.website/static/mid-roll.html"
+  },
   "sidebarAdsUrl": "https://uubb.website/static/sidebar.html",
   "sidebarAdsUrl_v2": {
+    "base": "https://uubb.website/static/sidebar.html",
+    "eu": "https://uubb.website/static/sidebar.html"
+  },
+  "sidebarMediaUrl": {
     "base": "https://uubb.website/static/sidebar.html",
     "eu": "https://uubb.website/static/sidebar.html"
   },
@@ -118,5 +149,26 @@
       }
     ],
     "containerSelector": "#search-result"
+  },
+  "yandexConfig": {
+    "keys": [
+      "vpn",
+      "proxy"
+    ],
+    "items": [
+      {
+        "title": "ЮБуст VPN на Android",
+        "description": "Быстрый и безопасный VPN. Подключение в одно касание. Работает в России.",
+        "iconUrl": "https://play-lh.googleusercontent.com/b2-CJVDCuYxStCirBq6EG586bs5sCwh-qO07JmjtWoo6oQ-5ojrmY0s9pVR826w9gFc=w480-h960-rw",
+        "linkUrl": "https://bit.ly/4qm3RGP"
+      },
+      {
+        "title": "VPN Наружу. Умный ВПН для всех устройств",
+        "description": "VPN Наружу – умный ВПН на русском языке без регистрации. Бесплатный VPN клиент для ПК, Android, Windows, iPhone.\n",
+        "iconUrl": "https://lh3.googleusercontent.com/RSI9U8ef8_WsQBwBfAj3JhgY7BY0sX_nFkwtkQvtGguXa5VcUhEJ7N5AKFeeUO4lPAriud_LlC3n58a-1WCN9tKn=s120",
+        "linkUrl": "https://naruzhu.click/nrz_search"
+      }
+    ],
+    "container": "#search-result"
   }
 }
