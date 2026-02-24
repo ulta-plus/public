@@ -30,7 +30,7 @@
       "supportsAutoRenew": false
     }
   ],
-  "profileAdvertising": {
+  "peremenProfileBlock": {
     "title": {
       "ru": "Скоро для iOS и Android",
       "en": "Coming soon for iOS and Android"
@@ -46,5 +46,6 @@
   },
   "checkProxyAvailabilityProxyUrl": "https://uboost.space",
   "checkProxyAvailabilityPublicUrl": "https://ubst.space",
-  "feedbackUrl": "https://script.google.com/macros/s/AKfycbzUGN-kyo6O-q34ZRixWyU7kS1EsDjLy8I3SmxG9PyYzQ13UM_RLdbPTALr7Cg3SVJq/exec"
+  "feedbackUrl": "https://script.google.com/macros/s/AKfycbzUGN-kyo6O-q34ZRixWyU7kS1EsDjLy8I3SmxG9PyYzQ13UM_RLdbPTALr7Cg3SVJq/exec",
+  "exchangeRatesUpdatePeriodInMinutes": 720
 }

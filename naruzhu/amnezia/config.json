@@ -3,9 +3,12 @@
     "dns1": "192.168.63.254",
     "dns2": "8.8.8.8",
     "supportLink": "https://t.me/vpn_naruzhu_support_bot",
+    "tgChannelLink": "https://t.me/vpn_naruzhu",
+    "aboutLink": "https://nrz.monster/profile",
+    "websiteLink": "https://nrz.monster",
     "updateInfo": {
-        "availableVersion": "2.1.7.1",
-        "downloadUrl": "https://storage.uubb.website/VPNNaruzhu_x64_2.1.7.1.exe"
+        "availableVersion": "2.2.0.9",
+        "downloadUrl": "https://storage.uubb.website/VPNNaruzhu_x64_2.2.0.9.exe"
     },
     "connections": [
         {

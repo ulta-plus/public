@@ -11,6 +11,7 @@
   "shouldUpdatePACVersion": "1.0.0",
   "availableBannersData": "d",
   "advMinVersion": "1.0.0",
+  "mediaMinVersion": "1.0.0",
   "androidAppUrl": "",
   "availablePaymentMethods": ["sbp", "card"],
   "publicOfferUrl": "https://uboo.st/oferta",
