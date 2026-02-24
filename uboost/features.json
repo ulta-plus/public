@@ -4,6 +4,7 @@
   "on-fail-disabled": false,
   "_version": "2.0.18",
   "adfox-banner": "7.5.2",
+  "banner-media": "7.5.2",
   "free-users-review": "7.9.0",
   "proxy-controlled-by-other-extensions-visibility": "7.9.0",
   "multi-device-support": "7.10.1",
@@ -13,6 +14,10 @@
   "black-friday-on": false,
   "service-worker-ping-pong": "8.4.2",
   "sidebar-ads": "8.4.2",
+  "sidebar-media": "8.4.2",
   "video-pre-roll": "8.4.2",
-  "yandex-search-ads": "8.4.2"
+  "before-start-media": "8.4.2",
+  "yandex-search-ads": "8.4.2",
+  "yandex-config": "8.4.2",
+  "auto-renewal": "8.4.2"
 }

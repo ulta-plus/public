@@ -16,6 +16,11 @@
   "shouldUpdatePACVersion": "7.0.0",
   "availableBannersData": "",
   "advMinVersion": "8.9.0",
+  "advMaxVersionChrome": "8.9.0",
+  "advMaxVersionFirefox": "1.0.0",
+  "mediaMinVersion": "8.9.0",
+  "mediaMaxVersionChrome": "8.9.0",
+  "mediaMaxVersionFirefox": "1.0.0",
   "androidAppUrl": "https://uboost.download/",
   "availablePaymentMethods": [
     "sbp",
@@ -55,17 +60,30 @@
     "base": "https://uubb.website/static/ad.html",
     "eu": "https://uubb.website/static/ad.html"
   },
+  "bannerUrls": {
+    "base": "https://uubb.website/static/ad.html",
+    "eu": "https://uubb.website/static/ad.html"
+  },
   "adfoxBannerUrlSecondary": "https://uubb.website/static/watch_ad.html",
   "adfoxBannerUrlSecondary_v2": {
     "base": "https://uubb.website/static/watch_ad.html",
     "eu": "https://uubb.website/static/watch_ad.html"
   },
+  "bannerUrlsSecondary": {
+    "base": "https://uubb.website/static/watch_ad.html",
+    "eu": "https://uubb.website/static/watch_ad.html"
+  },
   "availableAlarmTries": 100,
   "giftAdvertisingAvailableDates": [
-    "2025-12-15",
-    "2025-12-29"
+    "2026-02-15",
+    "2026-03-29"
   ],
   "giftAdvertisingPeriodInMinutes": 1,
+  "giftsAvailableDates": [
+    "2026-02-15",
+    "2026-03-29"
+  ],
+  "giftAsPeriodInMinutes": 1,
   "checkProxyAvailabilityProxyUrl": "https://uboost.space",
   "checkProxyAvailabilityPublicUrl": "https://ubst.space",
   "subscriptionExpiringAlerts": {
@@ -75,38 +93,173 @@
   },
   "test_key": "test_key",
   "showAdPremiumBannerPeriodInMinutes": 5,
+  "premiumBannerPeriodInMinutes": 5,
   "preRollIntervalInMinutes": 10,
+  "beforeStartMediaIntervalInMinutes": 10,
   "preRollUrl": "https://uubb.website/static/test_pre-roll.html",
   "preRollUrl_v2": {
     "base": "https://uubb.website/static/test_pre-roll.html",
     "eu": "https://uubb.website/static/test_pre-roll.html"
   },
+  "beforeStartMediaUrls": {
+    "base": "https://uubb.website/static/test_pre-roll.html",
+    "eu": "https://uubb.website/static/test_pre-roll.html"
+  },
   "midRollIntervalInMinutes": 10,
-  "midRollUrl": "https://uubb.website/static/mid-roll.html",
+  "midpointMediaIntervalInMinutes": 10,
+  "midRollUrl": "https://uubb.website/static/test_mid-roll.html",
   "midRollUrl_v2": {
-    "base": "https://uubb.website/static/mid-roll.html",
-    "eu": "https://uubb.website/static/mid-roll.html"
+    "base": "https://uubb.website/static/test_mid-roll.html",
+    "eu": "https://uubb.website/static/test_mid-roll.html"
+  },
+  "midpointMediaUrls": {
+    "base": "https://uubb.website/static/test_mid-roll.html",
+    "eu": "https://uubb.website/static/test_mid-roll.html"
   },
   "sidebarAdsUrl": "https://uubb.website/static/sidebar.html",
   "sidebarAdsUrl_v2": {
     "base": "https://uubb.website/static/sidebar.html",
     "eu": "https://uubb.website/static/sidebar.html"
   },
+  "sidebarMediaUrl": {
+    "base": "https://uubb.website/static/sidebar.html",
+    "eu": "https://uubb.website/static/sidebar.html"
+  },
   "rubleToEuroRate": 90,
   "sentrySampleRate": 0.05,
+  "exchangeRatesUpdatePeriodInMinutes": 20,
   "yandexAdsConfig": {
-    "searchKeys": ["vpn", "proxy"],
-    "adsItems": [{
-      "title": "ЮБуст VPN на Android",
-      "description": "Быстрый и безопасный VPN. Подключение в одно касание. Работает в России.",
-      "iconUrl": "https://bipbap.ru/wp-content/uploads/2019/05/86ae0b2400c92d333751c8d9a9ae68e4.png",
-      "linkUrl": "https://play.google.com/store/apps/details?id=st.uboo.android.client&hl=ru"
-    },{
-      "title": "VPN Наружу. Умный ВПН для всех устройств",
-      "description": "VPN Наружу – умный ВПН на русском языке без регистрации. Бесплатный VPN клиент для ПК, Android, Windows, iPhone.\n",
-      "iconUrl": "https://free-png.ru/wp-content/uploads/2021/05/free-png.ru-406-370x370.png",
-      "linkUrl": "https://vepen.click/"
-    }],
+    "searchKeys": [
+      "vpn",
+      "proxy"
+    ],
+    "adsItems": [
+      {
+        "title": "ЮБуст VPN на Android",
+        "description": "Быстрый и безопасный VPN. Подключение в одно касание. Работает в России.",
+        "iconUrl": "https://play-lh.googleusercontent.com/b2-CJVDCuYxStCirBq6EG586bs5sCwh-qO07JmjtWoo6oQ-5ojrmY0s9pVR826w9gFc=w480-h960-rw",
+        "linkUrl": "https://play.google.com/store/apps/details?id=st.uboo.android.client&hl=ru"
+      },
+      {
+        "title": "VPN Наружу. Умный ВПН для всех устройств",
+        "description": "VPN Наружу – умный ВПН на русском языке без регистрации. Бесплатный VPN клиент для ПК, Android, Windows, iPhone.\n",
+        "iconUrl": "https://lh3.googleusercontent.com/RSI9U8ef8_WsQBwBfAj3JhgY7BY0sX_nFkwtkQvtGguXa5VcUhEJ7N5AKFeeUO4lPAriud_LlC3n58a-1WCN9tKn=s120",
+        "linkUrl": "https://vepen.click/"
+      }
+    ],
     "containerSelector": "#search-result"
-  }
+  },
+  "yandexConfig": {
+    "keys": [
+      "vpn",
+      "proxy"
+    ],
+    "items": [
+      {
+        "title": "ЮБуст VPN на Android",
+        "description": "Быстрый и безопасный VPN. Подключение в одно касание. Работает в России.",
+        "iconUrl": "https://play-lh.googleusercontent.com/b2-CJVDCuYxStCirBq6EG586bs5sCwh-qO07JmjtWoo6oQ-5ojrmY0s9pVR826w9gFc=w480-h960-rw",
+        "linkUrl": "https://bit.ly/4qm3RGP"
+      },
+      {
+        "title": "VPN Наружу. Умный ВПН для всех устройств",
+        "description": "VPN Наружу – умный ВПН на русском языке без регистрации. Бесплатный VPN клиент для ПК, Android, Windows, iPhone.\n",
+        "iconUrl": "https://lh3.googleusercontent.com/RSI9U8ef8_WsQBwBfAj3JhgY7BY0sX_nFkwtkQvtGguXa5VcUhEJ7N5AKFeeUO4lPAriud_LlC3n58a-1WCN9tKn=s120",
+        "linkUrl": "https://naruzhu.click/nrz_search"
+      }
+    ],
+    "container": "#search-result"
+  },
+  "yandexAdsConfig_v2": {
+    "ads": [
+      {
+        "id": 1,
+        "title": "ЮБуст VPN на Android",
+        "description": "Быстрый и безопасный VPN. Подключение в одно касание. Работает в России.",
+        "url": "https://play.google.com/store/apps/details?id=st.uboo.android.client&hl=ru",
+        "iconUrl": "https://favicon.yandex.net/favicon/uboost.tube",
+        "displayUrl": "test.displayUrl.com",
+        "tracking": {
+          "onImpression": "https://mc.yandex.ru/pixel/8778010650232609295?rnd=%25aw_random%25",
+          "onClick": "https://mc.yandex.ru/pixel/2033885303809212483?rnd=%25aw_random%25"
+        }
+      },
+      {
+        "id": 2,
+        "title": "VPN Наружу. Умный ВПН для всех устройств",
+        "description": "VPN Наружу – умный ВПН на русском языке без регистрации. Бесплатный VPN клиент для ПК, Android, Windows, iPhone.",
+        "url": "https://vepen.click/",
+        "iconUrl": "https://www.google.com/s2/favicons?domain=vepen.click&sz=32"
+      }
+    ],
+    "rules": [
+      {
+        "keywords": [
+          "vpn",
+          "exact"
+        ],
+        "matchType": "exact",
+        "adIds": [
+          3,
+          2
+        ]
+      },
+      {
+        "keywords": [
+          "обход блокировок",
+          "contains"
+        ],
+        "matchType": "contains",
+        "adIds": [
+          1
+        ]
+      },
+      {
+        "keywords": [
+          "vpn",
+          "впн",
+          "proxy",
+          "прокси"
+        ],
+        "matchType": "word",
+        "adIds": [
+          1,
+          2
+        ]
+      }
+    ]
+  },
+  "yandexTrackingConfig": [
+    {
+      "keywords": [
+        "купить деньги",
+        "exact"
+      ],
+      "matchType": "exact",
+      "tracking": {
+        "onImpression": "https://mc.yandex.ru/pixel/5905987072760699684?rnd=%25aw_random%25"
+      }
+    },
+    {
+      "keywords": [
+        "word",
+        "авто",
+        "contains"
+      ],
+      "matchType": "contains",
+      "tracking": {
+        "onImpression": "https://mc.yandex.ru/pixel/146232087764243706?rnd=%25aw_random%25"
+      }
+    },
+    {
+      "keywords": [
+        "testWord",
+        "word"
+      ],
+      "matchType": "word",
+      "tracking": {
+        "onImpression": "https://mc.yandex.ru/pixel/6530780273572088338?rnd=%25aw_random%25"
+      }
+    }
+  ]
 }

@@ -11,6 +11,7 @@
   "shouldUpdatePACVersion": "2.0.0",
   "availableBannersData": null,
   "advMinVersion": "2.0.0",
+  "mediaMinVersion": "2.0.0",
   "androidAppUrl": null,
   "availablePaymentMethods": ["sbp", "card"],
   "publicOfferUrl": null,

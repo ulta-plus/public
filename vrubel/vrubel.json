@@ -17,11 +17,14 @@
   "shouldUpdatePACVersion": "7.0.0",
   "availableBannersData": "",
   "advMinVersion": "7.0.0",
+  "mediaMinVersion": "7.0.0",
   "publicOfferUrl": "https://vrubel.tube/landing/vrubeloffer.pdf",
   "availablePaymentMethods": ["sbp", "card"],
   "availablePaymentMethodsV2": [
     { "type": "sbp", "supportsAutoRenew": false },
     { "type": "card", "supportsAutoRenew": false }
   ],
-  "availableAlarmTries": 15
+  "availableAlarmTries": 15,
+  "checkProxyAvailabilityProxyUrl": "https://uboost.space",
+  "checkProxyAvailabilityPublicUrl": "https://ubst.space"
 }
