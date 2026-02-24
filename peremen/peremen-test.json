@@ -9,7 +9,7 @@
     "yandexbrowser",
     "firefox"
   ],
-  "proxyUpdatePeriod": 50,
+  "proxyUpdatePeriod": 5,
   "showOnUpdateVersion": "1.0.0",
   "publicOfferUrl": "https://telegra.ph/Personal-Data-Processing-Policy-09-26",
   "availablePaymentMethodsV3": [
