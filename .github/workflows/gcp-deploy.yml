@@ -11,6 +11,7 @@ env:
   # Add new directories in GitHub Actions Variables -> ALLOWED_DIRS
   # Each directory should have a corresponding GCP bucket with the same name
   ALLOWED_DIRS: ${{ vars.ALLOWED_DIRS }}
+  DEPLOY_TYPE: ${{ vars.DEPLOY_TYPE }}
 
 jobs:
   deploy:
