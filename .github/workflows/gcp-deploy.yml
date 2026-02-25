@@ -34,7 +34,7 @@ jobs:
       - id: changed-files
         run: echo "files=$(git diff --name-only HEAD^ HEAD | tr '\n' ' ')" >> $GITHUB_OUTPUT
 
-      - name: Deploy changed files
+      - name: Deploy files
         run: |
           # Normalize ALLOWED_DIRS:
           # - supports comma or newline separated values
@@ -60,25 +60,49 @@ jobs:
           done
           echo "Normalized ALLOWED_DIRS: ${ALLOWED_DIRS_CSV:-<empty (allow all)>}"
 
-          CHANGED_FILES="${{ steps.changed-files.outputs.files }}"
-          if [ ! -z "$CHANGED_FILES" ]; then
-            for file in $CHANGED_FILES; do
-              if [ -f "$file" ]; then
-                # Определяем директорию первого уровня
-                TOP_DIR=$(echo "$file" | cut -d'/' -f1)
-                # Check if directory is in allowed list
-                if [[ -z "$ALLOWED_DIRS_CSV" || ",$ALLOWED_DIRS_CSV," == *",$TOP_DIR,"* ]]; then
-                    BUCKET="${TOP_DIR}"
-                    gsutil cp -r "$file" "gs://${BUCKET}/${file#*/}"
-                    echo "Deployed: $file to gs://${BUCKET}/${file#*/}"
+          if [ "$DEPLOY_TYPE" = "all" ]; then
+            echo "Deploying all files from allowed directories"
+            IFS=',' read -ra DIRS <<< "$ALLOWED_DIRS_CSV"
+            if [ -z "$ALLOWED_DIRS_CSV" ]; then
+              echo "ALLOWED_DIRS is empty, deploying all top-level directories"
+              for dir in */; do
+                [ -d "$dir" ] || continue
+                dir="${dir%/}"
+                echo "Deploying directory: $dir"
+                gsutil cp -r "$dir" "gs://${dir}/"
+              done
+            else
+              for dir in "${DIRS[@]}"; do
+                if [ -d "$dir" ]; then
+                  echo "Deploying directory: $dir"
+                  gsutil cp -r "$dir" "gs://${dir}/"
                 else
-                    echo "Skipping file not in main project directories: $file"
-                    continue
+                  echo "Skipping missing directory: $dir"
                 fi
-              fi
-            done
+              done
+            fi
           else
-            echo "No files changed"
+            echo "Deploying only changed files"
+            CHANGED_FILES="${{ steps.changed-files.outputs.files }}"
+            if [ ! -z "$CHANGED_FILES" ]; then
+              for file in $CHANGED_FILES; do
+                if [ -f "$file" ]; then
+                  # Определяем директорию первого уровня
+                  TOP_DIR=$(echo "$file" | cut -d'/' -f1)
+                  # Check if directory is in allowed list
+                  if [[ -z "$ALLOWED_DIRS_CSV" || ",$ALLOWED_DIRS_CSV," == *",$TOP_DIR,"* ]]; then
+                      BUCKET="${TOP_DIR}"
+                      gsutil cp -r "$file" "gs://${BUCKET}/${file#*/}"
+                      echo "Deployed: $file to gs://${BUCKET}/${file#*/}"
+                  else
+                      echo "Skipping file not in main project directories: $file"
+                      continue
+                  fi
+                fi
+              done
+            else
+              echo "No files changed"
+            fi
           fi
 
       - name: Clean up
