@@ -69,13 +69,13 @@ jobs:
                 [ -d "$dir" ] || continue
                 dir="${dir%/}"
                 echo "Deploying directory: $dir"
-                gsutil cp -r "$dir" "gs://${dir}/"
+                gsutil rsync -r "$dir" "gs://${dir}/"
               done
             else
               for dir in "${DIRS[@]}"; do
                 if [ -d "$dir" ]; then
                   echo "Deploying directory: $dir"
-                  gsutil cp -r "$dir" "gs://${dir}/"
+                  gsutil rsync -r "$dir" "gs://${dir}/"
                 else
                   echo "Skipping missing directory: $dir"
                 fi
