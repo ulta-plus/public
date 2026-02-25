@@ -261,5 +261,10 @@
         "onImpression": "https://mc.yandex.ru/pixel/6530780273572088338?rnd=%25aw_random%25"
       }
     }
-  ]
+  ],
+  "localNotificationsConfig": {
+    "fetchIntervalMin": 50,
+    "displayIntervalMin": 25,
+    "initialDelaySec": 30
+  }
 }

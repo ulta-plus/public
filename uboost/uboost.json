@@ -170,5 +170,10 @@
       }
     ],
     "container": "#search-result"
+  },
+  "localNotificationsConfig": {
+    "fetchIntervalMin": 50,
+    "displayIntervalMin": 25,
+    "initialDelaySec": 30
   }
 }
