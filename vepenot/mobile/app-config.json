@@ -1,0 +1,28 @@
+{
+    "api_base_url": "https://api.vpneko.space",
+    "tg_bot": "vpn_naruzhu_support_bot",
+    "tg_key_bot": "vpn_naruzhu_support_bot",
+    "vpn_connections": [
+        {
+            "country_code": "*",
+            "title": "Весь интернет",
+            "configuration_url": null,
+            "vpn_type": "wg",
+            "is_api_basic_auth_enabled": false,
+            "relative_path": "client-api/v1/download-awg-key",
+            "anonymous_relative_path": "client-api/v1/download-anonymous-key",
+            "key_type": "vpneko"
+        }
+    ],
+    "privacy_policy_url": "https://telegra.ph/Privacy-Policy-06-01-98",
+    "tos_url": "http://www.apple.com/legal/itunes/appstore/dev/stdeula",
+    "quick_login_url": "nrz.monster/quick-login",
+    "paywall_main_product_id": "premium_monthly",
+    "paywall_monthly_product_id": "premium_monthly",
+    "paywall_yearly_product_id": "premium_annual",
+    "web_product_price": 490,
+    "is_hybrid_paywall_enabled": true,
+    "is_client_api_enabled": false,
+    "hybrid_storefront_country_codes": ["*"],
+    "hybrid_storefront_geo_ip_country_codes": ["*"]
+}

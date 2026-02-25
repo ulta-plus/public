@@ -11,6 +11,7 @@
   "shouldUpdatePACVersion": "8.0.3",
   "availableBannersData": "",
   "advMinVersion": "8.1.1",
+  "mediaMinVersion": "8.1.1",
   "androidAppUrl": "https://uboost.download/",
   "availablePaymentMethods": ["sbp", "card"],
   "publicOfferUrl": "https://uboo.st/oferta",

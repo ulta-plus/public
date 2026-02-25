@@ -13,5 +13,6 @@
   "showOnUpdateVersion": "1.0.0",
   "shouldUpdatePACVersion": "1.0.0",
   "advMinVersion": "1.0.0",
+  "mediaMinVersion": "1.0.0",
   "availableAlarmTries": 15
 }

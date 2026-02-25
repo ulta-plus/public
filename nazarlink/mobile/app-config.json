@@ -10,8 +10,8 @@
             "vpn_type": "wg",
             "is_api_basic_auth_enabled": false,
             "relative_path": "client-api/v1/download-awg-key",
-            "anonymous_relative_path": "api/v1/wg_keys/download",
-            "key_type": "vpneko"
+            "anonymous_relative_path": "client-api/v1/download-anonymous-key",
+            "key_type": "nazarlink"
         }
     ],
     "privacy_policy_url": "https://telegra.ph/Privacy-Policy-06-01-98",
