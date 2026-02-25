@@ -170,7 +170,7 @@
     ],
     "container": "#search-result"
   },
-  "yandexAdsConfig_v2": {
+  "yandexConfig_v2": {
     "ads": [
       {
         "id": 1,
