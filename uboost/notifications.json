@@ -1,0 +1,36 @@
+[
+  {
+    "id": "promo_summer_2024",
+    "title": "Летняя скидка 50%",
+    "description": "Только до конца месяца — премиум за полцены",
+    "button": {
+      "text": "Подробнее",
+      "action": "open_url",
+      "url": "https://example.com/promo"
+    },
+    "audience": "free",
+    "lang": "ru"
+  },
+  {
+    "id": "open_tariffs_test",
+    "title": "Открыть /tariffs",
+    "description": "Только до конца месяца — премиум за полцены",
+    "button": {
+      "text": "Открыть",
+      "action": "open_extension_page",
+      "url": "/tariffs"
+    },
+    "audience": "premium",
+    "lang": "ru"
+  },
+  {
+    "id": "new_feature_v2",
+    "title": "New Feature",
+    "description": "We added protocol selection — try it in settings",
+    "button": {
+      "text": "Close",
+      "action": "dismiss"
+    },
+    "lang": "en"
+  }
+]
