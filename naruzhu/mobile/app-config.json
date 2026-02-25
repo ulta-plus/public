@@ -5,13 +5,23 @@
     "vpn_connections": [
         {
             "country_code": "*",
-            "title": "Весь интернет",
+            "title": "Умный режим",
             "configuration_url": null,
             "vpn_type": "wg",
             "is_api_basic_auth_enabled": false,
-            "relative_path": "api/v1/wg_keys/download_mobile_request_key",
-            "anonymous_relative_path": "api/v1/wg_keys/download",
-            "key_type": "naruzhu"
+            "relative_path": "client-api/v1/download-awg-key?key_type=smart",
+            "anonymous_relative_path": "client-api/v1/download-anonymous-key?key_type=smart",
+            "key_type": "smart"
+        },
+        {
+            "country_code": "*",
+            "title": "Напрямую",
+            "configuration_url": null,
+            "vpn_type": "wg",
+            "is_api_basic_auth_enabled": false,
+            "relative_path": "client-api/v1/download-awg-key?key_type=direct",
+            "anonymous_relative_path": null,
+            "key_type": "direct"
         }
     ],
     "privacy_policy_url": "https://telegra.ph/Privacy-Policy-06-01-98",

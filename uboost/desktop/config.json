@@ -1,0 +1,30 @@
+{
+    "api_base_url": "https://api.ubst.space",
+    "support_link": "https://t.me/uboostv_ops_bot",
+    "update_info": {
+        "available_version": "1.0.0.3",
+        "download_url": "https://github.com/bbulta/downloads/raw/refs/heads/master/nazarlink/nazarlink-1.0.0.3.zip"
+    },
+    "connections": [
+        {
+            "title": "Только YouTube",
+            "localized_title" : {
+                "en" : "YouTube only",
+                "ru" : "Только YouTube"
+            },
+            "relative_path": "client-api/v1/download-awg-key?key_type=youtube",
+            "anonymous_relative_path": "client-api/v1/download-anonymous-key?key_type=youtube",
+            "key_type": "youtube"
+        },
+        {
+            "title": "Весь интернет",
+            "localized_title" : {
+                "en" : "All Internet",
+                "ru" : "Весь интернет"
+            },
+            "relative_path": "client-api/v1/download-awg-key?key_type=uboost_vpn",
+            "anonymous_relative_path": "client-api/v1/download-anonymous-key?key_type=uboost_vpn",
+            "key_type": "uboost_vpn"
+        }
+    ]
+}
