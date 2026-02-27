@@ -1,7 +1,7 @@
 {
   "apiBaseUrl": "uubb.website",
   "cookieDomain": "cukubst.top",
-  "currentVersion": "8.9.0",
+  "currentVersion": "8.10.3",
   "requiredVersion": "7.12.2",
   "supportedBrowsers": [
     "chrome",
@@ -16,8 +16,8 @@
   "showOnUpdateVersion": "8.4.0",
   "shouldUpdatePACVersion": "7.0.0",
   "availableBannersData": "",
-  "advMinVersion": "8.8.9",
-  "advMaxVersionChrome": "8.8.9",
+  "advMinVersion": "8.9.0",
+  "advMaxVersionChrome": "8.9.0",
   "advMaxVersionFirefox": "1.0.0",
   "mediaMinVersion": "8.9.0",
   "mediaMaxVersionChrome": "8.9.0",
