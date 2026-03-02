@@ -175,5 +175,15 @@
     "fetchIntervalMin": 50,
     "displayIntervalMin": 25,
     "initialDelaySec": 30
+  },
+  "redButton": {
+    "ru": {
+      "url": "https://uboost.site/",
+      "text": "Сайт ЮБуста"
+    },
+    "en": {
+      "url": "https://uboost.site/",
+      "text": "YouBoost Website"
+    }
   }
 }
