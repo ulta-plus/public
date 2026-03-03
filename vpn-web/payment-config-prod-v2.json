@@ -478,7 +478,7 @@
   "ulta": {
     "default": {
       "fields": {
-        "period": false,
+        "period": true,
         "autoRenewal": true,
         "promocode": false
       },
