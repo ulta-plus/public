@@ -8,7 +8,7 @@
       },
       "paymentMethods": [
         {
-          "order": 2,
+          "order": 1,
           "method": "sbp",
           "active": true,
           "minActivationAmount": 0,
@@ -18,13 +18,13 @@
           "useRandomIndex": 1
         },
         {
-          "order": 1,
+          "order": 2,
           "method": "card",
           "active": true,
           "minActivationAmount": 0,
           "withMessage": null,
           "type": "card",
-          "buttonLabel": "Оплата картой / ЮMoney / SberPay",
+          "buttonLabel": "Карта РФ / ЮMoney / SberPay / T-Pay",
           "useRandomIndex": 1
         },
         {
@@ -50,13 +50,13 @@
     "naruzhu.am": {
       "fields": {
         "period": true,
-        "autoRenewal": false,
+        "autoRenewal": true,
         "promocode": true
       },
       "paymentMethods": [
         {
           "order": 1,
-          "method": "oktet",
+          "method": "sbp",
           "active": true,
           "minActivationAmount": 0,
           "withMessage": null,
@@ -65,12 +65,12 @@
         },
         {
           "order": 2,
-          "method": "cardlink",
-          "active": false,
+          "method": "card",
+          "active": true,
           "minActivationAmount": 0,
           "withMessage": null,
           "type": "card",
-          "buttonLabel": "Оплата картой РФ"
+          "buttonLabel": "Карта РФ / ЮMoney / SberPay / T-Pay"
         },
         {
           "order": 3,
@@ -95,13 +95,13 @@
     "vepen.click": {
       "fields": {
         "period": true,
-        "autoRenewal": false,
+        "autoRenewal": true,
         "promocode": true
       },
       "paymentMethods": [
         {
-          "order": 1,
-          "method": "moneta",
+          "order": 2,
+          "method": "sbp",
           "active": true,
           "minActivationAmount": 0,
           "withMessage": null,
@@ -109,13 +109,13 @@
           "buttonLabel": "Оплата через СБП"
         },
         {
-          "order": 2,
-          "method": "cardlink",
+          "order": 1,
+          "method": "card",
           "active": true,
           "minActivationAmount": 0,
           "withMessage": null,
           "type": "card",
-          "buttonLabel": "Оплата картой РФ"
+          "buttonLabel": "Карта РФ / ЮMoney / SberPay / T-Pay"
         },
         {
           "order": 3,
@@ -155,12 +155,12 @@
         },
         {
           "order": 2,
-          "method": "cardlink",
+          "method": "card",
           "active": true,
           "minActivationAmount": 0,
           "withMessage": null,
           "type": "card",
-          "buttonLabel": "Оплата картой РФ"
+          "buttonLabel": "Карта РФ / ЮMoney / SberPay / T-Pay"
         },
         {
           "order": 3,
@@ -200,12 +200,12 @@
         },
         {
           "order": 2,
-          "method": "cardlink",
+          "method": "card",
           "active": true,
           "minActivationAmount": 0,
           "withMessage": null,
           "type": "card",
-          "buttonLabel": "Оплата картой РФ"
+          "buttonLabel": "Карта РФ / ЮMoney / SberPay / T-Pay"
         },
         {
           "order": 3,
@@ -238,7 +238,7 @@
       "paymentMethods": [
         {
           "method": "oktet",
-          "priority": 2,
+          "priority": 1,
           "active": false,
           "minActivationAmount": 500,
           "withMessage": null,
@@ -247,7 +247,7 @@
         },
         {
           "method": "moneta",
-          "priority": 1,
+          "priority": 2,
           "active": false,
           "minActivationAmount": 0,
           "withMessage": null,
@@ -299,7 +299,7 @@
       },
       "paymentMethods": [
         {
-          "order": 2,
+          "order": 1,
           "method": "sbp",
           "active": true,
           "minActivationAmount": 0,
@@ -309,17 +309,26 @@
           "useRandomIndex": 1
         },
         {
-          "order": 1,
+          "order": 2,
           "method": "card",
           "active": true,
           "minActivationAmount": 0,
           "withMessage": null,
-          "buttonLabel": "Оплата картой / ЮMoney / SberPay",
+          "buttonLabel": "Оплата картой РФ / ЮMoney / SberPay",
           "type": "card",
           "useRandomIndex": 1
         },
         {
           "order": 3,
+          "method": "card_int",
+          "active": true,
+          "minActivationAmount": 0,
+          "withMessage": null,
+          "type": "card",
+          "buttonLabel": "Оплата зарубежной картой"
+        },
+        {
+          "order": 4,
           "method": "crypto",
           "active": true,
           "minActivationAmount": 0,
@@ -332,13 +341,13 @@
     "uboost.am": {
       "fields": {
         "period": true,
-        "autoRenewal": false,
-        "promocode": false
+        "autoRenewal": true,
+        "promocode": true
       },
       "paymentMethods": [
         {
           "order": 1,
-          "method": "oktet",
+          "method": "pay2me",
           "active": true,
           "minActivationAmount": 0,
           "withMessage": null,
@@ -347,20 +356,84 @@
         },
         {
           "order": 2,
+          "method": "card",
+          "active": true,
+          "minActivationAmount": 0,
+          "withMessage": null,
+          "type": "card",
+          "buttonLabel": "Оплата картой РФ / ЮMoney / SberPay"
+        },
+        {
+          "order": 3,
+          "method": "card_int",
+          "active": true,
+          "minActivationAmount": 0,
+          "withMessage": null,
+          "type": "card",
+          "buttonLabel": "Оплата зарубежной картой"
+        },
+        {
+          "order": 4,
+          "method": "crypto",
+          "active": true,
+          "minActivationAmount": 0,
+          "withMessage": null,
+          "type": "crypto",
+          "buttonLabel": "Оплатить криптовалютой"
+        }
+      ]
+    },
+    "ubstv.click": {
+      "fields": {
+        "period": true,
+        "autoRenewal": false,
+        "promocode": true
+      },
+      "paymentMethods": [
+        {
+          "order": 1,
+          "method": "sbp",
+          "active": true,
+          "minActivationAmount": 0,
+          "withMessage": null,
+          "type": "sbp",
+          "buttonLabel": "Оплатить через СБП",
+          "useRandomIndex": 1
+        },
+        {
+          "order": 2,
           "method": "cardlink",
-          "active": false,
+          "active": true,
           "minActivationAmount": 0,
           "withMessage": null,
           "type": "card",
           "buttonLabel": "Оплата картой РФ"
+        },
+        {
+          "order": 3,
+          "method": "card_int",
+          "active": true,
+          "minActivationAmount": 0,
+          "withMessage": null,
+          "type": "card",
+          "buttonLabel": "Оплата зарубежной картой"
+        },
+        {
+          "order": 4,
+          "method": "crypto",
+          "active": true,
+          "minActivationAmount": 0,
+          "withMessage": null,
+          "type": "crypto",
+          "buttonLabel": "Оплатить криптовалютой"
         }
       ]
     },
     "youboost.click": {
       "fields": {
         "period": true,
-        "autoRenewal": false,
-        "promocode": false
+        "autoRenewal": true,
+        "promocode": true
       },
       "paymentMethods": [
         {
@@ -380,6 +453,24 @@
           "withMessage": null,
           "type": "card",
           "buttonLabel": "Оплата картой РФ"
+        },
+        {
+          "order": 3,
+          "method": "card_int",
+          "active": true,
+          "minActivationAmount": 0,
+          "withMessage": null,
+          "type": "card",
+          "buttonLabel": "Оплата зарубежной картой"
+        },
+        {
+          "order": 4,
+          "method": "crypto",
+          "active": true,
+          "minActivationAmount": 0,
+          "withMessage": null,
+          "type": "crypto",
+          "buttonLabel": "Оплатить криптовалютой"
         }
       ]
     }
@@ -395,6 +486,64 @@
         {
           "order": 1,
           "method": "sbp",
+          "active": true,
+          "minActivationAmount": 0,
+          "withMessage": null,
+          "type": "sbp",
+          "buttonLabel": "Оплатить через СБП",
+          "useRandomIndex": 1
+        },
+        {
+          "order": 2,
+          "method": "card",
+          "active": true,
+          "minActivationAmount": 0,
+          "withMessage": null,
+          "type": "card",
+          "buttonLabel": "Оплатить картой РФ",
+          "useRandomIndex": 1
+        }
+      ]
+    },
+    "ulta.ink": {
+      "fields": {
+        "period": false,
+        "autoRenewal": true,
+        "promocode": false
+      },
+      "paymentMethods": [
+        {
+          "order": 1,
+          "method": "sbp",
+          "active": true,
+          "minActivationAmount": 0,
+          "withMessage": null,
+          "type": "sbp",
+          "buttonLabel": "Оплатить через СБП",
+          "useRandomIndex": 1
+        },
+        {
+          "order": 2,
+          "method": "card",
+          "active": true,
+          "minActivationAmount": 0,
+          "withMessage": null,
+          "type": "card",
+          "buttonLabel": "Оплатить картой РФ",
+          "useRandomIndex": 1
+        }
+      ]
+    },
+    "ulta.am": {
+      "fields": {
+        "period": false,
+        "autoRenewal": true,
+        "promocode": false
+      },
+      "paymentMethods": [
+        {
+          "order": 1,
+          "method": "pay2me",
           "active": true,
           "minActivationAmount": 0,
           "withMessage": null,
