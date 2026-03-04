@@ -101,7 +101,7 @@
       "paymentMethods": [
         {
           "order": 2,
-          "method": "moneta",
+          "method": "sbp",
           "active": true,
           "minActivationAmount": 0,
           "withMessage": null,
