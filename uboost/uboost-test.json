@@ -19,7 +19,7 @@
   "advMaxVersionChrome": "8.9.0",
   "advMaxVersionFirefox": "1.0.0",
   "mediaMinVersion": "8.9.0",
-  "mediaMaxVersionChrome": "8.9.0",
+  "mediaMaxVersionChrome": "8.10.3",
   "mediaMaxVersionFirefox": "1.0.0",
   "androidAppUrl": "https://uboost.download/",
   "availablePaymentMethods": [
