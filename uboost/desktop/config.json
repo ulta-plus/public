@@ -2,8 +2,8 @@
     "api_base_url": "https://api.ubst.space",
     "support_link": "https://t.me/uboostv_ops_bot",
     "update_info": {
-        "available_version": "1.0.0.3",
-        "download_url": "https://github.com/bbulta/downloads/raw/refs/heads/master/nazarlink/nazarlink-1.0.0.3.zip"
+        "available_version": "1.0.0.1",
+        "download_url": "https://github.com/bbulta/downloads/raw/refs/heads/master/uboost/uboost-1.0.0.1.zip"
     },
     "connections": [
         {
