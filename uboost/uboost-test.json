@@ -11,6 +11,7 @@
     "firefox"
   ],
   "proxyUpdatePeriod": 0.5,
+  "proxyUpdatePeriodPremium": 50,
   "updateSubscriptionInfoPeriod": 1,
   "showOnUpdateVersion": "7.17.0",
   "shouldUpdatePACVersion": "7.0.0",
