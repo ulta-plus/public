@@ -1,4 +1,79 @@
 {
-  "switch-youtube-internet": "6.3.7",
-  "_version": "1.2.1"
+  "switch-youtube-internet": {
+    "app-version": "6.3.7",
+    "rollout": 1
+  },
+  "captcha-cracker-disabled": {
+    "app-version": "7.1.1",
+    "rollout": 1
+  },
+  "on-fail-disabled": {
+    "rollout": 0
+  },
+  "adfox-banner": {
+    "app-version": "7.5.2",
+    "rollout": 1
+  },
+  "banner-media": {
+    "app-version": "7.5.2",
+    "rollout": 1
+  },
+  "free-users-review": {
+    "app-version": "7.9.0",
+    "rollout": 1
+  },
+  "proxy-controlled-by-other-extensions-visibility": {
+    "app-version": "7.9.0",
+    "rollout": 1
+  },
+  "multi-device-support": {
+    "app-version": "7.10.1",
+    "rollout": 1
+  },
+  "proxy-auth": {
+    "rollout": 0
+  },
+  "multi-locales-support": {
+    "app-version": "7.17.1",
+    "rollout": 1
+  },
+  "subscription-expiring-alerts": {
+    "app-version": "8.0.3",
+    "rollout": 1
+  },
+  "black-friday-on": {
+    "rollout": 0
+  },
+  "service-worker-ping-pong": {
+    "app-version": "8.4.2",
+    "rollout": 1
+  },
+  "sidebar-ads": {
+    "app-version": "8.4.2",
+    "rollout": 1
+  },
+  "sidebar-media": {
+    "app-version": "8.4.2",
+    "rollout": 1
+  },
+  "video-pre-roll": {
+    "app-version": "8.4.2",
+    "rollout": 1
+  },
+  "before-start-media": {
+    "app-version": "8.4.2",
+    "rollout": 1
+  },
+  "yandex-search-ads": {
+    "app-version": "8.4.2",
+    "rollout": 1
+  },
+  "yandex-config": {
+    "app-version": "8.4.2",
+    "rollout": 1
+  },
+  "auto-renewal": {
+    "app-version": "8.4.2",
+    "rollout": 1
+  }
 }
