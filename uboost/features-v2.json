@@ -34,7 +34,7 @@
     "app-version": "8.11.0",
     "rollout": 1,
     "browser": {
-      "chrome": 146
+      "chrome": 145
     }
   },
   "multi-locales-support": {
