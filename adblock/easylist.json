@@ -1,0 +1,30 @@
+[
+  {
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "doubleclick.net",
+      "resourceTypes": [
+        "script",
+        "image",
+        "xmlhttprequest"
+      ]
+    }
+  },
+  {
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "googleads.g.doubleclick.net",
+      "resourceTypes": [
+        "script",
+        "image",
+        "xmlhttprequest"
+      ]
+    }
+  }
+]

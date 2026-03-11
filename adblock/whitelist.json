@@ -1,0 +1,50 @@
+[
+  {
+    "priority": 100,
+    "action": {
+      "type": "allow"
+    },
+    "condition": {
+      "urlFilter": "vpnn.loan",
+      "resourceTypes": [
+        "main_frame",
+        "sub_frame",
+        "script",
+        "image",
+        "xmlhttprequest"
+      ]
+    }
+  },
+  {
+    "priority": 100,
+    "action": {
+      "type": "allow"
+    },
+    "condition": {
+      "urlFilter": "vpnn.space",
+      "resourceTypes": [
+        "main_frame",
+        "sub_frame",
+        "script",
+        "image",
+        "xmlhttprequest"
+      ]
+    }
+  },
+  {
+    "priority": 100,
+    "action": {
+      "type": "allow"
+    },
+    "condition": {
+      "urlFilter": "uboost.space",
+      "resourceTypes": [
+        "main_frame",
+        "sub_frame",
+        "script",
+        "image",
+        "xmlhttprequest"
+      ]
+    }
+  }
+]
