@@ -84,7 +84,7 @@
     "2026-02-15",
     "2026-03-29"
   ],
-  "giftAsPeriodInMinutes": 1,
+  "giftsPeriodInMinutes": 1,
   "checkProxyAvailabilityProxyUrl": "https://uboost.space",
   "checkProxyAvailabilityPublicUrl": "https://ubst.space",
   "subscriptionExpiringAlerts": {
