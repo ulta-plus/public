@@ -285,7 +285,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||securepubads.g.doubleclick.net^",
+      "urlFilter": "||ads.yahoo.com^",
       "domainType": "thirdParty"
     }
   },
@@ -295,7 +295,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||ads.yahoo.com^",
+      "urlFilter": "||securepubads.g.doubleclick.net^",
       "domainType": "thirdParty"
     }
   }
