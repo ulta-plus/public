@@ -26,7 +26,9 @@
     },
     "condition": {
       "urlFilter": "||an.yandex.ru^",
-      "domainType": "thirdParty"
+      "excludedInitiatorDomains": [
+        "an.yandex.ru"
+      ]
     }
   },
   {
@@ -36,7 +38,9 @@
     },
     "condition": {
       "urlFilter": "||adfox.yandex.ru^",
-      "domainType": "thirdParty"
+      "excludedInitiatorDomains": [
+        "adfox.yandex.ru"
+      ]
     }
   },
   {
@@ -56,7 +60,9 @@
     },
     "condition": {
       "urlFilter": "||ad.mail.ru^",
-      "domainType": "thirdParty"
+      "excludedInitiatorDomains": [
+        "ad.mail.ru"
+      ]
     }
   },
   {
@@ -66,7 +72,9 @@
     },
     "condition": {
       "urlFilter": "||ads.mail.ru^",
-      "domainType": "thirdParty"
+      "excludedInitiatorDomains": [
+        "ads.mail.ru"
+      ]
     }
   },
   {
@@ -76,7 +84,9 @@
     },
     "condition": {
       "urlFilter": "||rb.mail.ru^",
-      "domainType": "thirdParty"
+      "excludedInitiatorDomains": [
+        "rb.mail.ru"
+      ]
     }
   },
   {
@@ -86,7 +96,9 @@
     },
     "condition": {
       "urlFilter": "||rs.mail.ru^",
-      "domainType": "thirdParty"
+      "excludedInitiatorDomains": [
+        "rs.mail.ru"
+      ]
     }
   },
   {
@@ -96,7 +108,9 @@
     },
     "condition": {
       "urlFilter": "||ads.vk.com^",
-      "domainType": "thirdParty"
+      "excludedInitiatorDomains": [
+        "ads.vk.com"
+      ]
     }
   },
   {
@@ -106,7 +120,9 @@
     },
     "condition": {
       "urlFilter": "||ssp.rambler.ru^",
-      "domainType": "thirdParty"
+      "excludedInitiatorDomains": [
+        "ssp.rambler.ru"
+      ]
     }
   },
   {
@@ -116,7 +132,9 @@
     },
     "condition": {
       "urlFilter": "||ad.rambler.ru^",
-      "domainType": "thirdParty"
+      "excludedInitiatorDomains": [
+        "ad.rambler.ru"
+      ]
     }
   },
   {
@@ -126,7 +144,9 @@
     },
     "condition": {
       "urlFilter": "||counter.rambler.ru^",
-      "domainType": "thirdParty"
+      "excludedInitiatorDomains": [
+        "counter.rambler.ru"
+      ]
     }
   },
   {
@@ -285,7 +305,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||ads.yahoo.com^",
+      "urlFilter": "||securepubads.g.doubleclick.net^",
       "domainType": "thirdParty"
     }
   },
@@ -295,7 +315,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||securepubads.g.doubleclick.net^",
+      "urlFilter": "||ads.yahoo.com^",
       "domainType": "thirdParty"
     }
   }
