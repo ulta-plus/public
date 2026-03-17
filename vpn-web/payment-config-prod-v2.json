@@ -541,7 +541,7 @@
     },
     "ulta.am": {
       "fields": {
-        "period": false,
+        "period": true,
         "autoRenewal": false,
         "promocode": false
       },
