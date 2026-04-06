@@ -4,8 +4,7 @@
       "fields": {
         "period": true,
         "autoRenewal": true,
-        "promocode": true,
-        "discount": 0.3
+        "promocode": true
       },
       "paymentMethods": [
         {
@@ -52,8 +51,7 @@
       "fields": {
         "period": true,
         "autoRenewal": true,
-        "promocode": true,
-        "discount": 0.3
+        "promocode": true
       },
       "paymentMethods": [
         {
@@ -98,8 +96,7 @@
       "fields": {
         "period": true,
         "autoRenewal": true,
-        "promocode": true,
-        "discount": 0.3
+        "promocode": true
       },
       "paymentMethods": [
         {
@@ -144,8 +141,7 @@
       "fields": {
         "period": true,
         "autoRenewal": true,
-        "promocode": true,
-        "discount": 0.3
+        "promocode": true
       },
       "paymentMethods": [
         {
@@ -190,8 +186,7 @@
       "fields": {
         "period": true,
         "autoRenewal": true,
-        "promocode": true,
-        "discount": 0.3
+        "promocode": true
       },
       "paymentMethods": [
         {
