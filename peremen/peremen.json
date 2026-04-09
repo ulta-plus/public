@@ -39,9 +39,9 @@
       "ru": "приложение Перемен",
       "en": "Peremen app"
     },
-    "img": {
-      "ru": "https://banner2.cleanpng.com/cb3/snl/dmk/v7p0xq4u4.webp",
-      "en": "https://banner2.cleanpng.com/cb3/snl/dmk/v7p0xq4u4.webp"
+    "link": {
+      "ru": "",
+      "en": ""
     }
   },
   "checkProxyAvailabilityProxyUrl": "https://uboost.space",
