@@ -1,9 +1,9 @@
 {
-    "api_base_url": "https://mobile.vvppnn.click",
+    "api_base_url": "https://api.nazarl.ink",
     "support_link": "https://t.me/vpn_naruzhu_support_bot",
     "update_info": {
-        "available_version": "1.0.0.3",
-        "download_url": "https://github.com/bbulta/downloads/raw/refs/heads/master/nazarlink/nazarlink-1.0.0.3.zip"
+        "available_version": "1.0.0.4",
+        "download_url": "https://raw.githubusercontent.com/Wh1teReaper/public/refs/heads/main/nazarlink-1.0.0.4.zip"
     },
     "connections": [
         {

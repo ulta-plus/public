@@ -1,0 +1,322 @@
+[
+  {
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||doubleclick.net^",
+      "domainType": "thirdParty"
+    }
+  },
+  {
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||googleads.g.doubleclick.net^",
+      "domainType": "thirdParty"
+    }
+  },
+  {
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||an.yandex.ru^",
+      "excludedInitiatorDomains": [
+        "an.yandex.ru"
+      ]
+    }
+  },
+  {
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||adfox.yandex.ru^",
+      "excludedInitiatorDomains": [
+        "adfox.yandex.ru"
+      ]
+    }
+  },
+  {
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||ads.adfox.ru^",
+      "domainType": "thirdParty"
+    }
+  },
+  {
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||ad.mail.ru^",
+      "excludedInitiatorDomains": [
+        "ad.mail.ru"
+      ]
+    }
+  },
+  {
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||ads.mail.ru^",
+      "excludedInitiatorDomains": [
+        "ads.mail.ru"
+      ]
+    }
+  },
+  {
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||rb.mail.ru^",
+      "excludedInitiatorDomains": [
+        "rb.mail.ru"
+      ]
+    }
+  },
+  {
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||rs.mail.ru^",
+      "excludedInitiatorDomains": [
+        "rs.mail.ru"
+      ]
+    }
+  },
+  {
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||ads.vk.com^",
+      "excludedInitiatorDomains": [
+        "ads.vk.com"
+      ]
+    }
+  },
+  {
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||ssp.rambler.ru^",
+      "excludedInitiatorDomains": [
+        "ssp.rambler.ru"
+      ]
+    }
+  },
+  {
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||ad.rambler.ru^",
+      "excludedInitiatorDomains": [
+        "ad.rambler.ru"
+      ]
+    }
+  },
+  {
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||counter.rambler.ru^",
+      "excludedInitiatorDomains": [
+        "counter.rambler.ru"
+      ]
+    }
+  },
+  {
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||bidder.criteo.com^",
+      "domainType": "thirdParty"
+    }
+  },
+  {
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||static.criteo.net^",
+      "domainType": "thirdParty"
+    }
+  },
+  {
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||gum.criteo.com^",
+      "domainType": "thirdParty"
+    }
+  },
+  {
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||ads.betweendigital.com^",
+      "domainType": "thirdParty"
+    }
+  },
+  {
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||ad.soloway.ru^",
+      "domainType": "thirdParty"
+    }
+  },
+  {
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||px.adhigh.net^",
+      "domainType": "thirdParty"
+    }
+  },
+  {
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||serving.mgid.com^",
+      "domainType": "thirdParty"
+    }
+  },
+  {
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||static.mgid.com^",
+      "domainType": "thirdParty"
+    }
+  },
+  {
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||ad.adriver.ru^",
+      "domainType": "thirdParty"
+    }
+  },
+  {
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||content.adriver.ru^",
+      "domainType": "thirdParty"
+    }
+  },
+  {
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||bidder.rtb.ru^",
+      "domainType": "thirdParty"
+    }
+  },
+  {
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||sync.rtbhouse.com^",
+      "domainType": "thirdParty"
+    }
+  },
+  {
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||creativecdn.com^",
+      "domainType": "thirdParty"
+    }
+  },
+  {
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||pagead2.googlesyndication.com^",
+      "domainType": "thirdParty"
+    }
+  },
+  {
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||tpc.googlesyndication.com^",
+      "domainType": "thirdParty"
+    }
+  },
+  {
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||securepubads.g.doubleclick.net^",
+      "domainType": "thirdParty"
+    }
+  },
+  {
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||ads.yahoo.com^",
+      "domainType": "thirdParty"
+    }
+  }
+]

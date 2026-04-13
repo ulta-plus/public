@@ -1,0 +1,14 @@
+[
+    {
+        "priority": 3,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "||rs.mail.ru^",
+            "excludedInitiatorDomains": [
+                "mail.ru"
+            ]
+        }
+    }
+]
