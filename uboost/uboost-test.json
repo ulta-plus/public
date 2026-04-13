@@ -264,8 +264,8 @@
     }
   ],
   "localNotificationsConfig": {
-    "fetchIntervalMin": 50,
-    "displayIntervalMin": 25,
+    "fetchIntervalMin": 5,
+    "displayIntervalMin": 10,
     "initialDelaySec": 30
   },
   "redButton": {
