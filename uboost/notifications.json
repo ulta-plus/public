@@ -32,5 +32,49 @@
       "action": "dismiss"
     },
     "lang": "en"
+  },
+  {
+    "id": "free-test-1",
+    "title": "1. Free title",
+    "description": "2. Free description",
+    "button": {
+      "text": "Close",
+      "action": "dismiss"
+    },
+    "audience": "free",
+    "lang": "en"
+  },
+  {
+    "id": "free-test-2",
+    "title": "2. Free title",
+    "description": "2. Free description",
+    "button": {
+      "text": "Close",
+      "action": "dismiss"
+    },
+    "audience": "free",
+    "lang": "en"
+  },
+  {
+    "id": "premium-test-1",
+    "title": "1. Premium title",
+    "description": "1. Premium description",
+    "button": {
+      "text": "Close",
+      "action": "dismiss"
+    },
+    "audience": "premium",
+    "lang": "en"
+  },
+  {
+    "id": "premium-test-2",
+    "title": "2. Premium title",
+    "description": "2. Premium description",
+    "button": {
+      "text": "Close",
+      "action": "dismiss"
+    },
+    "audience": "premium",
+    "lang": "en"
   }
 ]
