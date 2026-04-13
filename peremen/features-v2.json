@@ -1,4 +1,10 @@
 {
-  "proxy-controlled-by-other-extensions-visibility": "1.0.0",
-  "free-users-review": "1.0.0"
+  "proxy-controlled-by-other-extensions-visibility": {
+    "app-version": "1.0.0",
+    "rollout": 1
+  },
+  "free-users-review": {
+    "app-version": "1.0.0",
+    "rollout": 1
+  }
 }

@@ -1,0 +1,14 @@
+{
+  "captcha-cracker-disabled": {
+    "app-version": "7.1.1",
+    "rollout": 1
+  },
+  "on-fail-disabled": {
+    "app-version": "7.4.0",
+    "rollout": 1
+  },
+  "multi-locales-support": {
+    "app-version": "7.9.0",
+    "rollout": 1
+  }
+}

@@ -1,6 +1,6 @@
 {
-  "cookieDomain": "cukprmn.website",
-  "apiBaseUrl": "peremen.space",
+  "cookieDomain": "peremen-ext.test.vpnn.space",
+  "apiBaseUrl": "peremen-ext.test.vpnn.space",
   "currentVersion": "1.0.0",
   "requiredVersion": "1.0.0",
   "supportedBrowsers": [
@@ -9,7 +9,7 @@
     "yandexbrowser",
     "firefox"
   ],
-  "proxyUpdatePeriod": 50,
+  "proxyUpdatePeriod": 5,
   "showOnUpdateVersion": "1.0.0",
   "publicOfferUrl": "https://telegra.ph/Personal-Data-Processing-Policy-09-26",
   "availablePaymentMethodsV3": [
@@ -39,9 +39,9 @@
       "ru": "приложение Перемен",
       "en": "Peremen app"
     },
-    "img": {
-      "ru": "https://banner2.cleanpng.com/cb3/snl/dmk/v7p0xq4u4.webp",
-      "en": "https://banner2.cleanpng.com/cb3/snl/dmk/v7p0xq4u4.webp"
+    "link": {
+      "ru": "",
+      "en": ""
     }
   },
   "checkProxyAvailabilityProxyUrl": "https://uboost.space",

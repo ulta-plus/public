@@ -1,0 +1,4 @@
+{
+    "api_base_url": "https://web-api.vpgram.click",
+    "anonymous_key_relative_path": "client-api/v1/download-anonymous-key"
+}
