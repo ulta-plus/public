@@ -19,5 +19,5 @@
   "before-start-media": "8.4.2",
   "yandex-search-ads": "8.4.2",
   "yandex-config": "8.4.2",
-  "auto-renewal": false
+  "auto-renewal": true
 }
