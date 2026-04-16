@@ -11,7 +11,7 @@
   ],
   "proxyUpdatePeriod": 50,
   "showOnUpdateVersion": "1.0.0",
-  "publicOfferUrl": "https://telegra.ph/Personal-Data-Processing-Policy-09-26",
+  "publicOfferUrl": "https://telegra.ph/Personal-Data-Processing-Policy-03-17-2",
   "availablePaymentMethodsV3": [
     {
       "type": "sbp",
@@ -40,8 +40,8 @@
       "en": "Peremen app"
     },
     "link": {
-      "ru": "",
-      "en": ""
+      "ru": "https://peremen.app/landing/",
+      "en": "https://peremen.app/landing/"
     }
   },
   "checkProxyAvailabilityProxyUrl": "https://uboost.space",
