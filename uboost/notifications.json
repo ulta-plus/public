@@ -3,35 +3,21 @@
     "id": "new_feature_v2",
     "title": "New Feature",
     "description": "We added protocol selection — try it in settings",
-    "button": [
-      {
-        "text": "Открыть",
-        "action": "open_extension_page",
-        "url": "/tariffs"
-      },
-      {
-        "text": "Close",
-        "action": "dismiss"
-      }
-    ],
+    "button": {
+      "text": "Close",
+      "action": "dismiss"
+    },
     "lang": "en"
   },
   {
     "id": "premium-test-1",
     "title": "1. Premium title",
     "description": "1. Premium description",
-    "button": [
-      {
-        "text": "Открыть",
-        "action": "open_extension_page",
-        "url": "/tariffs"
-      },
-      {
-        "text": "Открыть",
-        "action": "open_extension_page",
-        "url": "/tariffs"
-      }
-    ],
+    "button": {
+      "text": "Открыть",
+      "action": "open_extension_page",
+      "url": "/tariffs"
+    },
     "audience": "premium",
     "lang": "en"
   },
@@ -39,17 +25,11 @@
     "id": "premium-test-2",
     "title": "2. Premium title",
     "description": "2. Premium description",
-    "button": [
-      {
-        "text": "Подробнее",
-        "action": "open_url",
-        "url": "https://example.com/promo"
-      },
-      {
-        "text": "Close",
-        "action": "dismiss"
-      }
-    ],
+    "button": {
+      "text": "Подробнее",
+      "action": "open_url",
+      "url": "https://example.com/promo"
+    },
     "audience": "premium",
     "lang": "en"
   }
