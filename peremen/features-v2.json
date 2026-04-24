@@ -6,5 +6,9 @@
   "free-users-review": {
     "app-version": "1.0.0",
     "rollout": 1
+  },
+  "is-support-via-tg": {
+    "app-version": "1.0.0",
+    "rollout": 1
   }
 }
