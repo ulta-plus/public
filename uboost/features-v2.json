@@ -83,5 +83,9 @@
   "youtube-restriction-quality": {
     "app-version": "8.11.0",
     "rollout": 1
+  },
+  "is-support-via-tg": {
+    "app-version": "8.11.0",
+    "rollout": 0
   }
 }
