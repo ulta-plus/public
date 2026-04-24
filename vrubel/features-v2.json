@@ -10,5 +10,9 @@
   "multi-locales-support": {
     "app-version": "7.9.0",
     "rollout": 1
+  },
+  "is-support-via-tg": {
+    "app-version": "7.9.0",
+    "rollout": 1
   }
 }
