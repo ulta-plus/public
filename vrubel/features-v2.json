@@ -12,7 +12,7 @@
     "rollout": 1
   },
   "is-support-via-tg": {
-    "app-version": "7.9.0",
+    "app-version": "1.0.0",
     "rollout": 1
   }
 }
