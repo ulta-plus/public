@@ -32,10 +32,7 @@
   },
   "proxy-auth": {
     "app-version": "8.11.0",
-    "rollout": 1,
-    "browser": {
-      "chrome": 145
-    }
+    "rollout": 0
   },
   "multi-locales-support": {
     "app-version": "7.17.1",
