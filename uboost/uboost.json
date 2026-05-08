@@ -1,7 +1,7 @@
 {
   "apiBaseUrl": "uubb.website",
   "cookieDomain": "cukubst.top",
-  "currentVersion": "8.11.0",
+  "currentVersion": "8.11.4",
   "requiredVersion": "7.12.2",
   "supportedBrowsers": [
     "chrome",
@@ -16,11 +16,11 @@
   "showOnUpdateVersion": "8.4.0",
   "shouldUpdatePACVersion": "7.0.0",
   "availableBannersData": "",
-  "advMinVersion": "8.11.0",
-  "advMaxVersionChrome": "8.11.0",
+  "advMinVersion": "8.11.4",
+  "advMaxVersionChrome": "8.11.4",
   "advMaxVersionFirefox": "1.0.0",
-  "mediaMinVersion": "8.11.0",
-  "mediaMaxVersionChrome": "8.11.0",
+  "mediaMinVersion": "8.11.4",
+  "mediaMaxVersionChrome": "8.11.4",
   "mediaMaxVersionFirefox": "1.0.0",
   "androidAppUrl": "https://uboost.download/",
   "availablePaymentMethods": [
