@@ -595,6 +595,55 @@
       ]
     }
   },
+  "peremen": {
+    "default": {
+      "fields": {
+        "period": true,
+        "autoRenewal": true,
+        "promocode": false
+      },
+      "paymentMethods": [
+        {
+          "order": 1,
+          "method": "sbp",
+          "active": true,
+          "minActivationAmount": 0,
+          "withMessage": null,
+          "type": "sbp",
+          "buttonLabel": "Оплатить через СБП",
+          "useRandomIndex": 1
+        },
+        {
+          "order": 2,
+          "method": "card",
+          "active": true,
+          "minActivationAmount": 0,
+          "withMessage": null,
+          "type": "card",
+          "buttonLabel": "Оплатить картой РФ",
+          "useRandomIndex": 1
+        },
+         {
+          "order": 3,
+          "method": "card_int",
+          "active": true,
+          "minActivationAmount": 0,
+          "withMessage": null,
+          "type": "card",
+          "buttonLabel": "Оплата зарубежной картой"
+        },
+        {
+          "order": 4,
+          "method": "crypto",
+          "active": true,
+          "minActivationAmount": 0,
+          "withMessage": null,
+          "type": "crypto",
+          "buttonLabel": "Оплатить криптовалютой"
+        }
+      ]
+    }
+  },
   "vpneko": {
     "default": {
       "fields": {
