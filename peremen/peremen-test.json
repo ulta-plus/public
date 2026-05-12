@@ -10,6 +10,7 @@
     "firefox"
   ],
   "proxyUpdatePeriod": 5,
+  "updateSubscriptionInfoPeriod": 5,
   "showOnUpdateVersion": "1.0.0",
   "publicOfferUrl": "https://telegra.ph/Personal-Data-Processing-Policy-09-26",
   "availablePaymentMethodsV3": [
@@ -48,5 +49,7 @@
   "checkProxyAvailabilityPublicUrl": "https://ubst.space",
   "feedbackUrl": "https://script.google.com/macros/s/AKfycbzUGN-kyo6O-q34ZRixWyU7kS1EsDjLy8I3SmxG9PyYzQ13UM_RLdbPTALr7Cg3SVJq/exec",
   "exchangeRatesUpdatePeriodInMinutes": 720,
-  "supportUrl": ""
+  "supportUrl": "",
+  "premiumBannerPeriodInMinutes": 1,
+  "availableAlarmTries": 100
 }
