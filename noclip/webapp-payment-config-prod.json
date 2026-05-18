@@ -12,7 +12,7 @@
         "method": "card",
         "active": false,
         "buttonLabel": "Карта",
-        "icons": ["yoomoney", "sberpay", "mir"],
+        "icons": ["card"],
         "canSelectAutoRenewal": true
       },
       {
@@ -46,7 +46,7 @@
         "method": "card",
         "active": false,
         "buttonLabel": "Карта",
-        "icons": ["yoomoney", "sberpay", "mir"],
+        "icons": ["card"],
         "canSelectAutoRenewal": true
       },
       {
@@ -80,7 +80,7 @@
         "method": "card",
         "active": false,
         "buttonLabel": "Карта",
-        "icons": ["yoomoney", "sberpay", "mir"],
+        "icons": ["card"],
         "canSelectAutoRenewal": true
       },
       {
@@ -114,7 +114,7 @@
         "method": "card",
         "active": false,
         "buttonLabel": "Карта",
-        "icons": ["yoomoney", "sberpay", "mir"],
+        "icons": ["card"],
         "canSelectAutoRenewal": true
       },
       {
@@ -148,7 +148,7 @@
         "method": "card",
         "active": false,
         "buttonLabel": "Карта",
-        "icons": ["yoomoney", "sberpay", "mir"],
+        "icons": ["card"],
         "canSelectAutoRenewal": true
       },
       {
@@ -182,7 +182,7 @@
         "method": "card",
         "active": false,
         "buttonLabel": "Карта",
-        "icons": ["yoomoney", "sberpay", "mir"],
+        "icons": ["card"],
         "canSelectAutoRenewal": true
       },
       {
