@@ -20,11 +20,11 @@
     },
     {
       "type": "card",
-      "supportsAutoRenew": true
+      "supportsAutoRenew": false
     },
     {
       "type": "card_int",
-      "supportsAutoRenew": true
+      "supportsAutoRenew": false
     },
     {
       "type": "crypto",
