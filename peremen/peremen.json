@@ -24,7 +24,7 @@
     },
     {
       "type": "card_int",
-      "supportsAutoRenew": false
+      "supportsAutoRenew": true
     },
     {
       "type": "crypto",
