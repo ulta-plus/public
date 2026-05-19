@@ -71,8 +71,8 @@
     "eu": "https://uubb.website/static/watch_ad.html"
   },
   "bannerUrlsSecondary": {
-    "base": "https://uubb.website/static/watch_ad.html",
-    "eu": "https://uubb.website/static/watch_ad.html"
+    "base": "https://uubb.website/static/watch_ad_test_not_visible.html",
+    "eu": "https://uubb.website/static/watch_ad_test_not_visible.html"
   },
   "availableAlarmTries": 100,
   "giftAdvertisingAvailableDates": [
