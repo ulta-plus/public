@@ -34,7 +34,8 @@
           "minActivationAmount": 0,
           "withMessage": null,
           "type": "card",
-          "buttonLabel": " Оплатить зарубежной картой"
+          "buttonLabel": " Оплатить зарубежной картой",
+          "isAvailableWithAutoRenewal": true
         },
         {
           "order": 4,
@@ -79,7 +80,8 @@
           "minActivationAmount": 0,
           "withMessage": null,
           "type": "card",
-          "buttonLabel": "Оплата зарубежной картой"
+          "buttonLabel": "Оплата зарубежной картой",
+          "isAvailableWithAutoRenewal": true
         },
         {
           "order": 4,
@@ -124,7 +126,8 @@
           "minActivationAmount": 0,
           "withMessage": null,
           "type": "card",
-          "buttonLabel": "Оплата зарубежной картой"
+          "buttonLabel": "Оплата зарубежной картой",
+          "isAvailableWithAutoRenewal": true
         },
         {
           "order": 4,
@@ -169,7 +172,8 @@
           "minActivationAmount": 0,
           "withMessage": null,
           "type": "card",
-          "buttonLabel": "Оплата зарубежной картой"
+          "buttonLabel": "Оплата зарубежной картой",
+          "isAvailableWithAutoRenewal": true
         },
         {
           "order": 4,
@@ -214,7 +218,8 @@
           "minActivationAmount": 0,
           "withMessage": null,
           "type": "card",
-          "buttonLabel": "Оплата зарубежной картой"
+          "buttonLabel": "Оплата зарубежной картой",
+          "isAvailableWithAutoRenewal": true
         },
         {
           "order": 4,
@@ -277,7 +282,8 @@
           "minActivationAmount": 0,
           "withMessage": null,
           "type": "card",
-          "buttonLabel": " Оплатить зарубежной картой"
+          "buttonLabel": " Оплатить зарубежной картой",
+          "isAvailableWithAutoRenewal": true
         },
         {
           "method": "crypto",
@@ -325,7 +331,8 @@
           "minActivationAmount": 0,
           "withMessage": null,
           "type": "card",
-          "buttonLabel": "Оплата зарубежной картой"
+          "buttonLabel": "Оплата зарубежной картой",
+          "isAvailableWithAutoRenewal": true
         },
         {
           "order": 4,
@@ -370,7 +377,8 @@
           "minActivationAmount": 0,
           "withMessage": null,
           "type": "card",
-          "buttonLabel": "Оплата зарубежной картой"
+          "buttonLabel": "Оплата зарубежной картой",
+          "isAvailableWithAutoRenewal": true
         },
         {
           "order": 4,
@@ -416,7 +424,8 @@
           "minActivationAmount": 0,
           "withMessage": null,
           "type": "card",
-          "buttonLabel": "Оплата зарубежной картой"
+          "buttonLabel": "Оплата зарубежной картой",
+          "isAvailableWithAutoRenewal": true
         },
         {
           "order": 4,
@@ -461,7 +470,8 @@
           "minActivationAmount": 0,
           "withMessage": null,
           "type": "card",
-          "buttonLabel": "Оплата зарубежной картой"
+          "buttonLabel": "Оплата зарубежной картой",
+          "isAvailableWithAutoRenewal": true
         },
         {
           "order": 4,
