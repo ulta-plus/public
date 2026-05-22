@@ -82,7 +82,7 @@
     "rollout": 1
   },
   "is-support-via-tg": {
-    "app-version": "8.11.0",
-    "rollout": 1
+    "app-version": "8.11.5",
+    "rollout": 0
   }
 }
