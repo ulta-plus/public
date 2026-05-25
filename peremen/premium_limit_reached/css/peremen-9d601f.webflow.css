@@ -28,7 +28,6 @@
   position: relative;
   overflow: hidden;
 }
-
 .main-image {
   object-fit: cover;
 }
