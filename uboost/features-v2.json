@@ -88,5 +88,11 @@
   "remote-logger": {
     "app-version": "8.11.4",
     "rollout": 1
+  },
+  "on-fail-disabled-v2-premium": {
+    "rollout": 1
+  },
+  "on-fail-disabled-v2-free": {
+    "rollout": 1
   }
 }
