@@ -94,5 +94,8 @@
   },
   "on-fail-disabled-v2-free": {
     "rollout": 1
+  },
+  "connection-error-paywall": {
+    "rollout": 0
   }
 }
