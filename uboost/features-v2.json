@@ -8,7 +8,7 @@
     "rollout": 1
   },
   "on-fail-disabled": {
-    "rollout": 0
+    "rollout": 1
   },
   "adfox-banner": {
     "app-version": "7.5.2",
