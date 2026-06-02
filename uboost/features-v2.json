@@ -85,6 +85,9 @@
     "app-version": "8.11.5",
     "rollout": 0
   },
+  "is-support-via-email": {
+    "rollout": 0
+  },
   "remote-logger": {
     "app-version": "8.11.4",
     "rollout": 1
