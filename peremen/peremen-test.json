@@ -52,5 +52,5 @@
   "supportUrl": "",
   "premiumBannerPeriodInMinutes": 1,
   "availableAlarmTries": 100,
-  "manualServerChangeLimitInMinutes": 60
+  "manualServerChangeCooldownInMinutes": 5
 }
