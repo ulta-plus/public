@@ -186,5 +186,6 @@
       "text": "YouBoost Website"
     }
   },
-  "supportUrl": "https://ubst.club/main/support/ext"
+  "supportUrl": "https://ubst.club/main/support/ext",
+  "manualServerChangeLimitInMinutes": 60
 }
