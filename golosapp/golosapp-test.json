@@ -1,6 +1,6 @@
 {
-    "cookieDomain": "golos.cloud",
     "apiBaseUrl": "glss.click",
+    "cookieDomain": "golos.cloud",
     "currentVersion": "1.0.0",
     "requiredVersion": "1.0.0",
     "supportedBrowsers": [
