@@ -187,6 +187,6 @@
     }
   },
   "supportUrl": "https://ubst.club/main/support/ext",
-  "manualFreeServerChangeCooldownInMinutes": 60,
+  "manualFreeServerChangeCooldownInMinutes": 720,
   "manualPremiumServerChangeCooldownInMinutes": 5
 }
