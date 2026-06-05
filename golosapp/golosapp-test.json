@@ -13,7 +13,7 @@
     "proxyUpdatePeriod": 50,
     "proxyUpdatePeriodPremium": 50,
     "updateSubscriptionInfoPeriod": 1440,
-    "showOnUpdateVersion": "2.0.0",
+    "showOnUpdateVersion": "1.0.0",
     "shouldUpdatePACVersion": "1.0.0",
     "advMinVersion": "1.0.0",
     "advMaxVersionChrome": "1.0.0",
