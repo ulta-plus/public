@@ -88,6 +88,9 @@
   "is-support-via-email": {
     "rollout": 0
   },
+  "is-support-not-via-tg": {
+    "rollout": 0
+  },
   "remote-logger": {
     "app-version": "8.11.4",
     "rollout": 1
