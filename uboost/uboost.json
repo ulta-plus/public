@@ -16,11 +16,11 @@
   "showOnUpdateVersion": "8.4.0",
   "shouldUpdatePACVersion": "7.0.0",
   "availableBannersData": "",
-  "advMinVersion": "8.11.5",
-  "advMaxVersionChrome": "8.11.5",
+  "advMinVersion": "8.10.0",
+  "advMaxVersionChrome": "8.10.0",
   "advMaxVersionFirefox": "1.0.0",
-  "mediaMinVersion": "8.11.5",
-  "mediaMaxVersionChrome": "8.11.5",
+  "mediaMinVersion": "8.10.0",
+  "mediaMaxVersionChrome": "8.10.0",
   "mediaMaxVersionFirefox": "1.0.0",
   "androidAppUrl": "https://uboost.download/",
   "availablePaymentMethods": [
@@ -34,7 +34,7 @@
     },
     {
       "type": "card",
-      "supportsAutoRenew": true
+      "supportsAutoRenew": false
     }
   ],
   "availablePaymentMethodsV3": [
@@ -44,7 +44,7 @@
     },
     {
       "type": "card",
-      "supportsAutoRenew": true
+      "supportsAutoRenew": false
     },
     {
       "type": "card_int",
@@ -186,5 +186,7 @@
       "text": "YouBoost Website"
     }
   },
-  "supportUrl": "https://ubst.club/main/support/ext"
+  "supportUrl": "https://ubst.club/main/support/ext",
+  "manualFreeServerChangeCooldownInMinutes": 720,
+  "manualPremiumServerChangeCooldownInMinutes": 5
 }

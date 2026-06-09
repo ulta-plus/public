@@ -278,5 +278,7 @@
       "text": "YouBoost Website"
     }
   },
-  "supportUrl": "https://ubst.club/main/support/ext"
+  "supportUrl": "https://ubst.club/main/support/ext",
+  "manualFreeServerChangeCooldownInMinutes": 5,
+  "manualPremiumServerChangeCooldownInMinutes": 1
 }

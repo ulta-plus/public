@@ -1,0 +1,27 @@
+{
+    "apiBaseUrl": "test.glss.click",
+    "cookieDomain": "golos.cloud",
+    "currentVersion": "1.0.0",
+    "requiredVersion": "1.0.0",
+    "supportedBrowsers": [
+        "chrome",
+        "edge-chromium",
+        "yandexbrowser",
+        "opera",
+        "firefox"
+    ],
+    "proxyUpdatePeriod": 50,
+    "proxyUpdatePeriodPremium": 50,
+    "updateSubscriptionInfoPeriod": 1440,
+    "showOnUpdateVersion": "1.0.0",
+    "shouldUpdatePACVersion": "1.0.0",
+    "advMinVersion": "1.0.0",
+    "advMaxVersionChrome": "1.0.0",
+    "advMaxVersionFirefox": "1.0.0",
+    "mediaMinVersion": "1.0.0",
+    "mediaMaxVersionChrome": "1.0.0",
+    "mediaMaxVersionFirefox": "1.0.0",
+    "availableAlarmTries": 100,
+    "checkProxyAvailabilityProxyUrl": "https://uboost.space",
+    "checkProxyAvailabilityPublicUrl": "https://ubst.space"
+}
