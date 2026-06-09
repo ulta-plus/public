@@ -102,6 +102,6 @@
     "rollout": 1
   },
   "connection-error-paywall": {
-    "rollout": 1
+    "rollout": 0
   }
 }
