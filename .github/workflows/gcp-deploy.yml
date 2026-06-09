@@ -19,7 +19,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
         with:
-          fetch-depth: 2
+          fetch-depth: 0
 
       - id: auth
         uses: google-github-actions/auth@v1
@@ -32,7 +32,20 @@ jobs:
           project_id: ${{ env.PROJECT_ID }}
 
       - id: changed-files
-        run: echo "files=$(git diff --name-only HEAD^ HEAD | tr '\n' ' ')" >> $GITHUB_OUTPUT
+        run: |
+          # Use the push event range (before -> after) so changes from ALL pushed
+          # commits are captured, including those merged in via a merge commit
+          # (git diff HEAD^ HEAD only compares against the first parent and misses them).
+          BEFORE="${{ github.event.before }}"
+          if [ -z "$BEFORE" ] || [ "$BEFORE" = "0000000000000000000000000000000000000000" ] || ! git cat-file -e "${BEFORE}^{commit}" 2>/dev/null; then
+            BEFORE="$(git rev-parse HEAD^ 2>/dev/null || echo "")"
+          fi
+          if [ -n "$BEFORE" ]; then
+            FILES="$(git diff --name-only "$BEFORE" "${{ github.sha }}" | tr '\n' ' ')"
+          else
+            FILES="$(git diff --name-only HEAD^ HEAD | tr '\n' ' ')"
+          fi
+          echo "files=$FILES" >> $GITHUB_OUTPUT
 
       - name: Deploy files
         run: |

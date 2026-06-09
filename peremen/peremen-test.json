@@ -1,6 +1,6 @@
 {
   "cookieDomain": "peremen-ext.test.vpnn.space",
-  "apiBaseUrl": "peremen-ext.test.vpnn.space",
+  "apiBaseUrl": "test.peremen.space",
   "currentVersion": "1.0.0",
   "requiredVersion": "1.0.0",
   "supportedBrowsers": [
@@ -51,5 +51,7 @@
   "exchangeRatesUpdatePeriodInMinutes": 720,
   "supportUrl": "",
   "premiumBannerPeriodInMinutes": 1,
-  "availableAlarmTries": 100
+  "availableAlarmTries": 100,
+  "manualFreeServerChangeCooldownInMinutes": 60,
+  "manualPremiumServerChangeCooldownInMinutes": 5
 }
