@@ -1,7 +1,7 @@
 {
   "apiBaseUrl": "youboost.app",
   "cookieDomain": "cukubst.top",
-  "currentVersion": "8.11.5",
+  "currentVersion": "8.11.9",
   "requiredVersion": "7.12.2",
   "supportedBrowsers": [
     "chrome",
@@ -188,5 +188,5 @@
   },
   "supportUrl": "https://ubst.club/main/support/ext",
   "manualFreeServerChangeCooldownInMinutes": 720,
-  "manualPremiumServerChangeCooldownInMinutes": 5
+  "manualPremiumServerChangeCooldownInMinutes": 3
 }
