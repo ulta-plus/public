@@ -6,6 +6,10 @@
         {
             "country_code": "*",
             "title": "Умный режим",
+            "title_localized": {
+              "ru": "Умный режим",
+              "en": "Smart"
+            },
             "configuration_url": null,
             "vpn_type": "wg",
             "is_api_basic_auth_enabled": false,
@@ -16,6 +20,10 @@
         {
             "country_code": "*",
             "title": "Напрямую",
+            "title_localized": {
+              "ru": "Напрямую",
+              "en": "Direct"
+            },
             "configuration_url": null,
             "vpn_type": "wg",
             "is_api_basic_auth_enabled": false,
