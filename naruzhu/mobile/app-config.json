@@ -1,5 +1,5 @@
 {
-    "api_base_url": "https://mobile.vvppnn.click",
+    "api_base_url": "https://api.pvnrz.space",
     "tg_bot": "vpn_naruzhu_support_bot",
     "tg_key_bot": "vpn_naruzhu_support_bot",
     "vpn_connections": [
@@ -20,7 +20,7 @@
             "vpn_type": "wg",
             "is_api_basic_auth_enabled": false,
             "relative_path": "client-api/v1/download-awg-key?key_type=direct",
-            "anonymous_relative_path": null,
+            "anonymous_relative_path": "client-api/v1/download-anonymous-key?key_type=direct",
             "key_type": "direct"
         }
     ],
@@ -34,5 +34,7 @@
     "is_hybrid_paywall_enabled": true,
     "is_client_api_enabled": false,
     "hybrid_storefront_country_codes": ["*"],
-    "hybrid_storefront_geo_ip_country_codes": ["*"]
+    "hybrid_storefront_geo_ip_country_codes": ["*"],
+    "is_country_selector_enabled": true,
+    "is_change_server_enabled": true
 }
