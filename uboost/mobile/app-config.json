@@ -34,5 +34,6 @@
     "is_hybrid_paywall_enabled": true,
     "is_client_api_enabled": false,
     "hybrid_storefront_country_codes": ["*"],
-    "hybrid_storefront_geo_ip_country_codes": ["*"]
+    "hybrid_storefront_geo_ip_country_codes": ["*"],
+    "is_change_server_enabled": true
 }
