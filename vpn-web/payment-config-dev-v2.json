@@ -490,7 +490,7 @@
       "fields": {
         "period": true,
         "autoRenewal": true,
-        "promocode": false
+        "promocode": true
       },
       "paymentMethods": [
         {
@@ -519,7 +519,7 @@
       "fields": {
         "period": false,
         "autoRenewal": true,
-        "promocode": false
+        "promocode": true
       },
       "paymentMethods": [
         {
@@ -548,7 +548,7 @@
       "fields": {
         "period": false,
         "autoRenewal": true,
-        "promocode": false
+        "promocode": true
       },
       "paymentMethods": [
         {
