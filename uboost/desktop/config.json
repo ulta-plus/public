@@ -4,8 +4,8 @@
     "support_chat_url": "https://ubst.club/support/app",
     "is_change_server_enabled": true,
     "update_info": {
-        "available_version": "1.0.0.4",
-        "download_url": "https://storage.uubb.website/uboost-desktop/uboost-1.0.0.4.zip"
+        "available_version": "1.0.0.5",
+        "download_url": "https://storage.uubb.website/uboost-desktop/uboost-1.0.0.5.zip"
     },
     "connections": [
         {
