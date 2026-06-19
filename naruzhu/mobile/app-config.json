@@ -1,7 +1,7 @@
 {
     "api_base_url": "https://api.awnr.site",
-    "tg_bot": "vpn_naruzhu_support_bot",
-    "tg_key_bot": "vpn_naruzhu_support_bot",
+    "tg_bot": "vpn_naruzhu_ops_bot",
+    "tg_key_bot": "vpn_naruzhu_ops_bot",
     "vpn_connections": [
         {
             "country_code": "*",
