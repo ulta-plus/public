@@ -23,5 +23,6 @@
     "mediaMaxVersionFirefox": "1.0.0",
     "availableAlarmTries": 100,
     "checkProxyAvailabilityProxyUrl": "https://uboost.space",
-    "checkProxyAvailabilityPublicUrl": "https://ubst.space"
+    "checkProxyAvailabilityPublicUrl": "https://ubst.space",
+    "feedbackUrl": "script.google.com"
 }
