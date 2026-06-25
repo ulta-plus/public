@@ -14,5 +14,13 @@
   "is-support-via-tg": {
     "app-version": "1.0.0",
     "rollout": 1
+  },
+  "is-support-via-email": {
+    "app-version": "1.0.0",
+    "rollout": 0
+  },
+  "is-support-not-via-tg": {
+    "app-version": "1.0.0",
+    "rollout": 0
   }
 }

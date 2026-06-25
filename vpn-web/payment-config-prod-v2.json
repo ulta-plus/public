@@ -490,7 +490,7 @@
       "fields": {
         "period": true,
         "autoRenewal": false,
-        "promocode": false
+        "promocode": true
       },
       "paymentMethods": [
         {
@@ -519,7 +519,7 @@
       "fields": {
         "period": false,
         "autoRenewal": false,
-        "promocode": false
+        "promocode": true
       },
       "paymentMethods": [
         {
@@ -548,7 +548,7 @@
       "fields": {
         "period": true,
         "autoRenewal": false,
-        "promocode": false
+        "promocode": true
       },
       "paymentMethods": [
         {
@@ -682,6 +682,36 @@
           "type": "card",
           "buttonLabel": "Оплатить картой РФ",
           "useRandomIndex": 1
+        }
+      ]
+    }
+  },
+  "nazarlink": {
+    "default": {
+      "fields": {
+        "period": true,
+        "autoRenewal": true,
+        "promocode": true
+      },
+      "paymentMethods": [
+        {
+          "order": 1,
+          "method": "card",
+          "active": true,
+          "minActivationAmount": 0,
+          "withMessage": null,
+          "type": "card",
+          "buttonLabel": "Kartla öde",
+          "useRandomIndex": 1
+        },
+        {
+          "order": 2,
+          "method": "crypto",
+          "active": true,
+          "minActivationAmount": 0,
+          "withMessage": null,
+          "type": "crypto",
+          "buttonLabel": "Kripto parayla öde"
         }
       ]
     }

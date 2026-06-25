@@ -51,5 +51,7 @@
   "exchangeRatesUpdatePeriodInMinutes": 720,
   "supportUrl": "",
   "premiumBannerPeriodInMinutes": 5,
-  "availableAlarmTries": 100
+  "availableAlarmTries": 100,
+  "manualFreeServerChangeCooldownInMinutes": 720,
+  "manualPremiumServerChangeCooldownInMinutes": 5
 }

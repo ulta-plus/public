@@ -1,14 +1,2 @@
 [
-  {
-    "id": "alert-1",
-    "title": "Попробуйте ЮБуст приложение на ПК",
-    "description": "Расширение находится под атакой РКН, поэтому может работать нестабильно",
-    "button": {
-      "text": "Скачать приложение",
-      "action": "open_url",
-      "url": "https://ubst.club/#download"
-    },
-    "audience": "all",
-    "lang": "ru"
-  }
 ]
