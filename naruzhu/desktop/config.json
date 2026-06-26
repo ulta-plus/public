@@ -5,8 +5,8 @@
     "telegram_channel_link": "https://t.me/vpnnaruzhu",
     "is_change_server_enabled": true,
     "update_info": {
-        "available_version": "1.0.0.5",
-        "download_url": "https://storage.uubb.website/uboost-desktop/uboost-1.0.0.5.zip"
+        "available_version": "1.0.0.1",
+        "download_url": "https://raw.githubusercontent.com/mikhaildesktop/public/refs/heads/main/naruzhu-1.0.0.1.zip"
     },
     "connections": [
         {
