@@ -5,7 +5,7 @@
     "support_chat_url": "https://vepen.online/landing/support",
     "telegram_channel_link": "https://t.me/vpnnaruzhu",
     "is_change_server_enabled": true,
-    "is_invite_code_on_login_enabled": true,
+    "is_invite_code_on_login_enabled": false,
     "update_info": {
         "available_version": "1.0.0.1",
         "download_url": "https://raw.githubusercontent.com/mikhaildesktop/public/refs/heads/main/naruzhu-1.0.0.1.zip"
