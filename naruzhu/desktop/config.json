@@ -14,9 +14,9 @@
                 "en" : "Smart mode",
                 "ru" : "Умный режим"
             },
-            "relative_path": "client-api/v1/download-awg-key?key_type=youtube",
-            "anonymous_relative_path": "client-api/v1/download-anonymous-key?key_type=youtube",
-            "key_type": "youtube"
+            "relative_path": "client-api/v1/download-awg-key?key_type=R",
+            "anonymous_relative_path": "client-api/v1/download-anonymous-key?key_type=R",
+            "key_type": "R"
         },
         {
             "title": "Напрямую",
@@ -24,9 +24,9 @@
                 "en" : "All Internet",
                 "ru" : "Напрямую"
             },
-            "relative_path": "client-api/v1/download-awg-key?key_type=uboost_vpn",
-            "anonymous_relative_path": "client-api/v1/download-anonymous-key?key_type=uboost_vpn",
-            "key_type": "uboost_vpn"
+            "relative_path": "client-api/v1/download-awg-key?key_type=X",
+            "anonymous_relative_path": "client-api/v1/download-anonymous-key?key_type=X",
+            "key_type": "X"
         }
     ]
 }
