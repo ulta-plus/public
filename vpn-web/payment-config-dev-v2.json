@@ -46,7 +46,10 @@
           "type": "crypto",
           "buttonLabel": "Оплатить криптовалютой"
         }
-      ]
+      ],
+      "profile": {
+        "refund_feature_enabled": true
+      }
     },
     "naruzhu.am": {
       "fields": {
@@ -92,7 +95,10 @@
           "type": "crypto",
           "buttonLabel": "Оплатить криптовалютой"
         }
-      ]
+      ],
+      "profile": {
+        "refund_feature_enabled": true
+      }
     },
     "vepen.click": {
       "fields": {
@@ -138,7 +144,10 @@
           "type": "crypto",
           "buttonLabel": "Оплатить криптовалютой"
         }
-      ]
+      ],
+      "profile": {
+        "refund_feature_enabled": true
+      }
     },
     "nrz.monster": {
       "fields": {
@@ -184,7 +193,10 @@
           "type": "crypto",
           "buttonLabel": "Оплатить криптовалютой"
         }
-      ]
+      ],
+      "profile": {
+        "refund_feature_enabled": true
+      }
     },
     "naruzhu.work": {
       "fields": {
@@ -230,7 +242,10 @@
           "type": "crypto",
           "buttonLabel": "Оплатить криптовалютой"
         }
-      ]
+      ],
+      "profile": {
+        "refund_feature_enabled": true
+      }
     }
   },
   "naoborot": {
@@ -293,7 +308,10 @@
           "type": "crypto",
           "buttonLabel": "Оплатить криптовалютой"
         }
-      ]
+      ],
+      "profile": {
+        "refund_feature_enabled": true
+      }
     }
   },
   "youboost": {
@@ -343,7 +361,10 @@
           "type": "crypto",
           "buttonLabel": "Оплатить криптовалютой"
         }
-      ]
+      ],
+      "profile": {
+        "refund_feature_enabled": true
+      }
     },
     "uboost.am": {
       "fields": {
@@ -389,7 +410,10 @@
           "type": "crypto",
           "buttonLabel": "Оплатить криптовалютой"
         }
-      ]
+      ],
+      "profile": {
+        "refund_feature_enabled": true
+      }
     },
     "ubstv.click": {
       "fields": {
@@ -436,7 +460,10 @@
           "type": "crypto",
           "buttonLabel": "Оплатить криптовалютой"
         }
-      ]
+      ],
+      "profile": {
+        "refund_feature_enabled": true
+      }
     },
     "youboost.click": {
       "fields": {
@@ -482,7 +509,10 @@
           "type": "crypto",
           "buttonLabel": "Оплатить криптовалютой"
         }
-      ]
+      ],
+      "profile": {
+        "refund_feature_enabled": true
+      }
     }
   },
   "ulta": {
@@ -513,7 +543,10 @@
           "buttonLabel": "Оплатить картой РФ",
           "useRandomIndex": 1
         }
-      ]
+      ],
+      "profile": {
+        "refund_feature_enabled": true
+      }
     },
     "ulta.ink": {
       "fields": {
@@ -542,7 +575,10 @@
           "buttonLabel": "Оплатить картой РФ",
           "useRandomIndex": 1
         }
-      ]
+      ],
+      "profile": {
+        "refund_feature_enabled": true
+      }
     },
     "ulta.am": {
       "fields": {
@@ -571,7 +607,10 @@
           "buttonLabel": "Оплатить картой РФ",
           "useRandomIndex": 1
         }
-      ]
+      ],
+      "profile": {
+        "refund_feature_enabled": true
+      }
     }
   },
   "sotka": {
@@ -602,7 +641,10 @@
           "buttonLabel": "Оплатить картой РФ",
           "useRandomIndex": 1
         }
-      ]
+      ],
+      "profile": {
+        "refund_feature_enabled": true
+      }
     }
   },
   "peremen": {
@@ -652,7 +694,10 @@
           "type": "crypto",
           "buttonLabel": "Оплатить криптовалютой"
         }
-      ]
+      ],
+      "profile": {
+        "refund_feature_enabled": true
+      }
     }
   },
   "vpneko": {
@@ -683,7 +728,10 @@
           "buttonLabel": "Оплатить картой РФ",
           "useRandomIndex": 1
         }
-      ]
+      ],
+      "profile": {
+        "refund_feature_enabled": true
+      }
     }
   },
   "nazarlink": {
@@ -713,37 +761,10 @@
           "type": "crypto",
           "buttonLabel": "Kripto parayla öde"
         }
-      ]
-    }
-  },
-  "nazarlink": {
-    "default": {
-      "fields": {
-        "period": true,
-        "autoRenewal": true,
-        "promocode": true
-      },
-      "paymentMethods": [
-        {
-          "order": 1,
-          "method": "card",
-          "active": true,
-          "minActivationAmount": 0,
-          "withMessage": null,
-          "type": "card",
-          "buttonLabel": "Kartla öde",
-          "useRandomIndex": 1
-        },
-        {
-          "order": 2,
-          "method": "crypto",
-          "active": true,
-          "minActivationAmount": 0,
-          "withMessage": null,
-          "type": "crypto",
-          "buttonLabel": "Kripto parayla öde"
-        }
-      ]
+      ],
+      "profile": {
+        "refund_feature_enabled": true
+      }
     }
   }
 }
