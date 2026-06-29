@@ -7,74 +7,7 @@
   },
   "free_time_minutes": 15,
   "guest_login_from_profile": false,
-  "hybrid_paywall_config": {
-    "localized_title": {
-      "ru": "Получи все возможности Юбуст",
-      "en": "Get full access to Uboost features"
-    },
-    "features_position": "above_group",
-    "groups": [
-      {
-        "group_id": "premium",
-        "is_visible": true,
-        "localized_title": {
-          "ru": "Премиум",
-          "en": "Premium"
-        },
-        "features": [
-          {
-            "localized_title": {
-              "ru": "Доступ ко множеству заблокированных в РФ сервисов",
-              "en": "Access to global services and platforms"
-            }
-          },
-          {
-            "localized_title": {
-              "ru": "Ролики и стримы в качестве 4K",
-              "en": "Videos and streams in 4K quality"
-            }
-          },
-          {
-            "localized_title": {
-              "ru": "Выделенный сервер для стабильного соединения",
-              "en": "Dedicated server for a stable connection"
-            }
-          },
-          {
-            "localized_title": {
-              "ru": "Поддержка 24/7",
-              "en": "24/7 support whenever you need help"
-            }
-          },
-          {
-            "localized_title": {
-              "ru": "Высокая скорость без ограничений",
-              "en": "High-speed connection with no limits"
-            }
-          }
-        ]
-      }
-    ],
-    "products": [
-      {
-        "product_id": "premium_monthly",
-        "group_id": "premium",
-        "localized_title": {
-          "ru": "Премиум на месяц",
-          "en": "Premium monthly"
-        }
-      },
-      {
-        "product_id": "premium_annual",
-        "is_default": true,
-        "group_id": "premium",
-        "localized_title": {
-          "ru": "Премиум на год",
-          "en": "Premium annual"
-        }
-      }
-    ]
-  },
+  "hybrid_paywall_config": {},
   "hybrid_storefront_country_codes_android": [
     "*"
   ],
