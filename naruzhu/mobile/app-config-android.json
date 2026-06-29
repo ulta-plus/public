@@ -1,0 +1,74 @@
+{
+  "api_base_url": "https://api.awnr.site",
+  "check_change_server_timeout_sec": 3,
+  "guest_login_from_profile": false,
+  "hybrid_paywall_config": {},
+  "hybrid_storefront_country_codes_android": [
+    "*"
+  ],
+  "is_change_server_enabled": true,
+  "is_country_selector_enabled": true,
+  "is_hybrid_paywall_enabled": true,
+  "is_invite_code_on_login_enabled": true,
+  "is_quick_login_enabled": false,
+  "privacy_policy_url": "https://telegra.ph/Privacy-Policy-06-01-98",
+  "quick_login_url": "nrz.monster/quick-login",
+  "referral_program_config": {
+    "is_enabled": false,
+    "localized_title": {
+      "ru": "",
+      "en": ""
+    },
+    "localized_subtitle": {
+      "ru": "",
+      "en": ""
+    },
+    "localized_sharing_text_template": {
+      "ru": "",
+      "en": ""
+    },
+    "sharing_link": ""
+  },
+  "support_chat_url": "https://vepen.online/landing/support",
+  "support_email": "help@vpn-naruzhu.com",
+  "terms_of_use_url": "http://www.apple.com/legal/itunes/appstore/dev/stdeula",
+  "tg_bot": "vpn_naruzhu_ops_bot",
+  "tg_channel": "vpnnaruzhu",
+  "tg_key_bot": "vpn_naruzhu_ops_bot",
+  "update_config_android": {
+    "available_version": "0.0.0.0",
+    "available_update_localized_text": {
+      "en": "Update your app",
+      "ru": "Обновите версию приложения"
+    },
+    "available_download_url": "",
+    "required_version": "0.0.0.0",
+    "required_update_localized_text": {
+      "en": "Required update",
+      "ru": "Требуется обновить версию приложения"
+    },
+    "required_download_url": ""
+  },
+  "vpn_connections_android": [
+    {
+      "title": "Умный режим",
+      "relative_path": "client-api/v1/download-awg-key?key_type=smart",
+      "type_key": "smart",
+      "title_localized": {
+        "ru": "Умный режим",
+        "en": "Smart"
+      },
+      "anonymous_path": "client-api/v1/download-anonymous-key?key_type=smart"
+    },
+    {
+      "title": "Напрямую",
+      "relative_path": "client-api/v1/download-awg-key?key_type=direct",
+      "type_key": "direct",
+      "title_localized": {
+        "ru": "Напрямую",
+        "en": "Direct"
+      },
+      "anonymous_path": "client-api/v1/download-anonymous-key?key_type=direct"
+    }
+  ]
+}
