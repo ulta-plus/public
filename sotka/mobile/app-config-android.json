@@ -1,0 +1,36 @@
+{
+  "api_base_url": "https://api.stkv.space",
+  "vpn_connections_android": [
+    {
+      "title": "Весь интернет",
+      "relative_path": "client-api/v1/download-awg-key",
+      "type_key": "sotka_vpn"
+    }
+  ],
+  "tg_bot": "sotka_install_bot",
+  "tg_key_bot": "sotka_install_bot",
+  "support_email": "help@sotka.work",
+  "guest_login_from_profile": false,
+  "is_invite_code_on_login_enabled": true,
+  "update_config_android": {
+    "available_version": "0.0.0.0",
+    "available_update_localized_text": {
+      "en": "Update your app",
+      "ru": "Обновите версию приложения"
+    },
+    "available_download_url": "",
+    "required_version": "0.0.0.0",
+    "required_update_localized_text": {
+      "en": "Required update",
+      "ru": "Требуется обновить версию приложения"
+    },
+    "required_download_url": ""
+  },
+  "referral_program_config": {
+    "is_enabled": false,
+    "localized_title": { "ru": "", "en": "" },
+    "localized_subtitle": { "ru": "", "en": "" },
+    "localized_sharing_text_template": { "ru": "", "en": "" },
+    "sharing_link": ""
+  }
+}
