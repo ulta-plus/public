@@ -1,22 +1,35 @@
 {
   "api_base_url": "https://api.ultvs.click",
-  "vpn_connections_android": [
-    {
-      "title": "Весь интернет",
-      "relative_path": "client-api/v1/download-awg-key",
-      "type_key": "ulta_vpn"
-    }
-  ],
-  "tg_channel": "ultarussia",
-  "tg_bot": "ulta_ops_bot",
-  "tg_key_bot": "ultaclub_bot",
-  "support_email": "help@ulta.plus",
-  "support_chat_url": "https://ulta.best/landing/support",
   "guest_login_from_profile": false,
-  "is_invite_code_on_login_enabled": true,
-  "is_hybrid_paywall_enabled": true,
   "hybrid_paywall_config": {},
-  "hybrid_storefront_country_codes_android": ["ru"],
+  "hybrid_storefront_country_codes_android": [
+    "*"
+  ],
+  "is_hybrid_paywall_enabled": false,
+  "is_invite_code_on_login_enabled": true,
+  "privacy_policy_url": "https://telegra.ph/Privacy-Policy-08-04-88",
+  "referral_program_config": {
+    "is_enabled": false,
+    "localized_title": {
+      "ru": "",
+      "en": ""
+    },
+    "localized_subtitle": {
+      "ru": "",
+      "en": ""
+    },
+    "localized_sharing_text_template": {
+      "ru": "",
+      "en": ""
+    },
+    "sharing_link": ""
+  },
+  "support_chat_url": "https://ulta.best/landing/support",
+  "support_email": "help@ulta.plus",
+  "terms_of_use_url": "http://www.apple.com/legal/itunes/appstore/dev/stdeula",
+  "tg_bot": "ulta_ops_bot",
+  "tg_channel": "ultarussia",
+  "tg_key_bot": "ultaclub_bot",
   "update_config_android": {
     "available_version": "0.0.0.0",
     "available_update_localized_text": {
@@ -31,11 +44,12 @@
     },
     "required_download_url": ""
   },
-  "referral_program_config": {
-    "is_enabled": false,
-    "localized_title": { "ru": "", "en": "" },
-    "localized_subtitle": { "ru": "", "en": "" },
-    "localized_sharing_text_template": { "ru": "", "en": "" },
-    "sharing_link": ""
-  }
+  "vpn_connections_android": [
+    {
+      "title": "Весь интернет",
+      "relative_path": "client-api/v1/download-awg-key",
+      "type_key": "ultaclub",
+      "anonymous_path": "client-api/v1/download-anonymous-key"
+    }
+  ]
 }

@@ -1,43 +1,12 @@
 {
-  "api_base_url": "https://api.ubst.space",
-  "vpn_connections_android": [
-    {
-      "title": "Только YouTube",
-      "title_localized": { "ru": "Только YouTube", "en": "YouTube only" },
-      "relative_path": "client-api/v1/download-awg-key?key_type=youtube",
-      "anonymous_path": "client-api/v1/download-anonymous-key?key_type=youtube",
-      "type_key": "youtube"
-    },
-    {
-      "title": "Весь интернет",
-      "title_localized": { "ru": "Весь интернет", "en": "All internet" },
-      "relative_path": "client-api/v1/download-awg-key?key_type=uboost_vpn",
-      "anonymous_path": "client-api/v1/download-anonymous-key?key_type=uboost_vpn",
-      "type_key": "uboost_vpn"
-    }
-  ],
-  "tg_channel": "uboostrussia",
-  "tg_bot": "uboostv_ops_bot",
-  "quick_login_url": "uboost.site/quick-login",
-  "is_quick_login_enabled": true,
-  "is_change_server_enabled": true,
+  "api_base_url": "https://api.awub.site",
   "check_change_server_timeout_sec": 3,
-  "is_tv_free_mode_v1_enabled": false,
-  "is_mobile_free_mode_v1_enabled": false,
-  "free_time_minutes": 15,
   "fallback_ad": {
     "fallback_url": "https://uubb.website/static/android_app_ads.html",
     "timeout": 5
   },
-  "yandex_ad_identifier": "R-M-16079759-3",
-  "privacy_policy_url": "https://telegra.ph/Privacy-Policy-01-22-47",
-  "terms_of_use_url": "",
-  "support_email": "help@uboost.live",
-  "support_chat_url": "https://ubst.club/main/support/app",
+  "free_time_minutes": 15,
   "guest_login_from_profile": false,
-  "is_invite_code_on_login_enabled": true,
-  "is_hybrid_paywall_enabled": true,
-  "hybrid_storefront_country_codes_android": ["ru"],
   "hybrid_paywall_config": {
     "localized_title": {
       "ru": "Получи все возможности Юбуст",
@@ -48,7 +17,10 @@
       {
         "group_id": "premium",
         "is_visible": true,
-        "localized_title": { "ru": "Премиум", "en": "Premium" },
+        "localized_title": {
+          "ru": "Премиум",
+          "en": "Premium"
+        },
         "features": [
           {
             "localized_title": {
@@ -87,16 +59,55 @@
       {
         "product_id": "premium_monthly",
         "group_id": "premium",
-        "localized_title": { "ru": "Премиум на месяц", "en": "Premium monthly" }
+        "localized_title": {
+          "ru": "Премиум на месяц",
+          "en": "Premium monthly"
+        }
       },
       {
         "product_id": "premium_annual",
         "is_default": true,
         "group_id": "premium",
-        "localized_title": { "ru": "Премиум на год", "en": "Premium annual" }
+        "localized_title": {
+          "ru": "Премиум на год",
+          "en": "Premium annual"
+        }
       }
     ]
   },
+  "hybrid_storefront_country_codes_android": [
+    "*"
+  ],
+  "is_change_server_enabled": true,
+  "is_hybrid_paywall_enabled": true,
+  "is_invite_code_on_login_enabled": true,
+  "is_mobile_free_mode_v1_enabled": false,
+  "is_quick_login_enabled": true,
+  "is_tv_free_mode_v1_enabled": false,
+  "privacy_policy_url": "https://telegra.ph/Privacy-Policy-01-22-47",
+  "quick_login_url": "ubstv.click/quick-login",
+  "referral_program_config": {
+    "is_enabled": false,
+    "localized_title": {
+      "ru": "",
+      "en": ""
+    },
+    "localized_subtitle": {
+      "ru": "",
+      "en": ""
+    },
+    "localized_sharing_text_template": {
+      "ru": "",
+      "en": ""
+    },
+    "sharing_link": ""
+  },
+  "support_chat_url": "https://ubst.club/main/support/app",
+  "support_email": "help@uboost.live",
+  "terms_of_use_url": "http://www.apple.com/legal/itunes/appstore/dev/stdeula",
+  "tg_bot": "uboostv_ops_bot",
+  "tg_channel": "uboostrussia",
+  "tg_key_bot": "uboostv_ops_bot",
   "update_config_android": {
     "available_version": "0.0.0.0",
     "available_update_localized_text": {
@@ -111,11 +122,19 @@
     },
     "required_download_url": "https://uboost.download"
   },
-  "referral_program_config": {
-    "is_enabled": false,
-    "localized_title": { "ru": "", "en": "" },
-    "localized_subtitle": { "ru": "", "en": "" },
-    "localized_sharing_text_template": { "ru": "", "en": "" },
-    "sharing_link": ""
-  }
+  "vpn_connections_android": [
+    {
+      "title": "Только YouTube",
+      "relative_path": "client-api/v1/download-awg-key?key_type=youtube",
+      "type_key": "youtube",
+      "anonymous_path": "client-api/v1/download-anonymous-key?key_type=youtube"
+    },
+    {
+      "title": "Весь интернет",
+      "relative_path": "client-api/v1/download-awg-key?key_type=uboost_vpn",
+      "type_key": "uboost_vpn",
+      "anonymous_path": "client-api/v1/download-anonymous-key?key_type=uboost_vpn"
+    }
+  ],
+  "yandex_ad_identifier": "R-M-16079759-3"
 }
