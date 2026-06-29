@@ -1,0 +1,47 @@
+{
+  "api_base_url": "https://api.stkv.space",
+  "guest_login_from_profile": false,
+  "is_invite_code_on_login_enabled": true,
+  "privacy_policy_url": "https://telegra.ph/Privacy-Policy-08-04-88",
+  "referral_program_config": {
+    "is_enabled": false,
+    "localized_title": {
+      "ru": "",
+      "en": ""
+    },
+    "localized_subtitle": {
+      "ru": "",
+      "en": ""
+    },
+    "localized_sharing_text_template": {
+      "ru": "",
+      "en": ""
+    },
+    "sharing_link": ""
+  },
+  "support_email": "help@sotka.work",
+  "terms_of_use_url": "http://www.apple.com/legal/itunes/appstore/dev/stdeula",
+  "tg_bot": "sotka_install_bot",
+  "tg_key_bot": "sotka_install_bot",
+  "update_config_android": {
+    "available_version": "0.0.0.0",
+    "available_update_localized_text": {
+      "en": "Update your app",
+      "ru": "Обновите версию приложения"
+    },
+    "available_download_url": "",
+    "required_version": "0.0.0.0",
+    "required_update_localized_text": {
+      "en": "Required update",
+      "ru": "Требуется обновить версию приложения"
+    },
+    "required_download_url": ""
+  },
+  "vpn_connections_android": [
+    {
+      "title": "Весь интернет",
+      "relative_path": "client-api/v1/download-awg-key",
+      "type_key": "sotka"
+    }
+  ]
+}
