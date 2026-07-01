@@ -8,7 +8,7 @@
     "rollout": 1
   },
   "on-fail-disabled": {
-    "rollout": 0
+    "rollout": 1
   },
   "adfox-banner": {
     "app-version": "7.5.2",
@@ -32,10 +32,7 @@
   },
   "proxy-auth": {
     "app-version": "8.11.0",
-    "rollout": 1,
-    "browser": {
-      "chrome": 145
-    }
+    "rollout": 0
   },
   "multi-locales-support": {
     "app-version": "7.17.1",
@@ -84,8 +81,31 @@
     "app-version": "8.11.0",
     "rollout": 1
   },
-  "is-support-via-tg": {
+  "quality-feature": {
     "app-version": "8.11.0",
     "rollout": 1
+  },
+  "is-support-via-tg": {
+    "app-version": "8.11.5",
+    "rollout": 0
+  },
+  "is-support-via-email": {
+    "rollout": 0
+  },
+  "is-support-not-via-tg": {
+    "rollout": 0
+  },
+  "remote-logger": {
+    "app-version": "8.11.4",
+    "rollout": 1
+  },
+  "on-fail-disabled-v2-premium": {
+    "rollout": 0
+  },
+  "on-fail-disabled-v2-free": {
+    "rollout": 1
+  },
+  "connection-error-paywall": {
+    "rollout": 0
   }
 }

@@ -1,0 +1,35 @@
+{
+    "api_base_url": "https://mobile.vvppnn.click",
+    "support_link": "https://t.me/vpn_naruzhu_ops_bot",
+    "support_email": "help@vpn-naruzhu.com",
+    "support_chat_url": "https://vepen.online/landing/support",
+    "telegram_channel_link": "https://t.me/vpnnaruzhu",
+    "is_change_server_enabled": true,
+    "is_invite_code_on_login_enabled": false,
+    "update_info": {
+        "available_version": "1.0.0.1",
+        "download_url": "https://storage.uubb.website/naruzhu-desktop/naruzhu_1.0.0.1.zip"
+    },
+    "connections": [
+        {
+            "title": "Умный режим",
+            "localized_title" : {
+                "en" : "Smart mode",
+                "ru" : "Умный режим"
+            },
+            "relative_path": "client-api/v1/download-awg-key?key_type=smart",
+            "anonymous_relative_path": "client-api/v1/download-anonymous-key?key_type=smart",
+            "key_type": "R"
+        },
+        {
+            "title": "Напрямую",
+            "localized_title" : {
+                "en" : "All Internet",
+                "ru" : "Напрямую"
+            },
+            "relative_path": "client-api/v1/download-awg-key?key_type=direct",
+            "anonymous_relative_path": "client-api/v1/download-anonymous-key?key_type=direct",
+            "key_type": "X"
+        }
+    ]
+}

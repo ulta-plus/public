@@ -1,11 +1,15 @@
 {
-    "api_base_url": "https://mobile.vvppnn.click",
-    "tg_bot": "vpn_naruzhu_support_bot",
-    "tg_key_bot": "vpn_naruzhu_support_bot",
+    "api_base_url": "https://api.awnr.site",
+    "tg_bot": "vpn_naruzhu_ops_bot",
+    "tg_key_bot": "vpn_naruzhu_ops_bot",
     "vpn_connections": [
         {
             "country_code": "*",
             "title": "Умный режим",
+            "title_localized": {
+              "ru": "Умный режим",
+              "en": "Smart"
+            },
             "configuration_url": null,
             "vpn_type": "wg",
             "is_api_basic_auth_enabled": false,
@@ -16,11 +20,15 @@
         {
             "country_code": "*",
             "title": "Напрямую",
+            "title_localized": {
+              "ru": "Напрямую",
+              "en": "Direct"
+            },
             "configuration_url": null,
             "vpn_type": "wg",
             "is_api_basic_auth_enabled": false,
             "relative_path": "client-api/v1/download-awg-key?key_type=direct",
-            "anonymous_relative_path": null,
+            "anonymous_relative_path": "client-api/v1/download-anonymous-key?key_type=direct",
             "key_type": "direct"
         }
     ],
@@ -34,5 +42,7 @@
     "is_hybrid_paywall_enabled": true,
     "is_client_api_enabled": false,
     "hybrid_storefront_country_codes": ["*"],
-    "hybrid_storefront_geo_ip_country_codes": ["*"]
+    "hybrid_storefront_geo_ip_country_codes": ["*"],
+    "is_country_selector_enabled": true,
+    "is_change_server_enabled": true
 }

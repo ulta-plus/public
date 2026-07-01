@@ -1,9 +1,11 @@
 {
-    "api_base_url": "https://api.ubst.space",
+    "api_base_url": "https://api.awub.site",
     "support_link": "https://t.me/uboostv_ops_bot",
+    "support_chat_url": "https://ubst.club/support/app",
+    "is_change_server_enabled": true,
     "update_info": {
-        "available_version": "1.0.0.3",
-        "download_url": "https://raw.githubusercontent.com/Wh1teReaper/public/refs/heads/main/uboost-1.0.0.3.zip"
+        "available_version": "1.0.0.5",
+        "download_url": "https://storage.uubb.website/uboost-desktop/uboost-1.0.0.5.zip"
     },
     "connections": [
         {

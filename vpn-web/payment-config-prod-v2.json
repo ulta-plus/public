@@ -34,7 +34,8 @@
           "minActivationAmount": 0,
           "withMessage": null,
           "type": "card",
-          "buttonLabel": " Оплатить зарубежной картой"
+          "buttonLabel": " Оплатить зарубежной картой",
+          "isAvailableWithAutoRenewal": true
         },
         {
           "order": 4,
@@ -79,7 +80,8 @@
           "minActivationAmount": 0,
           "withMessage": null,
           "type": "card",
-          "buttonLabel": "Оплата зарубежной картой"
+          "buttonLabel": "Оплата зарубежной картой",
+          "isAvailableWithAutoRenewal": true
         },
         {
           "order": 4,
@@ -124,7 +126,8 @@
           "minActivationAmount": 0,
           "withMessage": null,
           "type": "card",
-          "buttonLabel": "Оплата зарубежной картой"
+          "buttonLabel": "Оплата зарубежной картой",
+          "isAvailableWithAutoRenewal": true
         },
         {
           "order": 4,
@@ -169,7 +172,8 @@
           "minActivationAmount": 0,
           "withMessage": null,
           "type": "card",
-          "buttonLabel": "Оплата зарубежной картой"
+          "buttonLabel": "Оплата зарубежной картой",
+          "isAvailableWithAutoRenewal": true
         },
         {
           "order": 4,
@@ -214,7 +218,8 @@
           "minActivationAmount": 0,
           "withMessage": null,
           "type": "card",
-          "buttonLabel": "Оплата зарубежной картой"
+          "buttonLabel": "Оплата зарубежной картой",
+          "isAvailableWithAutoRenewal": true
         },
         {
           "order": 4,
@@ -277,7 +282,8 @@
           "minActivationAmount": 0,
           "withMessage": null,
           "type": "card",
-          "buttonLabel": " Оплатить зарубежной картой"
+          "buttonLabel": " Оплатить зарубежной картой",
+          "isAvailableWithAutoRenewal": true
         },
         {
           "method": "crypto",
@@ -325,7 +331,8 @@
           "minActivationAmount": 0,
           "withMessage": null,
           "type": "card",
-          "buttonLabel": "Оплата зарубежной картой"
+          "buttonLabel": "Оплата зарубежной картой",
+          "isAvailableWithAutoRenewal": true
         },
         {
           "order": 4,
@@ -370,7 +377,8 @@
           "minActivationAmount": 0,
           "withMessage": null,
           "type": "card",
-          "buttonLabel": "Оплата зарубежной картой"
+          "buttonLabel": "Оплата зарубежной картой",
+          "isAvailableWithAutoRenewal": true
         },
         {
           "order": 4,
@@ -416,7 +424,8 @@
           "minActivationAmount": 0,
           "withMessage": null,
           "type": "card",
-          "buttonLabel": "Оплата зарубежной картой"
+          "buttonLabel": "Оплата зарубежной картой",
+          "isAvailableWithAutoRenewal": true
         },
         {
           "order": 4,
@@ -461,7 +470,8 @@
           "minActivationAmount": 0,
           "withMessage": null,
           "type": "card",
-          "buttonLabel": "Оплата зарубежной картой"
+          "buttonLabel": "Оплата зарубежной картой",
+          "isAvailableWithAutoRenewal": true
         },
         {
           "order": 4,
@@ -479,8 +489,8 @@
     "default": {
       "fields": {
         "period": true,
-        "autoRenewal": true,
-        "promocode": false
+        "autoRenewal": false,
+        "promocode": true
       },
       "paymentMethods": [
         {
@@ -508,8 +518,8 @@
     "ulta.ink": {
       "fields": {
         "period": false,
-        "autoRenewal": true,
-        "promocode": false
+        "autoRenewal": false,
+        "promocode": true
       },
       "paymentMethods": [
         {
@@ -537,8 +547,8 @@
     "ulta.am": {
       "fields": {
         "period": true,
-        "autoRenewal": true,
-        "promocode": false
+        "autoRenewal": false,
+        "promocode": true
       },
       "paymentMethods": [
         {
@@ -595,6 +605,56 @@
       ]
     }
   },
+  "peremen": {
+    "default": {
+      "fields": {
+        "period": true,
+        "autoRenewal": true,
+        "promocode": false
+      },
+      "paymentMethods": [
+        {
+          "order": 1,
+          "method": "sbp",
+          "active": true,
+          "minActivationAmount": 0,
+          "withMessage": null,
+          "type": "sbp",
+          "buttonLabel": "Оплатить через СБП",
+          "useRandomIndex": 1
+        },
+        {
+          "order": 2,
+          "method": "card",
+          "active": true,
+          "minActivationAmount": 0,
+          "withMessage": null,
+          "type": "card",
+          "buttonLabel": "Оплатить картой РФ",
+          "useRandomIndex": 1
+        },
+         {
+          "order": 3,
+          "method": "card_int",
+          "active": true,
+          "minActivationAmount": 0,
+          "withMessage": null,
+          "type": "card",
+          "buttonLabel": "Оплата зарубежной картой",
+          "isAvailableWithAutoRenewal": true
+        },
+        {
+          "order": 4,
+          "method": "crypto",
+          "active": true,
+          "minActivationAmount": 0,
+          "withMessage": null,
+          "type": "crypto",
+          "buttonLabel": "Оплатить криптовалютой"
+        }
+      ]
+    }
+  },
   "vpneko": {
     "default": {
       "fields": {
@@ -622,6 +682,36 @@
           "type": "card",
           "buttonLabel": "Оплатить картой РФ",
           "useRandomIndex": 1
+        }
+      ]
+    }
+  },
+  "nazarlink": {
+    "default": {
+      "fields": {
+        "period": true,
+        "autoRenewal": true,
+        "promocode": true
+      },
+      "paymentMethods": [
+        {
+          "order": 1,
+          "method": "card",
+          "active": true,
+          "minActivationAmount": 0,
+          "withMessage": null,
+          "type": "card",
+          "buttonLabel": "Kartla öde",
+          "useRandomIndex": 1
+        },
+        {
+          "order": 2,
+          "method": "crypto",
+          "active": true,
+          "minActivationAmount": 0,
+          "withMessage": null,
+          "type": "crypto",
+          "buttonLabel": "Kripto parayla öde"
         }
       ]
     }
