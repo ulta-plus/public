@@ -34,5 +34,6 @@
   ],
   "availableAlarmTries": 15,
   "checkProxyAvailabilityProxyUrl": "https://uboost.space",
-  "checkProxyAvailabilityPublicUrl": "https://ubst.space"
+  "checkProxyAvailabilityPublicUrl": "https://ubst.space",
+  "supportUrl": ""
 }
