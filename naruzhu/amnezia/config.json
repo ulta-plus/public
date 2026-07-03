@@ -7,9 +7,9 @@
     "aboutLink": "https://vepen.online/profile",
     "websiteLink": "https://vepen.online/",
     "updateInfo": {
-        "availableVersion": "2.2.2.4",
-        "downloadUrl": "https://storage.uubb.website/naruzhu-desktop/VPNNaruzhu_x64_2.2.2.4.exe",
-        "requiredVersion": "2.2.1.4"
+        "availableVersion": "2.2.3.3",
+        "downloadUrl": "https://storage.uubb.website/naruzhu-desktop/VPNNaruzhu_2.2.3.3_windows_x64.exe",
+        "requiredVersion": "2.2.3.3"
     },
     "connections": [
         {

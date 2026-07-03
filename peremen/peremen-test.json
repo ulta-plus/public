@@ -49,7 +49,7 @@
   "checkProxyAvailabilityPublicUrl": "https://ubst.space",
   "feedbackUrl": "https://script.google.com/macros/s/AKfycbzUGN-kyo6O-q34ZRixWyU7kS1EsDjLy8I3SmxG9PyYzQ13UM_RLdbPTALr7Cg3SVJq/exec",
   "exchangeRatesUpdatePeriodInMinutes": 720,
-  "supportUrl": "",
+  "supportUrl": "https://peremen.app/landing/support",
   "premiumBannerPeriodInMinutes": 1,
   "availableAlarmTries": 100,
   "manualFreeServerChangeCooldownInMinutes": 60,

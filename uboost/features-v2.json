@@ -81,6 +81,10 @@
     "app-version": "8.11.0",
     "rollout": 1
   },
+  "quality-feature": {
+    "app-version": "8.11.0",
+    "rollout": 1
+  },
   "is-support-via-tg": {
     "app-version": "8.11.5",
     "rollout": 0
@@ -103,5 +107,8 @@
   },
   "connection-error-paywall": {
     "rollout": 0
+  },
+  "cancel-premium-via-discount": {
+    "rollout": 1
   }
 }
