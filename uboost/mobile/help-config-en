@@ -1,0 +1,223 @@
+{
+  "main_description": "We've gathered answers to the most frequently asked questions. If you didn't find yours, message our support team.",
+  "topics": [
+    {
+      "id": "about_service",
+      "title": "About the service",
+      "questions": [
+        {
+          "id": "what_is_uboost",
+          "title": "What is Uboost",
+          "type": "text",
+          "text": "Uboost is a service for accessing YouTube and other blocked resources. It comes in several versions: an app for Android/iOS/Android TV, a desktop app, and a browser extension. These are different products with separate subscriptions.",
+          "link": null
+        },
+        {
+          "id": "products_difference",
+          "title": "How the Uboost versions differ",
+          "type": "text",
+          "text": "Uboost Android/iOS is an app for Android, Android TV, and iOS devices. The subscription costs 199 rubles per month or 549 rubles for 3 months, and you can connect up to 5 devices. Uboost for PC is a full-featured desktop app. The Uboost browser extension starts at 149 rubles per month, supports up to 10 devices, and after purchase you receive an ID to log in. We'll soon have a unified subscription — follow the news in our Telegram channel.",
+          "link": null
+        },
+        {
+          "id": "supported_devices",
+          "title": "Which devices can I connect",
+          "type": "text",
+          "text": "You can use Uboost on: smartphones and tablets (Android, iOS), TVs and TV boxes (Android TV), and computers (the desktop app or browser extension).",
+          "link": null
+        },
+        {
+          "id": "is_console_available",
+          "title": "Is the TV box still on sale",
+          "type": "text",
+          "text": "Yes, of course — our TV box is available for purchase. You can buy it on Ozon (ozon.ru/t/g2KbNcP) or Wildberries.",
+          "link": null
+        },
+        {
+          "id": "vpn_region",
+          "title": "What region is the VPN in",
+          "type": "text",
+          "text": "The servers change constantly, so the connection region changes accordingly.",
+          "link": null
+        }
+      ]
+    },
+    {
+      "id": "installation",
+      "title": "Installing the app",
+      "questions": [
+        {
+          "id": "install_android",
+          "title": "How to install the app on Android",
+          "type": "text",
+          "text": "To install, try using the APK file. Download it from uboost.site and run it on your device.",
+          "link": null
+        },
+        {
+          "id": "install_ios",
+          "title": "How to download the app on iPhone",
+          "type": "text",
+          "text": "The app periodically appears in the App Store and sometimes disappears — you need to catch the moment. Follow the news in our Telegram channel so you don't miss it: t.me/uboostrussia",
+          "link": null
+        },
+        {
+          "id": "install_smart_tv",
+          "title": "How to download Uboost on a Smart TV",
+          "type": "text",
+          "text": "IMPORTANT: The TV must run Android OS. Option one: install from a USB drive by downloading the APK from naruzhu.click/uboost_tv_android. Option two: open the browser on your TV, go to naruzhu.click/uboost_tv_android, then download and install the app. After that, sign in to your account.",
+          "link": null
+        },
+        {
+          "id": "install_pc",
+          "title": "How to install the app on a computer",
+          "type": "text",
+          "text": "Download the Uboost desktop app from our website and install it on your computer. Follow the news about new releases in our Telegram channel t.me/uboostrussia",
+          "link": null
+        },
+        {
+          "id": "browser_extension",
+          "title": "How to install the browser extension",
+          "type": "text",
+          "text": "The Uboost extension can be installed for free from the Chrome Web Store. After purchasing a subscription, you'll receive an ID to log in. A full-featured desktop app is also available for PC.",
+          "link": "https://chromewebstore.google.com/detail/%D1%8E%D0%B1%D1%83%D1%81%D1%82-vpn-%D0%B4%D0%BB%D1%8F-youtube-%D0%BE%D0%B1%D1%85/jddgbeighonaipjikdnfdpiefhoomlae"
+        }
+      ]
+    },
+    {
+      "id": "subscription",
+      "title": "Subscription",
+      "questions": [
+        {
+          "id": "free_version",
+          "title": "Is there a free version",
+          "type": "text",
+          "text": "A free version of the app is currently being tested on Android. You can also use the free browser extension on your computer. On iOS, free access is not available yet.",
+          "link": null
+        },
+        {
+          "id": "devices_limit",
+          "title": "How many devices are included in the subscription",
+          "type": "text",
+          "text": "With a mobile app subscription, you can use up to 5 Android/iOS devices at the same time. To sign in on each of them, use the email address the access was purchased with.",
+          "link": null
+        },
+        {
+          "id": "how_to_extend",
+          "title": "How to renew your plan",
+          "type": "text",
+          "text": "Open the Uboost app, tap “Buy plan”, choose a payment method, and tap “Buy”. You can also renew your plan in your personal account at uboost.site/profile — sign in and tap “Go to payment details”. After a successful payment, your plan will be renewed automatically.",
+          "link": null
+        },
+        {
+          "id": "phone_subscription_for_pc",
+          "title": "I paid for a subscription on my phone — how do I use it on PC",
+          "type": "text",
+          "text": "The Uboost mobile app, the desktop app, and the browser extension are different products with separate subscriptions. A subscription to one of them does not grant access to another. We'll soon have a unified subscription — follow the news in our Telegram channel t.me/uboostrussia",
+          "link": null
+        },
+        {
+          "id": "different_subscriptions",
+          "title": "Do the app and the extension work with one subscription",
+          "type": "text",
+          "text": "No, the Uboost mobile app, the desktop app, and the browser extension are different products with separate subscriptions. A subscription to one of them does not grant access to another. To use several types of devices, separate subscriptions are required for now.",
+          "link": null
+        }
+      ]
+    },
+    {
+      "id": "account",
+      "title": "Account and sign-in",
+      "questions": [
+        {
+          "id": "what_is_id",
+          "title": "How to find your ID",
+          "type": "text",
+          "text": "The ID is used only in the Uboost browser extension. It's not needed for the mobile app or the desktop app — there you sign in with your email. If you have an extension subscription and need your ID, send us your payment receipt and we'll send it to you.",
+          "link": null
+        },
+        {
+          "id": "need_id",
+          "title": "I need an ID",
+          "type": "text",
+          "text": "The ID is used in the Uboost browser extension. The mobile app, the desktop app, and the extension are different products with separate subscriptions. If you have an extension subscription, send us your payment receipt as a file and we'll send you your ID.",
+          "link": null
+        },
+        {
+          "id": "forgot_email",
+          "title": "I forgot my email",
+          "type": "text",
+          "text": "Unfortunately, we can't tell you or recover your email, as we don't have access to this information. Please try to remember or check which addresses you might have used during registration.",
+          "link": null
+        },
+        {
+          "id": "reset_devices",
+          "title": "Please reset all devices on my account",
+          "type": "text",
+          "text": "Please send us the email address the subscription was registered with.",
+          "link": null
+        }
+      ]
+    },
+    {
+      "id": "connection_problems",
+      "title": "Connection problems",
+      "questions": [
+        {
+          "id": "changed_server_nothing_changed",
+          "title": "I changed the server, but nothing changed",
+          "type": "text",
+          "text": "Follow these steps in order: 1) Check your connection type — does YouTube open over Wi-Fi? If it works over Wi-Fi but not over mobile data, your carrier uses “allow lists”, and Uboost needs Wi-Fi to work. 2) Remove other VPN and proxy extensions on your device. 3) Open your device Settings, find the “DNS” section and set it to “Off”, then restart your device.",
+          "link": null
+        },
+        {
+          "id": "youtube_not_working",
+          "title": "YouTube isn't working",
+          "type": "text",
+          "text": "To help solve the problem, please provide: 1) The email your subscription is registered with. 2) Technical information from the app — tap the “Support” button on the main screen and the data will be copied automatically. Paste it into your message and send it.",
+          "link": null
+        },
+        {
+          "id": "endless_loading",
+          "title": "Endless loading when connecting",
+          "type": "text",
+          "text": "To help solve the problem, please provide: 1) The email your subscription is registered with. 2) Technical information from the app — tap the “Support” button on the main screen and the data will be copied automatically.",
+          "link": null
+        },
+        {
+          "id": "app_disconnects",
+          "title": "The app disconnects on its own every 5 minutes",
+          "type": "text",
+          "text": "To help solve the problem, please provide: 1) The email your subscription is registered with. 2) Technical information from the app — tap the “Support” button on the main screen and the data will be copied automatically.",
+          "link": null
+        }
+      ]
+    },
+    {
+      "id": "troubleshooting",
+      "title": "Troubleshooting",
+      "questions": [
+        {
+          "id": "ads_with_premium",
+          "title": "Why do I see ads with a paid subscription",
+          "type": "text",
+          "text": "Ads can appear only in “All Internet” mode — that's how this mode works. If you see ads in “YouTube Only” mode, that's incorrect behavior. Let us know about it and include your email.",
+          "link": null
+        },
+        {
+          "id": "code_not_arriving",
+          "title": "The code isn't arriving in my email",
+          "type": "text",
+          "text": "Check your “Spam” and “Promotions” folders, and search your email for the word “Uboost”. If there's still no email, send us the email address you registered your subscription with.",
+          "link": null
+        },
+        {
+          "id": "cant_install_android_app",
+          "title": "I can't install the app on my Android phone",
+          "type": "text",
+          "text": "To install, try using the APK file. Download it from the website and run it on your device.",
+          "link": null
+        }
+      ]
+    }
+  ]
+}
