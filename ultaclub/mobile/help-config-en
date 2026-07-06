@@ -1,0 +1,201 @@
+{
+  "main_description": "We've gathered answers to the most frequently asked questions. If you didn't find yours, message our support team.",
+  "topics": [
+    {
+      "id": "about_service",
+      "title": "About the service",
+      "questions": [
+        {
+          "id": "what_is_sotka",
+          "title": "What is Ulta VPN",
+          "type": "text",
+          "text": "Ulta VPN is a simple, easy-to-understand VPN from which we've removed everything unnecessary, keeping only what matters most: speed, security, and a stable connection.",
+          "link": null
+        },
+        {
+          "id": "supported_devices",
+          "title": "Which devices does Ulta VPN work on",
+          "type": "text",
+          "text": "You can use Ulta VPN on: smartphones and tablets (Android, iOS), and computers (the desktop app).",
+          "link": null
+        },
+        {
+          "id": "diff_between_pk_mb",
+          "title": "How Ulta for Windows differs from Ulta for Android/iOS",
+          "type": "text",
+          "text": "The main difference is that Ulta for Windows runs on the Vless protocol, while Ulta for Android/iOS runs on the AWG protocol. We'll add Vless protocol support for Android/iOS soon.",
+          "link": "https://t.me/Ultaclub_bot"
+        },
+        {
+          "id": "how_to_connect",
+          "title": "How to connect to the VPN",
+          "type": "text",
+          "text": "For the first connection on a device, you need to get a key from the Ulta Telegram bot and copy it. The key is copied from the bot automatically — click/tap its text and it will be copied in the correct format. When you launch the app, paste the key on the first screen. Paste the key without square brackets; “vpn://” is also part of the key. Then tap the big “Connect” button to connect. Nothing else needs to be configured.",
+          "link": "https://t.me/Ultaclub_bot"
+        },
+        {
+          "id": "whitelists_ulta",
+          "title": "Does Ulta VPN work with Allow Lists",
+          "type": "text",
+          "text": "We do have a solution for that. Right now we keep Ulta and the Allow Lists solution separate. It has a separate price, a separate app, and separate support.",
+          "link": "https://t.me/Ultaclub_bot"
+        }
+      ]
+    },
+    {
+      "id": "installing_app",
+      "title": "Installing the app",
+      "questions": [
+        {
+          "id": "how_to_install_on_android",
+          "title": "How to install the app on Android",
+          "type": "text",
+          "text": "To install, use the APK file. Download it from the Telegram bot and run it on your device.",
+          "link": "https://t.me/Ultaclub_bot"
+        },
+        {
+          "id": "how_to_install_on_ios",
+          "title": "How to download the app on iPhone",
+          "type": "text",
+          "text": "You can use the Ulta Light app. You can find and install it from the App Store.",
+          "link": null
+        },
+        {
+          "id": "how_to_install_on_pc",
+          "title": "How to install the app on a computer",
+          "type": "text",
+          "text": "Download the Ulta desktop app from our Telegram bot and install it on your computer.",
+          "link": "https://t.me/Ultaclub_bot"
+        }
+      ]
+    },
+    {
+      "id": "subscription",
+      "title": "Subscription",
+      "questions": [
+        {
+          "id": "how_to_renew_subscription",
+          "title": "How to renew your subscription",
+          "type": "text",
+          "text": "You can renew your subscription in the Ulta Telegram bot. To do this, tap the “Renew subscription” button, follow the link, choose a subscription period and a payment method, then tap “Pay”.",
+          "link": "https://t.me/Ultaclub_bot"
+        },
+        {
+          "id": "what_is_a_key",
+          "title": "What is a key?",
+          "type": "text",
+          "text": "A key is a set of unique, encrypted parameters specific to your VPN connection. You can get your existing key in the Telegram bot.",
+          "link": "https://t.me/Ultaclub_bot"
+        },
+        {
+          "id": "devices_limit",
+          "title": "How many devices are included in the subscription",
+          "type": "text",
+          "text": "By default, you get 1 Ulta key. You can install it on any number of devices, but it can only be used on one device at a time — you switch between them.",
+          "link": "https://t.me/Ultaclub_bot"
+        }
+      ]
+    },
+    {
+      "id": "account_and_login",
+      "title": "Account and sign-in",
+      "questions": [
+        {
+          "id": "need_registration",
+          "title": "Do I need to register to use Ulta",
+          "type": "text",
+          "text": "No, you can use Ulta without registration. It's enough to get a key in the bot and pay for your subscription.",
+          "link": null
+        },
+        {
+          "id": "how_to_login",
+          "title": "How to sign in on another device",
+          "type": "text",
+          "text": "You need to use the key you got in the Ulta bot. You can add it to any number of devices, but it can only be used on one device at a time — you switch between them.",
+          "link": null
+        }
+      ]
+    },
+    {
+      "id": "connection_problems",
+      "title": "Connection problems",
+      "questions": [
+        {
+          "id": "why_not_connecting",
+          "title": "Why is it taking so long to connect",
+          "type": "text",
+          "text": "Sometimes servers get blocked, and changing the server can help. To do this, tap the “Change server” button and try connecting again.",
+          "link": null
+        },
+        {
+          "id": "changing_server_didnt_help",
+          "title": "I changed the server, but nothing changed",
+          "type": "text",
+          "text": "Follow these steps in order: 1) Check your connection type — does YouTube open over Wi-Fi? If it works over Wi-Fi but not over mobile data, your carrier uses “allow lists”, and Ulta needs Wi-Fi to work. 2) Remove/disable other VPN and proxy extensions on your device. To work when allow-list mode is enabled, we recommend using our separate product https://t.me/ultabelbot",
+          "link": null
+        },
+        {
+          "id": "vpn_not_connecting_at_all",
+          "title": "The VPN won't connect at all",
+          "type": "text",
+          "text": "Check whether the internet is on, and restart the app and your device. Then try changing the server. If the problem persists, contact support.",
+          "link": null
+        },
+        {
+          "id": "what_to_do_if_app_freezes",
+          "title": "What to do if the app freezes",
+          "type": "text",
+          "text": "Try fully closing the app and opening it again. If the problem recurs, restart your device and make sure you have the latest version of the app installed.",
+          "link": null
+        },
+        {
+          "id": "ru_sites",
+          "title": "I can't open .ru websites",
+          "type": "text",
+          "text": "Some Russian websites and apps may not open while Ulta VPN is running. This is a result of tighter blocking. We're looking for ways to work around it, but for now this can happen — you just need to turn off the app.",
+          "link": null
+        }
+      ]
+    },
+    {
+      "id": "troubleshooting",
+      "title": "Payment problems",
+      "questions": [
+        {
+          "id": "problem_with_payment",
+          "title": "The bot doesn't see my payment",
+          "type": "text",
+          "text": "If you've paid but the bot doesn't see the payment, restart the bot with the /start command. If that doesn't help, don't worry — it doesn't affect your subscription; it's already been renewed, the bot just hasn't registered it yet.",
+          "link": null
+        },
+        {
+          "id": "code_not_arriving",
+          "title": "The payment link won't open",
+          "type": "text",
+          "text": "If the payment link won't open, try again later.",
+          "link": null
+        }
+      ]
+    },
+    {
+      "id": "privacy_and_security",
+      "title": "Privacy and security",
+      "questions": [
+        {
+          "id": "do_you_store_logs",
+          "title": "Do you store logs of my activity",
+          "type": "text",
+          "text": "We don't store logs of your online activity and don't track the sites you visit. Minimal technical data is used only to keep the service running.",
+          "link": null
+        },
+        {
+          "id": "is_it_safe_on_public_wifi",
+          "title": "How safe is it to use a VPN on public Wi-Fi",
+          "type": "text",
+          "text": "Using a VPN on public Wi-Fi networks significantly improves your security, since it encrypts your traffic and protects your data from interception.",
+          "link": null
+        }
+      ]
+    }
+  ]
+}
