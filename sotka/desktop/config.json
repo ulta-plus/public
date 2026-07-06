@@ -1,5 +1,30 @@
 {
     "apiBaseUrl": "https://api.stkv.space",
     "dns1": "172.16.0.1",
-    "dns2": "8.8.8.8"
+    "dns2": "8.8.8.8",
+    
+    "api_base_url": "https://api.stkv.space",
+    "support_link": "https://t.me/vpn_naruzhu_ops_bot",
+    "support_email": "help@vpn-naruzhu.com",
+    "support_chat_url": "https://vepen.online/landing/support",
+    "telegram_channel_link": "https://t.me/vpnnaruzhu",
+    "is_change_server_enabled": true,
+    "is_invite_code_on_login_enabled": false,
+    "update_info": {
+        "available_version": "1.0.0.1",
+        "download_url": "https://storage.uubb.website/naruzhu-desktop/naruzhu_1.0.0.1.zip"
+    },
+    "connections": [
+        {
+            "title": "Умный режим",
+            "localized_title" : {
+                "en" : "Smart mode",
+                "ru" : "Умный режим"
+            },
+            "relative_path": "client-api/v1/download-awg-key?key_type=sotka",
+            "anonymous_relative_path": "client-api/v1/download-anonymous-key?key_type=sotka",
+            "key_type": "sotka"
+        }
+    ]
+
 }
