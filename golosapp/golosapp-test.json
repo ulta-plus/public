@@ -12,7 +12,7 @@
     ],
     "proxyUpdatePeriod": 50,
     "proxyUpdatePeriodPremium": 50,
-    "updateSubscriptionInfoPeriod": 1440,
+    "updateSubscriptionInfoPeriod": 1,
     "showOnUpdateVersion": "1.0.0",
     "chromeStoreUrl": "https://bit.ly/golosrateext",
     "shouldUpdatePACVersion": "1.0.0",
@@ -25,5 +25,38 @@
     "availableAlarmTries": 100,
     "checkProxyAvailabilityProxyUrl": "https://uboost.space",
     "checkProxyAvailabilityPublicUrl": "https://ubst.space",
-    "feedbackUrl": "script.google.com"
+    "feedbackUrl": "script.google.com",
+    "alarms": {
+        "updatePacData": {
+            "delayInMinutes": 180
+        },
+        "updateProxyPremiumData": {
+            "periodInMinutes": 50,
+            "delayInMinutes": 50
+        },
+        "updateFeaturesData": {
+            "periodInMinutes": 10,
+            "delayInMinutes": 10
+        },
+        "proxyHealthCheck": {
+            "periodInMinutes": 5
+        },
+        "enableConnectionButton": {
+            "delayInMinutes": 1
+        },
+        "updatePacScriptToFullPAC": {
+            "delayInMinutes": 0.5
+        },
+        "restoreLitePAC": {
+            "delayInMinutes": 1440
+        },
+        "updateSubscriptionInfo": {
+            "periodInMinutes": 1,
+            "delayInMinutes": 1
+        },
+        "updateExchangeRates": {
+            "periodInMinutes": 20,
+            "delayInMinutes": 20
+        }
+    }
 }
