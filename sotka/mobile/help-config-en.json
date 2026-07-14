@@ -91,7 +91,7 @@
           "id": "delete_key",
           "title": "How to delete a key",
           "type": "text",
-          "text": "It's currently not possible to delete an issued key. This feature will be available soon — follow the news in the Telegram channel t.me/sotkavpn",
+          "text": "It's currently not possible to delete an issued key. This feature will be available soon — follow the news in the Telegram channel telegram.me/sotkavpn",
           "link": null
         },
         {
@@ -138,7 +138,7 @@
           "id": "changing_server_didnt_help",
           "title": "I changed the server, but nothing changed",
           "type": "text",
-          "text": "Follow these steps in order: 1) Check your connection type — does YouTube open over Wi-Fi? If it works over Wi-Fi but not over mobile data, your carrier uses “allow lists”, and Sotka needs Wi-Fi to work. 2) Remove/disable other VPN and proxy extensions on your device. To work when allow-list mode is enabled, we recommend using our separate product https://t.me/sotka_install_bot",
+          "text": "Follow these steps in order: 1) Check your connection type — does YouTube open over Wi-Fi? If it works over Wi-Fi but not over mobile data, your carrier uses “allow lists”, and Sotka needs Wi-Fi to work. 2) Remove/disable other VPN and proxy extensions on your device. To work when allow-list mode is enabled, we recommend using our separate product https://telegram.me/sotka_install_bot",
           "link": null
         },
         {

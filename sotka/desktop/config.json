@@ -4,10 +4,10 @@
     "dns2": "8.8.8.8",
     
     "api_base_url": "https://api.stkv.space",
-    "support_link": "https://t.me/sotka_install_bot",
+    "support_link": "https://telegram.me/sotka_install_bot",
     "support_email": "help@sotka.work",
     "support_chat_url": "https://sotka.cloud/support",
-    "telegram_channel_link": "https://t.me/sotkavpn",
+    "telegram_channel_link": "https://telegram.me/sotkavpn",
     "is_change_server_enabled": true,
     "is_invite_code_on_login_enabled": false,
     "update_info": {
