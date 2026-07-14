@@ -8,6 +8,8 @@
     "support_email": "help@sotka.work",
     "support_chat_url": "https://sotka.cloud/support",
     "telegram_channel_link": "https://telegram.me/sotkavpn",
+    "replaced_payment_link": "https://telegram.me/sotka_install_bot",
+    
     "is_change_server_enabled": true,
     "is_invite_code_on_login_enabled": false,
     "update_info": {
