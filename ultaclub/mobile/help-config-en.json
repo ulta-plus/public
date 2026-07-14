@@ -24,21 +24,21 @@
           "title": "How Ulta for Windows differs from Ulta for Android/iOS",
           "type": "text",
           "text": "The main difference is that Ulta for Windows runs on the Vless protocol, while Ulta for Android/iOS runs on the AWG protocol. We'll add Vless protocol support for Android/iOS soon.",
-          "link": "https://t.me/Ultaclub_bot"
+          "link": "https://telegram.me/Ultaclub_bot"
         },
         {
           "id": "how_to_connect",
           "title": "How to connect to the VPN",
           "type": "text",
           "text": "For the first connection on a device, you need to get a key from the Ulta Telegram bot and copy it. The key is copied from the bot automatically — click/tap its text and it will be copied in the correct format. When you launch the app, paste the key on the first screen. Paste the key without square brackets; “vpn://” is also part of the key. Then tap the big “Connect” button to connect. Nothing else needs to be configured.",
-          "link": "https://t.me/Ultaclub_bot"
+          "link": "https://telegram.me/Ultaclub_bot"
         },
         {
           "id": "whitelists_ulta",
           "title": "Does Ulta VPN work with Allow Lists",
           "type": "text",
           "text": "We do have a solution for that. Right now we keep Ulta and the Allow Lists solution separate. It has a separate price, a separate app, and separate support.",
-          "link": "https://t.me/Ultaclub_bot"
+          "link": "https://telegram.me/Ultaclub_bot"
         }
       ]
     },
@@ -51,7 +51,7 @@
           "title": "How to install the app on Android",
           "type": "text",
           "text": "To install, use the APK file. Download it from the Telegram bot and run it on your device.",
-          "link": "https://t.me/Ultaclub_bot"
+          "link": "https://telegram.me/Ultaclub_bot"
         },
         {
           "id": "how_to_install_on_ios",
@@ -65,7 +65,7 @@
           "title": "How to install the app on a computer",
           "type": "text",
           "text": "Download the Ulta desktop app from our Telegram bot and install it on your computer.",
-          "link": "https://t.me/Ultaclub_bot"
+          "link": "https://telegram.me/Ultaclub_bot"
         }
       ]
     },
@@ -78,21 +78,21 @@
           "title": "How to renew your subscription",
           "type": "text",
           "text": "You can renew your subscription in the Ulta Telegram bot. To do this, tap the “Renew subscription” button, follow the link, choose a subscription period and a payment method, then tap “Pay”.",
-          "link": "https://t.me/Ultaclub_bot"
+          "link": "https://telegram.me/Ultaclub_bot"
         },
         {
           "id": "what_is_a_key",
           "title": "What is a key?",
           "type": "text",
           "text": "A key is a set of unique, encrypted parameters specific to your VPN connection. You can get your existing key in the Telegram bot.",
-          "link": "https://t.me/Ultaclub_bot"
+          "link": "https://telegram.me/Ultaclub_bot"
         },
         {
           "id": "devices_limit",
           "title": "How many devices are included in the subscription",
           "type": "text",
           "text": "By default, you get 1 Ulta key. You can install it on any number of devices, but it can only be used on one device at a time — you switch between them.",
-          "link": "https://t.me/Ultaclub_bot"
+          "link": "https://telegram.me/Ultaclub_bot"
         }
       ]
     },
@@ -131,7 +131,7 @@
           "id": "changing_server_didnt_help",
           "title": "I changed the server, but nothing changed",
           "type": "text",
-          "text": "Follow these steps in order: 1) Check your connection type — does YouTube open over Wi-Fi? If it works over Wi-Fi but not over mobile data, your carrier uses “allow lists”, and Ulta needs Wi-Fi to work. 2) Remove/disable other VPN and proxy extensions on your device. To work when allow-list mode is enabled, we recommend using our separate product https://t.me/ultabelbot",
+          "text": "Follow these steps in order: 1) Check your connection type — does YouTube open over Wi-Fi? If it works over Wi-Fi but not over mobile data, your carrier uses “allow lists”, and Ulta needs Wi-Fi to work. 2) Remove/disable other VPN and proxy extensions on your device. To work when allow-list mode is enabled, we recommend using our separate product https://telegram.me/ultabelbot",
           "link": null
         },
         {
