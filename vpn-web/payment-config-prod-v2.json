@@ -696,7 +696,7 @@
       "paymentMethods": [
         {
           "order": 1,
-          "method": "card",
+          "method": "card_int",
           "active": true,
           "minActivationAmount": 0,
           "withMessage": null,
