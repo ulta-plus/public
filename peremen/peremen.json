@@ -53,5 +53,6 @@
   "premiumBannerPeriodInMinutes": 5,
   "availableAlarmTries": 100,
   "manualFreeServerChangeCooldownInMinutes": 720,
-  "manualPremiumServerChangeCooldownInMinutes": 5
+  "manualPremiumServerChangeCooldownInMinutes": 5,
+  "clearDataVersion": "1.0.4"
 }
