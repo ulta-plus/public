@@ -26,6 +26,11 @@
     "checkProxyAvailabilityProxyUrl": "https://uboost.space",
     "checkProxyAvailabilityPublicUrl": "https://ubst.space",
     "feedbackUrl": "script.google.com",
+    "subscriptionExpiringAlerts": {
+        "firstTimingInMinutes": 60,
+        "secondTimingInMinutes": 15,
+        "delayedTimingInMinutes": 1440
+    },
     "alarms": {
         "updatePacData": {
             "delayInMinutes": 180
