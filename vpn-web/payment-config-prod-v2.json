@@ -614,7 +614,7 @@
       },
       "paymentMethods": [
         {
-          "order": 1,
+          "order": 3,
           "method": "sbp",
           "active": true,
           "minActivationAmount": 0,
@@ -624,7 +624,7 @@
           "useRandomIndex": 1
         },
         {
-          "order": 2,
+          "order": 4,
           "method": "card",
           "active": true,
           "minActivationAmount": 0,
@@ -634,7 +634,7 @@
           "useRandomIndex": 1
         },
          {
-          "order": 3,
+          "order": 1,
           "method": "card_int",
           "active": true,
           "minActivationAmount": 0,
@@ -644,7 +644,7 @@
           "isAvailableWithAutoRenewal": true
         },
         {
-          "order": 4,
+          "order": 2,
           "method": "crypto",
           "active": true,
           "minActivationAmount": 0,
