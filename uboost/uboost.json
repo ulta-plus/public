@@ -1,7 +1,7 @@
 {
   "apiBaseUrl": "youboost.app",
   "cookieDomain": "cukubst.top",
-  "currentVersion": "8.11.11",
+  "currentVersion": "8.11.12",
   "requiredVersion": "7.12.2",
   "supportedBrowsers": [
     "chrome",
@@ -16,11 +16,11 @@
   "showOnUpdateVersion": "8.4.0",
   "shouldUpdatePACVersion": "7.0.0",
   "availableBannersData": "",
-  "advMinVersion": "8.10.11",
-  "advMaxVersionChrome": "8.10.11",
+  "advMinVersion": "8.11.12",
+  "advMaxVersionChrome": "8.11.12",
   "advMaxVersionFirefox": "1.0.0",
-  "mediaMinVersion": "8.10.11",
-  "mediaMaxVersionChrome": "8.10.11",
+  "mediaMinVersion": "8.11.12",
+  "mediaMaxVersionChrome": "8.11.12",
   "mediaMaxVersionFirefox": "1.0.0",
   "androidAppUrl": "https://uboost.download/",
   "availablePaymentMethods": [
