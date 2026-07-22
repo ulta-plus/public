@@ -11,6 +11,8 @@
             "is_api_basic_auth_enabled": false,
             "relative_path": "client-api/v1/download-awg-key?key_type=youtube",
             "anonymous_relative_path": "client-api/v1/download-anonymous-key?key_type=youtube",
+            "relative_path_vless": "vless-api/v1/download-vless-key?key_type=youtube",
+            "anonymous_relative_path_vless": "vless-api/v1/download-anonymous-vless-key?key_type=youtube",
             "key_type": "youtube"
         },
         {
@@ -21,6 +23,8 @@
             "is_api_basic_auth_enabled": false,
             "relative_path": "client-api/v1/download-awg-key?key_type=uboost_vpn",
             "anonymous_relative_path": "client-api/v1/download-anonymous-key?key_type=uboost_vpn",
+            "relative_path_vless": "vless-api/v1/download-vless-key?key_type=uboost_vpn",
+            "anonymous_relative_path_vless": "vless-api/v1/download-anonymous-vless-key?key_type=uboost_vpn",
             "key_type": "uboost_vpn"
         }
     ],
@@ -35,5 +39,7 @@
     "is_client_api_enabled": false,
     "hybrid_storefront_country_codes": ["*"],
     "hybrid_storefront_geo_ip_country_codes": ["*"],
-    "is_change_server_enabled": true
+    "is_change_server_enabled": true,
+    "is_vpn_protocol_selector_enabled": true,
+    "xray_tunnel_dns_servers": "8.8.8.8,1.1.1.1"
 }
