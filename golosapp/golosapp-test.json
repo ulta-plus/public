@@ -11,7 +11,6 @@
         "firefox"
     ],
     "proxyUpdatePeriod": 50,
-    "proxyUpdatePeriodPremium": 50,
     "updateSubscriptionInfoPeriod": 1,
     "showOnUpdateVersion": "1.0.0",
     "chromeStoreUrl": "https://bit.ly/golosrateext",
@@ -26,6 +25,7 @@
     "checkProxyAvailabilityProxyUrl": "https://uboost.space",
     "checkProxyAvailabilityPublicUrl": "https://ubst.space",
     "feedbackUrl": "script.google.com",
+    "supportUrl": " https://golos.live/support/ext",
     "subscriptionExpiringAlerts": {
         "firstTimingInMinutes": 10,
         "secondTimingInMinutes": 5,
