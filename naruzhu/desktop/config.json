@@ -10,6 +10,14 @@
         "available_version": "1.0.0.1",
         "download_url": "https://storage.uubb.website/naruzhu-desktop/naruzhu_1.0.0.1.zip"
     },
+    "settings": [
+        {
+            "key": "local_route",
+            "type": "toggle",
+            "default_value": "false",
+            "title": "Локальная маршрутизация"
+        }
+    ],
     "connections": [
         {
             "title": "Умный режим",
