@@ -109,6 +109,6 @@
     "rollout": 0
   },
   "cancel-premium-via-discount": {
-    "rollout": 1
+    "rollout": 0
   }
 }
