@@ -110,5 +110,8 @@
   },
   "cancel-premium-via-discount": {
     "rollout": 0
+  },
+  "tsar-subscription": {
+    "rollout": 0
   }
 }
