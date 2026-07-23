@@ -112,6 +112,9 @@
     "rollout": 0
   },
   "tsar-subscription": {
-    "rollout": 0
+    "rollout": 1
+  },
+  "show-try-free-premium-trial-button": {
+    "rollout": 1
   }
 }
