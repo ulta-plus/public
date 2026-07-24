@@ -27,7 +27,9 @@
             },
             "relative_path": "client-api/v1/download-awg-key?key_type=smart",
             "anonymous_relative_path": "client-api/v1/download-anonymous-key?key_type=smart",
-            "key_type": "R"
+            "key_type": "R",
+            "is_local_routing_available": true,
+            "local_routing_link": "https://ipset-list.vpnn.space/v6/ip-list"
         },
         {
             "title": "Напрямую",
@@ -37,7 +39,9 @@
             },
             "relative_path": "client-api/v1/download-awg-key?key_type=direct",
             "anonymous_relative_path": "client-api/v1/download-anonymous-key?key_type=direct",
-            "key_type": "X"
+            "key_type": "X",
+            "is_local_routing_available": false,
+            "local_routing_link": null
         }
     ]
 }
