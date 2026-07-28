@@ -38,7 +38,6 @@
     "fetch_country_url": "https://mobile-api.vpnnaruzhu.com/country",
     "max_seconds_per_day": 1800,
     "is_mobile_app_review_enabled": true,
-    "active_vpn_protocol": "awg",
     "is_timeout_checking_enabled": true,
     "is_quick_login_enabled": false,
     "support_chat_url": "https://vepen.online/landing/support",
@@ -75,24 +74,7 @@
     "paywall_title1_part1": "Бесплатно ",
     "dashboard_premium_indicator_text": "🏆 Безлимит активирован",
     "is_mobile_free_mode_v1_enabled": false,
-    "update_config_android": {
-        "available_version": "0.0.0.0",
-        "available_update_localized_text": {
-            "en": "Update your app",
-            "ru": "Обновите версию приложения"
-        },
-        "available_download_url": "",
-        "required_version": "0.0.0.0",
-        "required_update_localized_text": {
-            "en": "Required update",
-            "ru": "Требуется обновить версию приложения"
-        },
-        "required_download_url": ""
-    },
     "tg_channel": "vpnnaruzhu",
-    "hybrid_storefront_country_codes_android": [
-        "ru"
-    ],
     "check_change_server_timeout_sec": 3,
     "paywall_restore_button_text": "🔄 Восстановить подписки",
     "referral_program_config": {
@@ -111,33 +93,6 @@
         },
         "sharing_link": "https://naruzhu.download/"
     },
-    "fetch_ovpn_url": "https://mobile-api.vpnnaruzhu.com/ios-keys/app1.ovpn",
-    "vpn_connections_android": [
-        {
-            "title": "Умный режим",
-            "title_localized": {
-                "ru": "Умный режим",
-                "en": "Smart"
-            },
-            "relative_path": "client-api/v1/download-awg-key?key_type=smart",
-            "anonymous_path": "client-api/v1/download-anonymous-key?key_type=smart",
-            "relative_path_vless": "vless-api/v1/download-vless-key",
-            "anonymous_relative_path_vless": "vless-api/v1/download-anonymous-vless-key",
-            "type_key": "smart"
-        },
-        {
-            "title": "Напрямую",
-            "title_localized": {
-                "ru": "Напрямую",
-                "en": "Direct"
-            },
-            "relative_path": "client-api/v1/download-awg-key?key_type=direct",
-            "anonymous_path": "client-api/v1/download-anonymous-key?key_type=direct",
-            "relative_path_vless": "vless-api/v1/download-vless-key",
-            "anonymous_relative_path_vless": "vless-api/v1/download-anonymous-vless-key",
-            "type_key": "direct"
-        }
-    ],
     "paywall_purchase_button_text": "Купить",
     "hybrid_paywall_config": {},
     "dashboard_is_pro_features_visible": false,

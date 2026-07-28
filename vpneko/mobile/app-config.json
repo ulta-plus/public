@@ -34,51 +34,12 @@
     "guest_show_ads_before_connect": true,
     "free_show_ads_before_connect": true,
     "is_invite_code_on_login_enabled": true,
-    "update_config_ios": {
-        "available_version": "1.0.0",
-        "available_update_localized_text": {
-            "en": "Update your app",
-            "ru": "Обновите версию приложения"
-        },
-        "available_download_url": "https://apps.apple.com/app/id6751346206",
-        "required_version": "1.0.0",
-        "required_update_localized_text": {
-            "en": "Required update",
-            "ru": "Требуется обновить версию приложения"
-        },
-        "required_download_url": "https://apps.apple.com/app/id6751346206"
-    },
     "tg_channel": "vpneko",
     "free_time_minutes": 23,
-    "active_vpn_protocol": "awg",
     "mobile_app_review_cooldown_days": 180,
     "is_anonymous_mode_support_enabled": true,
     "is_quick_login_enabled": false,
     "support_chat_url": "https://vpneko.website/landing/support",
-    "vpn_connections_android": [
-        {
-            "title": "Весь интернет",
-            "relative_path": "client-api/v1/download-awg-key",
-            "anonymous_path": "client-api/v1/download-anonymous-key",
-            "relative_path_vless": "vless-api/v1/download-vless-key",
-            "anonymous_relative_path_vless": "vless-api/v1/download-anonymous-vless-key",
-            "type_key": "vpneko_vpn"
-        }
-    ],
-    "update_config_android": {
-        "available_version": "0.0.0.0",
-        "available_update_localized_text": {
-            "en": "Update your app",
-            "ru": "Обновите версию приложения"
-        },
-        "available_download_url": "",
-        "required_version": "0.0.0.0",
-        "required_update_localized_text": {
-            "en": "Required update",
-            "ru": "Требуется обновить версию приложения"
-        },
-        "required_download_url": ""
-    },
     "fallback_ad": {
         "fallback_url": "https://uubb.website/static/vpneko_app_ads.html",
         "timeout": 5

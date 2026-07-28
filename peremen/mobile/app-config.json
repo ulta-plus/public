@@ -1,7 +1,6 @@
 {
     "api_base_url": "https://api.prmn.website",
     "default_vpn_protocol": "AWG",
-    "active_vpn_protocol": "awg",
     "is_vpn_protocol_selector_enabled": true,
     "tg_bot": "vpn_peremen_ops_bot",
     "tg_key_bot": "vpn_naruzhu_support_bot",
@@ -172,52 +171,13 @@
         ]
     },
     "is_change_server_enabled": true,
-    "update_config_android": {
-        "available_version": "0.0.0.0",
-        "available_update_localized_text": {
-            "en": "Update your app",
-            "ru": "Обновите версию приложения"
-        },
-        "available_download_url": "",
-        "required_version": "0.0.0.0",
-        "required_update_localized_text": {
-            "en": "Required update",
-            "ru": "Требуется обновить версию приложения"
-        },
-        "required_download_url": ""
-    },
     "free_show_ads_before_connect": false,
     "support_email": "help@peremen.app",
     "tg_channel": "vpn_peremen",
     "guest_login_from_profile": false,
     "is_mobile_app_review_enabled": true,
-    "vpn_connections_android": [
-        {
-            "title": "Я за границей",
-            "title_localized": {
-                "ru": "Я за границей",
-                "en": "I'm abroad"
-            },
-            "relative_path": "client-api/v1/download-awg-key?key_type=peremen",
-            "anonymous_path": "client-api/v1/download-anonymous-key?key_type=peremen",
-            "type_key": "abroad"
-        },
-        {
-            "title": "Я в России",
-            "title_localized": {
-                "ru": "Я в России",
-                "en": "I'm in Russia"
-            },
-            "relative_path": "client-api/v1/download-awg-key?key_type=peremen",
-            "anonymous_path": "client-api/v1/download-anonymous-key?key_type=peremen",
-            "type_key": "inside"
-        }
-    ],
     "free_max_seconds_per_day": 1200,
     "hybrid_paywall_version": 2,
     "support_chat_url": "https://peremen.app/landing/support",
-    "hybrid_storefront_country_codes_android": [
-        "ru"
-    ],
     "guest_show_ads_before_connect": false
 }

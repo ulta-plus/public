@@ -38,17 +38,14 @@
     "is_client_api_enabled": false,
     "default_vpn_protocol": "AWG",
     "hybrid_paywall_version": 2,
-    "terms_of_use_url": "",
     "free_time_minutes": 15,
     "is_mobile_app_review_enabled": true,
     "is_vpn_protocol_selector_enabled": true,
     "api_base_url": "https://api.awub.site",
     "is_mobile_free_mode_v1_enabled": false,
-    "is_tv_free_mode_v1_enabled": false,
     "tg_channel": "uboostrussia",
     "privacy_policy_url": "https://storage.googleapis.com/uboost/docs/privacy_policy.html",
     "whitelist_entitlement_cache_ttl_minutes": 180,
-    "active_vpn_protocol": "awg",
     "free_show_ads_before_connect": true,
     "hybrid_storefront_country_codes": [
         "*"
@@ -76,20 +73,6 @@
     "quick_login_url": "uboost.site/quick-login",
     "paywall_monthly_product_id": "premium_monthly",
     "mobile_app_review_cooldown_days": 180,
-    "update_config_android": {
-        "available_version": "0.0.0.0",
-        "available_update_localized_text": {
-            "en": "Update your app",
-            "ru": "Обновите версию приложения"
-        },
-        "available_download_url": "https://uboost.download",
-        "required_version": "0.0.0.0",
-        "required_update_localized_text": {
-            "en": "Required update",
-            "ru": "Требуется обновить версию приложения"
-        },
-        "required_download_url": "https://uboost.download"
-    },
     "fallback_ad": {
         "fallback_url": "https://uubb.website/static/android_app_ads.html",
         "timeout": 5
@@ -108,20 +91,6 @@
             "is_highlighted_in_list": true
         }
     ],
-    "update_config_ios": {
-        "available_version": "0.0.0.0",
-        "available_update_localized_text": {
-            "en": "Update your app",
-            "ru": "Обновите версию приложения"
-        },
-        "available_download_url": "https://apps.apple.com/app/id6751346206",
-        "required_version": "0.0.0.0",
-        "required_update_localized_text": {
-            "en": "Required update",
-            "ru": "Требуется обновить версию приложения"
-        },
-        "required_download_url": "https://apps.apple.com/app/id6751346206"
-    },
     "referral_program_config": {
         "is_enabled": true,
         "localized_title": {
@@ -137,198 +106,5 @@
             "en": "Get 31 days of free access to Uboost when you activate a plan!\n\nDownload the app and enter the code:\n{invite_code}\nDownload here: {sharing_link}"
         },
         "sharing_link": "https://uboost.download/"
-    },
-    "hybrid_storefront_country_codes_android": [
-        "ru"
-    ],
-    "onboarding_pages": [
-        {
-            "title": "Спасибо за установку!",
-            "description": "Вам доступны 24 часа бесплатного пробного доступа к ЮБуст Neo TV. После этого тариф будет стоить 199 ₽ в месяц."
-        },
-        {
-            "title": "Доступ к десяткам сервисов",
-            "description": "ЮБуст Neo позволяет не только смотреть YouTube без рекламы, но и получить доступ к десяткам других сервисов, недоступных на территории России."
-        }
-    ],
-    "vpn_connections_android": [
-        {
-            "title": "Только YouTube",
-            "title_localized": {
-                "ru": "Только YouTube",
-                "en": "YouTube only"
-            },
-            "relative_path": "client-api/v1/download-awg-key?key_type=youtube",
-            "anonymous_path": "client-api/v1/download-anonymous-key?key_type=youtube",
-            "relative_path_vless": "vless-api/v1/download-vless-key",
-            "anonymous_relative_path_vless": "vless-api/v1/download-anonymous-vless-key",
-            "type_key": "youtube"
-        },
-        {
-            "title": "Весь интернет",
-            "title_localized": {
-                "ru": "Весь интернет",
-                "en": "All internet"
-            },
-            "relative_path": "client-api/v1/download-awg-key?key_type=uboost_vpn",
-            "anonymous_path": "client-api/v1/download-anonymous-key?key_type=uboost_vpn",
-            "relative_path_vless": "vless-api/v1/download-vless-key",
-            "anonymous_relative_path_vless": "vless-api/v1/download-anonymous-vless-key",
-            "type_key": "uboost_vpn"
-        }
-    ],
-    "connectivity_check_config": {
-        "version": 1,
-        "phase1TimeoutMs": 5000,
-        "phase2TimeoutMs": 5000,
-        "variables": {
-            "DEVICE_ID": "{{DEVICE_ID}}"
-        },
-        "steps": [
-            {
-                "id": "check-get-country",
-                "group": "A",
-                "type": "http_request",
-                "payload": {
-                    "url": "https://api.ubst.space/client-api/v1/get-country",
-                    "method": "GET",
-                    "timeoutMs": 5000
-                }
-            },
-            {
-                "id": "check-download-awg-key",
-                "group": "A",
-                "type": "http_request",
-                "payload": {
-                    "url": "https://api.ubst.space/api/v1/wg_keys/download?key_type=youtube",
-                    "method": "GET",
-                    "headers": {
-                        "X-Device-ID": "{{DEVICE_ID}}",
-                        "Accept": "application/json"
-                    },
-                    "timeoutMs": 5000
-                }
-            },
-            {
-                "id": "check-lk-website",
-                "group": "A",
-                "type": "http_request",
-                "payload": {
-                    "url": "https://uboost.site",
-                    "method": "GET",
-                    "timeoutMs": 5000
-                }
-            },
-            {
-                "id": "check-google",
-                "group": "B",
-                "type": "http_request",
-                "payload": {
-                    "url": "https://www.google.com",
-                    "method": "GET",
-                    "timeoutMs": 5000,
-                    "acceptAnyStatus": true
-                }
-            },
-            {
-                "id": "check-wikipedia",
-                "group": "B",
-                "type": "http_request",
-                "payload": {
-                    "url": "https://www.wikipedia.org",
-                    "method": "GET",
-                    "timeoutMs": 5000,
-                    "acceptAnyStatus": true
-                }
-            },
-            {
-                "id": "check-ya",
-                "group": "C",
-                "type": "http_request",
-                "payload": {
-                    "url": "https://ya.ru",
-                    "method": "GET",
-                    "timeoutMs": 5000,
-                    "acceptAnyStatus": true
-                }
-            },
-            {
-                "id": "check-vk",
-                "group": "C",
-                "type": "http_request",
-                "payload": {
-                    "url": "https://eh.vk.com",
-                    "method": "GET",
-                    "timeoutMs": 5000,
-                    "acceptAnyStatus": true
-                }
-            },
-            {
-                "id": "check-max",
-                "group": "C",
-                "type": "http_request",
-                "payload": {
-                    "url": "https://web.max.ru",
-                    "method": "GET",
-                    "timeoutMs": 5000,
-                    "acceptAnyStatus": true
-                }
-            },
-            {
-                "id": "check-yandex-taxi",
-                "group": "C",
-                "type": "http_request",
-                "payload": {
-                    "url": "https://taxi.yandex.ru",
-                    "method": "GET",
-                    "timeoutMs": 5000,
-                    "acceptAnyStatus": true
-                }
-            },
-            {
-                "id": "check-get-country-fallback-domain",
-                "group": "D",
-                "type": "http_request",
-                "payload": {
-                    "url": "https://api.uboost.am/client-api/v1/get-country",
-                    "method": "GET",
-                    "timeoutMs": 5000
-                }
-            },
-            {
-                "id": "check-download-awg-key-fallback-domain",
-                "group": "D",
-                "type": "http_request",
-                "payload": {
-                    "url": "https://api.uboost.am/api/v1/wg_keys/download?key_type=youtube",
-                    "method": "GET",
-                    "headers": {
-                        "X-Device-ID": "{{DEVICE_ID}}",
-                        "Accept": "application/json"
-                    },
-                    "timeoutMs": 5000
-                }
-            },
-            {
-                "id": "check-lk-website-fallback-domain",
-                "group": "D",
-                "type": "http_request",
-                "payload": {
-                    "url": "https://uboost.am",
-                    "method": "GET",
-                    "timeoutMs": 5000
-                }
-            },
-            {
-                "id": "check-storage-config",
-                "group": "storage",
-                "type": "http_request",
-                "payload": {
-                    "url": "",
-                    "method": "GET",
-                    "timeoutMs": 5000
-                }
-            }
-        ]
     }
 }
