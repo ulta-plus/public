@@ -33,53 +33,11 @@
     "is_vpn_protocol_selector_enabled": false,
     "mobile_app_review_cooldown_days": 180,
     "hybrid_paywall_config": {},
-    "hybrid_storefront_country_codes_android": [
-        "ru"
-    ],
     "tg_channel": "ultarussia",
-    "vpn_connections_android": [
-        {
-            "title": "Весь интернет",
-            "relative_path": "client-api/v1/download-awg-key",
-            "anonymous_path": "client-api/v1/download-anonymous-key",
-            "relative_path_vless": "vless-api/v1/download-vless-key",
-            "anonymous_relative_path_vless": "vless-api/v1/download-anonymous-vless-key",
-            "type_key": "ultaclub"
-        }
-    ],
     "check_change_server_timeout_sec": 10,
-    "update_config_android": {
-        "available_version": "0.0.0.0",
-        "available_update_localized_text": {
-            "en": "Update your app",
-            "ru": "Обновите версию приложения"
-        },
-        "available_download_url": "",
-        "required_version": "0.0.0.0",
-        "required_update_localized_text": {
-            "en": "Required update",
-            "ru": "Требуется обновить версию приложения"
-        },
-        "required_download_url": ""
-    },
     "is_change_server_enabled": true,
     "should_override_payment_link_to_support": true,
-    "active_vpn_protocol": "awg",
     "support_chat_url": "https://ulta.best/landing/support",
-    "update_config_ios": {
-        "available_version": "0.0.0.0",
-        "available_update_localized_text": {
-            "en": "Update your app",
-            "ru": "Обновите версию приложения"
-        },
-        "available_download_url": "https://apps.apple.com/app/id6749537019",
-        "required_version": "0.0.0.0",
-        "required_update_localized_text": {
-            "en": "Required update",
-            "ru": "Требуется обновить версию приложения"
-        },
-        "required_download_url": "https://apps.apple.com/app/id6749537019"
-    },
     "is_mobile_app_review_enabled": true,
     "is_no_key_button_visible": false
 }
