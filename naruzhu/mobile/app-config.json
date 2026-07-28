@@ -1,39 +1,19 @@
 {
     "api_base_url": "https://api.awnr.site",
+    "default_vpn_protocol": "AWG",
     "tg_bot": "vpn_naruzhu_ops_bot",
     "tg_key_bot": "vpn_naruzhu_ops_bot",
     "vpn_connections": [
         {
             "country_code": "*",
-            "title": "Умный режим",
-            "title_localized": {
-              "ru": "Умный режим",
-              "en": "Smart"
-            },
-            "configuration_url": null,
+            "title": "VPN Наружу",
+            "configuration_url": "https://mobile.vvppnn.click/client-api/v1/download-anonymous-key",
             "vpn_type": "wg",
-            "is_api_basic_auth_enabled": false,
-            "relative_path": "client-api/v1/download-awg-key?key_type=smart",
-            "anonymous_relative_path": "client-api/v1/download-anonymous-key?key_type=smart",
-            "key_type": "smart"
-        },
-        {
-            "country_code": "*",
-            "title": "Напрямую",
-            "title_localized": {
-              "ru": "Напрямую",
-              "en": "Direct"
-            },
-            "configuration_url": null,
-            "vpn_type": "wg",
-            "is_api_basic_auth_enabled": false,
-            "relative_path": "client-api/v1/download-awg-key?key_type=direct",
-            "anonymous_relative_path": "client-api/v1/download-anonymous-key?key_type=direct",
-            "key_type": "direct"
+            "is_api_basic_auth_enabled": false
         }
     ],
-    "privacy_policy_url": "https://telegra.ph/Privacy-Policy-06-01-98",
-    "tos_url": "http://www.apple.com/legal/itunes/appstore/dev/stdeula",
+    "privacy_policy_url": "https://storage.googleapis.com/naruzhu/docs/privacy_policy.html",
+    "tos_url": "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
     "quick_login_url": "nrz.monster/quick-login",
     "paywall_main_product_id": "premium_monthly",
     "paywall_monthly_product_id": "premium_monthly",
@@ -41,8 +21,127 @@
     "web_product_price": 490,
     "is_hybrid_paywall_enabled": true,
     "is_client_api_enabled": false,
-    "hybrid_storefront_country_codes": ["*"],
-    "hybrid_storefront_geo_ip_country_codes": ["*"],
+    "hybrid_storefront_country_codes": [
+        "*"
+    ],
+    "hybrid_storefront_geo_ip_country_codes": [
+        "ru"
+    ],
     "is_country_selector_enabled": true,
-    "is_change_server_enabled": true
+    "is_change_server_enabled": true,
+    "is_vpn_protocol_selector_enabled": false,
+    "paywall_title2_part2": "по платной подписке.",
+    "dashboard_subtitle_text": "Умный ВПН на русском языке",
+    "paywall_title2_part1": "Безлимитный доступ ",
+    "paywall_subtitle2": "Платные сервера более мощные и быстрые.",
+    "eula_confirmation_text": "Нажимая \"Согласен\", я принимаю Политику конфиденциальности и правила использования и подтверждаю, что \"VPN Наружу\" будет использоваться мной в соответствии с законами страны пребывания.",
+    "fetch_country_url": "https://mobile-api.vpnnaruzhu.com/country",
+    "max_seconds_per_day": 1800,
+    "is_mobile_app_review_enabled": true,
+    "active_vpn_protocol": "awg",
+    "is_timeout_checking_enabled": true,
+    "is_quick_login_enabled": false,
+    "support_chat_url": "https://vepen.online/landing/support",
+    "dashboard_purchase_button_text": "Перейти на безлимит",
+    "server_datetime_url": "https://mobile-api.vpnnaruzhu.com/server_datetime",
+    "paywall_subtitle1": "Бесплатных серверов немного, они перегружены.",
+    "paywall_active_product_ids": [
+        {
+            "product_id": "premium_monthly",
+            "is_featured": true,
+            "is_default": false,
+            "is_highlighted_in_list": false
+        },
+        {
+            "product_id": "premium_3_months",
+            "is_featured": false,
+            "is_default": false,
+            "is_highlighted_in_list": false
+        },
+        {
+            "product_id": "premium_6_months",
+            "is_featured": false,
+            "is_default": false,
+            "is_highlighted_in_list": false
+        },
+        {
+            "product_id": "premium_annual",
+            "is_featured": true,
+            "is_default": true,
+            "is_highlighted_in_list": true
+        }
+    ],
+    "is_ipv4_filter_enabled": false,
+    "paywall_title1_part1": "Бесплатно ",
+    "dashboard_premium_indicator_text": "🏆 Безлимит активирован",
+    "is_mobile_free_mode_v1_enabled": false,
+    "update_config_android": {
+        "available_version": "0.0.0.0",
+        "available_update_localized_text": {
+            "en": "Update your app",
+            "ru": "Обновите версию приложения"
+        },
+        "available_download_url": "",
+        "required_version": "0.0.0.0",
+        "required_update_localized_text": {
+            "en": "Required update",
+            "ru": "Требуется обновить версию приложения"
+        },
+        "required_download_url": ""
+    },
+    "tg_channel": "vpnnaruzhu",
+    "hybrid_storefront_country_codes_android": [
+        "ru"
+    ],
+    "check_change_server_timeout_sec": 3,
+    "paywall_restore_button_text": "🔄 Восстановить подписки",
+    "referral_program_config": {
+        "is_enabled": true,
+        "localized_title": {
+            "ru": "+30 дней доступа за друга",
+            "en": "+30 days of access for a friend"
+        },
+        "localized_subtitle": {
+            "ru": "Делись реферальным кодом с друзьями. Если кто-то зарегистрируется, ты получишь 30 дней дополнительного бесплатного доступа, а друг 31 день",
+            "en": "Share your referral code with your friends. If someone signs up, you’ll get 30 extra days of free access, and your friend will get 31 days."
+        },
+        "localized_sharing_text_template": {
+            "ru": "Лови 31 день бесплатного доступа в Naruzhu при подключении тарифа!\n\nСкачай приложение и введи код:\n{invite_code}\nСкачать здесь: {sharing_link}",
+            "en": "Get 31 days of free access to Naruzhu when you activate a plan!\n\nDownload the app and enter the code:\n{invite_code}\nDownload here: {sharing_link}"
+        },
+        "sharing_link": "https://naruzhu.download/"
+    },
+    "fetch_ovpn_url": "https://mobile-api.vpnnaruzhu.com/ios-keys/app1.ovpn",
+    "vpn_connections_android": [
+        {
+            "title": "Умный режим",
+            "title_localized": {
+                "ru": "Умный режим",
+                "en": "Smart"
+            },
+            "relative_path": "client-api/v1/download-awg-key?key_type=smart",
+            "anonymous_path": "client-api/v1/download-anonymous-key?key_type=smart",
+            "relative_path_vless": "vless-api/v1/download-vless-key",
+            "anonymous_relative_path_vless": "vless-api/v1/download-anonymous-vless-key",
+            "type_key": "smart"
+        },
+        {
+            "title": "Напрямую",
+            "title_localized": {
+                "ru": "Напрямую",
+                "en": "Direct"
+            },
+            "relative_path": "client-api/v1/download-awg-key?key_type=direct",
+            "anonymous_path": "client-api/v1/download-anonymous-key?key_type=direct",
+            "relative_path_vless": "vless-api/v1/download-vless-key",
+            "anonymous_relative_path_vless": "vless-api/v1/download-anonymous-vless-key",
+            "type_key": "direct"
+        }
+    ],
+    "paywall_purchase_button_text": "Купить",
+    "hybrid_paywall_config": {},
+    "dashboard_is_pro_features_visible": false,
+    "mobile_app_review_cooldown_days": 180,
+    "paywall_free_time_text": "30 минут в день.",
+    "is_api_basic_auth_enabled": true
 }

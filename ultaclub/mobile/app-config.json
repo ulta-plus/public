@@ -1,5 +1,6 @@
 {
-    "api_base_url": "https://api.ultvs.click",
+    "api_base_url": "https://api.awul.site",
+    "default_vpn_protocol": "AWG",
     "tg_bot": "ulta_ops_bot",
     "tg_key_bot": "ultaclub_bot",
     "vpn_connections": [
@@ -11,18 +12,74 @@
             "is_api_basic_auth_enabled": false,
             "relative_path": "client-api/v1/download-awg-key",
             "anonymous_relative_path": "client-api/v1/download-anonymous-key",
-            "key_type": "ultaclub"
+            "type_key": "ulta_vpn"
         }
     ],
-    "privacy_policy_url": "https://telegra.ph/Privacy-Policy-08-04-88",
+    "privacy_policy_url": "https://storage.googleapis.com/ultaclub/docs/privacy_policy.html",
     "tos_url": "http://www.apple.com/legal/itunes/appstore/dev/stdeula",
     "quick_login_url": null,
     "paywall_main_product_id": "premium_monthly",
     "paywall_monthly_product_id": "premium_monthly",
     "paywall_yearly_product_id": "premium_annual",
     "web_product_price": 490,
-    "is_hybrid_paywall_enabled": false,
+    "is_hybrid_paywall_enabled": true,
     "is_client_api_enabled": false,
-    "hybrid_storefront_country_codes": ["*"],
-    "hybrid_storefront_geo_ip_country_codes": ["*"]
+    "hybrid_storefront_country_codes": [
+        "*"
+    ],
+    "hybrid_storefront_geo_ip_country_codes": [
+        "*"
+    ],
+    "is_vpn_protocol_selector_enabled": false,
+    "mobile_app_review_cooldown_days": 180,
+    "hybrid_paywall_config": {},
+    "hybrid_storefront_country_codes_android": [
+        "ru"
+    ],
+    "tg_channel": "ultarussia",
+    "vpn_connections_android": [
+        {
+            "title": "Весь интернет",
+            "relative_path": "client-api/v1/download-awg-key",
+            "anonymous_path": "client-api/v1/download-anonymous-key",
+            "relative_path_vless": "vless-api/v1/download-vless-key",
+            "anonymous_relative_path_vless": "vless-api/v1/download-anonymous-vless-key",
+            "type_key": "ultaclub"
+        }
+    ],
+    "check_change_server_timeout_sec": 10,
+    "update_config_android": {
+        "available_version": "0.0.0.0",
+        "available_update_localized_text": {
+            "en": "Update your app",
+            "ru": "Обновите версию приложения"
+        },
+        "available_download_url": "",
+        "required_version": "0.0.0.0",
+        "required_update_localized_text": {
+            "en": "Required update",
+            "ru": "Требуется обновить версию приложения"
+        },
+        "required_download_url": ""
+    },
+    "is_change_server_enabled": true,
+    "should_override_payment_link_to_support": true,
+    "active_vpn_protocol": "awg",
+    "support_chat_url": "https://ulta.best/landing/support",
+    "update_config_ios": {
+        "available_version": "0.0.0.0",
+        "available_update_localized_text": {
+            "en": "Update your app",
+            "ru": "Обновите версию приложения"
+        },
+        "available_download_url": "https://apps.apple.com/app/id6749537019",
+        "required_version": "0.0.0.0",
+        "required_update_localized_text": {
+            "en": "Required update",
+            "ru": "Требуется обновить версию приложения"
+        },
+        "required_download_url": "https://apps.apple.com/app/id6749537019"
+    },
+    "is_mobile_app_review_enabled": true,
+    "is_no_key_button_visible": false
 }

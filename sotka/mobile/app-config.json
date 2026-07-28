@@ -1,5 +1,6 @@
 {
     "api_base_url": "https://api.stkv.space",
+    "default_vpn_protocol": "AWG",
     "tg_bot": "sotka_install_bot",
     "tg_key_bot": "sotka_install_bot",
     "vpn_connections": [
@@ -13,6 +14,47 @@
             "key_type": "sotka"
         }
     ],
-    "privacy_policy_url": "https://telegra.ph/Privacy-Policy-08-04-88",
-    "tos_url": "http://www.apple.com/legal/itunes/appstore/dev/stdeula"
+    "privacy_policy_url": "https://storage.googleapis.com/sotka/docs/privacy_policy.html",
+    "tos_url": "http://www.apple.com/legal/itunes/appstore/dev/stdeula",
+    "is_vpn_protocol_selector_enabled": false,
+    "is_no_key_button_visible": false,
+    "update_config_ios": {
+        "available_version": "0.0.0.0",
+        "available_update_localized_text": {
+            "en": "Update your app",
+            "ru": "Обновите версию приложения"
+        },
+        "available_download_url": "https://www.google.com",
+        "required_version": "0.0.0.0",
+        "required_update_localized_text": {
+            "en": "Required update",
+            "ru": "Требуется обновить версию приложения"
+        },
+        "required_download_url": "https://www.google.com"
+    },
+    "vpn_connections_android": [
+        {
+            "title": "Весь интернет",
+            "relative_path": "client-api/v1/download-awg-key",
+            "anonymous_path": "client-api/v1/download-anonymous-key",
+            "relative_path_vless": "vless-api/v1/download-vless-key",
+            "anonymous_relative_path_vless": "vless-api/v1/download-anonymous-vless-key",
+            "type_key": "sotka"
+        }
+    ],
+    "update_config_android": {
+        "available_version": "0.0.0.0",
+        "available_update_localized_text": {
+            "en": "Update your app",
+            "ru": "Обновите версию приложения"
+        },
+        "available_download_url": "",
+        "required_version": "0.0.0.0",
+        "required_update_localized_text": {
+            "en": "Required update",
+            "ru": "Требуется обновить версию приложения"
+        },
+        "required_download_url": ""
+    },
+    "active_vpn_protocol": "awg"
 }

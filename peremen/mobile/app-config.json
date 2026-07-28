@@ -1,20 +1,33 @@
 {
-    "api_base_url": "https://api.peremen.app",
-    "tg_bot": "vpn_naruzhu_support_bot",
+    "api_base_url": "https://api.prmn.website",
+    "default_vpn_protocol": "AWG",
+    "active_vpn_protocol": "awg",
+    "is_vpn_protocol_selector_enabled": true,
+    "tg_bot": "vpn_peremen_ops_bot",
     "tg_key_bot": "vpn_naruzhu_support_bot",
     "vpn_connections": [
         {
-            "country_code": "*",
-            "title": "Весь интернет",
-            "configuration_url": null,
-            "vpn_type": "wg",
-            "is_api_basic_auth_enabled": false,
-            "relative_path": "client-api/v1/download-awg-key",
-            "anonymous_relative_path": "client-api/v1/download-anonymous-key",
-            "key_type": "vpneko"
+            "title": "Я за границей",
+            "title_localized": {
+                "ru": "Я за границей",
+                "en": "I'm abroad"
+            },
+            "relative_path": "client-api/v1/download-awg-key?key_type=peremen",
+            "anonymous_relative_path": "client-api/v1/download-anonymous-key?key_type=peremen",
+            "type_key": "abroad"
+        },
+        {
+            "title": "Я в России",
+            "title_localized": {
+                "ru": "Я в России",
+                "en": "I'm in Russia"
+            },
+            "relative_path": "client-api/v1/download-awg-key?key_type=peremen",
+            "anonymous_relative_path": "client-api/v1/download-anonymous-key?key_type=peremen",
+            "key_type": "inside"
         }
     ],
-    "privacy_policy_url": "https://telegra.ph/Privacy-Policy-06-01-98",
+    "privacy_policy_url": "https://storage.googleapis.com/peremen/docs/privacy_policy.html",
     "tos_url": "http://www.apple.com/legal/itunes/appstore/dev/stdeula",
     "quick_login_url": "nrz.monster/quick-login",
     "paywall_main_product_id": "premium_monthly",
@@ -23,6 +36,188 @@
     "web_product_price": 490,
     "is_hybrid_paywall_enabled": true,
     "is_client_api_enabled": false,
-    "hybrid_storefront_country_codes": ["*"],
-    "hybrid_storefront_geo_ip_country_codes": ["*"]
+    "hybrid_storefront_country_codes": [
+        "*"
+    ],
+    "hybrid_storefront_geo_ip_country_codes": [
+        "*"
+    ],
+    "free_time_minutes": 20,
+    "is_anonymous_mode_support_enabled": true,
+    "mobile_app_review_cooldown_days": 180,
+    "guest_max_seconds_per_day": 1200,
+    "hybrid_paywall_config": {
+        "localized_title": {
+            "ru": "Получи все возможности Перемен",
+            "en": "Get full access to Peremen features"
+        },
+        "features_position": "above_group",
+        "groups": [
+            {
+                "group_id": "device_1",
+                "is_visible": true,
+                "localized_title": {
+                    "ru": "1 устройство",
+                    "en": "1 device"
+                },
+                "features": [
+                    {
+                        "localized_title": {
+                            "ru": "Безлимитное время и трафик",
+                            "en": "Unlimited time and traffic"
+                        }
+                    },
+                    {
+                        "localized_title": {
+                            "ru": "Доступ к Госуслугам",
+                            "en": "Access to Gosuslugi"
+                        }
+                    },
+                    {
+                        "localized_title": {
+                            "ru": "Информация о блокировках в реальном времени в пульсе рунета",
+                            "en": "Real-time information about website blockings in the Runet Pulse"
+                        }
+                    },
+                    {
+                        "localized_title": {
+                            "ru": "Максимальная скорость",
+                            "en": "Maximum speed"
+                        }
+                    },
+                    {
+                        "localized_title": {
+                            "ru": "Приоритетная поддержка",
+                            "en": "Priority support"
+                        }
+                    }
+                ]
+            },
+            {
+                "group_id": "device_6",
+                "is_visible": true,
+                "localized_title": {
+                    "ru": "6 устройств",
+                    "en": "6 devices"
+                },
+                "features": [
+                    {
+                        "localized_title": {
+                            "ru": "Безлимитное время и трафик",
+                            "en": "Unlimited time and traffic"
+                        }
+                    },
+                    {
+                        "localized_title": {
+                            "ru": "Доступ к Госуслугам",
+                            "en": "Access to Gosuslugi"
+                        }
+                    },
+                    {
+                        "localized_title": {
+                            "ru": "Информация о блокировках в реальном времени в пульсе рунета",
+                            "en": "Real-time information about website blockings in the Runet Pulse"
+                        }
+                    },
+                    {
+                        "localized_title": {
+                            "ru": "Максимальная скорость",
+                            "en": "Maximum speed"
+                        }
+                    },
+                    {
+                        "localized_title": {
+                            "ru": "Приоритетная поддержка",
+                            "en": "Priority support"
+                        }
+                    }
+                ]
+            }
+        ],
+        "products": [
+            {
+                "product_id": "premium_monthly",
+                "group_id": "device_1",
+                "localized_title": {
+                    "ru": "Премиум на месяц",
+                    "en": "Premium monthly"
+                }
+            },
+            {
+                "product_id": "premium_annual",
+                "is_default": true,
+                "group_id": "device_1",
+                "localized_title": {
+                    "ru": "Премиум на год",
+                    "en": "Premium annual"
+                }
+            },
+            {
+                "product_id": "premium_6_monthly",
+                "group_id": "device_6",
+                "localized_title": {
+                    "ru": "Премиум на месяц",
+                    "en": "Premium monthly"
+                }
+            },
+            {
+                "product_id": "premium_6_annual",
+                "is_default": true,
+                "group_id": "device_6",
+                "localized_title": {
+                    "ru": "Премиум на год",
+                    "en": "Premium annual"
+                }
+            }
+        ]
+    },
+    "is_change_server_enabled": true,
+    "update_config_android": {
+        "available_version": "0.0.0.0",
+        "available_update_localized_text": {
+            "en": "Update your app",
+            "ru": "Обновите версию приложения"
+        },
+        "available_download_url": "",
+        "required_version": "0.0.0.0",
+        "required_update_localized_text": {
+            "en": "Required update",
+            "ru": "Требуется обновить версию приложения"
+        },
+        "required_download_url": ""
+    },
+    "free_show_ads_before_connect": false,
+    "support_email": "help@peremen.app",
+    "tg_channel": "vpn_peremen",
+    "guest_login_from_profile": false,
+    "is_mobile_app_review_enabled": true,
+    "vpn_connections_android": [
+        {
+            "title": "Я за границей",
+            "title_localized": {
+                "ru": "Я за границей",
+                "en": "I'm abroad"
+            },
+            "relative_path": "client-api/v1/download-awg-key?key_type=peremen",
+            "anonymous_path": "client-api/v1/download-anonymous-key?key_type=peremen",
+            "type_key": "abroad"
+        },
+        {
+            "title": "Я в России",
+            "title_localized": {
+                "ru": "Я в России",
+                "en": "I'm in Russia"
+            },
+            "relative_path": "client-api/v1/download-awg-key?key_type=peremen",
+            "anonymous_path": "client-api/v1/download-anonymous-key?key_type=peremen",
+            "type_key": "inside"
+        }
+    ],
+    "free_max_seconds_per_day": 1200,
+    "hybrid_paywall_version": 2,
+    "support_chat_url": "https://peremen.app/landing/support",
+    "hybrid_storefront_country_codes_android": [
+        "ru"
+    ],
+    "guest_show_ads_before_connect": false
 }
