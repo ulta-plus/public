@@ -11,11 +11,11 @@
                 "ru": "Я за границей",
                 "en": "I'm abroad"
             },
-            "relative_path": "client-api/v1/download-awg-key?key_type=peremen-out",
-            "anonymous_relative_path": "client-api/v1/download-anonymous-key?key_type=peremen-out",
-            "relative_path_vless": "vless-api/v1/download-vless-key?key_type=peremen-out",
-            "anonymous_relative_path_vless": "vless-api/v1/download-anonymous-vless-key?key_type=peremen-out",
-            "key_type": "peremen-out"
+            "relative_path": "client-api/v1/download-awg-key?key_type=peremen",
+            "anonymous_relative_path": "client-api/v1/download-anonymous-key?key_type=peremen",
+            "relative_path_vless": "vless-api/v1/download-vless-key?key_type=peremen",
+            "anonymous_relative_path_vless": "vless-api/v1/download-anonymous-vless-key?key_type=peremen",
+            "key_type": "peremen"
         },
         {
             "title": "Я в России",
@@ -23,11 +23,11 @@
                 "ru": "Я в России",
                 "en": "I'm in Russia"
             },
-            "relative_path": "client-api/v1/download-awg-key?key_type=peremen-in",
-            "anonymous_relative_path": "client-api/v1/download-anonymous-key?key_type=peremen-in",
-            "relative_path_vless": "vless-api/v1/download-vless-key?key_type=peremen-in",
-            "anonymous_relative_path_vless": "vless-api/v1/download-anonymous-vless-key?key_type=peremen-in",
-            "key_type": "peremen-in"
+            "relative_path": "client-api/v1/download-awg-key?key_type=peremen",
+            "anonymous_relative_path": "client-api/v1/download-anonymous-key?key_type=peremen",
+            "relative_path_vless": "vless-api/v1/download-vless-key?key_type=peremen",
+            "anonymous_relative_path_vless": "vless-api/v1/download-anonymous-vless-key?key_type=peremen",
+            "key_type": "peremen"
         }
     ],
     "privacy_policy_url": "https://storage.googleapis.com/peremen/docs/privacy_policy.html",
