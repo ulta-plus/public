@@ -13,7 +13,7 @@
             },
             "relative_path": "client-api/v1/download-awg-key?key_type=peremen",
             "anonymous_relative_path": "client-api/v1/download-anonymous-key?key_type=peremen",
-            "type_key": "abroad"
+            "key_type": "abroad"
         },
         {
             "title": "Я в России",
