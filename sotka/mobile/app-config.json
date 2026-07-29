@@ -21,6 +21,7 @@
     "tos_url": "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
     "is_vpn_protocol_selector_enabled": true,
     "is_no_key_button_visible": false,
+    "support_chat_url": "https://sotka.cloud/support",
     "hybrid_storefront_country_codes": ["*"],
     "hybrid_storefront_geo_ip_country_codes": ["*"]
 }
