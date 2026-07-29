@@ -3,12 +3,7 @@
   "cookieDomain": "cukprmn.website",
   "currentVersion": "1.0.0",
   "requiredVersion": "1.0.0",
-  "supportedBrowsers": [
-    "chrome",
-    "edge-chromium",
-    "yandexbrowser",
-    "firefox"
-  ],
+  "supportedBrowsers": ["chrome", "edge-chromium", "yandexbrowser", "firefox"],
   "proxyUpdatePeriod": 50,
   "updateSubscriptionInfoPeriod": 1440,
   "showOnUpdateVersion": "1.0.0",
@@ -53,5 +48,11 @@
   "premiumBannerPeriodInMinutes": 5,
   "availableAlarmTries": 100,
   "manualFreeServerChangeCooldownInMinutes": 720,
-  "manualPremiumServerChangeCooldownInMinutes": 5
+  "manualPremiumServerChangeCooldownInMinutes": 5,
+  "alarms": {
+    "paymentStarted": {
+      "periodInMinutes": 1,
+      "delayInMinutes": 3
+    }
+  }
 }
