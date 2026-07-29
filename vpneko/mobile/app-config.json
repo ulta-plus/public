@@ -2,7 +2,7 @@
     "api_base_url": "https://api.neko.homes",
     "default_vpn_protocol": "AWG",
     "tg_bot": "vpneko_help_bot",
-    "tg_key_bot": "vpn_naruzhu_support_bot",
+    "tg_key_bot": "vpneko_help_bot",
     "vpn_connections": [
         {
             "country_code": "*",
@@ -10,10 +10,10 @@
             "configuration_url": null,
             "vpn_type": "wg",
             "is_api_basic_auth_enabled": false,
-            "relative_path": "client-api/v1/download-awg-key?key_type=vpneko",
-            "anonymous_relative_path": "client-api/v1/download-anonymous-key?key_type=vpneko",
-            "relative_path_vless": "vless-api/v1/download-vless-key?key_type=vpneko",
-            "anonymous_relative_path_vless": "vless-api/v1/download-anonymous-vless-key?key_type=vpneko",
+            "relative_path": "client-api/v1/download-awg-key",
+            "anonymous_relative_path": "client-api/v1/download-anonymous-key",
+            "relative_path_vless": "vless-api/v1/download-vless-key",
+            "anonymous_relative_path_vless": "vless-api/v1/download-anonymous-vless-key",
             "key_type": "vpneko"
         }
     ],

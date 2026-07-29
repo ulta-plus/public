@@ -3,7 +3,7 @@
     "default_vpn_protocol": "AWG",
     "is_vpn_protocol_selector_enabled": true,
     "tg_bot": "vpn_peremen_ops_bot",
-    "tg_key_bot": "vpn_naruzhu_support_bot",
+    "tg_key_bot": "vpn_peremen_ops_bot",
     "vpn_connections": [
         {
             "title": "Я за границей",
