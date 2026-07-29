@@ -45,9 +45,7 @@
     "privacy_policy_url": "https://storage.googleapis.com/uboost/docs/privacy_policy.html",
     "whitelist_entitlement_cache_ttl_minutes": 180,
     "free_show_ads_before_connect": true,
-    "hybrid_storefront_country_codes": [
-        "*"
-    ],
+    "hybrid_storefront_country_codes": ["*"],
     "support_chat_url": "https://ubst.club/main/support/app",
     "paywall_yearly_product_id": "premium_annual",
     "web_product_price": 249,
@@ -55,9 +53,7 @@
     "tos_url": "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
     "config_refresh_interval_hours": 12,
     "guest_show_ads_before_connect": true,
-    "hybrid_storefront_geo_ip_country_codes": [
-        "ru"
-    ],
+    "hybrid_storefront_geo_ip_country_codes": ["*"],
     "xray_tunnel_dns_servers": "8.8.8.8,1.1.1.1",
     "tg_bot": "uboostv_ops_bot",
     "tg_key_bot": "uboostv_ops_bot",

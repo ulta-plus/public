@@ -6,10 +6,35 @@
     "vpn_connections": [
         {
             "country_code": "*",
-            "title": "VPN Наружу",
-            "configuration_url": "https://mobile.vvppnn.click/client-api/v1/download-anonymous-key",
+            "title": "Умный режим",
+            "title_localized": {
+                "ru": "Умный режим",
+                "en": "Smart"
+            },
+            "configuration_url": null,
             "vpn_type": "wg",
-            "is_api_basic_auth_enabled": false
+            "is_api_basic_auth_enabled": false,
+            "relative_path": "client-api/v1/download-awg-key?key_type=smart",
+            "anonymous_relative_path": "client-api/v1/download-anonymous-key?key_type=smart",
+            "relative_path_vless": "vless-api/v1/download-vless-key?key_type=smart",
+            "anonymous_relative_path_vless": "vless-api/v1/download-anonymous-vless-key?key_type=smart",
+            "key_type": "smart"
+        },
+        {
+            "country_code": "*",
+            "title": "Напрямую",
+            "title_localized": {
+                "ru": "Напрямую",
+                "en": "Direct"
+            },
+            "configuration_url": null,
+            "vpn_type": "wg",
+            "is_api_basic_auth_enabled": false,
+            "relative_path": "client-api/v1/download-awg-key?key_type=direct",
+            "anonymous_relative_path": "client-api/v1/download-anonymous-key?key_type=direct",
+            "relative_path_vless": "vless-api/v1/download-vless-key?key_type=direct",
+            "anonymous_relative_path_vless": "vless-api/v1/download-anonymous-vless-key?key_type=direct",
+            "key_type": "direct"
         }
     ],
     "privacy_policy_url": "https://storage.googleapis.com/naruzhu/docs/privacy_policy.html",
@@ -21,12 +46,8 @@
     "web_product_price": 490,
     "is_hybrid_paywall_enabled": true,
     "is_client_api_enabled": false,
-    "hybrid_storefront_country_codes": [
-        "*"
-    ],
-    "hybrid_storefront_geo_ip_country_codes": [
-        "ru"
-    ],
+    "hybrid_storefront_country_codes": ["*"],
+    "hybrid_storefront_geo_ip_country_codes": ["*"],
     "is_country_selector_enabled": true,
     "is_change_server_enabled": true,
     "is_vpn_protocol_selector_enabled": false,
