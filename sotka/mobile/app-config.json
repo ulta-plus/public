@@ -10,12 +10,17 @@
             "configuration_url": null,
             "vpn_type": "wg",
             "is_api_basic_auth_enabled": false,
-            "relative_path": "client-api/v1/download-awg-key",
+            "relative_path": "client-api/v1/download-awg-key?key_type=sotka",
+            "anonymous_relative_path": "client-api/v1/download-anonymous-key?key_type=sotka",
+            "relative_path_vless": "vless-api/v1/download-vless-key?key_type=sotka",
+            "anonymous_relative_path_vless": "vless-api/v1/download-anonymous-vless-key?key_type=sotka",
             "key_type": "sotka"
         }
     ],
     "privacy_policy_url": "https://storage.googleapis.com/sotka/docs/privacy_policy.html",
-    "tos_url": "http://www.apple.com/legal/itunes/appstore/dev/stdeula",
+    "tos_url": "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
     "is_vpn_protocol_selector_enabled": false,
-    "is_no_key_button_visible": false
+    "is_no_key_button_visible": false,
+    "hybrid_storefront_country_codes": ["*"],
+    "hybrid_storefront_geo_ip_country_codes": ["*"]
 }
