@@ -1,4 +1,5 @@
 {
+    "api_base_url": "https://api.awub.site",
     "vpn_connections": [
         {
             "country_code": "*",
@@ -14,8 +15,7 @@
             "title_localized": {
                 "ru": "Только YouTube",
                 "en": "YouTube only"
-            },
-            "type_key": "youtube"
+            }
         },
         {
             "country_code": "*",
@@ -31,8 +31,7 @@
             "title_localized": {
                 "ru": "Весь интернет",
                 "en": "All internet"
-            },
-            "type_key": "uboost_vpn"
+            }
         }
     ],
     "is_client_api_enabled": false,
@@ -41,7 +40,6 @@
     "free_time_minutes": 15,
     "is_mobile_app_review_enabled": true,
     "is_vpn_protocol_selector_enabled": true,
-    "api_base_url": "https://api.awub.site",
     "is_mobile_free_mode_v1_enabled": false,
     "tg_channel": "uboostrussia",
     "privacy_policy_url": "https://storage.googleapis.com/uboost/docs/privacy_policy.html",

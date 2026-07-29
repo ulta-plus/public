@@ -12,7 +12,7 @@
             "is_api_basic_auth_enabled": false,
             "relative_path": "client-api/v1/download-awg-key",
             "anonymous_relative_path": "client-api/v1/download-anonymous-key",
-            "type_key": "ulta_vpn"
+            "key_type": "ulta_vpn"
         }
     ],
     "privacy_policy_url": "https://storage.googleapis.com/ultaclub/docs/privacy_policy.html",
