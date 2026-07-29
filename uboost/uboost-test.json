@@ -23,10 +23,7 @@
   "mediaMaxVersionChrome": "8.11.11",
   "mediaMaxVersionFirefox": "1.0.0",
   "androidAppUrl": "https://uboost.download/",
-  "availablePaymentMethods": [
-    "sbp",
-    "card"
-  ],
+  "availablePaymentMethods": ["sbp", "card"],
   "availablePaymentMethodsV2": [
     {
       "type": "sbp",
@@ -75,15 +72,9 @@
     "eu": "https://uubb.website/static/watch_ad.html"
   },
   "availableAlarmTries": 100,
-  "giftAdvertisingAvailableDates": [
-    "2026-02-15",
-    "2026-03-29"
-  ],
+  "giftAdvertisingAvailableDates": ["2026-02-15", "2026-03-29"],
   "giftAdvertisingPeriodInMinutes": 1,
-  "giftsAvailableDates": [
-    "2026-02-15",
-    "2026-03-29"
-  ],
+  "giftsAvailableDates": ["2026-02-15", "2026-03-29"],
   "giftsPeriodInMinutes": 1,
   "checkProxyAvailabilityProxyUrl": "https://uboost.space",
   "checkProxyAvailabilityPublicUrl": "https://ubst.space",
@@ -130,10 +121,7 @@
   "sentrySampleRate": 0.05,
   "exchangeRatesUpdatePeriodInMinutes": 20,
   "yandexAdsConfig": {
-    "searchKeys": [
-      "vpn",
-      "proxy"
-    ],
+    "searchKeys": ["vpn", "proxy"],
     "adsItems": [
       {
         "title": "ЮБуст VPN на Android",
@@ -151,10 +139,7 @@
     "containerSelector": "#search-result"
   },
   "yandexConfig": {
-    "keys": [
-      "vpn",
-      "proxy"
-    ],
+    "keys": ["vpn", "proxy"],
     "items": [
       {
         "title": "ЮБуст VPN на Android",
@@ -195,68 +180,39 @@
     ],
     "rules": [
       {
-        "keywords": [
-          "vpn",
-          "exact"
-        ],
+        "keywords": ["vpn", "exact"],
         "matchType": "exact",
-        "adIds": [
-          3,
-          2
-        ]
+        "adIds": [3, 2]
       },
       {
-        "keywords": [
-          "обход блокировок",
-          "contains"
-        ],
+        "keywords": ["обход блокировок", "contains"],
         "matchType": "contains",
-        "adIds": [
-          1
-        ]
+        "adIds": [1]
       },
       {
-        "keywords": [
-          "vpn",
-          "впн",
-          "proxy",
-          "прокси"
-        ],
+        "keywords": ["vpn", "впн", "proxy", "прокси"],
         "matchType": "word",
-        "adIds": [
-          1,
-          2
-        ]
+        "adIds": [1, 2]
       }
     ]
   },
   "yandexTrackingConfig": [
     {
-      "keywords": [
-        "купить деньги",
-        "exact"
-      ],
+      "keywords": ["купить деньги", "exact"],
       "matchType": "exact",
       "tracking": {
         "onImpression": "https://mc.yandex.ru/pixel/5905987072760699684?rnd=%25aw_random%25"
       }
     },
     {
-      "keywords": [
-        "word",
-        "авто",
-        "contains"
-      ],
+      "keywords": ["word", "авто", "contains"],
       "matchType": "contains",
       "tracking": {
         "onImpression": "https://mc.yandex.ru/pixel/146232087764243706?rnd=%25aw_random%25"
       }
     },
     {
-      "keywords": [
-        "testWord",
-        "word"
-      ],
+      "keywords": ["testWord", "word"],
       "matchType": "word",
       "tracking": {
         "onImpression": "https://mc.yandex.ru/pixel/6530780273572088338?rnd=%25aw_random%25"
@@ -280,5 +236,11 @@
   },
   "supportUrl": "https://ubst.club/main/support/ext",
   "manualFreeServerChangeCooldownInMinutes": 5,
-  "manualPremiumServerChangeCooldownInMinutes": 1
+  "manualPremiumServerChangeCooldownInMinutes": 1,
+  "alarms": {
+    "paymentStarted": {
+      "periodInMinutes": 1,
+      "delayInMinutes": 3
+    }
+  }
 }

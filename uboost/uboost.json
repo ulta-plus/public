@@ -23,10 +23,7 @@
   "mediaMaxVersionChrome": "8.11.12",
   "mediaMaxVersionFirefox": "1.0.0",
   "androidAppUrl": "https://uboost.download/",
-  "availablePaymentMethods": [
-    "sbp",
-    "card"
-  ],
+  "availablePaymentMethods": ["sbp", "card"],
   "availablePaymentMethodsV2": [
     {
       "type": "sbp",
@@ -75,15 +72,9 @@
     "eu": "https://uubb.website/static/watch_ad.html"
   },
   "availableAlarmTries": 100,
-  "giftAdvertisingAvailableDates": [
-    "2025-12-29",
-    "2026-01-03"
-  ],
+  "giftAdvertisingAvailableDates": ["2025-12-29", "2026-01-03"],
   "giftAdvertisingPeriodInMinutes": 1440,
-  "giftsAvailableDates": [
-    "2025-12-29",
-    "2026-01-03"
-  ],
+  "giftsAvailableDates": ["2025-12-29", "2026-01-03"],
   "giftsPeriodInMinutes": 1440,
   "checkProxyAvailabilityProxyUrl": "https://uboost.space",
   "checkProxyAvailabilityPublicUrl": "https://ubst.space",
@@ -130,10 +121,7 @@
   "sentrySampleRate": 0.05,
   "exchangeRatesUpdatePeriodInMinutes": 1440,
   "yandexAdsConfig": {
-    "searchKeys": [
-      "vpn",
-      "proxy"
-    ],
+    "searchKeys": ["vpn", "proxy"],
     "adsItems": [
       {
         "title": "ЮБуст VPN на Android",
@@ -151,10 +139,7 @@
     "containerSelector": "#search-result"
   },
   "yandexConfig": {
-    "keys": [
-      "vpn",
-      "proxy"
-    ],
+    "keys": ["vpn", "proxy"],
     "items": [
       {
         "title": "ЮБуст VPN на Android",
@@ -188,5 +173,11 @@
   },
   "supportUrl": "https://ubst.club/main/support/ext",
   "manualFreeServerChangeCooldownInMinutes": 720,
-  "manualPremiumServerChangeCooldownInMinutes": 3
+  "manualPremiumServerChangeCooldownInMinutes": 3,
+  "alarms": {
+    "paymentStarted": {
+      "periodInMinutes": 1,
+      "delayInMinutes": 3
+    }
+  }
 }
