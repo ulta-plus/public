@@ -15,7 +15,7 @@
             "anonymous_relative_path": "client-api/v1/download-anonymous-key?key_type=peremen",
             "relative_path_vless": "vless-api/v1/download-vless-key?key_type=peremen",
             "anonymous_relative_path_vless": "vless-api/v1/download-anonymous-vless-key?key_type=peremen",
-            "key_type": "peremen"
+            "key_type": "abroad"
         },
         {
             "title": "Я в России",
@@ -27,7 +27,7 @@
             "anonymous_relative_path": "client-api/v1/download-anonymous-key?key_type=peremen",
             "relative_path_vless": "vless-api/v1/download-vless-key?key_type=peremen",
             "anonymous_relative_path_vless": "vless-api/v1/download-anonymous-vless-key?key_type=peremen",
-            "key_type": "peremen"
+            "key_type": "inside"
         }
     ],
     "privacy_policy_url": "https://storage.googleapis.com/peremen/docs/privacy_policy.html",
