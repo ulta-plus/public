@@ -28,7 +28,7 @@
     "is_client_api_enabled": false,
     "hybrid_storefront_country_codes": ["*"],
     "hybrid_storefront_geo_ip_country_codes": ["*"],
-    "is_vpn_protocol_selector_enabled": true,
+    "is_vpn_protocol_selector_enabled": false,
     "mobile_app_review_cooldown_days": 180,
     "hybrid_paywall_config": {},
     "tg_channel": "ultarussia",

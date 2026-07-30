@@ -1,7 +1,7 @@
 {
     "api_base_url": "https://api.prmn.website",
     "default_vpn_protocol": "AWG",
-    "is_vpn_protocol_selector_enabled": true,
+    "is_vpn_protocol_selector_enabled": false,
     "tg_bot": "vpn_peremen_ops_bot",
     "tg_key_bot": "vpn_peremen_ops_bot",
     "vpn_connections": [
