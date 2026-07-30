@@ -63,5 +63,11 @@
             "periodInMinutes": 20,
             "delayInMinutes": 20
         }
+    },
+    "cacheRules": {
+        "fetchUserCountry": { "staleTime": 600000},
+        "getExchangeRate": { "staleTime": 300000},
+        "getTariffs": { "staleTime": 300000},
+        "getProxyWithSubscription": { "staleTime": 30000 }
     }
 }
