@@ -50,6 +50,49 @@
   "manualFreeServerChangeCooldownInMinutes": 60,
   "manualPremiumServerChangeCooldownInMinutes": 5,
   "alarms": {
+    "updateFeaturesData": {
+      "periodInMinutes": 10,
+      "delayInMinutes": 10
+    },
+    "updatePacData": {
+      "delayInMinutes": 180
+    },
+    "updateProxyPremiumData": {
+      "periodInMinutes": 5,
+      "delayInMinutes": 5
+    },
+    "updatePacScriptToFullPAC": {
+      "delayInMinutes": 0.5
+    },
+    "restoreLitePAC": {
+      "delayInMinutes": 1440
+    },
+    "extensionMonitoring": {
+      "periodInMinutes": 30,
+      "delayInMinutes": 0.5
+    },
+    "proxyHealthCheck": {
+      "periodInMinutes": 5
+    },
+    "updateSubscriptionInfo": {
+      "periodInMinutes": 5,
+      "delayInMinutes": 5
+    },
+    "updateExchangeRates": {
+      "periodInMinutes": 1440,
+      "delayInMinutes": 1440
+    },
+    "enableConnectionButton": {
+      "delayInMinutes": 1
+    },
+    "extensionConflictWarningAdBlocker": {
+      "periodInMinutes": 1440,
+      "delayInMinutes": 1440
+    },
+    "extensionConflictWarningProxy": {
+      "periodInMinutes": 1440,
+      "delayInMinutes": 1440
+    },
     "paymentStarted": {
       "periodInMinutes": 1,
       "delayInMinutes": 3
