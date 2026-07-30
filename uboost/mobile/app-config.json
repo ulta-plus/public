@@ -1,7 +1,5 @@
 {
     "api_base_url": "https://api.awub.site",
-    "tg_bot": "uboostv_ops_bot",
-    "tg_key_bot": "uboostv_ops_bot",
     "vpn_connections": [
         {
             "country_code": "*",
@@ -13,7 +11,11 @@
             "anonymous_relative_path": "client-api/v1/download-anonymous-key?key_type=youtube",
             "relative_path_vless": "vless-api/v1/download-vless-key?key_type=youtube",
             "anonymous_relative_path_vless": "vless-api/v1/download-anonymous-vless-key?key_type=youtube",
-            "key_type": "youtube"
+            "key_type": "youtube",
+            "title_localized": {
+                "ru": "Только YouTube",
+                "en": "YouTube only"
+            }
         },
         {
             "country_code": "*",
@@ -25,21 +27,78 @@
             "anonymous_relative_path": "client-api/v1/download-anonymous-key?key_type=uboost_vpn",
             "relative_path_vless": "vless-api/v1/download-vless-key?key_type=uboost_vpn",
             "anonymous_relative_path_vless": "vless-api/v1/download-anonymous-vless-key?key_type=uboost_vpn",
-            "key_type": "uboost_vpn"
+            "key_type": "uboost_vpn",
+            "title_localized": {
+                "ru": "Весь интернет",
+                "en": "All internet"
+            }
         }
     ],
-    "privacy_policy_url": "https://telegra.ph/Privacy-Policy-01-22-47",
-    "tos_url": "http://www.apple.com/legal/itunes/appstore/dev/stdeula",
-    "quick_login_url": "ubstv.click/quick-login",
-    "paywall_main_product_id": "premium_monthly",
-    "paywall_monthly_product_id": "premium_monthly",
+    "is_client_api_enabled": false,
+    "default_vpn_protocol": "AWG",
+    "hybrid_paywall_version": 2,
+    "free_time_minutes": 15,
+    "is_mobile_app_review_enabled": true,
+    "is_vpn_protocol_selector_enabled": true,
+    "is_mobile_free_mode_v1_enabled": false,
+    "tg_channel": "uboostrussia",
+    "privacy_policy_url": "https://storage.googleapis.com/uboost/docs/privacy_policy.html",
+    "whitelist_entitlement_cache_ttl_minutes": 180,
+    "free_show_ads_before_connect": true,
+    "hybrid_storefront_country_codes": ["*"],
+    "support_chat_url": "https://ubst.club/main/support/app",
     "paywall_yearly_product_id": "premium_annual",
     "web_product_price": 249,
-    "is_hybrid_paywall_enabled": true,
-    "is_client_api_enabled": false,
-    "hybrid_storefront_country_codes": ["*"],
+    "is_invite_code_on_login_enabled": true,
+    "tos_url": "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+    "config_refresh_interval_hours": 12,
+    "guest_show_ads_before_connect": true,
     "hybrid_storefront_geo_ip_country_codes": ["*"],
+    "xray_tunnel_dns_servers": "8.8.8.8,1.1.1.1",
+    "tg_bot": "uboostv_ops_bot",
+    "tg_key_bot": "uboostv_ops_bot",
+    "yandex_ad_identifier": "R-M-16079759-3",
+    "paywall_main_product_id": "premium_monthly",
+    "is_hybrid_paywall_enabled": true,
     "is_change_server_enabled": true,
-    "is_vpn_protocol_selector_enabled": true,
-    "xray_tunnel_dns_servers": "8.8.8.8,1.1.1.1"
+    "is_quick_login_enabled": true,
+    "hybrid_paywall_config": {},
+    "check_change_server_timeout_sec": 3,
+    "quick_login_url": "uboost.site/quick-login",
+    "paywall_monthly_product_id": "premium_monthly",
+    "mobile_app_review_cooldown_days": 180,
+    "fallback_ad": {
+        "fallback_url": "https://uubb.website/static/android_app_ads.html",
+        "timeout": 5
+    },
+    "paywall_active_product_ids": [
+        {
+            "product_id": "premium_monthly",
+            "is_featured": true,
+            "is_default": false,
+            "is_highlighted_in_list": false
+        },
+        {
+            "product_id": "premium_annual",
+            "is_featured": true,
+            "is_default": true,
+            "is_highlighted_in_list": true
+        }
+    ],
+    "referral_program_config": {
+        "is_enabled": true,
+        "localized_title": {
+            "ru": "+30 дней доступа за друга",
+            "en": "+30 days of access for a friend"
+        },
+        "localized_subtitle": {
+            "ru": "Делись реферальным кодом с друзьями. Если кто-то зарегистрируется, ты получишь 30 дней дополнительного бесплатного доступа, а друг 31 день",
+            "en": "Share your referral code with your friends. If someone signs up, you’ll get 30 extra days of free access, and your friend will get 31 days."
+        },
+        "localized_sharing_text_template": {
+            "ru": "Лови 31 день бесплатного доступа в Uboost при подключении тарифа!\n\nСкачай приложение и введи код:\n{invite_code}\nСкачать здесь: {sharing_link}",
+            "en": "Get 31 days of free access to Uboost when you activate a plan!\n\nDownload the app and enter the code:\n{invite_code}\nDownload here: {sharing_link}"
+        },
+        "sharing_link": "https://uboost.download/"
+    }
 }
