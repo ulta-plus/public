@@ -1,5 +1,6 @@
 {
     "api_base_url": "https://api.stkv.space",
+    "default_vpn_protocol": "AWG",
     "tg_bot": "sotka_install_bot",
     "tg_key_bot": "sotka_install_bot",
     "vpn_connections": [
@@ -10,9 +11,17 @@
             "vpn_type": "wg",
             "is_api_basic_auth_enabled": false,
             "relative_path": "client-api/v1/download-awg-key",
+            "anonymous_relative_path": "client-api/v1/download-anonymous-key",
+            "relative_path_vless": "vless-api/v1/download-vless-key",
+            "anonymous_relative_path_vless": "vless-api/v1/download-anonymous-vless-key",
             "key_type": "sotka"
         }
     ],
-    "privacy_policy_url": "https://telegra.ph/Privacy-Policy-08-04-88",
-    "tos_url": "http://www.apple.com/legal/itunes/appstore/dev/stdeula"
+    "privacy_policy_url": "https://storage.googleapis.com/sotka/docs/privacy_policy.html",
+    "tos_url": "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+    "is_vpn_protocol_selector_enabled": false,
+    "is_no_key_button_visible": false,
+    "support_chat_url": "https://sotka.cloud/support",
+    "hybrid_storefront_country_codes": ["*"],
+    "hybrid_storefront_geo_ip_country_codes": ["*"]
 }
