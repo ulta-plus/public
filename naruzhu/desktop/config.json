@@ -29,7 +29,7 @@
             "anonymous_relative_path": "client-api/v1/download-anonymous-key?key_type=smart",
             "key_type": "R",
             "is_local_routing_available": true,
-            "local_routing_link": "https://ipset-list.vpnn.space/v6/ip-list"
+            "local_routing_link": "http://raw.githubusercontent.com/ulta-plus/public/refs/heads/main/naruzhu/desktop/local.json"
         },
         {
             "title": "Напрямую",
