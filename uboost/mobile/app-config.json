@@ -46,7 +46,7 @@
     "whitelist_entitlement_cache_ttl_minutes": 180,
     "free_show_ads_before_connect": true,
     "hybrid_storefront_country_codes": ["*"],
-    "support_chat_url": "https://ubst.club/main/support/app",
+    "support_chat_url": "https://ubst.club/support/app",
     "paywall_yearly_product_id": "premium_annual",
     "web_product_price": 249,
     "is_invite_code_on_login_enabled": true,
@@ -99,6 +99,6 @@
             "ru": "Лови 31 день бесплатного доступа в Uboost при подключении тарифа!\n\nСкачай приложение и введи код:\n{invite_code}\nСкачать здесь: {sharing_link}",
             "en": "Get 31 days of free access to Uboost when you activate a plan!\n\nDownload the app and enter the code:\n{invite_code}\nDownload here: {sharing_link}"
         },
-        "sharing_link": "https://uboost.download/"
+        "sharing_link": "https://ubst.club/#download"
     }
 }
