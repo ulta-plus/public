@@ -47,13 +47,13 @@
       "en": "Update your app",
       "ru": "Обновите версию приложения"
     },
-    "available_download_url": "https://ubst.club/#download",
+    "available_download_url": "https://ubst.club/download",
     "required_version": "0.0.0.0",
     "required_update_localized_text": {
       "en": "Required update",
       "ru": "Требуется обновить версию приложения"
     },
-    "required_download_url": "https://ubst.club/#download"
+    "required_download_url": "https://ubst.club/download"
   },
   "vpn_connections_android": [
     {
