@@ -61,7 +61,7 @@
     "is_mobile_app_review_enabled": true,
     "is_timeout_checking_enabled": true,
     "is_quick_login_enabled": false,
-    "support_chat_url": "https://naruzhu.win/landing/support",
+    "support_chat_url": "https://usenaruzhu.space/landing/support",
     "dashboard_purchase_button_text": "Перейти на безлимит",
     "server_datetime_url": "https://mobile-api.vpnnaruzhu.com/server_datetime",
     "paywall_subtitle1": "Бесплатных серверов немного, они перегружены.",
