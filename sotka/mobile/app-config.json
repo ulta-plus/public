@@ -13,8 +13,7 @@
             "relative_path": "client-api/v1/download-awg-key",
             "anonymous_relative_path": "client-api/v1/download-anonymous-key",
             "relative_path_vless": "vless-api/v1/download-vless-key",
-            "anonymous_relative_path_vless": "vless-api/v1/download-anonymous-vless-key",
-            "key_type": "sotka"
+            "anonymous_relative_path_vless": "vless-api/v1/download-anonymous-vless-key"
         }
     ],
     "privacy_policy_url": "https://storage.googleapis.com/sotka/docs/privacy_policy.html",
