@@ -4,7 +4,7 @@
     "support_chat_url": "https://ubst.club/support/app",
     "is_change_server_enabled": true,
     "is_background_config_refresh_enabled": true,
-    "config_refresh_interval_minutes": 720,
+    "config_refresh_interval_minutes": 3,
     "update_info": {
         "available_version": "1.0.0.5",
         "download_url": "https://storage.uubb.website/uboost-desktop/uboost-1.0.0.5.zip"
