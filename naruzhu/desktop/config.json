@@ -27,7 +27,7 @@
             },
             "relative_path": "client-api/v1/download-awg-key?key_type=smart",
             "anonymous_relative_path": "client-api/v1/download-anonymous-key?key_type=smart",
-            "key_type": "R",
+            "key_type": "smart",
             "is_local_routing_available": true,
             "local_routing_link": "http://raw.githubusercontent.com/ulta-plus/public/refs/heads/main/naruzhu/desktop/local.json"
         },
@@ -39,7 +39,7 @@
             },
             "relative_path": "client-api/v1/download-awg-key?key_type=direct",
             "anonymous_relative_path": "client-api/v1/download-anonymous-key?key_type=direct",
-            "key_type": "X",
+            "key_type": "direct",
             "is_local_routing_available": false,
             "local_routing_link": null
         }
