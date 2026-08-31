@@ -26,7 +26,9 @@
             },
             "relative_path": "client-api/v1/download-awg-key",
             "anonymous_relative_path": "client-api/v1/download-anonymous-key",
-            "key_type": ""
+            "key_type": "",
+            "is_local_routing_available": false,
+            "local_routing_link": null
         }
     ]
 
