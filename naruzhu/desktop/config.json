@@ -6,6 +6,8 @@
     "telegram_channel_link": "https://telegram.me/vpnnaruzhu",
     "is_change_server_enabled": true,
     "is_invite_code_on_login_enabled": false,
+    "is_background_config_refresh_enabled": true,
+    "config_refresh_interval_minutes": 720,
     "update_info": {
         "available_version": "1.0.0.2",
         "download_url": "https://storage.uubb.website/naruzhu_1.0.0.2.zip"
