@@ -180,7 +180,7 @@
     "hybrid_paywall_version": 2,
     "support_chat_url": "https://peremen.app/landing/support",
     "guest_show_ads_before_connect": false,
-    "is_invite_code_on_login_enabled": false,
+    "is_invite_code_on_login_enabled": true,
     "referral_program_config": {
         "is_enabled": true,
         "localized_title": {
