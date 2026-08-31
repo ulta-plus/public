@@ -18,7 +18,9 @@
             },
             "relative_path": "client-api/v1/download-awg-key?key_type=youtube",
             "anonymous_relative_path": "client-api/v1/download-anonymous-key?key_type=youtube",
-            "key_type": "youtube"
+            "key_type": "youtube",
+            "is_local_routing_available": false,
+            "local_routing_link": null
         },
         {
             "title": "Весь интернет",
@@ -28,7 +30,9 @@
             },
             "relative_path": "client-api/v1/download-awg-key?key_type=uboost_vpn",
             "anonymous_relative_path": "client-api/v1/download-anonymous-key?key_type=uboost_vpn",
-            "key_type": "uboost_vpn"
+            "key_type": "uboost_vpn",
+            "is_local_routing_available": false,
+            "local_routing_link": null
         }
     ]
 }
