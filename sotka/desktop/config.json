@@ -24,9 +24,9 @@
                 "en" : "Smart mode",
                 "ru" : "Умный режим"
             },
-            "relative_path": "client-api/v1/download-awg-key?key_type=sotka",
-            "anonymous_relative_path": "client-api/v1/download-anonymous-key?key_type=sotka",
-            "key_type": "sotka"
+            "relative_path": "client-api/v1/download-awg-key",
+            "anonymous_relative_path": "client-api/v1/download-anonymous-key",
+            "key_type": ""
         }
     ]
 
