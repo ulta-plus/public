@@ -98,6 +98,7 @@
     "tg_channel": "vpnnaruzhu",
     "check_change_server_timeout_sec": 3,
     "paywall_restore_button_text": "🔄 Восстановить подписки",
+    "is_invite_code_on_login_enabled": true,
     "referral_program_config": {
         "is_enabled": true,
         "localized_title": {
