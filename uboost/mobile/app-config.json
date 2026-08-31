@@ -92,12 +92,12 @@
             "en": "+30 days of access for a friend"
         },
         "localized_subtitle": {
-            "ru": "Делись реферальным кодом с друзьями. Если кто-то зарегистрируется, ты получишь 30 дней дополнительного бесплатного доступа, а друг 31 день",
-            "en": "Share your referral code with your friends. If someone signs up, you’ll get 30 extra days of free access, and your friend will get 31 days."
+            "ru": "Делись реферальным кодом с друзьями. Когда друг зарегистрируется по коду и оплатит тариф, ты получишь 30 дней дополнительного бесплатного доступа, а друг — 31 день",
+            "en": "Share your referral code with your friends. When a friend signs up with your code and pays for a plan, you’ll get 30 extra days of free access, and your friend will get 31 days."
         },
         "localized_sharing_text_template": {
-            "ru": "Лови 31 день бесплатного доступа в Uboost при подключении тарифа!\n\nСкачай приложение и введи код:\n{invite_code}\nСкачать здесь: {sharing_link}",
-            "en": "Get 31 days of free access to Uboost when you activate a plan!\n\nDownload the app and enter the code:\n{invite_code}\nDownload here: {sharing_link}"
+            "ru": "Лови 31 день бесплатного доступа в Uboost при оплате тарифа!\n\nСкачай приложение и введи код:\n{invite_code}\nСкачать здесь: {sharing_link}",
+            "en": "Get 31 days of free access to Uboost when you pay for a plan!\n\nDownload the app and enter the code:\n{invite_code}\nDownload here: {sharing_link}"
         },
         "sharing_link": "https://ubst.club/#download"
     }

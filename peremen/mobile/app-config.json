@@ -179,5 +179,22 @@
     "free_max_seconds_per_day": 1200,
     "hybrid_paywall_version": 2,
     "support_chat_url": "https://peremen.app/landing/support",
-    "guest_show_ads_before_connect": false
+    "guest_show_ads_before_connect": false,
+    "is_invite_code_on_login_enabled": false,
+    "referral_program_config": {
+        "is_enabled": true,
+        "localized_title": {
+            "ru": "+30 дней доступа за друга",
+            "en": "+30 days of access for a friend"
+        },
+        "localized_subtitle": {
+            "ru": "Делись реферальным кодом с друзьями. Когда друг зарегистрируется по коду и оплатит тариф, ты получишь 30 дней дополнительного бесплатного доступа, а друг — 31 день",
+            "en": "Share your referral code with your friends. When a friend signs up with your code and pays for a plan, you’ll get 30 extra days of free access, and your friend will get 31 days."
+        },
+        "localized_sharing_text_template": {
+            "ru": "Лови 31 день бесплатного доступа в Перемен при оплате тарифа!\n\nСкачай приложение и введи код:\n{invite_code}\nСкачать здесь: {sharing_link}",
+            "en": "Get 31 days of free access to Peremen when you pay for a plan!\n\nDownload the app and enter the code:\n{invite_code}\nDownload here: {sharing_link}"
+        },
+        "sharing_link": "https://peremen.app/"
+    }
 }
