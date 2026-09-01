@@ -1,0 +1,100 @@
+name: Staticfiles Deploy
+
+on:
+  push:
+    branches:
+      - main
+
+env:
+  STATICFILES_DIRS: ${{ vars.STATICFILES_DIRS }}
+  DEPLOY_TYPE: ${{ vars.DEPLOY_TYPE }}
+  STATICFILES_SSH_USER: ${{ vars.STATICFILES_SSH_USER }}
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - id: changed-files
+        run: |
+          BEFORE="${{ github.event.before }}"
+          if [ -z "$BEFORE" ] || [ "$BEFORE" = "0000000000000000000000000000000000000000" ] || ! git cat-file -e "${BEFORE}^{commit}" 2>/dev/null; then
+            BEFORE="$(git rev-parse HEAD^ 2>/dev/null || echo "")"
+          fi
+          if [ -n "$BEFORE" ]; then
+            FILES="$(git diff --name-only "$BEFORE" "${{ github.sha }}" | tr '\n' ' ')"
+          else
+            FILES="$(git diff --name-only HEAD^ HEAD | tr '\n' ' ')"
+          fi
+          echo "files=$FILES" >> $GITHUB_OUTPUT
+
+      - name: Build file list
+        id: filelist
+        run: |
+          ALLOWED_DIRS_RAW="${STATICFILES_DIRS:-}"
+          ALLOWED_DIRS_RAW="${ALLOWED_DIRS_RAW//$'\n'/,}"
+          IFS=',' read -ra __DIRS <<< "$ALLOWED_DIRS_RAW"
+          ALLOWED_DIRS_CSV=""
+          for dir in "${__DIRS[@]}"; do
+            dir="$(echo "$dir" | tr -d '[:space:]')"
+            dir="${dir#/}"; dir="${dir%/}"; dir="${dir%%/*}"
+            [ -n "$dir" ] && ALLOWED_DIRS_CSV="${ALLOWED_DIRS_CSV:+$ALLOWED_DIRS_CSV,}$dir"
+          done
+
+          FILES_TO_DEPLOY=""
+          if [ "$DEPLOY_TYPE" = "all" ]; then
+            IFS=',' read -ra DIRS <<< "$ALLOWED_DIRS_CSV"
+            for dir in "${DIRS[@]}"; do
+              [ -d "$dir" ] && FILES_TO_DEPLOY="$FILES_TO_DEPLOY $(find "$dir" -type f | tr '\n' ' ')"
+            done
+          else
+            CHANGED="${{ steps.changed-files.outputs.files }}"
+            for file in $CHANGED; do
+              [ ! -f "$file" ] && continue
+              TOP_DIR="${file%%/*}"
+              if [[ -z "$ALLOWED_DIRS_CSV" || ",$ALLOWED_DIRS_CSV," == *",$TOP_DIR,"* ]]; then
+                FILES_TO_DEPLOY="$FILES_TO_DEPLOY $file"
+              fi
+            done
+          fi
+
+          echo "files=${FILES_TO_DEPLOY}" >> $GITHUB_OUTPUT
+
+      - name: Deploy to staticfiles servers
+        if: steps.filelist.outputs.files != ''
+        env:
+          SSH_KEY: ${{ secrets.STATICFILES_DEPLOY_KEY }}
+          SSH_USER: ${{ env.STATICFILES_SSH_USER }}
+        run: |
+          mkdir -p ~/.ssh
+          echo "$SSH_KEY" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+          echo "StrictHostKeyChecking no" > ~/.ssh/config
+
+          HOSTS="185.218.0.121 217.114.15.131"
+
+          BATCH=/tmp/sftp_batch.txt
+          > "$BATCH"
+          for file in ${{ steps.filelist.outputs.files }}; do
+            # create each parent segment: files/uboost, files/uboost/welcome, etc.
+            segment="files"
+            IFS='/' read -ra parts <<< "$(dirname "$file")"
+            for part in "${parts[@]}"; do
+              segment="$segment/$part"
+              echo "-mkdir $segment" >> "$BATCH"
+            done
+            echo "put $file files/$file" >> "$BATCH"
+          done
+
+          for host in $HOSTS; do
+            echo "Deploying to $host..."
+            sftp -b "$BATCH" "${SSH_USER}@${host}"
+            echo "Done: $host"
+          done
+
+      - name: Cleanup
+        if: always()
+        run: rm -f ~/.ssh/id_ed25519 /tmp/sftp_batch.txt
