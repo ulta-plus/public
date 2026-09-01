@@ -7,7 +7,7 @@
   "proxyUpdatePeriod": 50,
   "updateSubscriptionInfoPeriod": 1440,
   "showOnUpdateVersion": "1.0.0",
-  "publicOfferUrl": "https://storage.yandexcloud.net/vpnn-web-configs/peremen/docs/privacy_policy.html",
+  "publicOfferUrl": "https://staticfiles.cukubst.top/peremen/docs/privacy_policy.html",
   "availablePaymentMethodsV3": [
     {
       "type": "sbp",
