@@ -176,8 +176,8 @@
   "manualPremiumServerChangeCooldownInMinutes": 3,
   "alarms": {
     "updateFeaturesData": {
-      "periodInMinutes": 10,
-      "delayInMinutes": 10
+      "periodInMinutes": 60,
+      "delayInMinutes": 60
     },
     "updatePacData": {
       "delayInMinutes": 180
