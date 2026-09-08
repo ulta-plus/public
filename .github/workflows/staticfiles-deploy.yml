@@ -6,8 +6,7 @@ on:
       - main
 
 # GitHub Actions Variables:
-#   ALLOWED_DIRS — reused from GCP/Yandex deploys: comma-separated list of directories to deploy
-#                  all files from each directory are uploaded on every push
+#   ALLOWED_DIRS — reused from GCP/Yandex deploys: only changed files from these dirs are deployed
 #   STATICFILES_SSH_USER — SSH username for the server
 # GitHub Actions Secrets:
 #   STATICFILES_DEPLOY_KEY — private SSH key (analog of pac-generator-deploy-key in Jenkins)
@@ -17,35 +16,48 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - id: changed-files
+        run: |
+          BEFORE="${{ github.event.before }}"
+          if [ -z "$BEFORE" ] || [ "$BEFORE" = "0000000000000000000000000000000000000000" ] || ! git cat-file -e "${BEFORE}^{commit}" 2>/dev/null; then
+            BEFORE="$(git rev-parse HEAD^ 2>/dev/null || echo "")"
+          fi
+          if [ -n "$BEFORE" ]; then
+            FILES="$(git diff --name-only "$BEFORE" "${{ github.sha }}" | tr '\n' ' ')"
+          else
+            FILES="$(git diff --name-only HEAD^ HEAD | tr '\n' ' ')"
+          fi
+          echo "files=$FILES" >> $GITHUB_OUTPUT
 
       - name: Build file list
         id: filelist
         env:
           ALLOWED_DIRS: ${{ vars.ALLOWED_DIRS }}
         run: |
-          if [ -z "$ALLOWED_DIRS" ]; then
-            echo "ALLOWED_DIRS is empty, nothing to deploy"
-            echo "files=" >> $GITHUB_OUTPUT
-            exit 0
-          fi
-
-          DIRS_RAW="${ALLOWED_DIRS//$'\n'/,}"
-          IFS=',' read -ra DIRS <<< "$DIRS_RAW"
+          ALLOWED_DIRS_RAW="${ALLOWED_DIRS//$'\n'/,}"
+          IFS=',' read -ra __DIRS <<< "$ALLOWED_DIRS_RAW"
+          ALLOWED_DIRS_CSV=""
+          for dir in "${__DIRS[@]}"; do
+            dir="$(echo "$dir" | tr -d '[:space:]' | sed 's|^/||; s|/$||; s|/.*||')"
+            [ -n "$dir" ] && ALLOWED_DIRS_CSV="${ALLOWED_DIRS_CSV:+$ALLOWED_DIRS_CSV,}$dir"
+          done
 
           FILES_TO_DEPLOY=""
-          for dir in "${DIRS[@]}"; do
-            dir="$(echo "$dir" | tr -d '[:space:]' | sed 's|^/||; s|/$||')"
-            [ -z "$dir" ] && continue
-            if [ -d "$dir" ]; then
-              FILES_TO_DEPLOY="$FILES_TO_DEPLOY $(find "$dir" -type f | tr '\n' ' ')"
-            else
-              echo "Warning: directory '$dir' not found, skipping"
+          CHANGED="${{ steps.changed-files.outputs.files }}"
+          for file in $CHANGED; do
+            [ ! -f "$file" ] && continue
+            TOP_DIR="${file%%/*}"
+            if [[ -z "$ALLOWED_DIRS_CSV" || ",$ALLOWED_DIRS_CSV," == *",$TOP_DIR,"* ]]; then
+              FILES_TO_DEPLOY="$FILES_TO_DEPLOY $file"
             fi
           done
           FILES_TO_DEPLOY="${FILES_TO_DEPLOY# }"
 
           if [ -z "$FILES_TO_DEPLOY" ]; then
-            echo "No files found in specified directories"
+            echo "No changed files in allowed directories"
           else
             echo "Files to deploy: $FILES_TO_DEPLOY"
           fi
@@ -116,7 +128,7 @@ jobs:
               for f in deploy_files:
                   remote = "files/" + f
                   print(f"  {f} -> {remote}")
-                  sftp.put(f, remote)
+                  sftp.put(f, remote, confirm=False)
 
               sftp.close()
               transport.close()
