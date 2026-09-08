@@ -74,16 +74,21 @@ jobs:
 
           HOSTS="185.218.0.121 217.114.15.131"
 
-          BATCH=/tmp/sftp_batch.txt
-          > "$BATCH"
-          for file in $DEPLOY_FILES; do
+          # Collect unique directories needed on the server
+          UNIQUE_DIRS=$(for file in $DEPLOY_FILES; do
             segment="files"
             IFS='/' read -ra parts <<< "$(dirname "$file")"
             for part in "${parts[@]}"; do
               [ "$part" = "." ] && continue
               segment="$segment/$part"
-              printf 'mkdir %s\n' "$segment" >> "$BATCH"
+              echo "$segment"
             done
+          done | sort -u | tr '\n' ' ')
+
+          # Build sftp batch with only put commands (no mkdir)
+          BATCH=/tmp/sftp_batch.txt
+          > "$BATCH"
+          for file in $DEPLOY_FILES; do
             printf 'put %s files/%s\n' "$file" "$file" >> "$BATCH"
           done
 
@@ -92,6 +97,8 @@ jobs:
 
           for host in $HOSTS; do
             echo "Deploying to $host..."
+            # mkdir -p is idempotent: succeeds whether dirs exist or not
+            ssh -o StrictHostKeyChecking=no "${SSH_USER}@${host}" "mkdir -p $UNIQUE_DIRS"
             sftp -b "$BATCH" "${SSH_USER}@${host}"
             echo "Done: $host"
           done
