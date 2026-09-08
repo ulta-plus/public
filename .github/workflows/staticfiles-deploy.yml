@@ -5,13 +5,12 @@ on:
     branches:
       - main
 
-env:
-  # GitHub Actions Variables:
-  #   ALLOWED_DIRS — reused from GCP/Yandex deploys: comma-separated list of directories to deploy
-  #                  all files from each directory are uploaded on every push
-  #   STATICFILES_SSH_USER — SSH username for the server
-  # GitHub Actions Secrets:
-  #   STATICFILES_DEPLOY_KEY — private SSH key (analog of pac-generator-deploy-key in Jenkins)
+# GitHub Actions Variables:
+#   ALLOWED_DIRS — reused from GCP/Yandex deploys: comma-separated list of directories to deploy
+#                  all files from each directory are uploaded on every push
+#   STATICFILES_SSH_USER — SSH username for the server
+# GitHub Actions Secrets:
+#   STATICFILES_DEPLOY_KEY — private SSH key (analog of pac-generator-deploy-key in Jenkins)
 
 jobs:
   deploy:
