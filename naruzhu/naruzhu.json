@@ -15,6 +15,5 @@
   "androidAppUrl": null,
   "availablePaymentMethods": ["sbp", "card"],
   "publicOfferUrl": null,
-  "availableAlarmTries": 15,
-  "test": 123
+  "availableAlarmTries": 15
 }
