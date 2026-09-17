@@ -750,16 +750,8 @@
           "withMessage": null,
           "type": "card",
           "buttonLabel": "Kartla öde",
-          "useRandomIndex": 1
-        },
-        {
-          "order": 2,
-          "method": "crypto",
-          "active": true,
-          "minActivationAmount": 0,
-          "withMessage": null,
-          "type": "crypto",
-          "buttonLabel": "Kripto parayla öde"
+          "useRandomIndex": 1,
+          "isAvailableWithAutoRenewal": true
         }
       ],
       "profile": {
