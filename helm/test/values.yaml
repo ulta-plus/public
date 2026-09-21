@@ -1,0 +1,17 @@
+projectName: staticfiles-test
+environment: test
+
+image:
+  repository: registry.digitalocean.com/vpnn-infra/staticfiles
+  tag: '{{ env "HELM_IMAGE_TAG" }}'
+  pullPolicy: IfNotPresent
+
+replicas: 2
+
+resources:
+  requests:
+    cpu: 250m
+    memory: 128Mi
+  limits:
+    cpu: "2"
+    memory: 512Mi
