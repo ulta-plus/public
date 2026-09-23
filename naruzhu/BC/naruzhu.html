@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light">
+<title>Что такое белые списки простыми словами — Наружу</title>
+<style>
+*,*::before,*::after{box-sizing:border-box}
+
+:root{
+  --bg:#FFFFFF;
+  --fg:#151515;
+  --sec:#5F5F5F;
+  --line:#E6E6E6;
+  --code-bg:#F5F5F5;
+  --accent:#FFD600;
+  --tint:#FFF7CC;
+  --link:#151515;
+  --link-underline:#FFD600;
+  --link-hover:#151515;
+  --link-lead:#8A7400;
+  --num:#151515;
+  --radius:2px;
+  --radius-inline:2px;
+  --marker-radius:0;
+  --logo-h:28px;
+  --font:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Arial,sans-serif;
+  --mono:ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace;
+}
+
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--font);
+  -webkit-font-smoothing:antialiased}
+
+.wrap{max-width:800px;margin:0 auto;padding:0 20px}
+
+/* --- шапка и подвал --- */
+.site-header{border-bottom:1px solid var(--line)}
+.site-header .wrap{display:flex;align-items:center;height:88px}
+.logo{display:block;height:var(--logo-h);width:auto}
+.site-footer{border-top:1px solid var(--line);margin-top:80px}
+.site-footer .wrap{padding-top:28px;padding-bottom:28px;font-size:15px;
+  line-height:1.5;color:var(--sec)}
+
+/* --- заголовок статьи --- */
+h1{margin:64px 0 0;font-size:44px;line-height:1.12;font-weight:700;
+  letter-spacing:-0.02em}
+.lead{margin:22px 0 0;font-size:20px;line-height:1.55;color:var(--sec)}
+/* Ссылки в лиде — навигация по разделам: только цвет, без подчёркивания.
+   У жёлтых брендов цвет ссылки затемнён до контраста 4,5:1. */
+.lead a{color:var(--link-lead);text-decoration:none}
+.lead a:hover{text-decoration:underline;text-decoration-thickness:2px;
+  text-underline-offset:2px}
+.meta{margin-top:28px;padding-left:14px;border-left:4px solid var(--accent);
+  font-size:14px;line-height:1.5;color:var(--sec)}
+
+/* --- тело статьи --- */
+.article{padding-bottom:72px}
+.article > :first-child{margin-top:8px}
+
+h2{margin:56px 0 16px;font-size:28px;line-height:1.3;font-weight:700;
+  letter-spacing:-0.01em}
+h2::before{content:"";display:inline-block;width:10px;height:10px;
+  background:var(--accent);border-radius:var(--marker-radius);margin-right:14px;
+  vertical-align:baseline}
+h3{margin:40px 0 12px;font-size:21px;line-height:1.35;font-weight:700}
+h2[id],h3[id],h4[id]{scroll-margin-top:24px}
+h4{margin:32px 0 8px;font-size:17px;line-height:1.4;font-weight:700}
+p{margin:20px 0 0;font-size:18px;line-height:1.7}
+
+a{color:var(--link);text-decoration:underline;
+  text-decoration-color:var(--link-underline);text-decoration-thickness:3px;
+  text-underline-offset:3px}
+a:hover{color:var(--link-hover);text-decoration-color:var(--link)}
+
+ul,ol{margin:20px 0 0;padding:0;list-style:none;font-size:18px;line-height:1.65}
+li{position:relative;margin-top:10px;padding-left:28px}
+li:first-child{margin-top:0}
+ul li::before{content:"";position:absolute;left:0;top:.6em;width:7px;height:7px;
+  background:var(--accent);border-radius:var(--marker-radius)}
+ol{counter-reset:step}
+ol li{counter-increment:step}
+ol li::before{content:counter(step) ".";position:absolute;left:0;
+  font-weight:700;color:var(--num)}
+
+/* --- таблица --- */
+.table-scroll{overflow-x:auto;margin:24px 0}
+table{width:100%;border-collapse:collapse;font-size:16px;line-height:1.5}
+th{text-align:left;font-weight:700;background:var(--tint);padding:12px 14px;
+  border-bottom:1px solid var(--line)}
+td{padding:12px 14px;border-bottom:1px solid var(--line);vertical-align:top}
+
+/* --- изображение --- */
+figure{margin:40px 0}
+.frame{background:var(--code-bg);border-radius:var(--radius);overflow:hidden;
+  line-height:0}
+.frame svg{display:block;width:100%;height:auto}
+figcaption{margin-top:14px;font-size:15px;line-height:1.5;color:var(--sec)}
+
+/* --- код --- */
+code{font-family:var(--mono);font-size:.9em;background:var(--code-bg);
+  border-radius:var(--radius-inline);padding:2px 6px}
+pre{margin:24px 0;background:var(--code-bg);border-radius:var(--radius);
+  padding:18px 22px;overflow-x:auto}
+pre code{display:block;padding:0;background:none;font-size:15px;line-height:1.6}
+
+hr{border:0;border-top:1px solid var(--line);margin:48px 0}
+
+/* --- цитата и плашка: в текущих статьях не встречаются,
+       стили оставлены для следующих материалов --- */
+blockquote{margin:36px 0;padding-left:22px;border-left:4px solid var(--accent)}
+blockquote p{margin:0;font-size:20px;line-height:1.55}
+blockquote cite{display:block;margin-top:12px;font-size:15px;line-height:1.5;
+  color:var(--sec);font-style:normal}
+.callout{margin:28px 0;padding:18px 22px;background:var(--tint);
+  border-radius:var(--radius)}
+.callout b{display:block;margin-bottom:8px;font-size:14px}
+.callout p{margin:0;font-size:17px;line-height:1.6}
+
+/* --- мобильный --- */
+@media (max-width:700px){
+  :root{--logo-h:24px}
+  .site-header .wrap{height:64px}
+  .site-footer{margin-top:64px}
+  .site-footer .wrap{padding-top:22px;padding-bottom:22px;font-size:14px}
+  h1{margin-top:36px;font-size:32px}
+  .lead{margin-top:16px;font-size:18px}
+  .meta{margin-top:22px;padding-left:12px;font-size:13px}
+  .article{padding-bottom:56px}
+  .article > :first-child{margin-top:4px}
+  h2{margin:44px 0 14px;font-size:23px}
+  h2::before{width:9px;height:9px;margin-right:11px}
+  h3{margin:32px 0 10px;font-size:19px}
+  h4{margin:26px 0 8px;font-size:16px}
+  p{margin-top:18px;font-size:17px}
+  ul,ol{margin-top:18px;font-size:17px}
+  li{padding-left:24px}
+  .table-scroll{margin:20px 0}
+  table{font-size:13px}
+  th,td{padding:9px 8px}
+  figure{margin:32px 0}
+  figcaption{margin-top:12px;font-size:14px}
+  pre{margin:20px 0;padding:14px 16px}
+  pre code{font-size:12px}
+  hr{margin:40px 0}
+  blockquote{margin:28px 0;padding-left:18px}
+  blockquote p{font-size:18px}
+  .callout{margin:24px 0;padding:16px 18px}
+  .callout p{font-size:16px}
+}
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <img class="logo" src="data:image/png;base64,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" alt="Наружу" width="121" height="28">
+  </div>
+</header>
+
+<main class="wrap">
+  <h1>Что такое белые списки простыми словами</h1>
+  <p class="lead">Белые списки — это режим работы сети, при котором доступны только заранее разрешённые сайты и сервисы.</p>
+
+  <div class="article">
+  <p>Если ресурс не входит в такой список, он может не открываться вообще — даже если интернет на устройстве подключён и часть других сайтов работает нормально.</p>
+  <p>Проще говоря:</p>
+  <ul>
+    <li>обычный интернет: доступно всё, кроме отдельно заблокированных ресурсов;</li>
+    <li>белые списки: доступно <strong>только то, что отдельно разрешено</strong>.</li>
+  </ul>
+  <h2 id="chto-vhodit">Что может входить в белые списки</h2>
+  <p>Конкретный набор доступных ресурсов может отличаться в зависимости от оператора, региона и текущих ограничений. Для удобства основные категории собраны в таблице.</p>
+  <div class="table-scroll">
+    <table>
+      <thead>
+        <tr>
+          <th style="width:34%">Категория</th>
+          <th style="width:66%">Что может входить</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Государственные сервисы</td>
+          <td>Госуслуги, официальные порталы органов власти</td>
+        </tr>
+        <tr>
+          <td>Банковский сектор</td>
+          <td>Мобильные приложения банков, платёжные сервисы, финансовые платформы</td>
+        </tr>
+        <tr>
+          <td>Связь</td>
+          <td>Сервисы операторов, отечественные мессенджеры</td>
+        </tr>
+        <tr>
+          <td>Навигация</td>
+          <td>Карты, транспортные сервисы</td>
+        </tr>
+        <tr>
+          <td>Электронная коммерция</td>
+          <td>Маркетплейсы, службы доставки</td>
+        </tr>
+        <tr>
+          <td>СМИ</td>
+          <td>Российские новостные сайты и информационные ресурсы</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <h2 id="kak-vyglyadit">Как это выглядит для пользователя</h2>
+  <p>При включённых белых списках можно заметить, что:</p>
+  <ul>
+    <li>одни сайты открываются, а другие — нет;</li>
+    <li>приложения пишут, что нет подключения к интернету;</li>
+    <li>видео, соцсети и мессенджеры перестают загружать контент;</li>
+    <li>приложение не подключается;</li>
+    <li>при смене Wi-Fi на мобильную сеть или наоборот ситуация меняется.</li>
+  </ul>
+  <h2 id="pochemu-ne-podklyuchaetsya">Почему приложение может не подключаться</h2>
+  <p>Чтобы приложение начало работать, ему сначала нужно соединиться со своим сервером. Если сеть не разрешает подключение к этому серверу, установить соединение не получится. Поэтому при белых списках обычная смена сервера или протокола может не помочь.</p>
+  <h3 id="otlichiya">Чем белые списки отличаются от обычной блокировки</h3>
+  <p>При обычной блокировке ограничивают доступ к конкретному сайту или сервису, а остальной интернет продолжает работать. С белыми списками всё наоборот: сначала определяется перечень разрешённых ресурсов, а всё остальное становится недоступным.</p>
+  <p>Из-за этого кажется, что интернет частично «сломался»: несколько привычных сервисов работают, а остальные — нет.</p>
+  <hr>
+  <h2 id="po-raznomu">Белые списки могут работать по-разному</h2>
+  <p>Ограничения могут зависеть от конкретной сети, оператора и региона. Набор доступных сервисов тоже может отличаться.</p>
+  <p>Поэтому у двух пользователей в один и тот же момент ситуация может выглядеть по-разному: <em>у одного определённый сервис открывается, а у другого — нет</em>.</p>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">© 2026 Наружу</div>
+</footer>
+
+</body>
+</html>
