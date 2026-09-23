@@ -1,0 +1,19 @@
+project: staticfiles
+version: "0.1.0"
+
+.options: &options
+  namespace: staticfiles
+  create_namespace: true
+  wait: true
+  timeout: 5m
+  max_history: 3
+
+releases:
+  - name: staticfiles
+    <<: *options
+    tags: [new-cluster]
+    chart:
+      name: ./
+      version: 0.1.0
+    values:
+      - src: ./values.yaml
