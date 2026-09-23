@@ -1,0 +1,1 @@
+import{c as e,l as t,s as n}from"./shared-lib.BkuTsOFf.mjs";t();export{e as __FramerMetadata__,n as default};

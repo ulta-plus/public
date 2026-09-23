@@ -1,15 +1,25 @@
 {
-    "api_base_url": "https://mobile.vvppnn.click",
+    "api_base_url": "https://api.awnr.site",
     "support_link": "https://telegram.me/vpn_naruzhu_ops_bot",
     "support_email": "help@vpn-naruzhu.com",
-    "support_chat_url": "https://vepen.online/landing/support",
+    "support_chat_url": "https://usenaruzhu.space/landing/support",
     "telegram_channel_link": "https://telegram.me/vpnnaruzhu",
     "is_change_server_enabled": true,
     "is_invite_code_on_login_enabled": false,
+    "is_background_config_refresh_enabled": true,
+    "config_refresh_interval_minutes": 720,
     "update_info": {
-        "available_version": "1.0.0.1",
-        "download_url": "https://storage.uubb.website/naruzhu-desktop/naruzhu_1.0.0.1.zip"
+        "available_version": "1.0.0.2",
+        "download_url": "https://storage.uubb.website/naruzhu_1.0.0.2.zip"
     },
+    "settings": [
+        {
+            "key": "local_route",
+            "type": "toggle",
+            "default_value": "false",
+            "title": "Локальная маршрутизация"
+        }
+    ],
     "connections": [
         {
             "title": "Умный режим",
@@ -19,7 +29,9 @@
             },
             "relative_path": "client-api/v1/download-awg-key?key_type=smart",
             "anonymous_relative_path": "client-api/v1/download-anonymous-key?key_type=smart",
-            "key_type": "R"
+            "key_type": "smart",
+            "is_local_routing_available": true,
+            "local_routing_link": "http://raw.githubusercontent.com/ulta-plus/public/refs/heads/main/naruzhu/desktop/local.json"
         },
         {
             "title": "Напрямую",
@@ -29,7 +41,9 @@
             },
             "relative_path": "client-api/v1/download-awg-key?key_type=direct",
             "anonymous_relative_path": "client-api/v1/download-anonymous-key?key_type=direct",
-            "key_type": "X"
+            "key_type": "direct",
+            "is_local_routing_available": false,
+            "local_routing_link": null
         }
     ]
 }

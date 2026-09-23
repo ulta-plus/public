@@ -1,0 +1,140 @@
+name: Staticfiles Deploy
+
+on:
+  push:
+    branches:
+      - main
+
+# GitHub Actions Variables:
+#   ALLOWED_DIRS — reused from GCP/Yandex deploys: only changed files from these dirs are deployed
+#   STATICFILES_SSH_USER — SSH username for the server
+# GitHub Actions Secrets:
+#   STATICFILES_DEPLOY_KEY — private SSH key (analog of pac-generator-deploy-key in Jenkins)
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - id: changed-files
+        run: |
+          BEFORE="${{ github.event.before }}"
+          if [ -z "$BEFORE" ] || [ "$BEFORE" = "0000000000000000000000000000000000000000" ] || ! git cat-file -e "${BEFORE}^{commit}" 2>/dev/null; then
+            BEFORE="$(git rev-parse HEAD^ 2>/dev/null || echo "")"
+          fi
+          if [ -n "$BEFORE" ]; then
+            FILES="$(git diff --name-only "$BEFORE" "${{ github.sha }}" | tr '\n' ' ')"
+          else
+            FILES="$(git diff --name-only HEAD^ HEAD | tr '\n' ' ')"
+          fi
+          echo "files=$FILES" >> $GITHUB_OUTPUT
+
+      - name: Build file list
+        id: filelist
+        env:
+          ALLOWED_DIRS: ${{ vars.ALLOWED_DIRS }}
+        run: |
+          ALLOWED_DIRS_RAW="${ALLOWED_DIRS//$'\n'/,}"
+          IFS=',' read -ra __DIRS <<< "$ALLOWED_DIRS_RAW"
+          ALLOWED_DIRS_CSV=""
+          for dir in "${__DIRS[@]}"; do
+            dir="$(echo "$dir" | tr -d '[:space:]' | sed 's|^/||; s|/$||; s|/.*||')"
+            [ -n "$dir" ] && ALLOWED_DIRS_CSV="${ALLOWED_DIRS_CSV:+$ALLOWED_DIRS_CSV,}$dir"
+          done
+
+          FILES_TO_DEPLOY=""
+          CHANGED="${{ steps.changed-files.outputs.files }}"
+          for file in $CHANGED; do
+            [ ! -f "$file" ] && continue
+            TOP_DIR="${file%%/*}"
+            if [[ -z "$ALLOWED_DIRS_CSV" || ",$ALLOWED_DIRS_CSV," == *",$TOP_DIR,"* ]]; then
+              FILES_TO_DEPLOY="$FILES_TO_DEPLOY $file"
+            fi
+          done
+          FILES_TO_DEPLOY="${FILES_TO_DEPLOY# }"
+
+          if [ -z "$FILES_TO_DEPLOY" ]; then
+            echo "No changed files in allowed directories"
+          else
+            echo "Files to deploy: $FILES_TO_DEPLOY"
+          fi
+          echo "files=$FILES_TO_DEPLOY" >> $GITHUB_OUTPUT
+
+      - name: Install paramiko
+        if: steps.filelist.outputs.files != ''
+        run: pip install --quiet paramiko
+
+      - name: Deploy to staticfiles servers
+        if: steps.filelist.outputs.files != ''
+        env:
+          SSH_KEY: ${{ secrets.STATICFILES_DEPLOY_KEY }}
+          SSH_USER: ${{ vars.STATICFILES_SSH_USER }}
+          DEPLOY_FILES: ${{ steps.filelist.outputs.files }}
+        run: |
+          if [ -z "$SSH_USER" ]; then
+            echo "STATICFILES_SSH_USER variable is not set"
+            exit 1
+          fi
+          if [ -z "$SSH_KEY" ]; then
+            echo "STATICFILES_DEPLOY_KEY secret is not set"
+            exit 1
+          fi
+
+          printf '%s\n' "$SSH_KEY" > /tmp/sftp_key
+          chmod 600 /tmp/sftp_key
+
+          python3 << 'PYEOF'
+          import os, sys, paramiko
+
+          HOSTS = ["185.218.0.121", "217.114.15.131"]
+          user = os.environ["SSH_USER"]
+          deploy_files = os.environ["DEPLOY_FILES"].split()
+
+          # Collect unique directories sorted so parents come before children
+          dirs_needed = set()
+          for f in deploy_files:
+              parts = f.split("/")
+              for i in range(1, len(parts)):
+                  dirs_needed.add("files/" + "/".join(parts[:i]))
+          dirs_needed = sorted(dirs_needed)
+
+          # Auto-detect key type
+          pkey = None
+          for KeyClass in [paramiko.Ed25519Key, paramiko.RSAKey, paramiko.ECDSAKey]:
+              try:
+                  pkey = KeyClass.from_private_key_file("/tmp/sftp_key")
+                  break
+              except Exception:
+                  continue
+          if pkey is None:
+              print("Failed to load SSH key", file=sys.stderr)
+              sys.exit(1)
+
+          for host in HOSTS:
+              print(f"Connecting to {host}...")
+              transport = paramiko.Transport((host, 22))
+              transport.connect(username=user, pkey=pkey)
+              sftp = paramiko.SFTPClient.from_transport(transport)
+
+              for d in dirs_needed:
+                  try:
+                      sftp.mkdir(d)
+                  except IOError:
+                      pass  # already exists
+
+              for f in deploy_files:
+                  remote = "files/" + f
+                  print(f"  {f} -> {remote}")
+                  sftp.put(f, remote, confirm=False)
+
+              sftp.close()
+              transport.close()
+              print(f"Done: {host}")
+          PYEOF
+
+      - name: Cleanup
+        if: always()
+        run: rm -f ~/.ssh/id_ed25519 /tmp/sftp_batch.txt

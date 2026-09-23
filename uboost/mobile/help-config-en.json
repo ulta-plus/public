@@ -30,7 +30,7 @@
           "id": "is_console_available",
           "title": "Is the TV box still on sale",
           "type": "text",
-          "text": "Yes, of course — our TV box is available for purchase. You can buy it on Ozon (ozon.ru/t/g2KbNcP) or Wildberries.",
+          "text": "Yes, of course — our TV box is available for purchase. You can buy it on [Ozon](https://ozon.ru/t/g2KbNcP) or Wildberries.",
           "link": null
         },
         {
@@ -50,7 +50,7 @@
           "id": "install_android",
           "title": "How to install the app on Android",
           "type": "text",
-          "text": "To install, try using the APK file. Download it from uboost.site and run it on your device.",
+          "text": "To install, try using the APK file. Download it from [uboost.site](https://uboost.site) and run it on your device.",
           "link": null
         },
         {
@@ -64,7 +64,7 @@
           "id": "install_smart_tv",
           "title": "How to download Uboost on a Smart TV",
           "type": "text",
-          "text": "IMPORTANT: The TV must run Android OS. Option one: install from a USB drive by downloading the APK from naruzhu.click/uboost_tv_android. Option two: open the browser on your TV, go to naruzhu.click/uboost_tv_android, then download and install the app. After that, sign in to your account.",
+          "text": "IMPORTANT: The TV must run Android OS. Option one: install from a USB drive by downloading the [APK](https://naruzhu.click/uboost_tv_android). Option two: open the browser on your TV, go to the [download page](https://naruzhu.click/uboost_tv_android), then download and install the app. After that, sign in to your account.",
           "link": null
         },
         {
@@ -78,8 +78,8 @@
           "id": "browser_extension",
           "title": "How to install the browser extension",
           "type": "text",
-          "text": "The Uboost extension can be installed for free from the Chrome Web Store. After purchasing a subscription, you'll receive an ID to log in. A full-featured desktop app is also available for PC.",
-          "link": "https://chromewebstore.google.com/detail/%D1%8E%D0%B1%D1%83%D1%81%D1%82-vpn-%D0%B4%D0%BB%D1%8F-youtube-%D0%BE%D0%B1%D1%85/jddgbeighonaipjikdnfdpiefhoomlae"
+          "text": "The Uboost extension can be installed for free from the [Chrome Web Store](https://chromewebstore.google.com/detail/%D1%8E%D0%B1%D1%83%D1%81%D1%82-vpn-%D0%B4%D0%BB%D1%8F-youtube-%D0%BE%D0%B1%D1%85/jddgbeighonaipjikdnfdpiefhoomlae). After purchasing a subscription, you'll receive an ID to log in. A full-featured desktop app is also available for PC.",
+          "link": null
         }
       ]
     },
@@ -105,7 +105,7 @@
           "id": "how_to_extend",
           "title": "How to renew your plan",
           "type": "text",
-          "text": "Open the Uboost app, tap “Buy plan”, choose a payment method, and tap “Buy”. You can also renew your plan in your personal account at uboost.site/profile — sign in and tap “Go to payment details”. After a successful payment, your plan will be renewed automatically.",
+          "text": "Open the Uboost app, tap “Buy plan”, choose a payment method, and tap “Buy”. You can also renew your plan in your [personal account](https://uboost.site/profile) — sign in and tap “Go to payment details”. After a successful payment, your plan will be renewed automatically.",
           "link": null
         },
         {
