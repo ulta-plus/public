@@ -3,16 +3,11 @@
   "cookieDomain": "cukprmn.website",
   "currentVersion": "1.0.0",
   "requiredVersion": "1.0.0",
-  "supportedBrowsers": [
-    "chrome",
-    "edge-chromium",
-    "yandexbrowser",
-    "firefox"
-  ],
+  "supportedBrowsers": ["chrome", "edge-chromium", "yandexbrowser", "firefox"],
   "proxyUpdatePeriod": 50,
   "updateSubscriptionInfoPeriod": 1440,
   "showOnUpdateVersion": "1.0.0",
-  "publicOfferUrl": "https://storage.yandexcloud.net/vpnn-web-configs/peremen/docs/privacy_policy.html",
+  "publicOfferUrl": "https://staticfiles.cukubst.top/peremen/docs/privacy_policy.html",
   "availablePaymentMethodsV3": [
     {
       "type": "sbp",
@@ -53,5 +48,54 @@
   "premiumBannerPeriodInMinutes": 5,
   "availableAlarmTries": 100,
   "manualFreeServerChangeCooldownInMinutes": 720,
-  "manualPremiumServerChangeCooldownInMinutes": 5
+  "manualPremiumServerChangeCooldownInMinutes": 5,
+  "alarms": {
+    "updateFeaturesData": {
+      "periodInMinutes": 10,
+      "delayInMinutes": 10
+    },
+    "updatePacData": {
+      "delayInMinutes": 180
+    },
+    "updateProxyPremiumData": {
+      "periodInMinutes": 50,
+      "delayInMinutes": 50
+    },
+    "updatePacScriptToFullPAC": {
+      "delayInMinutes": 0.5
+    },
+    "restoreLitePAC": {
+      "delayInMinutes": 1440
+    },
+    "extensionMonitoring": {
+      "periodInMinutes": 30,
+      "delayInMinutes": 0.5
+    },
+    "proxyHealthCheck": {
+      "periodInMinutes": 5
+    },
+    "updateSubscriptionInfo": {
+      "periodInMinutes": 1440,
+      "delayInMinutes": 1440
+    },
+    "updateExchangeRates": {
+      "periodInMinutes": 1440,
+      "delayInMinutes": 1440
+    },
+    "enableConnectionButton": {
+      "delayInMinutes": 1
+    },
+    "extensionConflictWarningAdBlocker": {
+      "periodInMinutes": 1440,
+      "delayInMinutes": 1440
+    },
+    "extensionConflictWarningProxy": {
+      "periodInMinutes": 1440,
+      "delayInMinutes": 1440
+    },
+    "paymentStarted": {
+      "periodInMinutes": 1,
+      "delayInMinutes": 3
+    }
+  }
 }

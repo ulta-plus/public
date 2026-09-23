@@ -4,15 +4,18 @@
     "dns2": "8.8.8.8",
     
     "api_base_url": "https://api.stkv.space",
-    "support_link": "https://telegram.me/sotka_install_bot",
+    "support_link": "https://telegram.me/sotkasupportbot",
+    "profile_bot_link": "https://telegram.me/sotka_install_bot",
     "support_email": "help@sotka.work",
     "support_chat_url": "https://sotka.cloud/support",
     "telegram_channel_link": "https://telegram.me/sotkavpn",
+    "replaced_payment_link": "https://telegram.me/sotka_install_bot",
+    
     "is_change_server_enabled": true,
     "is_invite_code_on_login_enabled": false,
     "update_info": {
-        "available_version": "1.0.0.1",
-        "download_url": "https://raw.githubusercontent.com/mikhaildesktop/public/refs/heads/main/sotka-1.0.0.1.zip"
+        "available_version": "1.0.2.0",
+        "download_url": "https://l.vpnn.io/sotka-zip"
     },
     "connections": [
         {
@@ -21,9 +24,11 @@
                 "en" : "Smart mode",
                 "ru" : "Умный режим"
             },
-            "relative_path": "client-api/v1/download-awg-key?key_type=sotka",
-            "anonymous_relative_path": "client-api/v1/download-anonymous-key?key_type=sotka",
-            "key_type": "sotka"
+            "relative_path": "client-api/v1/download-awg-key",
+            "anonymous_relative_path": "client-api/v1/download-anonymous-key",
+            "key_type": "",
+            "is_local_routing_available": false,
+            "local_routing_link": null
         }
     ]
 

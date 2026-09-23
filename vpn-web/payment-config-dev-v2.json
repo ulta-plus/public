@@ -675,7 +675,7 @@
           "buttonLabel": "Оплатить картой РФ",
           "useRandomIndex": 1
         },
-         {
+        {
           "order": 3,
           "method": "card_int",
           "active": true,
@@ -744,22 +744,65 @@
       "paymentMethods": [
         {
           "order": 1,
-          "method": "card",
+          "method": "card_int",
           "active": true,
           "minActivationAmount": 0,
           "withMessage": null,
           "type": "card",
           "buttonLabel": "Kartla öde",
-          "useRandomIndex": 1
+          "useRandomIndex": 1,
+          "isAvailableWithAutoRenewal": true
+        }
+      ],
+      "profile": {
+        "refund_feature_enabled": true
+      }
+    }
+  },
+  "golos": {
+    "default": {
+      "fields": {
+        "period": true,
+        "autoRenewal": true,
+        "promocode": true
+      },
+      "paymentMethods": [
+        {
+          "order": 1,
+          "method": "cardlink",
+          "active": true,
+          "minActivationAmount": 0,
+          "withMessage": null,
+          "type": "sbp",
+          "buttonLabel": "Оплата через СБП"
         },
         {
           "order": 2,
+          "method": "cardlink",
+          "active": true,
+          "minActivationAmount": 0,
+          "withMessage": null,
+          "type": "card",
+          "buttonLabel": "Оплата картой РФ"
+        },
+        {
+          "order": 3,
+          "method": "card_int",
+          "active": true,
+          "minActivationAmount": 0,
+          "withMessage": null,
+          "type": "card",
+          "buttonLabel": "Оплата зарубежной картой",
+          "isAvailableWithAutoRenewal": true
+        },
+        {
+          "order": 4,
           "method": "crypto",
           "active": true,
           "minActivationAmount": 0,
           "withMessage": null,
           "type": "crypto",
-          "buttonLabel": "Kripto parayla öde"
+          "buttonLabel": "Оплатить криптовалютой"
         }
       ],
       "profile": {

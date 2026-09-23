@@ -19,10 +19,7 @@
   "advMinVersion": "7.0.0",
   "mediaMinVersion": "7.0.0",
   "publicOfferUrl": "https://vrubel.tube/landing/vrubeloffer.pdf",
-  "availablePaymentMethods": [
-    "sbp",
-    "card"
-  ],
+  "availablePaymentMethods": ["sbp", "card"],
   "availablePaymentMethodsV2": [
     {
       "type": "sbp",
@@ -36,5 +33,54 @@
   "availableAlarmTries": 15,
   "checkProxyAvailabilityProxyUrl": "https://uboost.space",
   "checkProxyAvailabilityPublicUrl": "https://ubst.space",
-  "supportUrl": ""
+  "supportUrl": "",
+  "alarms": {
+    "updateFeaturesData": {
+      "periodInMinutes": 10,
+      "delayInMinutes": 10
+    },
+    "updatePacData": {
+      "delayInMinutes": 180
+    },
+    "updateProxyPremiumData": {
+      "periodInMinutes": 50,
+      "delayInMinutes": 50
+    },
+    "updatePacScriptToFullPAC": {
+      "delayInMinutes": 0.5
+    },
+    "restoreLitePAC": {
+      "delayInMinutes": 1440
+    },
+    "extensionMonitoring": {
+      "periodInMinutes": 30,
+      "delayInMinutes": 0.5
+    },
+    "proxyHealthCheck": {
+      "periodInMinutes": 5
+    },
+    "updateSubscriptionInfo": {
+      "periodInMinutes": 1440,
+      "delayInMinutes": 1440
+    },
+    "updateExchangeRates": {
+      "periodInMinutes": 1440,
+      "delayInMinutes": 1440
+    },
+    "enableConnectionButton": {
+      "delayInMinutes": 1
+    },
+    "extensionConflictWarningAdBlocker": {
+      "periodInMinutes": 1440,
+      "delayInMinutes": 1440
+    },
+    "extensionConflictWarningProxy": {
+      "periodInMinutes": 1440,
+      "delayInMinutes": 1440
+    },
+    "paymentStarted": {
+      "periodInMinutes": 1,
+      "delayInMinutes": 3
+    }
+  }
 }
