@@ -1,0 +1,49 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ .Values.projectName }}-nginx
+  labels:
+    environment: {{ .Values.environment }}
+data:
+  nginx.conf: |
+    worker_processes 2;
+
+    events {
+        worker_connections 4096;
+    }
+
+    http {
+        include mime.types;
+        types {
+            text/javascript mjs;
+        }
+        default_type application/octet-stream;
+
+        server_tokens off;
+        access_log off;
+        sendfile on;
+        tcp_nopush on;
+        absolute_redirect off;
+        gzip_static on;
+        gzip_vary on;
+
+        server {
+            listen 8080;
+            root /srv/www;
+
+            location = /liveness {
+                return 200;
+            }
+
+            location / {
+                add_header Cache-Control "public, max-age=3600";
+                add_header Access-Control-Allow-Origin "*" always;
+            }
+
+            location ~ \.json$ {
+                add_header Cache-Control "no-cache";
+                add_header Access-Control-Allow-Origin "*" always;
+                add_header X-Accel-Expires 60;
+            }
+        }
+    }
