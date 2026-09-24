@@ -1,5 +1,5 @@
 {
-  "main_description": "We've gathered answers to frequently asked questions. If you didn't find yours, message us in the chat on our website or at help@golos.live.",
+  "main_description": "We've gathered answers to frequently asked questions. If you didn't find yours, message us in the chat on our website or at help@golos.one.",
   "topics": [
     {
       "id": "about_service",
@@ -104,14 +104,14 @@
           "id": "forgot_email",
           "title": "I forgot my email",
           "type": "text",
-          "text": "Try to remember which addresses you might have used during registration. If that doesn't work, send your payment receipt to the chat on our website or to help@golos.live, and we'll help you restore access.",
+          "text": "Try to remember which addresses you might have used during registration. If that doesn't work, send your payment receipt to the chat on our website or to help@golos.one, and we'll help you restore access.",
           "link": null
         },
         {
           "id": "reset_devices",
           "title": "Please reset all devices on my account",
           "type": "text",
-          "text": "Message us in the chat on our website or at help@golos.live and include the email your subscription is registered with.",
+          "text": "Message us in the chat on our website or at help@golos.one and include the email your subscription is registered with.",
           "link": null
         }
       ]
@@ -131,21 +131,21 @@
           "id": "youtube_not_working",
           "title": "YouTube isn't working",
           "type": "text",
-          "text": "To help solve the problem, send us: 1) The email your subscription is registered with. 2) Technical information from the app. Open the “Help” section and tap “Support”; the data will be copied automatically. Paste it into a message and send it to us in the chat on our website or to help@golos.live.",
+          "text": "To help solve the problem, send us: 1) The email your subscription is registered with. 2) Technical information from the app. Open the “Help” section and tap “Support”; the data will be copied automatically. Paste it into a message and send it to us in the chat on our website or to help@golos.one.",
           "link": null
         },
         {
           "id": "endless_loading",
           "title": "Endless loading when connecting",
           "type": "text",
-          "text": "To help solve the problem, send us: 1) The email your subscription is registered with. 2) Technical information from the app. Open the “Help” section and tap “Support”; the data will be copied automatically. Paste it into a message and send it to us in the chat on our website or to help@golos.live.",
+          "text": "To help solve the problem, send us: 1) The email your subscription is registered with. 2) Technical information from the app. Open the “Help” section and tap “Support”; the data will be copied automatically. Paste it into a message and send it to us in the chat on our website or to help@golos.one.",
           "link": null
         },
         {
           "id": "app_disconnects",
           "title": "The app disconnects on its own every 5 minutes",
           "type": "text",
-          "text": "To help solve the problem, send us: 1) The email your subscription is registered with. 2) Technical information from the app. Open the “Help” section and tap “Support”; the data will be copied automatically. Paste it into a message and send it to us in the chat on our website or to help@golos.live.",
+          "text": "To help solve the problem, send us: 1) The email your subscription is registered with. 2) Technical information from the app. Open the “Help” section and tap “Support”; the data will be copied automatically. Paste it into a message and send it to us in the chat on our website or to help@golos.one.",
           "link": null
         }
       ]
@@ -158,14 +158,14 @@
           "id": "ads_with_premium",
           "title": "Why do I see ads with a paid subscription",
           "type": "text",
-          "text": "Ads can appear in “All Internet” mode — that's how this mode works. If you see ads in “YouTube Only” mode, message us in the chat on our website or at help@golos.live and include the email your subscription is registered with.",
+          "text": "Ads can appear in “All Internet” mode — that's how this mode works. If you see ads in “YouTube Only” mode, message us in the chat on our website or at help@golos.one and include the email your subscription is registered with.",
           "link": null
         },
         {
           "id": "code_not_arriving",
           "title": "The code isn't arriving in my email",
           "type": "text",
-          "text": "Check your “Spam” and “Promotions” folders — the email often ends up there. If there's no email, message us in the chat on our website or at help@golos.live and include the email you registered your subscription with.",
+          "text": "Check your “Spam” and “Promotions” folders — the email often ends up there. If there's no email, message us in the chat on our website or at help@golos.one and include the email you registered your subscription with.",
           "link": null
         },
         {
