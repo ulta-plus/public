@@ -12,6 +12,7 @@ pipeline {
     environment {
         DOCKER_REGISTRY = 'registry.digitalocean.com/vpnn-infra'
         APP_NAME        = 'staticfiles'
+        IMAGE_NAME      = 'staticfiles-data'
     }
 
     stages {
@@ -51,7 +52,7 @@ pipeline {
                     env.HELM_IMAGE_TAG = env.IMAGE_TAG
 
                     currentBuild.displayName = "${env.BUILD_ID}-${APP_NAME}-${branchName}"
-                    currentBuild.description = "Build and deploy to ${branchName}: ${APP_NAME}:${env.IMAGE_TAG}"
+                    currentBuild.description = "Build and deploy to ${branchName}: ${IMAGE_NAME}:${env.IMAGE_TAG}"
                 }
             }
         }
@@ -65,11 +66,11 @@ pipeline {
                     ]) {
                         sh '''
                             echo "$DO_PASS" | buildah --storage-driver=vfs login --username "$DO_USER" --password-stdin registry.digitalocean.com
-                            buildah bud --storage-driver=vfs --no-cache --target prod \
+                            buildah bud --storage-driver=vfs --no-cache --target data \
                                 --build-arg PUBLIC_SHA="$PUBLIC_SHA" \
                                 --build-arg PAC_GENERATOR_SHA="$PAC_GENERATOR_SHA" \
                                 --build-arg PAC_SOURCE_DATE="$PAC_SOURCE_DATE" \
-                                -f ./Dockerfile -t "$DOCKER_REGISTRY/$APP_NAME:$IMAGE_TAG" .
+                                -f ./Dockerfile -t "$DOCKER_REGISTRY/$IMAGE_NAME:$IMAGE_TAG" .
                         '''
                     }
                 }
@@ -81,8 +82,8 @@ pipeline {
             steps {
                 container('buildah') {
                     sh '''
-                        buildah push --storage-driver=vfs "$DOCKER_REGISTRY/$APP_NAME:$IMAGE_TAG"
-                        buildah rmi --storage-driver=vfs "$DOCKER_REGISTRY/$APP_NAME:$IMAGE_TAG"
+                        buildah push --storage-driver=vfs "$DOCKER_REGISTRY/$IMAGE_NAME:$IMAGE_TAG"
+                        buildah rmi --storage-driver=vfs "$DOCKER_REGISTRY/$IMAGE_NAME:$IMAGE_TAG"
                     '''
                 }
             }

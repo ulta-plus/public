@@ -19,15 +19,25 @@ spec:
       labels:
         app: {{ .Values.projectName }}-app
         environment: {{ .Values.environment }}
+      annotations:
+        checksum/nginx-conf: {{ include (print $.Template.BasePath "/configmap.yaml") . | sha256sum }}
     spec:
       terminationGracePeriodSeconds: 120
       containers:
         - name: {{ .Values.projectName }}-app
-          image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
+          image: {{ .Values.image.nginx | quote }}
           imagePullPolicy: {{ .Values.image.pullPolicy }}
           ports:
             - name: web
               containerPort: 8080
+          volumeMounts:
+            - name: site
+              mountPath: /srv/www
+              readOnly: true
+            - name: nginx-conf
+              mountPath: /etc/nginx/nginx.conf
+              subPath: nginx.conf
+              readOnly: true
           resources: {{- toYaml .Values.resources | nindent 12 }}
           readinessProbe:
             httpGet:
@@ -45,3 +55,11 @@ spec:
             preStop:
               exec:
                 command: ["sleep", "15"]
+      volumes:
+        - name: site
+          image:
+            reference: "{{ .Values.image.data }}:{{ .Values.image.tag }}"
+            pullPolicy: {{ .Values.image.pullPolicy }}
+        - name: nginx-conf
+          configMap:
+            name: {{ .Values.projectName }}-nginx

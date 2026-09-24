@@ -15,6 +15,5 @@ COPY . /src
 COPY --from=pac /pac-generator /pac-generator
 RUN /src/scripts/assemble.sh /src /pac-generator /site
 
-FROM nginx:1.30-alpine AS prod
-COPY nginx/nginx.conf /etc/nginx/nginx.conf
-COPY --from=assemble /site /srv/www
+FROM scratch AS data
+COPY --from=assemble /site /
