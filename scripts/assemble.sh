@@ -10,7 +10,7 @@ site=$3
 mkdir -p "$site"
 for entry in "$src"/*; do
   case ${entry##*/} in
-    Caddyfile | Dockerfile | Jenkinsfile | helm | nginx | scripts) ;;
+    Caddyfile | Dockerfile | Jenkinsfile | helm | scripts) ;;
     *) cp -a "$entry" "$site/" ;;
   esac
 done
