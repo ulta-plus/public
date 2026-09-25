@@ -1,3 +1,4 @@
 {
-    "free": "https://storage.googleapis.com/golosapp/free-golos-pac-script.json"
+    "free": "https://storage.googleapis.com/golosapp/free-golos-pac-script.json",
+    "premium": "https://storage.googleapis.com/golosapp/premium-golos-pac-script.json"
 }
