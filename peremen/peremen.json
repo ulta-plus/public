@@ -49,7 +49,6 @@
   "availableAlarmTries": 100,
   "manualFreeServerChangeCooldownInMinutes": 720,
   "manualPremiumServerChangeCooldownInMinutes": 5,
-  "clearDataVersion": "1.0.4",
   "alarms": {
     "updateFeaturesData": {
       "periodInMinutes": 10,
