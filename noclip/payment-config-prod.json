@@ -32,5 +32,73 @@
         "canSelectAutoRenewal": false
       }
     ]
+  },
+  "noclip": {
+    "fields": {
+      "autoRenewal": {
+        "active": false,
+        "defaultValue": true
+      }
+    },
+    "paymentMethods": [
+      {
+        "order": 1,
+        "method": "card",
+        "active": true,
+        "buttonLabel": "Карта",
+        "icons": ["yoomoney", "sberpay", "mir"],
+        "canSelectAutoRenewal": true
+      },
+      {
+        "order": 2,
+        "method": "sbp",
+        "active": true,
+        "buttonLabel": "СБП",
+        "icons": ["sbp"],
+        "canSelectAutoRenewal": false
+      },
+      {
+        "order": 3,
+        "method": "crypto",
+        "active": false,
+        "buttonLabel": "Криптовалютой",
+        "icons": [],
+        "canSelectAutoRenewal": false
+      }
+    ]
+  },
+  "roblik": {
+    "fields": {
+      "autoRenewal": {
+        "active": false,
+        "defaultValue": true
+      }
+    },
+    "paymentMethods": [
+      {
+        "order": 1,
+        "method": "card",
+        "active": true,
+        "buttonLabel": "Карта",
+        "icons": ["yoomoney", "sberpay", "mir"],
+        "canSelectAutoRenewal": true
+      },
+      {
+        "order": 2,
+        "method": "sbp",
+        "active": true,
+        "buttonLabel": "СБП",
+        "icons": ["sbp"],
+        "canSelectAutoRenewal": false
+      },
+      {
+        "order": 3,
+        "method": "crypto",
+        "active": false,
+        "buttonLabel": "Криптовалютой",
+        "icons": [],
+        "canSelectAutoRenewal": false
+      }
+    ]
   }
 }

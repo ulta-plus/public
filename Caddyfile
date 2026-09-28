@@ -3,8 +3,8 @@ local.storage.googleapis.com {
     tls internal
 }
 
-local.storage.yandexcloud.net {
-
+local.staticfiles.cukubst.top {
     reverse_proxy 127.0.0.1:3000
     tls internal
 }
+
