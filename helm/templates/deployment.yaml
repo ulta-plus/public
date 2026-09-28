@@ -21,6 +21,7 @@ spec:
         environment: {{ .Values.environment }}
       annotations:
         checksum/nginx-conf: {{ include (print $.Template.BasePath "/configmap.yaml") . | sha256sum }}
+        image/site: "{{ .Values.image.data }}:{{ .Values.image.tag }}"
     spec:
       terminationGracePeriodSeconds: 120
       containers:
