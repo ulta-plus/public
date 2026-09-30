@@ -23,14 +23,14 @@
           "id": "how_to_connect",
           "title": "How to connect to the VPN",
           "type": "text",
-          "text": "For the first connection on a device, you need to get a key from the Sotka Telegram bot and copy it. The key is copied from the bot automatically — click/tap its text and it will be copied in the correct format. When you launch the app, paste the key on the first screen. Paste the key without square brackets; “vpn://” is also part of the key. Then tap the big “Connect” button to connect. Nothing else needs to be configured.",
+          "text": "For the first connection on a device, you need to get a key from the [Sotka Telegram bot](https://telegram.me/sotka_install_bot) and copy it. The key is copied from the bot automatically — click/tap its text and it will be copied in the correct format. When you launch the app, paste the key on the first screen. Paste the key without square brackets; “vpn://” is also part of the key. Then tap the big “Connect” button to connect. Nothing else needs to be configured.",
           "link": null
         },
         {
           "id": "whitelists_sotka",
           "title": "Does Sotka work with Allow Lists",
           "type": "text",
-          "text": "We do have a solution for that. Right now we keep Sotka and the Allow Lists solution separate. It has a separate price, a separate app, and separate support.",
+          "text": "We do have a solution for that. Right now we keep Sotka and the Allow Lists solution separate. It has a separate price, [a separate app](https://telegram.me/sotkabelbot), and separate support.",
           "link": null
         }
       ]
@@ -43,7 +43,7 @@
           "id": "how_to_install_on_android",
           "title": "How to install the app on Android",
           "type": "text",
-          "text": "To install, use the APK file. Download it from the Telegram bot and run it on your device.",
+          "text": "To install, use the APK file. Download it from the [Telegram bot](https://telegram.me/sotka_install_bot) and run it on your device.",
           "link": null
         },
         {
@@ -57,7 +57,7 @@
           "id": "how_to_install_on_pc",
           "title": "How to install the app on a computer",
           "type": "text",
-          "text": "Download the Sotka desktop app from our Telegram bot and install it on your computer.",
+          "text": "Download the Sotka desktop app from our [Telegram bot](https://telegram.me/sotka_install_bot) and install it on your computer.",
           "link": null
         }
       ]
@@ -70,35 +70,35 @@
           "id": "how_to_renew_subscription",
           "title": "How to renew your subscription",
           "type": "text",
-          "text": "You can renew your subscription in the Sotka Telegram bot — choose a subscription period and a payment method.",
+          "text": "You can renew your subscription in the [Sotka Telegram bot](https://telegram.me/sotka_install_bot) — choose a subscription period and a payment method.",
           "link": null
         },
         {
           "id": "what_is_a_key",
           "title": "What is a key?",
           "type": "text",
-          "text": "A key is a set of unique, encrypted parameters specific to your VPN connection. You can get your existing key or buy an additional one in the Telegram bot.",
+          "text": "A key is a set of unique, encrypted parameters specific to your VPN connection. You can get your existing key or buy an additional one in the [Telegram bot](https://telegram.me/sotka_install_bot).",
           "link": null
         },
         {
           "id": "devices_limit",
           "title": "How many devices are included in the subscription",
           "type": "text",
-          "text": "By default, you get 1 Sotka key. You can install it on any number of devices, but it can only be used on one device at a time — you switch between them. If you need to use more than 1 device at the same time, you'll need to buy additional keys. You can do this in the Telegram bot's main menu. You can buy up to 10 keys.",
+          "text": "By default, you get 1 Sotka key. You can install it on any number of devices, but it can only be used on one device at a time — you switch between them. If you need to use more than 1 device at the same time, you'll need to buy additional keys. You can do this in the main menu of the [Telegram bot](https://telegram.me/sotka_install_bot). You can buy up to 10 keys.",
           "link": null
         },
         {
           "id": "delete_key",
           "title": "How to delete a key",
           "type": "text",
-          "text": "It's currently not possible to delete an issued key. This feature will be available soon — follow the news in the Telegram channel telegram.me/sotkavpn",
+          "text": "You can delete an additional key from the main menu of the [Telegram bot](https://telegram.me/sotka_install_bot): “My keys” → “Delete key”. The main key can't be deleted, so the delete button only appears when you have more than one key.",
           "link": null
         },
         {
           "id": "how_to_cancel_subscription",
           "title": "How to cancel a subscription and get a refund",
           "type": "text",
-          "text": "You can cancel your subscription in the Sotka Telegram bot's main menu. When a refund is issued, all active keys will be deleted.",
+          "text": "You can cancel your subscription in the main menu of the [Sotka Telegram bot](https://telegram.me/sotka_install_bot). When a refund is issued, all active keys will be deleted.",
           "link": null
         }
       ]
@@ -111,14 +111,14 @@
           "id": "need_registration",
           "title": "Do I need to register to use Sotka",
           "type": "text",
-          "text": "No, you can use Sotka without registration. It's enough to get a key in the bot and pay for your subscription.",
+          "text": "No, you can use Sotka without registration. It's enough to get a key in the [bot](https://telegram.me/sotka_install_bot) and pay for your subscription.",
           "link": null
         },
         {
           "id": "how_to_login",
           "title": "How to sign in on another device",
           "type": "text",
-          "text": "You need to use the key you got in the Sotka bot. You can add it to any number of devices, but it can only be used on one device at a time — you switch between them. If you need to use more than 1 device at the same time, you'll need to buy additional keys.",
+          "text": "You need to use the key you got in the [Sotka bot](https://telegram.me/sotka_install_bot). You can add it to any number of devices, but it can only be used on one device at a time — you switch between them. If you need to use more than 1 device at the same time, you'll need to buy additional keys.",
           "link": null
         }
       ]
@@ -138,7 +138,7 @@
           "id": "changing_server_didnt_help",
           "title": "I changed the server, but nothing changed",
           "type": "text",
-          "text": "Follow these steps in order: 1) Check your connection type — does YouTube open over Wi-Fi? If it works over Wi-Fi but not over mobile data, your carrier uses “allow lists”, and Sotka needs Wi-Fi to work. 2) Remove/disable other VPN and proxy extensions on your device. To work when allow-list mode is enabled, we recommend using our separate product https://telegram.me/sotka_install_bot",
+          "text": "Follow these steps in order: 1) Check your connection type — does YouTube open over Wi-Fi? If it works over Wi-Fi but not over mobile data, your carrier uses “allow lists”, and Sotka needs Wi-Fi to work. 2) Remove/disable other VPN and proxy extensions on your device. To work when allow-list mode is enabled, we recommend using our [separate product](https://telegram.me/sotkabelbot)",
           "link": null
         },
         {
@@ -172,7 +172,7 @@
           "id": "problem_with_payment",
           "title": "The bot doesn't see my payment",
           "type": "text",
-          "text": "If you've paid but the bot doesn't see the payment, restart the bot with the /start command. If that doesn't help, don't worry — it doesn't affect your subscription; it's already been renewed, the bot just hasn't registered it yet.",
+          "text": "If you've paid but the bot doesn't see the payment, restart the [bot](https://telegram.me/sotka_install_bot) with the /start command. If that doesn't help, don't worry — it doesn't affect your subscription; it's already been renewed, the bot just hasn't registered it yet.",
           "link": null
         },
         {
