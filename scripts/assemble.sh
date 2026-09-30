@@ -10,7 +10,7 @@ site=$3
 mkdir -p "$site"
 for entry in "$src"/*; do
   case ${entry##*/} in
-    Caddyfile | Dockerfile | Jenkinsfile | helm | nginx | scripts) ;;
+    Caddyfile | Dockerfile | Jenkinsfile | helm | scripts) ;;
     *) cp -a "$entry" "$site/" ;;
   esac
 done
@@ -52,6 +52,7 @@ peremen-premium-pac-script.json peremen/peremen-premium-pac-script.json
 peremen-free-pac-script.json peremen/peremen-free-pac-script.json
 pac-meta.json golosapp/pac-meta.json
 free-golos-pac-script.json golosapp/free-golos-pac-script.json
+premium-golos-pac-script.json golosapp/premium-golos-pac-script.json
 EOF
 
 published=$(find "$site" -name '*scripts-registry*.json' -exec jq -r '.. | strings' {} +)
