@@ -27,7 +27,7 @@
   "availableAlarmTries": 15,
   "checkProxyAvailabilityProxyUrl": "https://uboost.space",
   "checkProxyAvailabilityPublicUrl": "https://ubst.space",
-  "supportUrl": "",
+  "supportUrl": "https://vrubel.tube/landing/support",
   "alarms": {
     "updateFeaturesData": {
       "periodInMinutes": 10,
