@@ -1,6 +1,6 @@
 {
     "api_base_url": "https://api.ultvs.click",
-    "support_link": "https://t.me/ulta_ops_bot",
+    "support_link": "https://telegram.me/ulta_ops_bot",
     "update_info": {
         "available_version": "1.0.0.3",
         "download_url": "https://github.com/bbulta/downloads/raw/refs/heads/master/nazarlink/nazarlink-1.0.0.3.zip"
