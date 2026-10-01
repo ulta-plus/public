@@ -1,0 +1,56 @@
+{
+  "captcha-cracker-disabled": {
+    "rollout": 0
+  },
+  "adfox-banner": {
+    "rollout": 0
+  },
+  "proxy-controlled-by-other-extensions-visibility": {
+    "rollout": 1
+  },
+  "proxy-auth": {
+    "rollout": 0
+  },
+  "free-users-review": {
+    "rollout": 0
+  },
+  "multi-locales-support": {
+    "rollout": 0
+  },
+  "video-pre-roll": {
+    "rollout": 0
+  },
+  "video-mid-roll": {
+    "rollout": 0
+  },
+  "service-worker-ping-pong": {
+    "rollout": 1
+  },
+  "on-fail-disabled-v2": {
+    "rollout": 1
+  },
+  "pac-lite": {
+    "rollout": 0
+  },
+  "reload-tabs-on-network-error": {
+    "rollout": 0
+  },
+  "sidebar-ads": {
+    "rollout": 0
+  },
+  "yandex-search-ads": {
+    "rollout": 0
+  },
+  "change-server-available": {
+    "rollout": 1
+  },
+  "internal-support": {
+    "rollout": 1
+  },
+  "is-support-via-email": {
+    "rollout": 0
+  },
+  "is-support-not-via-tg": {
+    "rollout": 0
+  }
+}

@@ -1,9 +1,14 @@
 {
-    "api_base_url": "https://api.ubst.space",
-    "support_link": "https://t.me/uboostv_ops_bot",
+    "api_base_url": "https://api.awub.site",
+    "support_link": "https://telegram.me/uboostv_ops_bot",
+    "support_chat_url": "https://ubst.club/support/app",
+    "support_email": "help@uboost.live",
+    "is_change_server_enabled": true,
+    "is_background_config_refresh_enabled": true,
+    "config_refresh_interval_minutes": 2,
     "update_info": {
-        "available_version": "1.0.0.3",
-        "download_url": "https://raw.githubusercontent.com/Wh1teReaper/public/refs/heads/main/uboost-1.0.0.3.zip"
+        "available_version": "1.0.0.5",
+        "download_url": "https://storage.uubb.website/uboost-desktop/uboost-1.0.0.5.zip"
     },
     "connections": [
         {
@@ -14,7 +19,9 @@
             },
             "relative_path": "client-api/v1/download-awg-key?key_type=youtube",
             "anonymous_relative_path": "client-api/v1/download-anonymous-key?key_type=youtube",
-            "key_type": "youtube"
+            "key_type": "youtube",
+            "is_local_routing_available": false,
+            "local_routing_link": null
         },
         {
             "title": "Весь интернет",
@@ -24,7 +31,9 @@
             },
             "relative_path": "client-api/v1/download-awg-key?key_type=uboost_vpn",
             "anonymous_relative_path": "client-api/v1/download-anonymous-key?key_type=uboost_vpn",
-            "key_type": "uboost_vpn"
+            "key_type": "uboost_vpn",
+            "is_local_routing_available": false,
+            "local_routing_link": null
         }
     ]
 }

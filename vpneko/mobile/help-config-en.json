@@ -1,0 +1,236 @@
+{
+  "main_description": "We've gathered answers to the most frequently asked questions. If you didn't find yours, message our support team.",
+  "topics": [
+    {
+      "id": "about_service",
+      "title": "About the service",
+      "questions": [
+        {
+          "id": "what_is_vpneko",
+          "title": "What is VPNeko",
+          "type": "text",
+          "text": "VPNeko is a simple, fast mobile VPN. One tap and your internet becomes free and private. The app was made for anime and manga fans, but it's a great fit for anyone who wants to bypass blocks, protect their data, and browse without limits.",
+          "link": null
+        },
+        {
+          "id": "supported_devices",
+          "title": "Which devices does VPNeko work on",
+          "type": "text",
+          "text": "On iPhone (iOS) and Android phones/tablets.",
+          "link": null
+        },
+        {
+          "id": "full_internet_access",
+          "title": "What does \"full access to the whole internet\" mean",
+          "type": "text",
+          "text": "Unlike some VPNs, we don't have \"allow lists\" or browser-only modes. Once connected, all traffic from your device goes through a secure VPN tunnel.",
+          "link": null
+        },
+        {
+          "id": "how_to_connect",
+          "title": "How to connect to the VPN",
+          "type": "text",
+          "text": "Just open the app and tap the big \"Connect\" button. Nothing else needs to be configured — it works right away.",
+          "link": null
+        }
+      ]
+    },
+    {
+      "id": "free_plan",
+      "title": "Free plan",
+      "questions": [
+        {
+          "id": "how_free_plan_works",
+          "title": "How the free plan works",
+          "type": "text",
+          "text": "Watch a short ad and get 23 minutes of a stable VPN connection. There are no speed limits. Ads are shown only before a session starts — never while the VPN is running.",
+          "link": null
+        },
+        {
+          "id": "how_to_extend_session",
+          "title": "How to extend a free session",
+          "type": "text",
+          "text": "You'll get a notification 2 minutes before the session ends. Tap \"Extend with an ad\" in the app, watch a new ad, and your connection will continue for another 23 minutes.",
+          "link": null
+        },
+        {
+          "id": "session_limits",
+          "title": "Is there a limit on the number of sessions",
+          "type": "text",
+          "text": "No, you can extend sessions as many times in a row as you like.",
+          "link": null
+        }
+      ]
+    },
+    {
+      "id": "premium",
+      "title": "Premium subscription",
+      "questions": [
+        {
+          "id": "what_premium_gives",
+          "title": "What premium gives you",
+          "type": "text",
+          "text": "Unlimited time and traffic — stay connected as long as you want. No ads — neither when connecting nor in the app. Multiple devices — use one account on several phones or tablets. Priority support — your questions get handled first. Favorite servers — quick access to your preferred locations.",
+          "link": null
+        },
+        {
+          "id": "premium_devices_limit",
+          "title": "How many devices can use premium",
+          "type": "text",
+          "text": "One premium account can use the VPN on 5 devices at the same time.",
+          "link": null
+        },
+        {
+          "id": "how_to_upgrade",
+          "title": "How to upgrade to premium",
+          "type": "text",
+          "text": "Tap the \"Upgrade to premium\" button on the app's main screen. You'll see the available plans — pick one, and your connection will immediately become unlimited and ad-free.",
+          "link": null
+        },
+        {
+          "id": "account_for_premium",
+          "title": "Do I need an account for premium",
+          "type": "text",
+          "text": "Yes. To purchase and manage your subscription, and to use it on multiple devices, you need an account linked to an email.",
+          "link": null
+        },
+        {
+          "id": "how_to_cancel_subscription",
+          "title": "How to cancel a subscription",
+          "type": "text",
+          "text": "Cancel your subscription through the store where you made the purchase (App Store or Google Play). Open your store account settings, go to the \"Subscriptions\" section, and turn off auto-renewal.",
+          "link": null
+        }
+      ]
+    },
+    {
+      "id": "account_and_login",
+      "title": "Account and sign-in",
+      "questions": [
+        {
+          "id": "need_registration_for_free",
+          "title": "Do I need to register to use it for free",
+          "type": "text",
+          "text": "No, you can use VPNeko as a guest. However, we recommend signing in with your email to get 7 days of premium as a gift and to sync your settings for the future.",
+          "link": null
+        },
+        {
+          "id": "how_to_register",
+          "title": "How to register or sign in",
+          "type": "text",
+          "text": "Enter your email in the field on the sign-in screen and tap \"Get code\". We'll send a one-time code to your email. Enter it, and you're in your account.",
+          "link": null
+        },
+        {
+          "id": "use_on_multiple_devices",
+          "title": "Can I use one account on multiple devices",
+          "type": "text",
+          "text": "Yes, you can sign in with the same account on multiple devices. With a premium subscription, you can use it on 5 devices at the same time.",
+          "link": null
+        }
+      ]
+    },
+    {
+      "id": "connection_problems",
+      "title": "Connection problems",
+      "questions": [
+        {
+          "id": "why_not_connecting",
+          "title": "Why is it taking so long to connect",
+          "type": "text",
+          "text": "Sometimes servers get blocked, and changing the server can help. To do this, tap the \"Change server\" button and try connecting again.",
+          "link": null
+        },
+        {
+          "id": "vpn_not_connecting_at_all",
+          "title": "The VPN won't connect at all",
+          "type": "text",
+          "text": "Check whether the internet is on, and restart the app and your device. Then try changing the server or protocol in settings. If the problem persists, contact support.",
+          "link": null
+        },
+        {
+          "id": "speed_is_slow",
+          "title": "My internet speed has become slow",
+          "type": "text",
+          "text": "Try connecting to a server that's geographically closer to you, and close apps that are actively using the internet. Changing the server or protocol in settings sometimes helps.",
+          "link": null
+        },
+        {
+          "id": "can_i_choose_country",
+          "title": "Can I choose a specific country",
+          "type": "text",
+          "text": "No, this version of the app automatically picks the optimal server for you. We plan to add the ability to choose a country in future updates.",
+          "link": null
+        },
+        {
+          "id": "can_i_use_for_streaming",
+          "title": "Can I use the service for streaming",
+          "type": "text",
+          "text": "Yes, you can use the VPN for streaming. If a video won't play, try changing the server or country, and restart the streaming app.",
+          "link": null
+        },
+        {
+          "id": "what_to_do_if_app_freezes",
+          "title": "What to do if the app freezes",
+          "type": "text",
+          "text": "Try fully closing the app and opening it again. If the problem recurs, restart your device and make sure you have the latest version of the app installed.",
+          "link": null
+        }
+      ]
+    },
+    {
+      "id": "troubleshooting",
+      "title": "Troubleshooting",
+      "questions": [
+        {
+          "id": "premium_but_ads_showing",
+          "title": "I bought premium, but ads are still showing",
+          "type": "text",
+          "text": "Make sure you're signed in to the account you made the purchase with. Restart the app. If the problem persists, message us with the email your subscription was purchased with.",
+          "link": null
+        },
+        {
+          "id": "code_not_arriving",
+          "title": "The code isn't arriving",
+          "type": "text",
+          "text": "Check your \"Spam\" and \"Promotions\" folders, and search your email for the word \"VPNeko\". If there's still no email, check that you entered your email correctly and request the code again.",
+          "link": null
+        },
+        {
+          "id": "free_days_not_credited",
+          "title": "I signed in, but the 7 free days weren't credited",
+          "type": "text",
+          "text": "Message our support team with the email you registered with, and we'll sort it out.",
+          "link": null
+        }
+      ]
+    },
+    {
+      "id": "privacy_and_security",
+      "title": "Privacy and security",
+      "questions": [
+        {
+          "id": "do_you_store_logs",
+          "title": "Do you store logs of my activity",
+          "type": "text",
+          "text": "We don't store logs of your online activity and don't track the sites you visit. Minimal technical data is used only to keep the service running.",
+          "link": null
+        },
+        {
+          "id": "is_it_safe_on_public_wifi",
+          "title": "How safe is it to use a VPN on public Wi-Fi",
+          "type": "text",
+          "text": "Using a VPN on public Wi-Fi networks significantly improves your security, since it encrypts your traffic and protects your data from interception.",
+          "link": null
+        },
+        {
+          "id": "what_is_kill_switch",
+          "title": "What is Kill Switch and why is it needed",
+          "type": "text",
+          "text": "Kill Switch automatically blocks your internet connection if the VPN suddenly disconnects. This protects your data from leaking over an unprotected channel.",
+          "link": null
+        }
+      ]
+    }
+  ]
+}

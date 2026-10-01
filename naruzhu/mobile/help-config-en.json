@@ -1,0 +1,67 @@
+{
+  "main_description": "We've gathered answers to the most frequently asked questions. If you didn't find yours, message our support team.",
+  "topics": [
+    {
+      "id": "frequently_asked_questions",
+      "title": "Frequently asked questions",
+      "questions": [
+        {
+          "id": "how_many_devices_connect",
+          "title": "How many devices can I connect?",
+          "type": "text",
+          "text": "You can connect and use up to 10 devices at the same time, including smartphones, laptops, TVs, tablets, and even a router.",
+          "link": null
+        },
+        {
+          "id": "suitable_for_youtube",
+          "title": "Is your service good for watching YouTube?",
+          "type": "text",
+          "text": "Yes, VPN Naruzhu solves the problem of access and throttling on the video platform, letting you watch your favorite videos without restrictions.",
+          "link": null
+        },
+        {
+          "id": "is_data_safe",
+          "title": "Is my data safe?",
+          "type": "text",
+          "text": "Yes, your data and information about the resources you visit are never stored or shared with anyone. Protecting your privacy is one of our priorities.",
+          "link": null
+        },
+        {
+          "id": "cancel_after_trial",
+          "title": "Can I cancel after the trial period?",
+          "type": "text",
+          "text": "Yes, after the 7-day free trial ends, you can decline to renew your plan. What's more, you don't need to provide card details to activate the trial.",
+          "link": null
+        },
+        {
+          "id": "what_data_needed_for_start",
+          "title": "What information do I need to get started?",
+          "type": "text",
+          "text": "To activate the trial period, you only need to provide an email address. Card details are not required.",
+          "link": null
+        },
+        {
+          "id": "which_countries_available",
+          "title": "Which countries can I connect to with VPN Naruzhu?",
+          "type": "text",
+          "text": "We offer more than 30 countries to choose from: UAE, Armenia, Austria, Australia, Belgium, Bulgaria, Brazil, Canada, Switzerland, Czechia, Germany, Denmark, Estonia, Spain, Finland, France, United Kingdom, Georgia, Hong Kong, Hungary, Ireland, Israel, Italy, Japan, Kazakhstan, Latvia, Netherlands, Norway, Poland, Romania, Serbia, Singapore, Turkey, Ukraine, USA.",
+          "link": null
+        },
+        {
+          "id": "how_to_connect_modes",
+          "title": "Connecting",
+          "type": "text",
+          "text": "Tap the “Connect” button to turn on the VPN.\n\nSmart mode automatically splits your traffic: Russian sites open through Russia, foreign sites through servers abroad. This is the optimal mode for stable, convenient use, and we recommend using it by default.\n\nDirect mode routes all traffic through servers abroad. It's useful if some foreign sites don't open in smart mode. Note: in this mode you're identified as a user located abroad, so some Russian services may be unavailable.\n\nYou can choose one of 35 available countries or leave the “Any country” option selected. In that case, the system will automatically pick the optimal location for the best connection.",
+          "link": null
+        },
+        {
+          "id": "code_not_received",
+          "title": "The code isn't arriving",
+          "type": "text",
+          "text": "If the email with the code doesn't arrive, please check your “Spam”, “Promotions”, and “Trash” folders.",
+          "link": null
+        }
+      ]
+    }
+  ]
+}

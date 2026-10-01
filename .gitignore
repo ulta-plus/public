@@ -1,2 +1,5 @@
 .DS_Store
 .idea
+.claude
+.mcp.json
+.pac-generator

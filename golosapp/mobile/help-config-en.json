@@ -1,0 +1,181 @@
+{
+  "main_description": "We've gathered answers to frequently asked questions. If you didn't find yours, message us in the chat on our website or at help@golos.one.",
+  "topics": [
+    {
+      "id": "about_service",
+      "title": "About the service",
+      "questions": [
+        {
+          "id": "what_is_golos",
+          "title": "What is Golos",
+          "type": "text",
+          "text": "Golos is a service for accessing YouTube and other blocked resources. It comes in three versions: an Android app, a Windows app, and a browser extension. They all work with one subscription.",
+          "link": null
+        },
+        {
+          "id": "supported_devices",
+          "title": "Which devices does Golos work on",
+          "type": "text",
+          "text": "On Android smartphones and tablets, on Windows computers, and in the browser via the extension.",
+          "link": null
+        },
+        {
+          "id": "vpn_region",
+          "title": "What region is the VPN in",
+          "type": "text",
+          "text": "The servers change constantly, so the connection region changes accordingly.",
+          "link": null
+        }
+      ]
+    },
+    {
+      "id": "installation",
+      "title": "Installing the app",
+      "questions": [
+        {
+          "id": "install_android",
+          "title": "How to install the app on Android",
+          "type": "text",
+          "text": "1) Download the APK file from [our website](https://golos.one/landing/). Don't download Golos from third-party sources, as fakes can be found there. 2) Run the file. Android will ask you to allow installation from unknown sources; the installation won't start without it. 3) If Play Protect warns you about an unknown app, tap “Install anyway”. 4) We'll notify you about new versions by email at the address you used to sign up.",
+          "link": null
+        },
+        {
+          "id": "install_pc",
+          "title": "How to install the app on a computer",
+          "type": "text",
+          "text": "1) Download the Golos app for Windows from [our website](https://golos.one/landing/). 2) Run the installer. If Windows shows the “Windows protected your PC” warning, click “More info”, then “Run anyway”. 3) After installation, sign in with the email your subscription is registered with.",
+          "link": null
+        },
+        {
+          "id": "browser_extension",
+          "title": "How to install the browser extension",
+          "type": "text",
+          "text": "The Golos extension is installed from the [Chrome Web Store](https://chromewebstore.google.com/detail/%D0%B3%D0%BE%D0%BB%D0%BE%D1%81-vpn-%D0%B4%D0%BB%D1%8F-%D0%B4%D0%BE%D1%81%D1%82%D1%83%D0%BF%D0%B0-%D0%BA-y/ocionjkjaapcailghfnhnjkpapepelib). After installation, sign in with the email your subscription is registered with.",
+          "link": null
+        }
+      ]
+    },
+    {
+      "id": "subscription",
+      "title": "Subscription",
+      "questions": [
+        {
+          "id": "free_version",
+          "title": "Is there a free version",
+          "type": "text",
+          "text": "Yes. On Android, the “YouTube Only” mode works for free. The list of free services will grow. Everything else is available with a subscription.",
+          "link": null
+        },
+        {
+          "id": "subscription_price",
+          "title": "How much does the subscription cost",
+          "type": "text",
+          "text": "549 ₽ per month or 5,388 ₽ per year, which is 449 ₽ per month.",
+          "link": null
+        },
+        {
+          "id": "payment_methods",
+          "title": "How can I pay for the subscription",
+          "type": "text",
+          "text": "With Mir, Visa, and Mastercard cards, via SBP (Faster Payments System), or with cryptocurrency.",
+          "link": null
+        },
+        {
+          "id": "devices_limit",
+          "title": "How many devices are included in the subscription",
+          "type": "text",
+          "text": "Up to 10 devices at the same time. To sign in, use the email your subscription is registered with.",
+          "link": null
+        },
+        {
+          "id": "how_to_extend",
+          "title": "How to renew your plan",
+          "type": "text",
+          "text": "Open the Golos app, tap “Buy plan”, choose a payment method, and confirm the purchase. You can also renew your subscription in your personal account on the website. After payment, your subscription will be renewed automatically.",
+          "link": null
+        }
+      ]
+    },
+    {
+      "id": "account",
+      "title": "Account and sign-in",
+      "questions": [
+        {
+          "id": "forgot_email",
+          "title": "I forgot my email",
+          "type": "text",
+          "text": "Try to remember which addresses you might have used during registration. If that doesn't work, send your payment receipt to the chat on our website or to help@golos.one, and we'll help you restore access.",
+          "link": null
+        },
+        {
+          "id": "reset_devices",
+          "title": "Please reset all devices on my account",
+          "type": "text",
+          "text": "Message us in the chat on our website or at help@golos.one and include the email your subscription is registered with.",
+          "link": null
+        }
+      ]
+    },
+    {
+      "id": "connection_problems",
+      "title": "Connection problems",
+      "questions": [
+        {
+          "id": "changed_server_nothing_changed",
+          "title": "I changed the server, but nothing changed",
+          "type": "text",
+          "text": "Follow these steps in order: 1) Check your connection type. Does YouTube open over Wi-Fi? If it works over Wi-Fi but not over mobile data, your carrier uses “allow lists”, and Golos needs Wi-Fi to work. 2) Remove other VPN and proxy extensions on your device. 3) Open your device Settings, find the “DNS” section and set it to “Off”, then restart your device.",
+          "link": null
+        },
+        {
+          "id": "youtube_not_working",
+          "title": "YouTube isn't working",
+          "type": "text",
+          "text": "To help solve the problem, send us: 1) The email your subscription is registered with. 2) Technical information from the app. Open the “Help” section and tap “Support”; the data will be copied automatically. Paste it into a message and send it to us in the chat on our website or to help@golos.one.",
+          "link": null
+        },
+        {
+          "id": "endless_loading",
+          "title": "Endless loading when connecting",
+          "type": "text",
+          "text": "To help solve the problem, send us: 1) The email your subscription is registered with. 2) Technical information from the app. Open the “Help” section and tap “Support”; the data will be copied automatically. Paste it into a message and send it to us in the chat on our website or to help@golos.one.",
+          "link": null
+        },
+        {
+          "id": "app_disconnects",
+          "title": "The app disconnects on its own every 5 minutes",
+          "type": "text",
+          "text": "To help solve the problem, send us: 1) The email your subscription is registered with. 2) Technical information from the app. Open the “Help” section and tap “Support”; the data will be copied automatically. Paste it into a message and send it to us in the chat on our website or to help@golos.one.",
+          "link": null
+        }
+      ]
+    },
+    {
+      "id": "troubleshooting",
+      "title": "Troubleshooting",
+      "questions": [
+        {
+          "id": "ads_with_premium",
+          "title": "Why do I see ads with a paid subscription",
+          "type": "text",
+          "text": "Ads can appear in “All Internet” mode — that's how this mode works. If you see ads in “YouTube Only” mode, message us in the chat on our website or at help@golos.one and include the email your subscription is registered with.",
+          "link": null
+        },
+        {
+          "id": "code_not_arriving",
+          "title": "The code isn't arriving in my email",
+          "type": "text",
+          "text": "Check your “Spam” and “Promotions” folders — the email often ends up there. If there's no email, message us in the chat on our website or at help@golos.one and include the email you registered your subscription with.",
+          "link": null
+        },
+        {
+          "id": "cant_install_android_app",
+          "title": "I can't install the app on my Android phone",
+          "type": "text",
+          "text": "To install, try using the APK file. Download it from the website and run it on your device.",
+          "link": null
+        }
+      ]
+    }
+  ]
+}
