@@ -97,5 +97,6 @@
       "periodInMinutes": 1,
       "delayInMinutes": 3
     }
-  }
+  },
+  "clearDataVersion": ""
 }
