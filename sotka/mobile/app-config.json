@@ -22,5 +22,8 @@
     "is_no_key_button_visible": false,
     "support_chat_url": "https://sotka.cloud/support",
     "hybrid_storefront_country_codes": ["*"],
-    "hybrid_storefront_geo_ip_country_codes": ["*"]
+    "hybrid_storefront_geo_ip_country_codes": ["*"],
+    "is_whitelist_alert_enabled": true,
+    "whitelist_alert_foreground_interval_minutes": 30,
+    "whitelist_alert_url": "https://storage.yandexcloud.net/vpnn-web-configs/sotka/BC/sotka.html"
 }
