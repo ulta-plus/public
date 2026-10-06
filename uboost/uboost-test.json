@@ -260,7 +260,7 @@
       "delayInMinutes": 0.5
     },
     "proxyHealthCheck": {
-      "periodInMinutes": 5
+      "periodInMinutes": 6
     },
     "updateSubscriptionInfo": {
       "periodInMinutes": 5,
