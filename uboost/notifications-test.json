@@ -1,0 +1,25 @@
+[
+  {
+    "id": "welcome-free-en-001",
+    "title": "Welcome!",
+    "description": "Discover all available VPN locations.",
+    "lang": "en",
+    "audience": "free",
+    "button": {
+      "text": "Learn more",
+      "action": "open_url",
+      "url": "https://example.com/vpn"
+    }
+  },
+  {
+    "id": "welcome-free-ru-001",
+    "title": "Добро пожаловать!",
+    "description": "Узнайте больше о доступных VPN-серверах.",
+    "lang": "ru",
+    "audience": "free",
+    "button": {
+      "text": "Закрыть",
+      "action": "dismiss"
+    }
+  }
+]
