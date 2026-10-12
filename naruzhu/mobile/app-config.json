@@ -50,7 +50,7 @@
     "hybrid_storefront_geo_ip_country_codes": ["*"],
     "is_country_selector_enabled": true,
     "is_change_server_enabled": true,
-    "is_vpn_protocol_selector_enabled": false,
+    "is_vpn_protocol_selector_enabled": true,
     "paywall_title2_part2": "по платной подписке.",
     "dashboard_subtitle_text": "Умный ВПН на русском языке",
     "paywall_title2_part1": "Безлимитный доступ ",
