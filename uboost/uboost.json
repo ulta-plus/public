@@ -171,7 +171,7 @@
       "text": "YouBoost Website"
     }
   },
-  "supportUrl": "https://ubst.club/main/support/ext",
+  "supportUrl": "https://ubst.app/main/support/ext",
   "manualFreeServerChangeCooldownInMinutes": 720,
   "manualPremiumServerChangeCooldownInMinutes": 3,
   "alarms": {
