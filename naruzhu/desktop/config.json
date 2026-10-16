@@ -7,7 +7,7 @@
     "is_change_server_enabled": true,
     "is_invite_code_on_login_enabled": false,
     "is_background_config_refresh_enabled": true,
-    "config_refresh_interval_minutes": 720,
+    "config_refresh_interval_minutes": 10,
     "update_info": {
         "available_version": "1.0.0.3",
         "download_url": "https://storage.uubb.website/naruzhu_1.0.0.3.zip"
@@ -18,6 +18,18 @@
             "type": "toggle",
             "default_value": "false",
             "title": "Локальная маршрутизация"
+        },
+        {
+            "key": "vpn_type",
+            "type": "select",
+            "title": "Протокол подключения",
+            "description": "Auto — следовать серверу; AWG / VLESS — принудительно",
+            "default_value": "auto",
+            "select_options": [
+                { "label": "Auto",  "value": "auto"  },
+                { "label": "AWG",   "value": "awg"   },
+                { "label": "VLESS", "value": "vless" }
+            ]
         }
     ],
     "connections": [
