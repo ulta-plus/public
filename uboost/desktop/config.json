@@ -10,6 +10,20 @@
         "available_version": "1.0.0.5",
         "download_url": "https://storage.uubb.website/uboost-desktop/uboost-1.0.0.5.zip"
     },
+    "settings": [
+      {
+        "key": "vpn_type",
+        "type": "select",
+        "title": "Протокол подключения",
+        "description": "Auto — следовать серверу; AWG / VLESS — принудительно",
+        "default_value": "auto",
+        "select_options": [
+          { "label": "Auto",  "value": "auto"  },
+          { "label": "AWG",   "value": "awg"   },
+          { "label": "VLESS", "value": "vless" }
+        ]
+      }
+    ],
     "connections": [
         {
             "title": "Только YouTube",
