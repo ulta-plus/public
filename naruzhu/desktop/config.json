@@ -9,8 +9,8 @@
     "is_background_config_refresh_enabled": true,
     "config_refresh_interval_minutes": 720,
     "update_info": {
-        "available_version": "1.0.0.2",
-        "download_url": "https://storage.uubb.website/naruzhu_1.0.0.2.zip"
+        "available_version": "1.0.0.3",
+        "download_url": "https://storage.uubb.website/naruzhu_1.0.0.3.zip"
     },
     "settings": [
         {
