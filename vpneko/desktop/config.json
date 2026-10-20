@@ -10,20 +10,6 @@
         "available_version": "1.0.0.1",
         "download_url": "https://storage.uubb.website/uboost-1.0.0.6.zip"
     },
-    "settings": [
-      {
-        "key": "vpn_type",
-        "type": "select",
-        "title": "Протокол подключения",
-        "description": "Auto — следовать серверу; AWG / VLESS — принудительно",
-        "default_value": "auto",
-        "select_options": [
-          { "label": "Auto",  "value": "auto"  },
-          { "label": "AWG",   "value": "awg"   },
-          { "label": "VLESS", "value": "vless" }
-        ]
-      }
-    ],
     "connections": [
 
         {
