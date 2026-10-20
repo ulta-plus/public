@@ -43,21 +43,14 @@
           "id": "how_free_plan_works",
           "title": "How the free plan works",
           "type": "text",
-          "text": "Watch a short ad and get 23 minutes of a stable VPN connection. There are no speed limits. Ads are shown only before a session starts — never while the VPN is running.",
+          "text": "Without a subscription, the VPN is available for 20 minutes a day. No ads and no speed limits.",
           "link": null
         },
         {
           "id": "how_to_extend_session",
-          "title": "How to extend a free session",
+          "title": "What to do when the free time runs out",
           "type": "text",
-          "text": "You'll get a notification 2 minutes before the session ends. Tap \"Extend with an ad\" in the app, watch a new ad, and your connection will continue for another 23 minutes.",
-          "link": null
-        },
-        {
-          "id": "session_limits",
-          "title": "Is there a limit on the number of sessions",
-          "type": "text",
-          "text": "No, you can extend sessions as many times in a row as you like.",
+          "text": "The free limit resets every day. To use the VPN without time limits, get a premium subscription.",
           "link": null
         }
       ]
@@ -70,7 +63,7 @@
           "id": "what_premium_gives",
           "title": "What premium gives you",
           "type": "text",
-          "text": "Unlimited time and traffic — stay connected as long as you want. No ads — neither when connecting nor in the app. Multiple devices — use one account on several phones or tablets. Priority support — your questions get handled first. Favorite servers — quick access to your preferred locations.",
+          "text": "Unlimited time and traffic — stay connected as long as you want. Multiple devices — use one account on several phones or tablets. Priority support — your questions get handled first. Favorite servers — quick access to your preferred locations.",
           "link": null
         },
         {
@@ -84,7 +77,7 @@
           "id": "how_to_upgrade",
           "title": "How to upgrade to premium",
           "type": "text",
-          "text": "Tap the \"Upgrade to premium\" button on the app's main screen. You'll see the available plans — pick one, and your connection will immediately become unlimited and ad-free.",
+          "text": "Tap the \"Upgrade to premium\" button on the app's main screen. You'll see the available plans — pick one, and your connection will immediately become unlimited.",
           "link": null
         },
         {
@@ -184,7 +177,7 @@
       "questions": [
         {
           "id": "premium_but_ads_showing",
-          "title": "I bought premium, but ads are still showing",
+          "title": "I bought premium, but access is still limited",
           "type": "text",
           "text": "Make sure you're signed in to the account you made the purchase with. Restart the app. If the problem persists, message us with the email your subscription was purchased with.",
           "link": null
