@@ -2,7 +2,7 @@
     "api_base_url": "https://api.neko.homes",
     "support_link": "https://telegram.me/vpneko_help_bot",
     "support_chat_url": "https://vpneko.website/landing/support",
-    "support_email": "help@uboost.live",
+    "support_email": "help@vpneko.website",
     "is_change_server_enabled": true,
     "is_background_config_refresh_enabled": true,
     "config_refresh_interval_minutes": 2,
