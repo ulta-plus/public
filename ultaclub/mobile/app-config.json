@@ -36,5 +36,8 @@
     "should_override_payment_link_to_support": true,
     "support_chat_url": "https://ulta.cat/landing/support",
     "is_mobile_app_review_enabled": true,
-    "is_no_key_button_visible": false
+    "is_no_key_button_visible": false,
+    "is_whitelist_alert_enabled": true,
+    "whitelist_alert_foreground_interval_minutes": 30,
+    "whitelist_alert_url": "https://storage.yandexcloud.net/vpnn-web-configs/ultaclub/BC/ulta.html"
 }
