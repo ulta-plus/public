@@ -43,6 +43,7 @@
     },
     "yandex_ad_identifier": "R-M-18412849-1",
     "is_mobile_app_review_enabled": true,
+    "is_mobile_free_mode_v1_enabled": true,
     "eula_config": {
         "message": "Нажимая «Продолжить», я принимаю Политику конфиденциальности и правила использования и подтверждаю, что приложение будет использоваться мной в соответствии с законами страны пребывания. Приложение не предназначено для обхода блокировок.",
         "term_of_use_url": "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
