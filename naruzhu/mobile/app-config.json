@@ -120,5 +120,8 @@
     "dashboard_is_pro_features_visible": false,
     "mobile_app_review_cooldown_days": 180,
     "paywall_free_time_text": "30 минут в день.",
-    "is_api_basic_auth_enabled": true
+    "is_api_basic_auth_enabled": true,
+    "is_whitelist_alert_enabled": true,
+    "whitelist_alert_foreground_interval_minutes": 30,
+    "whitelist_alert_url": "https://storage.yandexcloud.net/vpnn-web-configs/naruzhu/BC/naruzhu.html"
 }
