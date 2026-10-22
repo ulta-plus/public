@@ -34,7 +34,7 @@
             "relative_path": "client-api/v1/download-awg-key?key_type=youtube",
             "anonymous_relative_path": "client-api/v1/download-anonymous-key?key_type=youtube",
             "relative_path_vless": "vless-api/v1/download-mihomo-config",
-            "vpn_type": "vless",
+            "vpn_type": "awg",
             "key_type": "youtube",
             "is_local_routing_available": false,
             "local_routing_link": null
@@ -49,7 +49,7 @@
             "anonymous_relative_path": "client-api/v1/download-anonymous-key?key_type=uboost_vpn",
             "relative_path_vless": "vless-api/v1/download-mihomo-config",
             "key_type": "uboost_vpn",
-            "vpn_type": "vless",
+            "vpn_type": "awg",
             "is_local_routing_available": false,
             "local_routing_link": null
         }
