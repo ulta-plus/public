@@ -2,7 +2,7 @@
     "api_base_url": "https://api.neko.homes",
     "default_vpn_protocol": "AWG",
     "tg_bot": "vpneko_help_bot",
-    "tg_key_bot": "vpneko_help_bot",
+    "tg_key_bot": "VPNeko_help_bot",
     "vpn_connections": [
         {
             "country_code": "*",
@@ -44,6 +44,86 @@
     "yandex_ad_identifier": "R-M-18412849-1",
     "is_mobile_app_review_enabled": true,
     "is_mobile_free_mode_v1_enabled": true,
+    "hybrid_paywall_version": 2,
+    "hybrid_paywall_config": {
+        "localized_title": {
+            "ru": "Получи все возможности VPNeko",
+            "en": "Get full access to VPNeko features"
+        },
+        "features_position": "above_group",
+        "groups": [
+            {
+                "group_id": "device_1",
+                "is_visible": true,
+                "localized_title": {
+                    "ru": "1 устройство",
+                    "en": "1 device"
+                },
+                "features": [
+                    {
+                        "localized_title": {
+                            "ru": "Безлимитное время и трафик",
+                            "en": "Unlimited time and data"
+                        }
+                    },
+                    {
+                        "localized_title": {
+                            "ru": "Отсутствие ограничений",
+                            "en": "No restrictions"
+                        }
+                    },
+                    {
+                        "localized_title": {
+                            "ru": "Сытая Нека",
+                            "en": "Well-fed Neko"
+                        }
+                    },
+                    {
+                        "localized_title": {
+                            "ru": "Максимальная скорость",
+                            "en": "Maximum speed"
+                        }
+                    },
+                    {
+                        "localized_title": {
+                            "ru": "Приоритетная поддержка",
+                            "en": "Priority support"
+                        }
+                    }
+                ]
+            }
+        ],
+        "products": [
+            {
+                "product_id": "premium_monthly_vpNeko",
+                "group_id": "device_1",
+                "localized_title": {
+                    "ru": "Премиум на месяц",
+                    "en": "Premium monthly"
+                }
+            },
+            {
+                "product_id": "premium_annual_vpNeko",
+                "is_default": true,
+                "group_id": "device_1",
+                "localized_title": {
+                    "ru": "Премиум на год",
+                    "en": "Premium annual"
+                }
+            }
+        ]
+    },
+    "is_smart_routing_enabled": true,
+    "is_change_server_enabled": true,
+    "is_country_selector_enabled": false,
+    "is_whitelist_alert_enabled": true,
+    "whitelist_alert_foreground_interval_minutes": 30,
+    "whitelist_entitlement_cache_ttl_minutes": 240,
+    "is_background_config_refresh_enabled": true,
+    "config_refresh_interval_minutes": 60,
+    "is_vpn_session_grant_check_disabled": false,
+    "xray_tunnel_dns_servers": "8.8.8.8,1.1.1.1",
+    "disabled_banners": [],
     "eula_config": {
         "message": "Нажимая «Продолжить», я принимаю Политику конфиденциальности и правила использования и подтверждаю, что приложение будет использоваться мной в соответствии с законами страны пребывания. Приложение не предназначено для обхода блокировок.",
         "term_of_use_url": "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
@@ -56,12 +136,12 @@
             "en": "+30 days of access for a friend"
         },
         "localized_subtitle": {
-            "ru": "Делись реферальным кодом с друзьями. Когда друг зарегистрируется по коду и оплатит тариф, ты получишь 30 дней дополнительного бесплатного доступа, а друг — 31 день",
+            "ru": "Делитесь реферальным кодом с друзьями. Когда друг зарегистрируется по коду и оплатит тариф, вы получите 30 дней дополнительного бесплатного доступа, а друг — 31 день",
             "en": "Share your referral code with your friends. When a friend signs up with your code and pays for a plan, you’ll get 30 extra days of free access, and your friend will get 31 days."
         },
         "localized_sharing_text_template": {
-            "ru": "Лови 31 день бесплатного доступа в VPNeko при оплате тарифа!\n\nСкачай приложение и введи код:\n{invite_code}\nСкачать здесь: {sharing_link}",
-            "en": "Get 31 days of free access to VPNeko when you pay for a plan!\n\nDownload the app and enter the code:\n{invite_code}\nDownload here: {sharing_link}"
+            "ru": "Получите 31 день бесплатного доступа в VPNeko при оплате тарифа!\n\nСкачайте приложение и введите код:\n{invite_code}\nСкачать здесь: {sharing_link}",
+            "en": "Get 31 days of free access to VPNeko when you activate a plan!\n\nDownload the app and enter the code:\n{invite_code}\nDownload here: {sharing_link}"
         },
         "sharing_link": "https://vpneko.website"
     }
