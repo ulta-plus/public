@@ -6,17 +6,24 @@
       "title": "About the service",
       "questions": [
         {
+          "id": "shared_subscription",
+          "title": "One subscription for all devices",
+          "type": "text",
+          "text": "Your Uboost subscription is shared: it works in the Android, iOS, Android TV and PC apps and in the browser extension. Sign in with your email in the app or the extension — not as a guest or with an ID. If your subscription or trial is already active, it will appear on your other devices automatically as soon as you sign in with the same email. The trial is shared too and is given once per email.",
+          "link": null
+        },
+        {
           "id": "what_is_uboost",
           "title": "What is Uboost",
           "type": "text",
-          "text": "Uboost is a service for accessing YouTube and other blocked resources. It comes in several versions: an app for Android/iOS/Android TV, a desktop app, and a browser extension. These are different products with separate subscriptions.",
+          "text": "Uboost is a service for accessing YouTube and other blocked resources. There is an app for Android/iOS/Android TV, a desktop app and a browser extension. All versions share one subscription.",
           "link": null
         },
         {
           "id": "products_difference",
           "title": "How the Uboost versions differ",
           "type": "text",
-          "text": "Uboost Android/iOS is an app for Android, Android TV, and iOS devices. The subscription costs 199 rubles per month or 549 rubles for 3 months, and you can connect up to 5 devices. Uboost for PC is a full-featured desktop app. The Uboost browser extension starts at 149 rubles per month, supports up to 10 devices, and after purchase you receive an ID to log in. We'll soon have a unified subscription — follow the news in our Telegram channel.",
+          "text": "Uboost for Android/iOS is an app for smartphones, tablets and Android TV. Uboost for PC is a full-featured desktop app. Uboost for browsers is an extension for Chrome and other browsers. One subscription covers all versions; plans differ by the number of devices.",
           "link": null
         },
         {
@@ -78,7 +85,7 @@
           "id": "browser_extension",
           "title": "How to install the browser extension",
           "type": "text",
-          "text": "The Uboost extension can be installed for free from the [Chrome Web Store](https://chromewebstore.google.com/detail/%D1%8E%D0%B1%D1%83%D1%81%D1%82-vpn-%D0%B4%D0%BB%D1%8F-youtube-%D0%BE%D0%B1%D1%85/jddgbeighonaipjikdnfdpiefhoomlae). After purchasing a subscription, you'll receive an ID to log in. A full-featured desktop app is also available for PC.",
+          "text": "The Uboost extension can be installed for free from the [Chrome Web Store](https://chromewebstore.google.com/detail/%D1%8E%D0%B1%D1%83%D1%81%D1%82-vpn-%D0%B4%D0%BB%D1%8F-youtube-%D0%BE%D0%B1%D1%85/jddgbeighonaipjikdnfdpiefhoomlae). Sign in to the extension with your email so your subscription is shared with the apps. A full-featured desktop app is also available for PC.",
           "link": null
         }
       ]
@@ -98,7 +105,7 @@
           "id": "devices_limit",
           "title": "How many devices are included in the subscription",
           "type": "text",
-          "text": "With a mobile app subscription, you can use up to 5 Android/iOS devices at the same time. To sign in on each of them, use the email address the access was purchased with.",
+          "text": "The number of devices depends on your plan. The limit is counted separately for the apps and for the extension: for example, a 5-device plan means up to 5 apps and up to 5 extensions. On each device, sign in with the email the subscription was purchased with.",
           "link": null
         },
         {
@@ -112,14 +119,14 @@
           "id": "phone_subscription_for_pc",
           "title": "I paid for a subscription on my phone — how do I use it on PC",
           "type": "text",
-          "text": "The Uboost mobile app, the desktop app, and the browser extension are different products with separate subscriptions. A subscription to one of them does not grant access to another. We'll soon have a unified subscription — follow the news in our Telegram channel t.me/uboostrussia",
+          "text": "Install the desktop app or the browser extension and sign in with the same email you use on your phone. Your subscription will be connected automatically.",
           "link": null
         },
         {
           "id": "different_subscriptions",
           "title": "Do the app and the extension work with one subscription",
           "type": "text",
-          "text": "No, the Uboost mobile app, the desktop app, and the browser extension are different products with separate subscriptions. A subscription to one of them does not grant access to another. To use several types of devices, separate subscriptions are required for now.",
+          "text": "Yes, the subscription is shared between the apps and the extension as long as you sign in with the same email everywhere. If you signed in to the extension as a guest or with an ID, the subscription works only there.",
           "link": null
         }
       ]
@@ -139,7 +146,7 @@
           "id": "need_id",
           "title": "I need an ID",
           "type": "text",
-          "text": "The ID is used in the Uboost browser extension. The mobile app, the desktop app, and the extension are different products with separate subscriptions. If you have an extension subscription, send us your payment receipt as a file and we'll send you your ID.",
+          "text": "The ID is used in the Uboost browser extension if you signed in without an email. If you have an extension subscription, send us your payment receipt as a file and we'll send you your ID.",
           "link": null
         },
         {
