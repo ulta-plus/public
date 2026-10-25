@@ -1,0 +1,11 @@
+{
+    "api_base_url": "https://api.neko.homes",
+    "parent_product": "vpneko",
+    "support_link": "https://telegram.me/vpneko_help_bot",
+    "telegram_link": "https://t.me/VPNeko",
+    "vpn_download_link": "https://vpneko.website",
+    "shikimori_base_urls": [
+        "https://shikimori.io",
+        "https://shikimori.one"
+    ]
+}
