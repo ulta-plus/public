@@ -44,7 +44,7 @@
     "yandex_ad_identifier": "R-M-18412849-1",
     "is_mobile_app_review_enabled": true,
     "is_mobile_free_mode_v1_enabled": true,
-    "hybrid_paywall_version": 1,
+    "hybrid_paywall_version": 2,
     "hybrid_paywall_config": {
         "localized_title": {
             "ru": "Получи все возможности VPNeko",
