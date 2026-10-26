@@ -12,7 +12,7 @@
   "is_invite_code_on_login_enabled": true,
   "is_quick_login_enabled": false,
   "privacy_policy_url": "https://telegra.ph/Privacy-Policy-06-01-98",
-  "quick_login_url": "nrz.monster/quick-login",
+  "quick_login_url": "usenaruzhu.space/quick-login",
   "referral_program_config": {
     "is_enabled": false,
     "localized_title": {
@@ -36,18 +36,18 @@
   "tg_channel": "vpnnaruzhu",
   "tg_key_bot": "vpn_naruzhu_ops_bot",
   "update_config_android": {
-    "available_version": "0.0.0.0",
+    "available_version": "1.9.3.114",
     "available_update_localized_text": {
       "en": "Update your app",
       "ru": "Обновите версию приложения"
     },
-    "available_download_url": "",
+    "available_download_url": "https://usenaruzhu.space/landing/guides",
     "required_version": "0.0.0.0",
     "required_update_localized_text": {
       "en": "Required update",
       "ru": "Требуется обновить версию приложения"
     },
-    "required_download_url": ""
+    "required_download_url": "https://usenaruzhu.space/landing/guides"
   },
   "vpn_connections_android": [
     {
