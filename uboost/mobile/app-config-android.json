@@ -42,7 +42,7 @@
   "tg_channel": "uboostrussia",
   "tg_key_bot": "uboostv_ops_bot",
   "update_config_android": {
-    "available_version": "0.0.0.0",
+    "available_version": "1.9.3.114",
     "available_update_localized_text": {
       "en": "Update your app",
       "ru": "Обновите версию приложения"
