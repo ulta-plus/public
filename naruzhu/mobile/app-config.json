@@ -1,5 +1,5 @@
 {
-    "api_base_url": "https://api.awnr.site",
+    "api_base_url": "https://web-api.outlane.online",
     "default_vpn_protocol": "VLESS",
     "tg_bot": "vpn_naruzhu_ops_bot",
     "tg_key_bot": "vpn_naruzhu_ops_bot",
