@@ -1,5 +1,5 @@
 {
-  "api_base_url": "https://api.awnr.site",
+  "api_base_url": "https://api.narvo.site",
   "check_change_server_timeout_sec": 3,
   "guest_login_from_profile": false,
   "hybrid_paywall_config": {},
