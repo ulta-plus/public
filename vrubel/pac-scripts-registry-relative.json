@@ -1,0 +1,6 @@
+{
+  "free": "vrubel/free-pac-script.json",
+  "premium": "vrubel/premium-pac-script.json",
+  "freeLite": "vrubel/free-lite-pac-script.json",
+  "premiumLite": "vrubel/premium-lite-pac-script.json"
+}

@@ -1,0 +1,6 @@
+{
+  "free": "uboost/free-pac-script.json",
+  "premium": "uboost/premium-pac-script.json",
+  "freeLite": "uboost/free-lite-pac-script.json",
+  "premiumLite": "uboost/premium-lite-pac-script.json"
+}
