@@ -131,7 +131,7 @@
           "id": "changing_server_didnt_help",
           "title": "I changed the server, but nothing changed",
           "type": "text",
-          "text": "Follow these steps in order: 1) Check your connection type — does YouTube open over Wi-Fi? If it works over Wi-Fi but not over mobile data, your carrier uses “allow lists”, and Ulta needs Wi-Fi to work. 2) Remove/disable other VPN and proxy extensions on your device. To work when allow-list mode is enabled, we recommend using our separate product https://telegram.me/ultabelbot",
+          "text": "Follow these steps in order: 1) Check your connection type — does YouTube open over Wi-Fi? If it works over Wi-Fi but not over mobile data, your carrier uses “allow lists”, and Ulta needs Wi-Fi to work. 2) Remove/disable other VPN and proxy extensions on your device. To work when allow-list mode is enabled, we recommend using our [separate product](https://telegram.me/ultabelbot)",
           "link": null
         },
         {
