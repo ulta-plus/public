@@ -14,7 +14,7 @@
     "is_change_server_enabled": true,
     "is_invite_code_on_login_enabled": false,
     "update_info": {
-        "available_version": "1.0.2.0",
+        "available_version": "1.1.0.72",
         "download_url": "https://l.vpnn.io/sotka-zip"
     },
     "connections": [
