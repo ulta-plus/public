@@ -25,7 +25,7 @@
   "checkProxyAvailabilityProxyUrl": "https://uboost.space",
   "checkProxyAvailabilityPublicUrl": "https://ubst.space",
   "feedbackUrl": "script.google.com",
-  "supportUrl": "https://golos.live/support/ext",
+  "supportUrl": "https://golos.one/landing/support",
   "publicOfferUrl": "https://golos.fit/landing/docs/public_offer",
   "availablePaymentMethodsV3": [
     { "type": "sbp", "supportsAutoRenew": false }
