@@ -25,47 +25,27 @@
   "checkProxyAvailabilityProxyUrl": "https://uboost.space",
   "checkProxyAvailabilityPublicUrl": "https://ubst.space",
   "feedbackUrl": "script.google.com",
-  "supportUrl": " https://golos.live/support/ext",
+  "supportUrl": "https://golos.live/support/ext",
+  "publicOfferUrl": "https://golos.fit/landing/docs/public_offer",
+  "availablePaymentMethodsV3": [
+    { "type": "sbp", "supportsAutoRenew": false }
+  ],
   "subscriptionExpiringAlerts": {
     "firstTimingInMinutes": 60,
     "secondTimingInMinutes": 15,
     "delayedTimingInMinutes": 1440
   },
   "alarms": {
-    "updateFeaturesData": {
-      "periodInMinutes": 10,
-      "delayInMinutes": 10
-    },
-    "updatePacData": {
-      "delayInMinutes": 180
-    },
-    "updateProxyPremiumData": {
-      "periodInMinutes": 50,
-      "delayInMinutes": 50
-    },
-    "updatePacScriptToFullPAC": {
-      "delayInMinutes": 0.5
-    },
-    "restoreLitePAC": {
-      "delayInMinutes": 1440
-    },
-    "proxyHealthCheck": {
-      "periodInMinutes": 5
-    },
-    "updateSubscriptionInfo": {
-      "periodInMinutes": 1440,
-      "delayInMinutes": 1440
-    },
-    "updateExchangeRates": {
-      "periodInMinutes": 1440,
-      "delayInMinutes": 1440
-    },
-    "enableConnectionButton": {
-      "delayInMinutes": 1
-    },
-    "paymentStarted": {
-      "periodInMinutes": 1,
-      "delayInMinutes": 3
-    }
+    "updateFeaturesData": { "periodInMinutes": 10, "delayInMinutes": 10 },
+    "updatePacData": { "delayInMinutes": 180 },
+    "updateProxyPremiumData": { "periodInMinutes": 50, "delayInMinutes": 50 },
+    "updatePacScriptToFullPAC": { "delayInMinutes": 0.5 },
+    "restoreLitePAC": { "delayInMinutes": 1440 },
+    "proxyHealthCheck": { "periodInMinutes": 5 },
+    "updateSubscriptionInfo": { "periodInMinutes": 1440, "delayInMinutes": 1440 },
+    "updateExchangeRates": { "periodInMinutes": 1440, "delayInMinutes": 1440 },
+    "enableConnectionButton": { "delayInMinutes": 1 },
+    "paymentStarted": { "periodInMinutes": 1, "delayInMinutes": 3 },
+    "premiumCanceled": { "periodInMinutes": 1, "delayInMinutes": 1 }
   }
 }
