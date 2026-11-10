@@ -48,7 +48,7 @@
     "rollout": 1
   },
   "is-support-via-email": {
-    "rollout": 0
+    "rollout": 1
   },
   "is-support-not-via-tg": {
     "rollout": 1
