@@ -65,6 +65,9 @@
           "buttonLabel": "Оплата зарубежной картой",
           "isAvailableWithAutoRenewal": true,
           "translations": {
+            "ru": {
+              "buttonLabel": "Оплата зарубежной картой"
+            },
             "hy": {
               "buttonLabel": "Վճարել արտասահմանյան քարտով"
             }
@@ -79,6 +82,9 @@
           "type": "crypto",
           "buttonLabel": "Оплатить криптовалютой",
           "translations": {
+            "ru": {
+              "buttonLabel": "Оплатить криптовалютой"
+            },
             "hy": {
               "buttonLabel": "Վճարել կրիպտոարժույթով"
             }
@@ -241,6 +247,9 @@
           "buttonLabel": "Оплата зарубежной картой",
           "isAvailableWithAutoRenewal": true,
           "translations": {
+            "ru": {
+              "buttonLabel": "Оплата зарубежной картой"
+            },
             "hy": {
               "buttonLabel": "Վճարել արտասահմանյան քարտով"
             }
@@ -255,6 +264,9 @@
           "type": "crypto",
           "buttonLabel": "Оплатить криптовалютой",
           "translations": {
+            "ru": {
+              "buttonLabel": "Оплатить криптовалютой"
+            },
             "hy": {
               "buttonLabel": "Վճարել կրիպտոարժույթով"
             }
