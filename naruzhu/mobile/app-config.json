@@ -95,6 +95,7 @@
     "paywall_title1_part1": "Бесплатно ",
     "dashboard_premium_indicator_text": "🏆 Безлимит активирован",
     "is_mobile_free_mode_v1_enabled": false,
+    "is_smart_routing_enabled": true,
     "tg_channel": "vpnnaruzhu",
     "check_change_server_timeout_sec": 3,
     "paywall_restore_button_text": "🔄 Восстановить подписки",
