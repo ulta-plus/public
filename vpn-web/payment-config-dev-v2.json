@@ -60,40 +60,38 @@
       "paymentMethods": [
         {
           "order": 1,
-          "method": "sbp",
-          "active": true,
-          "minActivationAmount": 0,
-          "withMessage": null,
-          "type": "sbp",
-          "buttonLabel": "Оплата через СБП"
-        },
-        {
-          "order": 2,
-          "method": "card",
-          "active": true,
-          "minActivationAmount": 0,
-          "withMessage": null,
-          "type": "card",
-          "buttonLabel": "Карта РФ / ЮMoney / SberPay / T-Pay"
-        },
-        {
-          "order": 3,
           "method": "card_int",
           "active": true,
           "minActivationAmount": 0,
           "withMessage": null,
           "type": "card",
           "buttonLabel": "Оплата зарубежной картой",
-          "isAvailableWithAutoRenewal": true
+          "isAvailableWithAutoRenewal": true,
+          "translations": {
+            "ru": {
+              "buttonLabel": "Оплата зарубежной картой"
+            },
+            "hy": {
+              "buttonLabel": "Վճարել արտասահմանյան քարտով"
+            }
+          }
         },
         {
-          "order": 4,
+          "order": 2,
           "method": "crypto",
           "active": true,
           "minActivationAmount": 0,
           "withMessage": null,
           "type": "crypto",
-          "buttonLabel": "Оплатить криптовалютой"
+          "buttonLabel": "Оплатить криптовалютой",
+          "translations": {
+            "ru": {
+              "buttonLabel": "Оплатить криптовалютой"
+            },
+            "hy": {
+              "buttonLabel": "Վճարել կրիպտոարժույթով"
+            }
+          }
         }
       ],
       "profile": {
@@ -241,6 +239,53 @@
           "withMessage": null,
           "type": "crypto",
           "buttonLabel": "Оплатить криптовалютой"
+        }
+      ],
+      "profile": {
+        "refund_feature_enabled": true
+      }
+    },
+    "nrz.am": {
+      "fields": {
+        "period": true,
+        "autoRenewal": true,
+        "promocode": true
+      },
+      "paymentMethods": [
+        {
+          "order": 1,
+          "method": "card_int",
+          "active": true,
+          "minActivationAmount": 0,
+          "withMessage": null,
+          "type": "card",
+          "buttonLabel": "Оплата зарубежной картой",
+          "isAvailableWithAutoRenewal": true,
+          "translations": {
+            "ru": {
+              "buttonLabel": "Оплата зарубежной картой"
+            },
+            "hy": {
+              "buttonLabel": "Վճարել արտասահմանյան քարտով"
+            }
+          }
+        },
+        {
+          "order": 2,
+          "method": "crypto",
+          "active": true,
+          "minActivationAmount": 0,
+          "withMessage": null,
+          "type": "crypto",
+          "buttonLabel": "Оплатить криптовалютой",
+          "translations": {
+            "ru": {
+              "buttonLabel": "Оплатить криптовалютой"
+            },
+            "hy": {
+              "buttonLabel": "Վճարել կրիպտոարժույթով"
+            }
+          }
         }
       ],
       "profile": {
