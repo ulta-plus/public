@@ -16,7 +16,7 @@
         "type": "select",
         "title": "Протокол подключения",
         "description": "Auto — следовать серверу; AWG / VLESS — принудительно",
-        "default_value": "auto",
+        "default_value": "awg",
         "select_options": [
           { "label": "Auto",  "value": "auto"  },
           { "label": "AWG",   "value": "awg"   },
