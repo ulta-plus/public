@@ -291,6 +291,54 @@
       "profile": {
         "refund_feature_enabled": true
       }
+    },
+    "naruzhu.space": {
+      "fields": {
+        "period": true,
+        "autoRenewal": true,
+        "promocode": true
+      },
+      "paymentMethods": [
+        {
+          "order": 1,
+          "method": "sbp",
+          "active": true,
+          "minActivationAmount": 0,
+          "withMessage": null,
+          "type": "sbp",
+          "buttonLabel": "Оплата через СБП",
+          "isAvailableWithAutoRenewal": false
+        },
+        {
+          "order": 2,
+          "method": "card",
+          "active": true,
+          "minActivationAmount": 0,
+          "withMessage": null,
+          "type": "card",
+          "buttonLabel": "Карта РФ / ЮMoney / SberPay / T-Pay",
+          "isAvailableWithAutoRenewal": true
+        },
+        {
+          "order": 3,
+          "method": "card_int",
+          "active": true,
+          "minActivationAmount": 0,
+          "withMessage": null,
+          "type": "card",
+          "buttonLabel": "Оплата зарубежной картой",
+          "isAvailableWithAutoRenewal": true
+        },
+        {
+          "order": 4,
+          "method": "crypto",
+          "active": true,
+          "minActivationAmount": 0,
+          "withMessage": null,
+          "type": "crypto",
+          "buttonLabel": "Оплатить криптовалютой"
+        }
+      ]
     }
   },
   "naoborot": {
