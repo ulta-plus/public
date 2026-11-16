@@ -1,10 +1,17 @@
 {
-  "main_description": "We've gathered answers to the most frequently asked questions. If you didn't find yours, message our support team.",
+  "main_description": "Connection issues are possible right now: if the VPN won't connect, select the AWG or Auto protocol in settings. If that doesn't help, message our support team.",
   "topics": [
     {
       "id": "frequently_asked_questions",
       "title": "Frequently asked questions",
       "questions": [
+        {
+          "id": "emergency_switch_to_awg",
+          "title": "VPN won't connect? Switch to AWG",
+          "type": "text",
+          "text": "Some servers are currently having connection issues with the VLESS protocol. Open the app settings, select the AWG or Auto protocol, and connect again. We're already working on a fix.",
+          "link": null
+        },
         {
           "id": "how_many_devices_connect",
           "title": "How many devices can I connect?",
