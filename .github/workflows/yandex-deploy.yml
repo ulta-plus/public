@@ -4,6 +4,13 @@ on:
   push:
     branches:
       - main
+  # By hand, for files a push didn't deploy (e.g. the workflow didn't run): only those files are
+  # uploaded, still limited to ALLOWED_DIRS.
+  workflow_dispatch:
+    inputs:
+      files:
+        description: Space-separated repo paths, e.g. golosapp/pac-scripts-registry-relative.json
+        required: true
 
 env:
   ACCESS_KEY_ID: ${{ secrets.YANDEX_ACCESS_KEY_ID }}
@@ -22,7 +29,23 @@ jobs:
           fetch-depth: 0
 
       - id: changed-files
+        env:
+          INPUT_FILES: ${{ inputs.files }}
         run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            FILES=""
+            for file in $INPUT_FILES; do
+              # Plain repo paths only: no traversal, no shell metacharacters.
+              if [[ "$file" =~ ^[A-Za-z0-9._/-]+$ && "$file" != *..* ]]; then
+                FILES="$FILES $file"
+              else
+                echo "Skipping invalid path: $file"
+              fi
+            done
+            echo "files=$FILES" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+
           # Use the push event range (before -> after) so changes from ALL pushed
           # commits are captured, including those merged in via a merge commit
           # (git diff HEAD^ HEAD only compares against the first parent and misses them).
