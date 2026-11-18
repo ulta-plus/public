@@ -1,0 +1,53 @@
+{
+    "api_base_url": "https://api.glss.online",
+    "vpn_connections": [
+        {
+            "country_code": "*",
+            "title": "Только YouTube",
+            "configuration_url": null,
+            "vpn_type": "wg",
+            "is_api_basic_auth_enabled": false,
+            "relative_path": "client-api/v1/download-awg-key?key_type=awg_golos_youtube",
+            "anonymous_relative_path": "client-api/v1/download-anonymous-key?key_type=awg_golos_youtube",
+            "key_type": "awg_golos_youtube",
+            "title_localized": {
+                "ru": "Только YouTube",
+                "en": "YouTube only"
+            }
+        },
+        {
+            "country_code": "*",
+            "title": "Весь интернет",
+            "configuration_url": null,
+            "vpn_type": "wg",
+            "is_api_basic_auth_enabled": false,
+            "relative_path": "client-api/v1/download-awg-key?key_type=awg_golos_vpn",
+            "anonymous_relative_path": "client-api/v1/download-anonymous-key?key_type=awg_golos_vpn",
+            "key_type": "awg_golos_vpn",
+            "title_localized": {
+                "ru": "Весь интернет",
+                "en": "All internet"
+            }
+        }
+    ],
+    "default_vpn_protocol": "AWG",
+    "free_time_minutes": 30,
+    "is_mobile_app_review_enabled": false,
+    "is_vpn_protocol_selector_enabled": false,
+    "privacy_policy_url": "https://golos.one/landing/docs/public_offer",
+    "free_show_ads_before_connect": true,
+    "hybrid_storefront_country_codes": ["ru"],
+    "support_chat_url": "https://golos.one/landing/support",
+    "support_email": "help@golos.one",
+    "is_invite_code_on_login_enabled": true,
+    "tos_url": "https://golos.one/landing/docs/public_offer",
+    "is_background_config_refresh_enabled": true,
+    "config_refresh_interval_minutes": 720,
+    "is_hybrid_paywall_enabled": true,
+    "is_change_server_enabled": true,
+    "is_quick_login_enabled": false,
+    "hybrid_paywall_config": {},
+    "check_change_server_timeout_sec": 3,
+    "quick_login_url": "",
+    "mobile_app_review_cooldown_days": 180
+}
