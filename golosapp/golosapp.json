@@ -28,7 +28,8 @@
   "supportUrl": "https://golos.one/landing/support",
   "publicOfferUrl": "https://golos.fit/landing/docs/public_offer",
   "availablePaymentMethodsV3": [
-    { "type": "sbp", "supportsAutoRenew": false }
+    { "type": "sbp", "supportsAutoRenew": false },
+    { "type": "card_int", "supportsAutoRenew": true }
   ],
   "subscriptionExpiringAlerts": {
     "firstTimingInMinutes": 60,
