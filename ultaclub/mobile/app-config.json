@@ -41,5 +41,92 @@
     "is_mobile_free_mode_v1_enabled": false,
     "is_whitelist_alert_enabled": true,
     "whitelist_alert_foreground_interval_minutes": 30,
-    "whitelist_alert_url": "https://storage.yandexcloud.net/vpnn-web-configs/ultaclub/BC/ulta.html"
+    "whitelist_alert_url": "https://storage.yandexcloud.net/vpnn-web-configs/ultaclub/BC/ulta.html",
+    "connectivity_check_config": {
+        "version": 1,
+        "phase1TimeoutMs": 5000,
+        "phase2TimeoutMs": 5000,
+        "variables": {
+            "DEVICE_ID": "{{DEVICE_ID}}"
+        },
+        "steps": [
+            {
+                "id": "check-get-country",
+                "group": "A",
+                "type": "http_request",
+                "payload": {
+                    "url": "{{API_BASE_URL}}/client-api/v1/get-country",
+                    "method": "GET",
+                    "timeoutMs": 5000,
+                    "acceptAnyStatus": true
+                }
+            },
+            {
+                "id": "check-google",
+                "group": "B",
+                "type": "http_request",
+                "payload": {
+                    "url": "https://www.google.com",
+                    "method": "GET",
+                    "timeoutMs": 5000,
+                    "acceptAnyStatus": true
+                }
+            },
+            {
+                "id": "check-wikipedia",
+                "group": "B",
+                "type": "http_request",
+                "payload": {
+                    "url": "https://www.wikipedia.org",
+                    "method": "GET",
+                    "timeoutMs": 5000,
+                    "acceptAnyStatus": true
+                }
+            },
+            {
+                "id": "check-ya",
+                "group": "C",
+                "type": "http_request",
+                "payload": {
+                    "url": "https://ya.ru",
+                    "method": "GET",
+                    "timeoutMs": 5000,
+                    "acceptAnyStatus": true
+                }
+            },
+            {
+                "id": "check-vk",
+                "group": "C",
+                "type": "http_request",
+                "payload": {
+                    "url": "https://eh.vk.com",
+                    "method": "GET",
+                    "timeoutMs": 5000,
+                    "acceptAnyStatus": true
+                }
+            },
+            {
+                "id": "check-max",
+                "group": "C",
+                "type": "http_request",
+                "payload": {
+                    "url": "https://web.max.ru",
+                    "method": "GET",
+                    "timeoutMs": 5000,
+                    "acceptAnyStatus": true
+                }
+            },
+            {
+                "id": "check-yandex-taxi",
+                "group": "C",
+                "type": "http_request",
+                "payload": {
+                    "url": "https://taxi.yandex.ru",
+                    "method": "GET",
+                    "timeoutMs": 5000,
+                    "acceptAnyStatus": true
+                }
+            }
+        ]
+    }
 }

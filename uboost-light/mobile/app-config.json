@@ -101,5 +101,92 @@
             "en": "Get 31 days of free access to Uboost when you pay for a plan!\n\nDownload the app and enter the code:\n{invite_code}\nDownload here: {sharing_link}"
         },
         "sharing_link": "https://ubst.app/#download"
+    },
+    "connectivity_check_config": {
+        "version": 1,
+        "phase1TimeoutMs": 5000,
+        "phase2TimeoutMs": 5000,
+        "variables": {
+            "DEVICE_ID": "{{DEVICE_ID}}"
+        },
+        "steps": [
+            {
+                "id": "check-get-country",
+                "group": "A",
+                "type": "http_request",
+                "payload": {
+                    "url": "{{API_BASE_URL}}/client-api/v1/get-country",
+                    "method": "GET",
+                    "timeoutMs": 5000,
+                    "acceptAnyStatus": true
+                }
+            },
+            {
+                "id": "check-google",
+                "group": "B",
+                "type": "http_request",
+                "payload": {
+                    "url": "https://www.google.com",
+                    "method": "GET",
+                    "timeoutMs": 5000,
+                    "acceptAnyStatus": true
+                }
+            },
+            {
+                "id": "check-wikipedia",
+                "group": "B",
+                "type": "http_request",
+                "payload": {
+                    "url": "https://www.wikipedia.org",
+                    "method": "GET",
+                    "timeoutMs": 5000,
+                    "acceptAnyStatus": true
+                }
+            },
+            {
+                "id": "check-ya",
+                "group": "C",
+                "type": "http_request",
+                "payload": {
+                    "url": "https://ya.ru",
+                    "method": "GET",
+                    "timeoutMs": 5000,
+                    "acceptAnyStatus": true
+                }
+            },
+            {
+                "id": "check-vk",
+                "group": "C",
+                "type": "http_request",
+                "payload": {
+                    "url": "https://eh.vk.com",
+                    "method": "GET",
+                    "timeoutMs": 5000,
+                    "acceptAnyStatus": true
+                }
+            },
+            {
+                "id": "check-max",
+                "group": "C",
+                "type": "http_request",
+                "payload": {
+                    "url": "https://web.max.ru",
+                    "method": "GET",
+                    "timeoutMs": 5000,
+                    "acceptAnyStatus": true
+                }
+            },
+            {
+                "id": "check-yandex-taxi",
+                "group": "C",
+                "type": "http_request",
+                "payload": {
+                    "url": "https://taxi.yandex.ru",
+                    "method": "GET",
+                    "timeoutMs": 5000,
+                    "acceptAnyStatus": true
+                }
+            }
+        ]
     }
 }
