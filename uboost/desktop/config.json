@@ -5,7 +5,7 @@
     "support_email": "help@uboost.live",
     "is_change_server_enabled": true,
     "is_background_config_refresh_enabled": true,
-    "config_refresh_interval_minutes": 2,
+    "config_refresh_interval_minutes": 10,
     "update_info": {
         "available_version": "1.0.0.7",
         "download_url": "https://storage.uubb.website/uboost-1.0.0.7.zip"
