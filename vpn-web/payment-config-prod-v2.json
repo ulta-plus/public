@@ -600,7 +600,7 @@
           "minActivationAmount": 0,
           "withMessage": null,
           "type": "card",
-          "buttonLabel": "Оплатить картой РФ",
+          "buttonLabel": "Карта РФ (оплата МИР временно недоступна)",
           "useRandomIndex": 1
         }
       ]
