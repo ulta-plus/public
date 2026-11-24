@@ -34,7 +34,7 @@
     "check_change_server_timeout_sec": 10,
     "is_change_server_enabled": true,
     "should_override_payment_link_to_support": true,
-    "support_chat_url": "https://ulta.cat/landing/support",
+    "support_chat_url": "https://ulta.contact/landing/support",
     "is_mobile_app_review_enabled": true,
     "is_no_key_button_visible": false,
     "is_smart_routing_enabled": true,
