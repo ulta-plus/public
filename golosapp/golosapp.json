@@ -28,7 +28,8 @@
   "supportUrl": "https://golos.one/landing/support",
   "publicOfferUrl": "https://golos.fit/landing/docs/public_offer",
   "availablePaymentMethodsV3": [
-    { "type": "sbp", "supportsAutoRenew": false }
+    { "type": "sbp", "supportsAutoRenew": false },
+    { "type": "card_int", "supportsAutoRenew": true }
   ],
   "subscriptionExpiringAlerts": {
     "firstTimingInMinutes": 60,
@@ -50,5 +51,11 @@
     "extensionMonitoring": { "periodInMinutes": 30, "delayInMinutes": 0.5 },
     "extensionConflictWarningProxy": { "periodInMinutes": 1440, "delayInMinutes": 1440 },
     "extensionConflictWarningAdBlocker": { "periodInMinutes": 1440, "delayInMinutes": 1440 }
+  },
+  "cacheRules": {
+    "fetchUserCountry": { "staleTime": 600000 },
+    "getExchangeRate": { "staleTime": 300000 },
+    "getTariffs": { "staleTime": 300000 },
+    "getProxyWithSubscription": { "staleTime": 30000 }
   }
 }

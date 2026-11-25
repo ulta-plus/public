@@ -21,6 +21,25 @@
     "mediaMinVersion": "1.0.0",
     "mediaMaxVersionChrome": "1.0.0",
     "mediaMaxVersionFirefox": "1.0.0",
+    "availablePaymentMethodsV3": [
+        {
+            "type": "sbp",
+            "supportsAutoRenew": false
+        },
+        {
+            "type": "card",
+            "supportsAutoRenew": true
+        },
+        {
+            "type": "card_int",
+            "supportsAutoRenew": true
+        },
+        {
+            "type": "crypto",
+            "supportsAutoRenew": false
+        }
+    ],
+    "publicOfferUrl": "https://golos.fit/landing/docs/public_offer",
     "availableAlarmTries": 100,
     "checkProxyAvailabilityProxyUrl": "https://uboost.space",
     "checkProxyAvailabilityPublicUrl": "https://ubst.space",
