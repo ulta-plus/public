@@ -1,6 +1,6 @@
 {
     "api_base_url": "https://api.glss.online/",
-    "support_link": "",
+    "support_link": "https://golos.one/landing/support",
     "support_chat_url": "https://golos.one/landing/support",
     "is_change_server_enabled": true,
     "is_background_config_refresh_enabled": true,
