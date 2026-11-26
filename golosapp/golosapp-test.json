@@ -53,7 +53,7 @@
     "alarms": {
         "extensionMonitoring": {
             "periodInMinutes": 30,
-            "delayInMinutes": 0.5
+            "delayInMinutes": 30
         },
         "extensionConflictWarningProxy": {
             "periodInMinutes": 1440,
