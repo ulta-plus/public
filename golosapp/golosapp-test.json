@@ -51,6 +51,18 @@
         "delayedTimingInMinutes": 5
     },
     "alarms": {
+        "extensionMonitoring": {
+            "periodInMinutes": 30,
+            "delayInMinutes": 30
+        },
+        "extensionConflictWarningProxy": {
+            "periodInMinutes": 1440,
+            "delayInMinutes": 1440
+        },
+        "extensionConflictWarningAdBlocker": {
+            "periodInMinutes": 1440,
+            "delayInMinutes": 1440
+        },
         "updatePacData": {
             "delayInMinutes": 180
         },

@@ -47,7 +47,10 @@
     "updateExchangeRates": { "periodInMinutes": 1440, "delayInMinutes": 1440 },
     "enableConnectionButton": { "delayInMinutes": 1 },
     "paymentStarted": { "periodInMinutes": 1, "delayInMinutes": 3 },
-    "premiumCanceled": { "periodInMinutes": 1, "delayInMinutes": 1 }
+    "premiumCanceled": { "periodInMinutes": 1, "delayInMinutes": 1 },
+    "extensionMonitoring": { "periodInMinutes": 30, "delayInMinutes": 30 },
+    "extensionConflictWarningProxy": { "periodInMinutes": 1440, "delayInMinutes": 1440 },
+    "extensionConflictWarningAdBlocker": { "periodInMinutes": 1440, "delayInMinutes": 1440 }
   },
   "cacheRules": {
     "fetchUserCountry": { "staleTime": 600000 },
